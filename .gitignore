@@ -1,3 +1,7 @@
-scraper/scraper_env
+<<<<<<< HEAD
+scraper_env
+=======
+scraper_env
+>>>>>>> 75542bbe592b10f68b6997a5b998c9781fa1b912
 __pycache__
 chrome_driver
