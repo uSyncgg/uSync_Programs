@@ -7,6 +7,7 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import requests
 import re
+import datetime
 
 # Test Data
 # Codagent tournament page, testing valid tournaments
@@ -33,18 +34,26 @@ def get_tournament_info(driver, URL):
     driver.get(URL)
 
     soup = BeautifulSoup(driver.page_source, 'html.parser')
-    live_tournaments = soup.find_all('div', {'class': 'grid md:grid-cols-2 lg:grid-cols-3 gap-4'})
+    # live_tournaments = soup.find_all('div', {'class': 'grid md:grid-cols-2 lg:grid-cols-3 gap-4'})
 
-    # Date and time, figure out how to get this loop working
-    for c in live_tournaments[0].children:
-        date_time_res = soup.find_all('div', {'class': 'text-gray-700 text-[13px] uppercase letter tracking-wide'})
-        for i in range(len(date_time_res)):
-            date_time = date_time_res[i].text.strip()
-            date_time_list = date_time.split()
-            date = date_time_list[0] + " " + date_time_list[1] + " " + date_time_list[2]
-            time = date_time_list[3] + " " + date_time_list[4]
-            print(date)
-            print(time)
+    
+
+    # Date and time, look into a while or do while
+    # for c in live_tournaments[0].children:
+    date_time_res = soup.find_all('div', {'class': 'text-gray-700 text-[13px] uppercase letter tracking-wide'})
+    for i in range(len(date_time_res)):
+        date_time = date_time_res[i].text.strip()
+        date_time_list = date_time.split()
+        date = date_time_list[0] + " " + date_time_list[1] + " " + date_time_list[2]
+        # print(date)
+        time = date_time_list[3] + " " + date_time_list[4]
+        if(date != get_date()):
+            break
+        # print(date)
+        # if(date != get_date):
+        #     break
+        
+        # date.append(a.get('grid md:grid-cols-2 lg:grid-cols-3 gap-4'))
 
     # # Tourney Title
     # title_res = soup.find_all('span', {'class': 'font-semibold text-lg leading-6 text-white'})
@@ -108,9 +117,32 @@ def get_tournament_link(id_list, URL):
         tournament_links.append(URL + str(id_list[i]))
     return tournament_links
 
-#print(get_tournament_link(driver, URL))
+# Inputs: None
+# Returns: The current date
+def get_date():
+    current_date = datetime.date.today()
+
+    date_to_string = current_date.strftime("%d-%B-%Y")
+    current_date_list = date_to_string.split('-')
+
+    year = current_date_list[0]
+    month = current_date_list[1]
+    day = current_date_list[2]
+
+    today_date = month + " " + day + ", " + year
+
+    # print(current_date)
+    # print("to string: ", date_to_string)
+    # print(year)
+    # print(month)
+    # print(day)
+
+    return today_date
+
+# print(get_tournament_link(driver, URL))
 print(get_tournament_info(driver, URL))
-#print(get_tournament_ids(driver, URL_begin))
+# print(get_tournament_ids(driver, URL_begin))
+# print(get_date())
 
     
 
