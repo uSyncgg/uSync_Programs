@@ -38,61 +38,63 @@ def get_tournament_info(driver, URL):
 
     
 
-    # Date and time, look into a while or do while
-    # for c in live_tournaments[0].children:
+    # Date and time, look words but figure out if its needed or if i can loop through all available tournaments in the data writer
+    # IMPORTANT: look at main in the esportsagent git hub under the ld3 branch and see what he does to create a list of dictionaries rather
+    # than dictionary of lists
     date_time_res = soup.find_all('div', {'class': 'text-gray-700 text-[13px] uppercase letter tracking-wide'})
-    for i in range(len(date_time_res)):
-        date_time = date_time_res[i].text.strip()
-        date_time_list = date_time.split()
-        date = date_time_list[0] + " " + date_time_list[1] + " " + date_time_list[2]
-        # print(date)
-        time = date_time_list[3] + " " + date_time_list[4]
-        if(date != get_date()):
-            break
+    # for i in range(len(date_time_res)):
+    date_time = date_time_res[0].text.strip()
+    date_time_list = date_time.split()
+    date = date_time_list[0] + " " + date_time_list[1] + " " + date_time_list[2]
+    # print(date)
+    time = date_time_list[3] + " " + date_time_list[4]
+    # print(time)
+        # if(date != get_date()):
+            # break
         # print(date)
         # if(date != get_date):
         #     break
         
         # date.append(a.get('grid md:grid-cols-2 lg:grid-cols-3 gap-4'))
 
-    # # Tourney Title
-    # title_res = soup.find_all('span', {'class': 'font-semibold text-lg leading-6 text-white'})
-    # title = title_res[0].text.strip()
+    # Tourney Title
+    title_res = soup.find_all('span', {'class': 'font-semibold text-lg leading-6 text-white'})
+    title = title_res[0].text.strip()
     # print(title)
 
-    # # Entry/Per Person
-    # per_person_res = soup.find_all('span', {'class': 'font-semibold text-gold'})
-    # per_person = per_person_res[0].text.strip()
+    # Entry/Per Person
+    per_person_res = soup.find_all('span', {'class': 'font-semibold text-gold'})
+    per_person = per_person_res[0].text.strip()
     # print(per_person)
 
-    # # Platforms
-    # xbox_logo = "xbox"
-    # ps_logo = "playstation"
-    # battle_net_logo = "battle.net"
-    # steam_logo = "steam"
-    # xbox_res = soup.find_all(srcset=re.compile(xbox_logo))
-    # ps_res = soup.find_all(srcset=re.compile(ps_logo))
-    # battle_net_res = soup.find_all(srcset=re.compile(battle_net_logo))
-    # platforms = []
-    # if xbox_res is not None:
-    #     platforms.append(xbox_logo)
-    # if ps_res is not None:
-    #     platforms.append(ps_logo)
-    # if battle_net_res is not None:
-    #     platforms.append(battle_net_logo)
+    # Platforms
+    xbox_logo = "xbox"
+    ps_logo = "playstation"
+    battle_net_logo = "battle.net"
+    steam_logo = "steam"
+    xbox_res = soup.find_all(srcset=re.compile(xbox_logo))
+    ps_res = soup.find_all(srcset=re.compile(ps_logo))
+    battle_net_res = soup.find_all(srcset=re.compile(battle_net_logo))
+    platforms = []
+    if xbox_res is not None:
+        platforms.append(xbox_logo)
+    if ps_res is not None:
+        platforms.append(ps_logo)
+    if battle_net_res is not None:
+        platforms.append(battle_net_logo)
     
-    # # Team Size & Format
-    # team_size_res = soup.find_all('span', {'class': 'ui-label__text'})
-    # team_size = team_size_res[0].text.strip()
+    # Team Size & Format
+    team_size_res = soup.find_all('span', {'class': 'ui-label__text'})
+    team_size = team_size_res[0].text.strip()
     # print(team_size)
 
-    # # Game
-    # game_res = soup.find_all('span', {'class': 'text-white font-semibold'})
-    # game = game_res[0].text.strip()
+    # Game
+    game_res = soup.find_all('span', {'class': 'text-white font-semibold'})
+    game = game_res[0].text.strip()
     # print(game)
 
-    # info = {"date": date, "time": time, "title": title, "entry": per_person, "size": team_size, "platforms": platforms, "game": game}
-    info = date
+    info = {"date": date, "time": time, "title": title, "entry": per_person, "size": team_size, "platforms": platforms, "game": game}
+    # info = date
     return info
 
 # Inputs: driver, URL_begin
@@ -125,9 +127,9 @@ def get_date():
     date_to_string = current_date.strftime("%d-%B-%Y")
     current_date_list = date_to_string.split('-')
 
-    year = current_date_list[0]
+    day = current_date_list[0]
     month = current_date_list[1]
-    day = current_date_list[2]
+    year = current_date_list[2]
 
     today_date = month + " " + day + ", " + year
 
@@ -140,7 +142,7 @@ def get_date():
     return today_date
 
 # print(get_tournament_link(driver, URL))
-print(get_tournament_info(driver, URL))
+# print(get_tournament_info(driver, URL))
 # print(get_tournament_ids(driver, URL_begin))
 # print(get_date())
 
