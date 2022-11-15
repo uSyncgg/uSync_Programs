@@ -1,0 +1,81 @@
+
+<!doctype html> 
+<html>
+	<head>
+
+		<link rel="stylesheet" href="styleme.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+		<script>
+				function HomePage() {
+			document.location.href = "homepage.html";
+			}
+		function GamesPage() {
+			document.location.href = "games.html";
+			}
+			function Events() {
+			document.location.href = "Events.html";
+			}
+			function comingSoon() {
+			document.location.href = "comingSoon.html";
+			}
+			function run() {
+		if (document.getElementById("Ultra").value = 1) document.location.href = "Verification.html";
+		else if (document.getElementById("Ultra").value = 2) document.location.href = "EventHost.html";
+		else if (document.getElementById("Ultra").value = 1) document.location.href = "ContactUs.html";
+	}
+
+		</script>
+		
+
+			
+				<title>USYNC</title>
+	</head>
+	
+	<body>
+		<button class="uSyncLogo" onclick="HomePage()"></button>
+		<select style="float: right; margin:5px;" id="Ultra" onchange="run()">
+			<option value="0">More</option>
+			<option value="1">Verification</option>
+			<option value="2">Event Host</option>
+			<option value="3">Contact us</option>
+	   </select>
+		<button style="float: right; margin:5px;" onclick="GamesPage()">Games</button>
+		<button style="float: right; margin:5px;"onclick="comingSoon()">Coming Soon</button>
+		<button style="float: right; margin:5px;"onclick="Events()">Events</button>
+        <hr class="rounded">
+	<body background="image/uSyncBackground.jpg">
+
+
+			<h1 class="titles">Verification</h1>
+			<div class="div-1">
+				<hr>
+				<p class="text" >uSync Verified providers are some of the most trustworthy providers that we feature. These events are not only extremely well trusted but have shown a record of exceptional quality in their work. We strive to verify as many events as possible so that you can bring your organization to the highest level of competitive play.</p>
+			<hr class="rounded">
+            </div>
+            <h1 class="titles">Verified Features</h1>
+			<div class="div-1">
+				<hr>
+				<ul>
+                    <li class="text">uSync Verified Badge </li>
+                    <li class="text">Choose where your event is located on the page </li>
+                    <li class="text">Choose the images you would like to use for your brand </li>
+                    <li class="text">Custom and up to date information </li>
+                    <li class="text">Dynamic link to participate in events </li>
+                    <li class="text">Access to our verified support team </li>
+                </ul>
+                <button class="buttonForm" href="https://www.usync.gg/more/verification/request-verification">Feature your event</button>
+
+			<hr class="rounded">
+
+
+		</div>
+		<p></p>
+		<a class="report" href="https://www.usync.gg/more/report-an-error">Report a Problem</a>
+		<br>
+		
+		
+	</body>
+</html>
+
