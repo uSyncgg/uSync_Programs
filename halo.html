@@ -1,0 +1,52 @@
+
+<!doctype html> 
+<html>
+	<head>
+		<title>USYNC</title>
+		
+		<link rel="stylesheet" type="text/css" href="styleme.css" />
+		<script>
+				function HomePage() {
+			document.location.href = "homepage.html";
+			}
+		function GamesPage() {
+			document.location.href = "games.html";
+			}
+            function Events() {
+			document.location.href = "Events.html";
+			}
+            function comingSoon() {
+			document.location.href = "comingSoon.html";
+			}
+
+
+		</script>
+		
+		<style>
+		div {
+			width: 900px;
+			margin: 0px 50px 20px;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<button class="uSyncLogo" onclick="HomePage()"></button>
+		<select style="float: right; margin:5px;" id="Ultra" onchange="run()">
+			<option value="0">More</option>
+			<option value="1">Verification</option>
+			<option value="2">Event Host</option>
+			<option value="3">Contact us</option>
+	   </select>
+		<button style="float: right; margin:5px;" onclick="GamesPage()">Games</button>
+		<button style="float: right; margin:5px;"onclick="comingSoon()">Coming Soon</button>
+		<button style="float: right; margin:5px;"onclick="Events()">Events</button>
+		<hr>
+		<h1>Halo</h1>
+
+		<br>
+		<hr>
+		
+	</body>
+</html>
+
