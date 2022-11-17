@@ -1,0 +1,63 @@
+
+<!doctype html> 
+<html>
+	<head>
+		<title>USYNC</title>
+		
+		<link rel="stylesheet" type="text/css" href="styleme.css" />
+		<script>
+				function HomePage() {
+			document.location.href = "homepage.html";
+			}
+		function GamesPage() {
+			document.location.href = "games.html";
+			}
+            function Events() {
+			document.location.href = "Events.html";
+			}
+            function comingSoon() {
+			document.location.href = "comingSoon.html";
+			}
+            function goToNewPage()
+    {
+        var url = document.getElementById('list').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }
+
+
+		</script>
+		
+		<style>
+		div {
+			width: 900px;
+			margin: 0px 50px 20px;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<button class="uSyncLogo" onclick="HomePage()"></button>
+		<form>
+            <input  style="float: right; margin:5px;" type=button value="Go" onclick="goToNewPage()" />
+			<select style="float: right; margin:5px;" name="list" id="list" accesskey="target">
+				<option value='none' selected>More</option>
+				<option value="Verification.html">Verification</option>
+				<option value="EventHost.html">Event Host</option>
+				<option value="ContactUs.html">Contact Us</option>
+			</select>
+			</form>
+		<button style="float: right; margin:5px;" onclick="GamesPage()">Games</button>
+		<button style="float: right; margin:5px;"onclick="comingSoon()">Coming Soon</button>
+		<button style="float: right; margin:5px;"onclick="Events()">Events</button>
+		<br></br>
+		<hr>
+		<h1>Halo</h1>
+
+		<br>
+		<hr>
+		
+	</body>
+</html>
+

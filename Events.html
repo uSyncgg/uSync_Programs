@@ -1,0 +1,109 @@
+
+<!doctype html> 
+<html>
+	<head>
+
+		<link rel="stylesheet" href="styleme.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+		<script>
+		function HomePage() {
+			document.location.href = "homepage.html";
+		}
+		function GamesPage() {
+			document.location.href = "games.html";
+		}
+		function Events() {
+			document.location.href = "Events.html";
+		}
+		function comingSoon() {
+			document.location.href = "comingSoon.html";
+		}
+		function goToNewPage(){
+        	var url = document.getElementById('list').value;
+        	if(url != 'none') {
+	           	window.location = url;
+      		}
+   		}
+
+		function sortBy(){
+        var option = document.getElementById('list2').value;
+		console.log(option);
+        if(option == "time") {
+			console.log("hello");
+			$.ajax({
+				type: "POST",
+				url: "python_scripts/csv_to_html.py",
+				data: {
+					param: "time",
+				}
+			}).done((o) => {
+				console.log(o)
+			});
+        }
+		else if(option == "skill") {
+            //sort and display here
+        }
+		else if(option == "fee") {
+            //sort and display here
+        }
+		else if(option == "size") {
+            //sort and display here
+        }
+    }
+
+	</script>
+		
+
+			
+				<title>USYNC</title>
+	</head>
+	
+	<body>
+		<button class="uSyncLogo" onclick="HomePage()"></button>
+		<form>
+            <input  style="float: right; margin:5px;" type=button value="Go" onclick="goToNewPage()" />
+			<select style="float: right; margin:5px;" name="list" id="list" accesskey="target">
+				<option value='none' selected>More</option>
+				<option value="Verification.html">Verification</option>
+				<option value="EventHost.html">Event Host</option>
+				<option value="ContactUs.html">Contact Us</option>
+			</select>
+			</form>
+		<button style="float: right; margin:5px;" onclick="GamesPage()">Games</button>
+		<button style="float: right; margin:5px;"onclick="comingSoon()">Coming Soon</button>
+		<button style="float: right; margin:5px;"onclick="Events()">Events</button>
+		<br></br>
+        <hr class="rounded">
+	<body background="image/uSyncBackground.jpg">
+
+
+			<h1 class="titles">Events</h1>
+			<div class="div-2">
+				<hr>
+				<form>
+					<select style="float: left; margin:5px;" name="list" id="list2" accesskey="target">
+						<option value='none' selected>Sort By</option>
+						<option value='time'>Time</option>
+						<option value="skill">Skill Required</option>
+						<option value="fee">Entry Fee</option>
+						<option value="size">Team Size</option>
+					</select>
+					<input  style="float: left; margin:5px;" type=button value="Go" onclick="sortBy()" />
+					</form>
+				
+			   <br>
+			   <br>
+			   <iframe class="table" width="100%" style=" border: none;" src="pages/tournaments_data.html" seamless></iframe>
+			<hr class="rounded">
+
+
+		</div>
+		<p></p>
+		<a class="report" href="https://www.usync.gg/more/report-an-error">Report a Problem</a>
+		<br>
+		
+		
+	</body>
+</html>

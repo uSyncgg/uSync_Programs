@@ -1,0 +1,190 @@
+body {background-color:rgb(31, 31, 63);
+}
+h1{
+     color:white
+}
+.table {
+  color:white
+}
+p{
+     color:white
+}
+.div-1 {
+     background-color: #444444;
+ }
+ .div-2 {
+  background-color: #a0a0a0;
+}
+ .statement {
+     text-align: center;
+     font-size: 30px;
+     font-family: 'Verdana', Tahoma, sans-serif;
+}
+.text {
+     color:white;
+     font-size: 25px;
+     font-family: 'Verdana', Tahoma, sans-serif;
+}
+.weSync {
+     text-align: center;
+     font-size: 30px;
+     color: rgb(92, 204, 142);
+     font-family: 'Monaco', Courier, monospace;
+}
+.titles {
+     text-align: center;
+     font-size: 40px;
+     font-family: 'Verdana', Tahoma, sans-serif;
+     font-weight: bold;
+}
+.uSyncLogo {
+
+     border-radius: 50%;
+     width: 35px;
+     height: 35px;
+     box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+     transition: all ease-in-out .2s;
+     background-image: url("image/uSyncLogo.jpg");
+     background-position:center;
+     background-size:cover;  
+   }
+   .buttonForm {
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+   }
+   .button {
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+   }
+
+   .uSyncName {
+     padding: 100px 0px 0px 0px;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 140px;
+   }
+   .arrow {
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+   }
+   .getStartedButton {
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+   }
+   .haloButton:hover {
+     box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.);
+   }
+   .MWButton:hover {
+     box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.);   }
+   .WarzoneButton:hover {
+     box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.);   }
+   .LeagueButton:hover {
+     box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.);   }
+   .RocketButton:hover {
+     box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.);   }
+   .valButton:hover {
+     box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.);   }
+
+.ApexButton:hover {
+     box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.);}
+.SmashButton:hover {
+     box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.);}
+.OverwatchButton:hover {
+     box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.);}
+      .haloButton{
+               height:150px; 
+               width:100px;  
+               background-image: url("image/halo.jpg");
+               background-position:center;
+               background-size:cover;  
+      }
+      .MWButton{
+               height:150px; 
+               width:100px;  
+               background-image: url("image/MW.jpg");
+               background-position:center;
+               background-size:cover;  
+      }
+      .WarzoneButton{
+               height:150px; 
+               width:100px;  
+               background-image: url("image/Warzone.jpg");
+               background-position:center;
+               background-size:cover;  
+      }
+      .LeagueButton{
+               height:150px; 
+               width:100px;  
+               background-image: url("image/League.jpg");
+               background-position:center;
+               background-size:cover;  
+      }
+      .RocketButton{
+               height:150px; 
+               width:100px;  
+               background-image: url("image/Rocket.jpg");
+               background-position:center;
+               background-size:cover;  
+      }
+      .valButton{
+               height:150px; 
+               width:100px;  
+               background-image: url("image/val.jpg");
+               background-position:center;
+               background-size:cover;  
+      }
+      .ApexButton{
+          height:150px; 
+          width:100px;  
+          background-image: url("image/Apex.jpg");
+          background-position:center;
+          background-size:cover;  
+          
+ }
+ .SmashButton{
+          height:150px; 
+          width:100px;  
+          background-image: url("image/Smash.jpg");
+          background-position:center;
+          background-size:cover;  
+ }
+ .OverwatchButton{
+          height:150px; 
+          width:100px;  
+          background-image: url("image/Overwatch.jpg");
+          background-position:center;
+          background-size:cover;  
+ }
+
+      .flex-parent {
+          display: flex;
+        }
+        
+        .jc-center {
+          justify-content: center;
+        }
+        .flex-parent2 {
+          display: flex;
+        }
+        
+        .jc-center2 {
+          justify-content: center;
+        }
+        .report { 
+          text-align: center; 
+          color:white;
+          display: block;
+
+     }
+
