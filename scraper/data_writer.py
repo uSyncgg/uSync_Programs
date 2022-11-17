@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #### uSync LLC
 #### Matthew O'Connor, Co-Founder
 
@@ -103,7 +103,7 @@ def write_all(data, path = "tournaments_data.csv"):
             
 
 
-=======
+
 #### uSync LLC
 #### Matthew O'Connor, Co-Founder
 
@@ -204,5 +204,3 @@ def write_all(data, path = "tournaments_data.csv"):
 
             
 
-
->>>>>>> 52bb3c50ebd79afd68ff17ba26f9c8b9b8950a37
