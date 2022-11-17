@@ -3,12 +3,18 @@ body {background-color:rgb(31, 31, 63);
 h1{
      color:white
 }
+.table {
+  color:white
+}
 p{
      color:white
 }
 .div-1 {
      background-color: #444444;
  }
+ .div-2 {
+  background-color: #a0a0a0;
+}
  .statement {
      text-align: center;
      font-size: 30px;

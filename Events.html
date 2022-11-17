@@ -2,44 +2,45 @@
 <!doctype html> 
 <html>
 	<head>
-		<meta charset="utf-8" />
+
 		<link rel="stylesheet" href="styleme.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 		<script>
-				function HomePage() {
+		function HomePage() {
 			document.location.href = "homepage.html";
-			}
+		}
 		function GamesPage() {
 			document.location.href = "games.html";
-			}
-			function Events() {
+		}
+		function Events() {
 			document.location.href = "Events.html";
-			}
-			function comingSoon() {
+		}
+		function comingSoon() {
 			document.location.href = "comingSoon.html";
-			}
-			function goToNewPage()
-    {
-        var url = document.getElementById('list').value;
-        if(url != 'none') {
-            window.location = url;
-        }
-    }
+		}
+		function goToNewPage(){
+        	var url = document.getElementById('list').value;
+        	if(url != 'none') {
+	           	window.location = url;
+      		}
+   		}
 
-	function goToNewPage()
-    {
-        var url = document.getElementById('list').value;
-        if(url != 'none') {
-            window.location = url;
-        }
-    }
-	function sortBy()
-    {
-        var option = document.getElementById('list').value;
+		function sortBy(){
+        var option = document.getElementById('list2').value;
+		console.log(option);
         if(option == "time") {
-            //sort and display here call python method for these
+			console.log("hello");
+			$.ajax({
+				type: "POST",
+				url: "python_scripts/csv_to_html.py",
+				data: {
+					param: "time",
+				}
+			}).done((o) => {
+				console.log(o)
+			});
         }
 		else if(option == "skill") {
             //sort and display here
@@ -51,66 +52,8 @@
             //sort and display here
         }
     }
-	const excel_file = document.getElementById('tournaments_data.csv');
 
-    var reader = new FileReader();
-
-    reader.readAsArrayBuffer('tournaments_data.csv');
-
-    reader.onload = function(){
-
-        var data = new Uint8Array(reader.result);
-
-        var work_book = XLSX.read(data, {type:'array'});
-
-        var sheet_name = work_book.SheetNames;
-
-        var sheet_data = XLSX.utils.sheet_to_json(work_book.Sheets[sheet_name[0]], {header:1});
-
-        if(sheet_data.length > 0)
-        {
-            var table_output = '<table class="table table-striped table-bordered">';
-
-            for(var row = 0; row < sheet_data.length; row++)
-            {
-
-                table_output += '<tr>';
-
-                for(var cell = 0; cell < sheet_data[row].length; cell++)
-                {
-
-                    if(row == 0)
-                    {
-
-                        table_output += '<th>'+sheet_data[row][cell]+'</th>';
-
-                    }
-                    else
-                    {
-
-                        table_output += '<td>'+sheet_data[row][cell]+'</td>';
-
-                    }
-
-                }
-
-                table_output += '</tr>';
-
-            }
-
-            table_output += '</table>';
-
-            document.getElementById('excel_data').innerHTML = table_output;
-        }
-
-        excel_file.value = '';
-
-    }
-
-
-
-
-		</script>
+	</script>
 		
 
 			
@@ -137,24 +80,22 @@
 
 
 			<h1 class="titles">Events</h1>
-			<div class="div-1">
+			<div class="div-2">
 				<hr>
 				<form>
-					<select style="float: left; margin:5px;" name="list" id="list" accesskey="target">
+					<select style="float: left; margin:5px;" name="list" id="list2" accesskey="target">
 						<option value='none' selected>Sort By</option>
-						<option value="time">Time</option>
+						<option value='time'>Time</option>
 						<option value="skill">Skill Required</option>
 						<option value="fee">Entry Fee</option>
 						<option value="size">Team Size</option>
 					</select>
 					<input  style="float: left; margin:5px;" type=button value="Go" onclick="sortBy()" />
 					</form>
-					<div id="excel_data" class="mt-5"></div>
+				
 			   <br>
 			   <br>
-			   <br>
-			   <br>
-			   <br>
+			   <iframe class="table" width="100%" style=" border: none;" src="pages/tournaments_data.html" seamless></iframe>
 			<hr class="rounded">
 
 
