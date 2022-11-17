@@ -25,7 +25,7 @@ def get_all_info(tournament_ids, driver, URL):
         
 
 def main():
-    main_path = 'data/tournaments_data.csv'
+    main_path = '../data/tournaments_data.csv'
     URL = "https://esportsagent.gg/tournament"
     driver = webdriver.Chrome(ChromeDriverManager().install()) 
 
