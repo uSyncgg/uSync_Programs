@@ -3,43 +3,36 @@
 <html>
 	<head>
 
-		<title>USYNC</title>
-		<script type="text/javascript" src="simple-excel.js"></script>
-		<link rel="stylesheet" type="text/css" href="styleme.css" />
+		<link rel="stylesheet" href="styleme.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    </head>
 
 		<script>
-				function HomePage() {
+		function HomePage() {
 			document.location.href = "homepage.html";
-			}
+		}
 		function GamesPage() {
 			document.location.href = "games.html";
-			}
-            function Events() {
-			document.location.href = "Events.html";
-			}
-
-            function comingSoon() {
-			document.location.href = "comingSoon.html";
-			}
-            function goToNewPage()
-    {
-        var url = document.getElementById('list').value;
-        if(url != 'none') {
-            window.location = url;
-        }
-    }
-           
-		</script>
-		
-		<style>
-		div {
-			width: 900px;
-			margin: 0px 50px 20px;
 		}
-		</style>
-	
+		function Events() {
+			document.location.href = "Events.html";
+		}
+		function comingSoon() {
+			document.location.href = "comingSoon.html";
+		}
+		function goToNewPage(){
+        	var url = document.getElementById('list').value;
+        	if(url != 'none') {
+	           	window.location = url;
+      		}
+   		}
+
+	</script>
+		
+
+			
+				<title>USYNC</title>
+	</head>
 	
 	<body>
 		<button class="uSyncLogo" onclick="HomePage()"></button>
@@ -56,42 +49,25 @@
 		<button style="float: right; margin:5px;"onclick="comingSoon()">Coming Soon</button>
 		<button style="float: right; margin:5px;"onclick="Events()">Events</button>
 		<br></br>
-		<hr>
-		<h1>Modern Warfare 2</h1>
-        <p id="print"></p>
+        <hr class="rounded">
+	<body background="image/uSyncBackground.jpg">
+
+
+			<h1 class="titles">Modern Warfare 2</h1>
+			<div class="div-2">
+				<hr>
+				
+			   <br>
+			   <br>
+			   <iframe class="table" width="100%" style=" border: none;" src="pages/tournaments_data.html" seamless></iframe>
+			<hr class="rounded">
+
+
+		</div>
+		<p></p>
+		<a class="report" href="https://www.usync.gg/more/report-an-error">Report a Problem</a>
 		<br>
-		<hr>
+		
 		
 	</body>
-    <body>
-        <table id="result"></table>
-        <script type="text/javascript">
-
-            // read a CSV file
-            var fileInput = document.getElementById("tournaments_data.csv");
-
-            fileInput.addEventListener('change', function (e) {            
-                var file = e.target.files[0];
-                var csvParser = new SimpleExcel.Parser.CSV();
-                csvParser.setDelimiter(',');
-                csvParser.loadFile(file, function () {
-                    var sheet = csvParser.getSheet();
-                    var table = document.getElementById('result');
-                    table.innerHTML = "";
-                    sheet.forEach(function (el, i) {                    
-                        var row = document.createElement('tr');
-                        el.forEach(function (el, i) {
-                            var cell = document.createElement('td');
-                            cell.innerHTML = el.value;
-                            row.appendChild(cell);
-                        });
-                        table.appendChild(row);
-                    });                    
-                          
-                });
-            });
-
-        </script>
-        </body>
 </html>
-

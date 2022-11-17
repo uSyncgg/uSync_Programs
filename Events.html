@@ -34,7 +34,7 @@
 			console.log("hello");
 			$.ajax({
 				type: "POST",
-				url: "python_scripts/csv_to_html.py",
+				url: "python_scripts/sort_time.py",
 				data: {
 					param: "time",
 				}
@@ -42,14 +42,27 @@
 				console.log(o)
 			});
         }
-		else if(option == "skill") {
-            //sort and display here
-        }
 		else if(option == "fee") {
-            //sort and display here
+            $.ajax({
+				type: "POST",
+				url: "python_scripts/sort_fee.py",
+				data: {
+					param: "time",
+				}
+			}).done((o) => {
+				console.log(o)
+			});
         }
 		else if(option == "size") {
-            //sort and display here
+            $.ajax({
+				type: "POST",
+				url: "python_scripts/sort_size.py",
+				data: {
+					param: "time",
+				}
+			}).done((o) => {
+				console.log(o)
+			});
         }
     }
 
@@ -86,7 +99,6 @@
 					<select style="float: left; margin:5px;" name="list" id="list2" accesskey="target">
 						<option value='none' selected>Sort By</option>
 						<option value='time'>Time</option>
-						<option value="skill">Skill Required</option>
 						<option value="fee">Entry Fee</option>
 						<option value="size">Team Size</option>
 					</select>
