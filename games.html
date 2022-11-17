@@ -42,7 +42,7 @@
 			function Tournaments() {
 			document.location.href = "Tournaments.html";
 			}
-            function goToNewPage()
+			function goToNewPage()
     {
         var url = document.getElementById('list').value;
         if(url != 'none') {
@@ -71,38 +71,46 @@
 		<button style="float: right; margin:5px;"onclick="comingSoon()">Coming Soon</button>
 		<button style="float: right; margin:5px;"onclick="Events()">Events</button>
 		<br></br>
-	<body background="image/uSyncBackground.jpg">
-        <hr class="rounded">
 
-			<h1 class="titles">Coming Soon!</h1>
+	<body background="image/uSyncBackground.jpg">
+		<hr class="rounded">
+
+
+			<h1 class="titles">Games</h1>
 			<div class="div-1">
 				<hr>
 				<div class="flex-parent jc-center">
-					<p style='margin-right:50px' >Apex Legends</p>
-					<p style='margin-right:50px' >Super Smashbros</p>
-					<p style='margin-right:50px' >Overwatch</p>
+					<p style='margin-right:50px' >League of Legends</p>
+					<p style='margin-right:50px' >Halo Infinite</p>
+					<p style='margin-right:50px' >Warzone</p>
 				  </div>
 				<p></p>
 				<div class="flex-parent jc-center">
-					<button style='margin-right:50px' class="ApexButton" onclick="comingSoon()"></button>
-					<button style='margin-right:50px' class="SmashButton" onclick="comingSoon()"></button>
-					<button class="OverwatchButton" onclick="comingSoon()"></button>
+					<button style='margin-right:50px' class="LeagueButton" onclick="League()"></button>
+					<button style='margin-right:50px' class="haloButton" onclick="Halo()"></button>
+					<button class="WarzoneButton" onclick="Warzone()"></button>
 
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
 				  </div>
+				<p></p>
+				<div class="flex-parent jc-center">
+					<p style='margin-right:50px' >Rocket League</p>
+					<p style='margin-right:50px' >Valorant</p>
+					<p >Modern Warfare</p>
+				  </div>
+				<p></p>
+				<div class="flex-parent2 jc-center2">
+				<button style='margin-right:50px' class="RocketButton" onclick="Rocket()"></button>
+				<button style='margin-right:50px' class="valButton" onclick="val()"></button>
+				<button class="MWButton" onclick="MW()"></button>
+				<p></p>
+			</div>
+			<br></br>
 			<hr class="rounded">
-        </div>
+		</div>
+
+
+		<p></p>
+		<a class="report" href="https://www.usync.gg/more/report-an-error">Report a Problem</a>
 		<br>
 		
 		

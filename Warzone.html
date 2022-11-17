@@ -18,6 +18,13 @@
             function comingSoon() {
 			document.location.href = "comingSoon.html";
 			}
+            function goToNewPage()
+    {
+        var url = document.getElementById('list').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }
 
 		</script>
 		
@@ -31,15 +38,19 @@
 	
 	<body>
 		<button class="uSyncLogo" onclick="HomePage()"></button>
-		<select style="float: right; margin:5px;" id="Ultra" onchange="run()">
-			<option value="0">More</option>
-			<option value="1">Verification</option>
-			<option value="2">Event Host</option>
-			<option value="3">Contact us</option>
-	   </select>
+		<form>
+            <input  style="float: right; margin:5px;" type=button value="Go" onclick="goToNewPage()" />
+			<select style="float: right; margin:5px;" name="list" id="list" accesskey="target">
+				<option value='none' selected>More</option>
+				<option value="Verification.html">Verification</option>
+				<option value="EventHost.html">Event Host</option>
+				<option value="ContactUs.html">Contact Us</option>
+			</select>
+			</form>
 		<button style="float: right; margin:5px;" onclick="GamesPage()">Games</button>
 		<button style="float: right; margin:5px;"onclick="comingSoon()">Coming Soon</button>
 		<button style="float: right; margin:5px;"onclick="Events()">Events</button>
+		<br></br>
 		<hr>
 		<h1>Warzone</h1>
 

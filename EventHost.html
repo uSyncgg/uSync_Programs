@@ -20,11 +20,13 @@
 			function comingSoon() {
 			document.location.href = "comingSoon.html";
 			}
-			function run() {
-		if (document.getElementById("Ultra").value = 1) document.location.href = "Verification.html";
-		else if (document.getElementById("Ultra").value = 2) document.location.href = "EventHost.html";
-		else if (document.getElementById("Ultra").value = 1) document.location.href = "ContactUs.html";
-	}
+            function goToNewPage()
+    {
+        var url = document.getElementById('list').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }
 
 		</script>
 		
@@ -35,20 +37,24 @@
 	
 	<body>
 		<button class="uSyncLogo" onclick="HomePage()"></button>
-		<select style="float: right; margin:5px;" id="Ultra" onchange="run()">
-			<option value="0">More</option>
-			<option value="1">Verification</option>
-			<option value="2">Event Host</option>
-			<option value="3">Contact us</option>
-	   </select>
+		<form>
+            <input  style="float: right; margin:5px;" type=button value="Go" onclick="goToNewPage()" />
+			<select style="float: right; margin:5px;" name="list" id="list" accesskey="target">
+				<option value='none' selected>More</option>
+				<option value="Verification.html">Verification</option>
+				<option value="EventHost.html">Event Host</option>
+				<option value="ContactUs.html">Contact Us</option>
+			</select>
+			</form>
 		<button style="float: right; margin:5px;" onclick="GamesPage()">Games</button>
 		<button style="float: right; margin:5px;"onclick="comingSoon()">Coming Soon</button>
 		<button style="float: right; margin:5px;"onclick="Events()">Events</button>
+		<br></br>
         <hr class="rounded">
 	<body background="image/uSyncBackground.jpg">
 
 
-			<h1 class="titles">Events</h1>
+			<h1 class="titles">Event Hosting</h1>
 			<div class="div-1">
 				<hr>
 				<p style="margin: 5px" class= "text">All of our events are taken through a verification process that proves that the event is legitimate and in good standing with payouts (if applicable). At uSync you can trust the events you are entering without having to do extensive research, we take care of it all for you in one place!
