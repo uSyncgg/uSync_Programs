@@ -4,15 +4,16 @@
  
 import pandas as pd
  
-# to read csv file named "samplee"
-a = pd.read_csv("data/tournaments_data.csv")
+def convert_html(csv_path, html_path): 
+    # to read csv file named "samplee"
+    a = pd.read_csv(csv_path)
  
-# to save as html file
-# named as "Table"
-a.to_html("pages/tournaments_data.html")
+    # to save as html file
+    # named as "Table"
+    a.to_html(html_path)
  
-# assign it to a
-# variable (string)
-html_file = a.to_html()
+    # assign it to a
+    # variable (string)
+    # html_file = a.to_html()
 
-print("done")
+    print("done")

@@ -8,6 +8,7 @@
 
 
 		<script>
+		
 		function HomePage() {
 			document.location.href = "homepage.html";
 		}
@@ -28,43 +29,53 @@
    		}
 
 		function sortBy(){
-        var option = document.getElementById('list2').value;
-		console.log(option);
-        if(option == "time") {
-			console.log("hello");
-			$.ajax({
-				type: "POST",
-				url: "python_scripts/sort_time.py",
-				data: {
-					param: "time",
-				}
-			}).done((o) => {
-				console.log(o)
-			});
-        }
-		else if(option == "fee") {
-            $.ajax({
-				type: "POST",
-				url: "python_scripts/sort_fee.py",
-				data: {
-					param: "time",
-				}
-			}).done((o) => {
-				console.log(o)
-			});
-        }
-		else if(option == "size") {
-            $.ajax({
-				type: "POST",
-				url: "python_scripts/sort_size.py",
-				data: {
-					param: "time",
-				}
-			}).done((o) => {
-				console.log(o)
-			});
-        }
-    }
+			var option = document.getElementById('list2').value;
+			console.log(option);
+			var file_name;
+			if(option == "time") {
+				// console.log("hello");
+				// $.ajax({
+				// 	type: "POST",
+				// 	url: "python_scripts/sort_time.py",
+				// 	data: {
+				// 		param: "time",
+				// 	}
+				// }).done((o) => {
+				// 	console.log(o)
+				// });
+				file_name = "pages/time_sorted_tournaments_data.html";
+				document.getElementById("special_html").innerHTML= '<iframe class="table" width="100%" height="100%"  style=" border: none; height: 850px;" src="pages/time_sorted_tournaments_data.html" seamless></iframe>';
+				console.log(file_name);
+			}
+			else if(option == "fee") {
+				// $.ajax({
+				// 	type: "POST",
+				// 	url: "python_scripts/sort_fee.py",
+				// 	data: {
+				// 		param: "time",
+				// 	}
+				// }).done((o) => {
+				// 	console.log(o)
+				// });
+				file_name = "pages/fee_sorted_tournaments_data.html";
+				document.getElementById("special_html").innerHTML= '<iframe class="table" width="100%" height="100%"  style=" border: none; height: 850px;" src="pages/fee_sorted_tournaments_data.html" seamless></iframe>';
+				console.log(file_name);
+			}
+			else if(option == "size") {
+				// $.ajax({
+				// 	type: "POST",
+				// 	url: "python_scripts/sort_size.py",
+				// 	data: {
+				// 		param: "time",
+				// 	}
+				// }).done((o) => {
+				// 	console.log(o)
+				// });
+				file_name = "pages/size_sorted_tournaments_data.html";
+				document.getElementById("special_html").innerHTML= '<iframe class="table" width="100%" height="100%"  style=" border: none; height: 850px;" src="pages/size_sorted_tournaments_data.html" seamless></iframe>';	
+				console.log(file_name);
+			}
+    	}
 
 	</script>
 		
@@ -107,7 +118,10 @@
 				
 			   <br>
 			   <br>
-			   <iframe class="table" width="100%" style=" border: none;" src="pages/tournaments_data.html" seamless></iframe>
+			   <div id="special_html">
+					<iframe class="table" width="100%" height="100%" style="border: none; height: 850px;" src="pages/tournaments_data.html" seamless></iframe>
+			   </div>
+			   
 			<hr class="rounded">
 
 

@@ -92,13 +92,13 @@ def get_tournament_info(driver, URL):
     # Team Size & Format
     # span was 'ui-label__text'
     team_size_res = soup.find_all('span', {'class': 'font-semibold text-white'})
-    team_size = team_size_res[0].text.strip()
+    team_size = team_size_res[1].text.strip()
     # print(team_size)
 
     # Gamemode
     #span was 'text-white font-semibold'
     game_res = soup.find_all('span', {'class': 'font-semibold text-white'})
-    game = game_res[0].text.strip()
+    game = game_res[4].text.strip()
     # print(game)
 
     info = {"date": date, "time": time, "title": title, "entry": per_person, "size": team_size, "platforms": platforms, "gamemode": game}
