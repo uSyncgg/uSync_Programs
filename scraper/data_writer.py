@@ -41,7 +41,7 @@ import shutil
 def write_all(data, path = "tournaments_data.csv"):
 
     # Header for CSV file
-    header = ['Date', 'Time', 'Title', 'Entry', 'Team Size', 'Platforms', 'Gamemode', l]
+    header = ['Date', 'Time', 'Title', 'Entry', 'Team Size', 'Platforms', 'Gamemode']
     field_names = ["date", "time", "title", "entry", "size", "platforms", "gamemode"]
 
     # Case: 'tournaments data' file does not exist
