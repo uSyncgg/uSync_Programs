@@ -1,0 +1,82 @@
+
+<!doctype html> 
+<html>
+	<head>
+
+		<link rel="stylesheet" href="styleme.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+		<script>
+				function HomePage() {
+			document.location.href = "homepage.html";
+			}
+		function GamesPage() {
+			document.location.href = "games.html";
+			}
+			function Events() {
+			document.location.href = "Events.html";
+			}
+			function comingSoon() {
+			document.location.href = "comingSoon.html";
+			}
+			function run() {
+		if (document.getElementById("Ultra").value = 1) document.location.href = "Verification.html";
+		else if (document.getElementById("Ultra").value = 2) document.location.href = "EventHost.html";
+		else if (document.getElementById("Ultra").value = 1) document.location.href = "ContactUs.html";
+	}
+	function run2() {
+		if (document.getElementById("Ultra").value = 1) document.location.href = "Verification.html";
+		else if (document.getElementById("Ultra").value = 2) document.location.href = "EventHost.html";
+		else if (document.getElementById("Ultra").value = 1) document.location.href = "ContactUs.html";
+	}
+
+		</script>
+		
+
+			
+				<title>USYNC</title>
+	</head>
+	
+	<body>
+		<button class="uSyncLogo" onclick="HomePage()"></button>
+		<select style="float: right; margin:5px;" id="Ultra" onchange="run()">
+			<option value="0">More</option>
+			<option value="1">Verification</option>
+			<option value="2">Event Host</option>
+			<option value="3">Contact us</option>
+	   </select>
+		<button style="float: right; margin:5px;" onclick="GamesPage()">Games</button>
+		<button style="float: right; margin:5px;"onclick="comingSoon()">Coming Soon</button>
+		<button style="float: right; margin:5px;"onclick="Events()">Events</button>
+        <hr class="rounded">
+	<body background="image/uSyncBackground.jpg">
+
+
+			<h1 class="titles">Events</h1>
+			<div class="div-1">
+				<hr>
+				<select id="Ultra" onchange="run2()">  <!--Call run() function-->
+					<option value="0">Sort By</option>
+					<option value="1">time</option>
+					<option value="2">skill required</option>
+					<option value="3">entry fee</option>
+			   </select><br><br>
+			   TextBox1<br>
+			   <input type="text" id="srt" placeholder="get value on option select"><br>
+			   <br>
+			   <br>
+			   <br>
+			   <br>
+			   <br>
+			<hr class="rounded">
+
+
+		</div>
+		<p></p>
+		<a class="report" href="https://www.usync.gg/more/report-an-error">Report a Problem</a>
+		<br>
+		
+		
+	</body>
+</html>

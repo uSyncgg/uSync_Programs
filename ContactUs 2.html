@@ -20,15 +20,11 @@
 			function comingSoon() {
 			document.location.href = "comingSoon.html";
 			}
-
-                function goToNewPage()
-    {
-        var url = document.getElementById('list').value;
-        if(url != 'none') {
-            window.location = url;
-        }
-    }
-	
+			function run() {
+		if (document.getElementById("Ultra").value = 1) document.location.href = "Verification.html";
+		else if (document.getElementById("Ultra").value = 2) document.location.href = "EventHost.html";
+		else if (document.getElementById("Ultra").value = 1) document.location.href = "ContactUs.html";
+	}
 
 		</script>
 		
@@ -39,19 +35,15 @@
 	
 	<body>
 		<button class="uSyncLogo" onclick="HomePage()"></button>
-		<form>
-            <input  style="float: right; margin:5px;" type=button value="Go" onclick="goToNewPage()" />
-			<select style="float: right; margin:5px;" name="list" id="list" accesskey="target">
-				<option value='none' selected>More</option>
-				<option value="Verification.html">Verification</option>
-				<option value="EventHost.html">Event Host</option>
-				<option value="ContactUs.html">Contact Us</option>
-			</select>
-			</form>
+		<select style="float: right; margin:5px;" id="Ultra" onchange="run()">
+			<option value="0">More</option>
+			<option value="1">Verification</option>
+			<option value="2">Event Host</option>
+			<option value="3">Contact us</option>
+	   </select>
 		<button style="float: right; margin:5px;" onclick="GamesPage()">Games</button>
 		<button style="float: right; margin:5px;"onclick="comingSoon()">Coming Soon</button>
 		<button style="float: right; margin:5px;"onclick="Events()">Events</button>
-		<br></br>
         <hr class="rounded">
 	<body background="image/uSyncBackground.jpg">
 
@@ -59,10 +51,11 @@
 			<h1 class="titles">Find Us</h1>
 			<div class="div-1">
 				<hr>
-                <button style=" margin:55px;" href="https://twitter.com/uSyncGG">Twitter</button>
-                <button style=" margin:55px;" href="https://www.instagram.com/usyncgg/">Instagram</button>
-                <button style=" margin:55px;" href="https://www.youtube.com/channel/UC8vWNAiWRJZVwsvKtNhfRJQ">Youtube</button>
-                <button style=" margin:55px;" href="https://www.twitch.tv/usyncgg">Twitch</button>
+                <button style="float: left; margin:55px;" href="https://twitter.com/uSyncGG">Twitter</button>
+                <button style="float: left; margin:55px;" href="https://www.instagram.com/usyncgg/">Instagram</button>
+                <button style="float: left; margin:55px;" href="https://www.youtube.com/channel/UC8vWNAiWRJZVwsvKtNhfRJQ">Youtube</button>
+                <button style="float: left; margin:55px;" href="https://www.twitch.tv/usyncgg">Twitch</button>
+                <hr>
 				<p style="margin: 5px" class= "text"><br></br>At uSync we strive to bring all of the tournaments, leagues, LANs, and more to one easy and accessible place. You won't have to waste your time going from site to site or endlessly scrolling on Twitter/Discord just to find competition. By utilizing the supported events on our website, you have access to all of the esports competitions in one simple place. We are the game hub of competitive titles across all of esports!
                     <br></br></p>
 
