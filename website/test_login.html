@@ -1,0 +1,57 @@
+<form id="login-form">
+    <label for="email">Email address:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br>
+    <input type="submit" value="Sign In">
+    <button type="button" id="sign-in-with-google">Sign In with Google</button>
+    <button type="button" id="sign-in-with-twitter">Sign In with Twitter</button>
+    <button type="button" id="sign-in-with-discord">Sign In with Discord</button>
+</form>
+
+<script>
+// Use the Google API to initialize the "Sign In with Google" button
+const googleAuth = gapi.auth2.init({
+    client_id: 'YOUR_GOOGLE_CLIENT_ID'
+});
+googleAuth.attachClickHandler('sign-in-with-google', {}, (googleUser) => {
+    // Retrieve the user's Google profile information
+    const profile = googleUser.getBasicProfile();
+    // Use the Google profile information to create a new user account or log in an existing user
+    login(profile.getEmail(), profile.getId());
+});
+
+// Use the Twitter API to initialize the "Sign In with Twitter" button
+const twitterAuth = new OAuth2('twitter', {
+    client_id: 'YOUR_TWITTER_CLIENT_ID',
+    client_secret: 'YOUR_TWITTER_CLIENT_SECRET'
+});
+twitterAuth.attachClickHandler('sign-in-with-twitter', {});
+
+// Use the Discord API to initialize the "Sign In with Discord" button
+const discordAuth = new OAuth2('discord', {
+    client_id: 'YOUR_DISCORD_CLIENT_ID',
+    client_secret: 'YOUR_DISCORD_CLIENT_SECRET'
+});
+discordAuth.attachClickHandler('sign-in-with-discord', {}, (discordUser) => {
+    // Retrieve the user's Discord profile information
+    const profile = discordUser.getBasicProfile();
+    // Use the Discord profile information to create a new user account or log in an existing user
+    login(profile.getUsername(), profile.getId());
+});
+// Handle the login form submission
+document.getElementById('login-form').addEventListener('submit', (event) => {
+    event.preventDefault();
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+    // Use the email address and password to create a new user account or log in an existing user
+    login(email, password);
+});
+
+// This function is used to create a new user account or log in an existing user
+// function login(email, password) {
+//     // Send a request to your server-side script to create a new user account or log in an existing user
+//     fetch('/login', {
+//         method: 'POST',
+//         body: JSON.stringify({
+//             email
