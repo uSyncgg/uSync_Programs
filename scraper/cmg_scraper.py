@@ -23,6 +23,7 @@ import datetime
 # URL
 
 URL = "https://www.checkmategaming.com/tournament/cross-platform/call-of-duty-modern-warfare-ii/console-only-promod-3v3-snd-best-of-3-178947"
+URL_begin = "https://www.checkmategaming.com/tournament/cross-platform/call-of-duty-modern-warfare-ii"
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
 #### IMPORTANT: you will need to set a bound for each piece of code here or else it will look through outdate tourneys as well
@@ -57,38 +58,36 @@ def cmg_tourney_info(driver, URL):
     #     if (title[i] == "\n"):
     #         break
 
-    # Entry/Per and Team Size DONE FIGURE OUT SKILL LEVEL
-    # span was 'font-semibold text-gold'
-    per_person_res = soup.find_all('div', {'class': 'tournament-details-entry-info'})
-    per_person = per_person_res[0].text.strip()
-    entryInfo = ""
-    entryList = []
-    for k in range(len(per_person)):
-        if (per_person[k] != "\n"):
-            entryInfo = entryInfo + per_person[k]
-        else:
-            entryList.append(entryInfo)
-            entryInfo = ""
-    print(len(per_person))
-    entry = entryList[1]
-    team_size_full = entryList[3]
-    team_size = team_size_full[9:15]
+    # Entry/Per, Team Size, Skill Level - DONE
+    # class was 'tournament-details-entry-info'
+    tourney_details_res = soup.find_all('div', {'class': 'tournament-details-entry-info'})
+    tourney_details = tourney_details_res[0].text.strip()
+    tourney_details_list = tourney_details.split()
+
+    entry = tourney_details_list[1] + " " + tourney_details_list[2]
+    team_size_full = tourney_details_list[4] + " " + tourney_details_list[5] + " " + tourney_details_list[6]
+    team_size = team_size_full[4:10]
+    skill_level = tourney_details_list[12] + " " + tourney_details_list[13]
 
     # print(entry)
     # print(team_size)
-
-    # skill_level_res = soup.find_all('span', {'class': 'skill-level-title'})
-    # skill_level = skill_level_res[0].text.strip()
-
-    # print(skill_level)
-
-    
-    
-    
+    # print(skill_level)   
 
     # info = date_time_res
     # info = tourneyTitle
     # info = per_person
     # return info
 
-print(cmg_tourney_info(driver, URL))
+# Figure out why it isnt scraping what is needed, list is empty
+def cmg_tourney_region(driver, URL_begin):
+    driver.get(URL_begin)
+
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
+
+    region_details_res = soup.find_all('div', {'class': 'tournament-stats'})
+    region_details = region_details_res[0].text.strip()
+    region_details_list = region_details.split()
+    print(region_details_res)
+
+# print(cmg_tourney_info(driver, URL))
+print(cmg_tourney_region(driver, URL_begin))
