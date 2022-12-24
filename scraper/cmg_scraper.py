@@ -63,6 +63,7 @@ def cmg_tourney_info(driver, URL):
     tourney_details_res = soup.find_all('div', {'class': 'tournament-details-entry-info'})
     tourney_details = tourney_details_res[0].text.strip()
     tourney_details_list = tourney_details.split()
+    print(tourney_details_res[0].text)
 
     entry = tourney_details_list[1] + " " + tourney_details_list[2]
     team_size_full = tourney_details_list[4] + " " + tourney_details_list[5] + " " + tourney_details_list[6]
@@ -85,9 +86,21 @@ def cmg_tourney_region(driver, URL_begin):
     soup = BeautifulSoup(driver.page_source, 'html.parser')
 
     region_details_res = soup.find_all('div', {'class': 'tournament-stats'})
-    region_details = region_details_res[0].text.strip()
-    region_details_list = region_details.split()
-    print(region_details_res)
+    for element in region_details_res[2]:
+        region_details = element.find_all('span')
+    print(region_details)
+    # region_details_full = region_details_res[2]
+    # print(region_details_full.text.strip())
+    # print(type(region_details_full))
+    # region_details = region_details_full[56:64]
+    # print(region_details)
+
+    # for ii in region_details_res:
+    #     print(ii.text.strip())
+    # region_details = region_details_res[0].text.strip()
+    # region_details_list = region_details.split()
+    # print(len(region_details_res))
 
 # print(cmg_tourney_info(driver, URL))
-print(cmg_tourney_region(driver, URL_begin))
+# print(cmg_tourney_region(driver, URL_begin)) 
+cmg_tourney_region(driver, URL_begin)
