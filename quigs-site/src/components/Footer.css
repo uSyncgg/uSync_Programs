@@ -1,0 +1,45 @@
+footer {
+    position: relative;
+    width: 100%;
+    height: 22.5rem;
+    background-color: #434343;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: white;
+}
+
+#socials {
+    position: relative;
+    float: right;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    list-style-type: none;
+    padding: 20px 0px 20px 0px;
+}
+
+#socials li {
+    position: relative;
+    float: left;
+    width: 10%;
+    left: 5%;
+    margin: 0 6% 0 0;
+}
+
+#socials li img {
+    width: 100%;
+}
+
+footer div {
+    position: relative;
+    width: 40%;
+    margin-left: 30%;
+}
+
+@media screen and (max-width: 1200px) {
+    footer div {
+        width: 90%;
+        margin-left: 5%;
+    }
+}

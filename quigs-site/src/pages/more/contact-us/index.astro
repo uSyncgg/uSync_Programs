@@ -1,0 +1,70 @@
+---
+import App from '../../../components/App.jsx';
+import Nav from '../../../components/Nav.jsx';
+import Body from '../../../components/Body.jsx';
+import Footer from '../../../components/Footer.jsx';
+import socInsta from '../../../components/img/insta.png';
+import socTwitch from '../../../components/img/twitch.png';
+import socTwitter from '../../../components/img/twitter.png';
+import socYT from '../../../components/img/yt.png';
+import socGoFundMe from '../../../components/img/gofundme.png';
+import socEmail from '../../../components/img/email.png';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>uSync - Contact Us</title>
+	</head>
+	<Nav></Nav>
+    <div id="body">
+        <div id='heading-body'>
+            <h1 id='heading-text'>Find Us</h1>
+        </div>
+        <div class='section'>
+            <ul class='socialList'>
+                <li><a href='https://twitter.com/uSyncGG'><img src={socTwitter} width='100%'/></a></li>
+                <li><a href='https://www.instagram.com/usyncgg/'><img src={socInsta} width='100%'/></a></li>
+                <li><a href='https://www.youtube.com/channel/UC8vWNAiWRJZVwsvKtNhfRJQ'><img src={socYT} width='100%'/></a></li>
+                <li><a href='https://www.twitch.tv/usyncgg'><img src={socTwitch} width='100%'/></a></li>
+            </ul>
+            <p>At uSync we strive to bring all of the tournaments, leagues, LANs, and more to one easy and accessible place. 
+                You won't have to waste your time going from site to site or endlessly scrolling on Twitter/Discord just to find competition. 
+                By utilizing the supported events on our website, you have access to all of the esports competitions in one simple place. 
+                We are the game hub of competitive titles across all of esports!
+            </p>
+        </div>
+        <div class='divider'></div>
+        <div class='section'>
+            <h1 class='sectionTitle'>Support Us</h1>
+            <ul class='titlesList'>
+                <a href='https://www.gofundme.com/f/uSync-the-hub-for-esport-events?member=20327371&utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all&utm_source=customer'><li class='titles noHover'><img class='eventsImg' src={socGoFundMe}/></li></a>
+            </ul>
+            <p>Support Our Vision</p>
+        </div>
+        <div class='divider'></div>
+        <div class='section'>
+            <h1 class='sectionTitle'>Event Host?</h1>
+            <ul class='titlesList'>
+                <a href='mailto:usyncgg@gmail.com'><li class='titles noHover'><img class='eventsImg' src={socEmail}/></li></a>
+            </ul>
+            <p>
+                We support plenty of different events/websites but may miss a few from time to time in our search to support all games.
+                If you are interested in working with us, click <a href='../more/event-host' style={{color: '#8D7DB5', textDecoration: 'underline'}}>HERE</a> to learn more!
+            </p>
+        </div>
+        <div class='divider'></div>
+        <div class='section'>
+            <h1 class='sectionTitle'>About Us</h1>
+            <p>Our founders played competitive esports in both the amateur and collegiate level. 
+                uSync was founded after noticing that esports is extremely disorganized and in some circumstances impossible to find information without knowing the right people. 
+                Our vision is to solve this by allowing all events to be shown in one place, so everyone can participate in as many events as they desire.
+            </p>
+        </div>
+        <div class='divider'></div>
+    </div>
+    <Footer></Footer>
+</html>

@@ -1,0 +1,64 @@
+---
+import App from '../../components/App.jsx';
+import Nav from '../../components/Nav.jsx';
+import Body from '../../components/Body.jsx';
+import Footer from '../../components/Footer.jsx';
+import apexUC from '../../components/img/apexUC.jpg';
+import smash from '../../components/img/smashUC.jpg';
+import ow2 from '../../components/img/ow2UC.jpg';
+import onlinetournamentsUC from '../../components/img/onlinetournamentsUC.png';
+import socGoFundMe from '../../components/img/gofundme.png';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>uSync - Coming Soon</title>
+	</head>
+	<Nav></Nav>
+    <div id="body">
+        <div id='heading-body'>
+            <h1 id='heading-text'>Coming Soon</h1>
+        </div>
+        <div class='section'>
+            <h1 class='sectionTitle'>Game Titles</h1>
+            <ul class='titlesList'>
+                <li class='titles noHover'><img class='titlesImg' src={apexUC}/></li>
+                <li class='titles noHover'><img class='titlesImg' src={smash}/></li>
+                <li class='titles noHover'><img class='titlesImg' src={ow2}/></li>
+            </ul>
+            <p>We are actively working on different titles in order to bring the best competition to you.
+                These take time due to the competitive scenes varying from title to title. 
+                Your continued use of our services allow for us to keep 
+                working on new titles for the future. Thank you!
+            </p>
+        </div>
+        <div class='divider'></div>
+        <div class='section'>
+            <h1 class='sectionTitle'>Event Types</h1>
+            <ul class='titlesList'>
+                <li class='titles noHover'><img class='eventsImg' src={onlinetournamentsUC}/></li>
+            </ul>
+            <p>We are looking to provide a list of daily 
+                tournaments from all of the varying sites so that players don't have 
+                to move from site to site to find what they are looking for!
+            </p>
+            <p>Unfortunately, implementing this feature is costly and our services are free which places a heavy burden on us. 
+                However, in the meantime keep up to date with what we are working on with our Twitter!
+            </p>
+        </div>
+        <div class='divider'></div>
+        <div class='section'>
+            <h1 class='sectionTitle'>Support Us</h1>
+            <ul class='titlesList'>
+                <a href='https://www.gofundme.com/f/uSync-the-hub-for-esport-events?member=20327371&utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all&utm_source=customer'><li class='titles noHover'><img class='eventsImg' src={socGoFundMe}/></li></a>
+            </ul>
+            <p>Support Our Vision</p>
+        </div>
+        
+    </div>
+    <Footer></Footer>
+</html>

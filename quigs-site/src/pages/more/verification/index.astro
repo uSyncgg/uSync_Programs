@@ -1,0 +1,48 @@
+---
+import App from '../../../components/App.jsx';
+import Nav from '../../../components/Nav.jsx';
+import Body from '../../../components/Body.jsx';
+import Footer from '../../../components/Footer.jsx';
+import verified from '../../../components/img/verified.png';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>uSync - Verification</title>
+	</head>
+	<Nav></Nav>
+    <div id="body">
+        <div id='heading-body'>
+            <h1 id='heading-text'><img src={verified} width='200px'></h1>
+        </div>
+        <div class='section'>
+            <h1 class='sectionTitle'>u<text style='color: #8E6ACE'>Sync</text> Verified<img src={verified} width='50px' style='margin-left: 10px;'></h1>
+            <p>uSync Verified providers are some of the most trustworthy providers that we feature. 
+                These events are not only extremely well trusted but have shown a record of exceptional quality in their work. 
+                We strive to verify as many events as possible so that you can bring your organization to the highest level of competitive play.
+            </p>
+        </div>
+        <div class='divider'></div>
+        <div class='section'>
+            <h1 class='sectionTitle'>Verified Features</h1>
+            <ul class='list'>
+                <li>uSync Verified Badge</li>
+                <li>Choose where your event is located on the page</li>
+                <li>Choose the images you would like to use for your brand</li>
+                <li>Custom and up to date information</li>
+                <li>Dynamic link to participate in events</li>
+                <li>Access to our verified support team</li>
+            </ul>
+            <a href='./more/verification/request-verification' class='actionButton'>Become Verified</a>
+        </div>
+        <div class='divider'></div>
+        <div class='section moreLooking'>
+            <p class='moreLooking'>Looking to post an event? Send an <a href='./more/event-host' style='color: #8D7DB5; text-decoration: underline;'>Event Submission</a></p>
+        </div>
+    </div>
+    <Footer></Footer>
+</html>

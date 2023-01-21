@@ -1,0 +1,157 @@
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: currentColor;
+}
+
+#heading {
+    position: relative;
+    height: 100%;
+    background: linear-gradient(rgba(142,106,206,0.5),rgba(142,106,206,0.5)), url('img/background.jpeg');
+    background-repeat: no-repeat;
+    background-position: 20vw center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-flow: column;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#heading-textarea {
+    background-color: #0C0B22;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 60% 0, 40% 100%, 0% 100%);
+    padding-top: 100px;
+}
+    #heading-title {
+        position: relative;
+        text-align: left;
+        margin-top: 10vw;
+        margin-left: 5vw;
+        font-size: 10vw;
+        z-index: 11;
+        width: 40%;
+    }
+    #heading-subtitle {
+        position: relative;
+        text-align: left;
+        margin-top: 2vw;
+        margin-left: 5vw;
+        font-size: 1.4vw;
+        width: 40%;
+    }
+    #heading-button {
+        position: relative;
+        display: block;
+        margin-top: 2vw;
+        margin-left: 5vw;
+        width: 15vw;
+        border: 0.15vw solid white;
+        border-radius: 20px;
+        font-size: 1.4vw;
+        padding: 5px;
+    }
+        #heading-button:hover {
+            background-color: white;
+            color: #8E6ACE;
+            text-decoration: none;
+        }
+
+.sectionTitle {
+    position: relative;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.titlesImg {
+    position: relative;
+    width: 150px;
+}
+
+#supported-titles {
+    position: relative;
+    width: 100%;
+}
+    .titlesList {
+        position: relative;
+        width: 50%;
+        margin-left: 25%;
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+    }
+        .titles {
+            position: relative;
+            display: inline-block;
+            margin: 2%;
+            border-radius: 20px;
+        }
+            .titles:hover {
+                box-shadow: 0px 0px 20px 5px rgba(142,106,206, 0.3);
+            }
+
+#lan-events {
+    position: relative;
+    padding: 20px 0px 50px 0px;
+    width: 100%;
+    /*background-color: #434343;*/
+}
+
+#coming-soon {
+    position: relative;
+    width: 100%;
+}
+
+.divider {
+    background-color: white;
+    position: relative;
+    height: 2px;
+    width: 70%;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 715px) {
+    .titlesList {
+        width: 90%;
+        margin-left: 5%;
+    }
+    #heading {
+        background: #0C0B22;
+    }
+        #heading-textarea {
+            clip-path: none;
+        }
+        #heading-title {
+            margin: auto;
+            text-align: center;
+            font-size: 20vw;
+            width: auto;
+            margin-top: 100px;
+            z-index: 9;
+        }
+        #heading-subtitle {
+            margin: auto;
+            text-align: center;
+            font-size: 5vw;
+            width: 80%;
+            margin-top: 50px;
+        }
+        #heading-button {
+            margin: auto;
+            font-size: 5vw;
+            border: 0.3vw solid white;
+            width: 70%;
+            margin-top: 100px;
+        }
+}
