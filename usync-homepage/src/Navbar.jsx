@@ -1,9 +1,11 @@
 import "./styles.css"
 
+const navbarLogo = new URL("./images/usync-navbar-logo.png", import.meta.url)
+
 const Navbar = () => {
     const path = window.location.pathname;
     return  <nav className="nav">
-        <a href="/" className="site-title">USYNC</a>
+        <a href="/" className="site-title"><img src={navbarLogo} alt="USYNC logo" /></a>
         <ul>
             <CustomLink href="/">Home</CustomLink>
             <CustomLink href="/Games">Games</CustomLink>

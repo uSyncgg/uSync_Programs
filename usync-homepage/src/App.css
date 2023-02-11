@@ -13,6 +13,21 @@
   }
 }
 
+a img {
+  height: 25%;
+  width: 25%;
+}
+
+.home-top {
+  background-image: url("./images/computer.png");
+  background-size: cover;
+  padding: 1rem;
+}
+
+.home-top h1 {
+  color: white;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
