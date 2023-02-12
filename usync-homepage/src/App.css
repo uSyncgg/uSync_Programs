@@ -20,12 +20,37 @@ a img {
 
 .home-top {
   background-image: url("./images/computer.png");
+  background-position: center;
   background-size: cover;
-  padding: 1rem;
+  background-repeat: no-repeat;
 }
 
-.home-top h1 {
+#home-usyncLogo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  margin: auto;
+}
+
+.home-top #finding-esports {
   color: white;
+  font-size: 400%;
+}
+
+.home-top #get-started {
+  padding: .5rem .75rem;
+  width: 90%;
+  background-color: transparent;
+  font-size: 150%;
+  color: white;
+  border-color: white;
+}
+
+.home-top #we-sync {
+  color: green;
+  font-size: 400%;
 }
 
 .App-header {
