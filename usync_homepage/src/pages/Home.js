@@ -1,22 +1,22 @@
 import { useState } from 'react';
 import '../App.css';
-import letter_logo from '../website_images/letter_logo.png';
-import short_underline from '../website_images/short_underline.png';
-import halo from '../website_images/halo_banner.png';
-import mw2 from '../website_images/mw2_banner.png';
-import wz from '../website_images/warzone_banner.png';
-import lol from '../website_images/lol_banner.png';
-import rl from '../website_images/rl_banner.png';
-import val from '../website_images/val_banner.png';
-import apex from '../website_images/apex_banner.png';
-import smash from '../website_images/smash_banner.png';
-import ow from '../website_images/ow_banner.png';
-import yt from '../website_images/youtube.png';
-import gmail from '../website_images/gmail.png';
-import gfm from '../website_images/gofundme.png';
-import ig from '../website_images/instagram.png';
-import twitter from '../website_images/twitter.png';
-import twitch from '../website_images/twitch.png';
+import letter_logo from '../website_images/home-images/letter_logo.png';
+import short_underline from '../website_images/home-images/short_underline.png';
+import halo from '../website_images/home-images/halo_banner.png';
+import mw2 from '../website_images/home-images/mw2_banner.png';
+import wz from '../website_images/home-images/warzone_banner.png';
+import lol from '../website_images/home-images/lol_banner.png';
+import rl from '../website_images/home-images/rl_banner.png';
+import val from '../website_images/home-images/val_banner.png';
+import apex from '../website_images/home-images/apex_banner.png';
+import smash from '../website_images/home-images/smash_banner.png';
+import ow from '../website_images/home-images/ow_banner.png';
+import yt from '../website_images/home-images/youtube.png';
+import gmail from '../website_images/home-images/gmail.png';
+import gfm from '../website_images/home-images/gofundme.png';
+import ig from '../website_images/home-images/instagram.png';
+import twitter from '../website_images/home-images/twitter.png';
+import twitch from '../website_images/home-images/twitch.png';
 
 const Home = () => {
     return (
@@ -50,7 +50,7 @@ const Home = () => {
 
                 <h2 class="Intro">LAN Events</h2>
                 <img src={short_underline} alt="underline" width="500px" />
-
+                <iframe src="https://www.google.com/maps/d/u/6/embed?mid=1QrCfeXFSyZJMXLzUeAiIWy0hcWgaJVg&ehbc=2E312F" width="640" height="480"></iframe>
                 <h3 class="Intro">Learn how to post your LAN to the map </h3>
 
                 <h2 class="Intro">Coming Soon!</h2>
