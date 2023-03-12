@@ -9,7 +9,7 @@
 -Class-based components
 
 To Create a react app:
--npm create-react-app ./
+-npx create-react-app ./
 
 *Class-based components (not being used anymore)*
 -import React, {Component} from 'react'

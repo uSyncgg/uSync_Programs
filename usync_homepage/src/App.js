@@ -6,6 +6,11 @@ import Games from './pages/Games';
 import More from './pages/More';
 import Navbar from './Navbar';
 import Cod_Leagues from './pages/game_pages/CoD/Cod_Leagues';
+import Cod from './pages/game_pages/CoD/Cod.js';
+import Cod_Lan from './pages/game_pages/CoD/Cod_Lan.js';
+import Halo_Lan from './pages/game_pages/Halo/Halo_Lan.js';
+import Lol_Lan from './pages/game_pages/LoL/Lol_Lan';
+import Wz_Lan from './pages/game_pages/Wz/Wz_Lan';
 // All CoD league pages will be imported the same way Snd_league was imported
 // All that needs to be changed is the information after the last /
 // Change from Snd_league to whatever the filename is
@@ -40,6 +45,21 @@ function App() {
       break;
     case "/snd_league":
       component = <Snd_league />
+      break;
+    case "/Games/Cod":
+      component = <Cod />
+      break;
+    case "/Games/Cod/LANs":
+      component = <Cod_Lan />
+      break;
+    case "/Games/Halo/LANs":
+      component = <Halo_Lan />
+      break;
+    case "/Games/LoL/LANs":
+      component = <Lol_Lan />
+      break;
+    case "/Games/Wz/LANs":
+      component = <Wz_Lan />
       break;
   }
 

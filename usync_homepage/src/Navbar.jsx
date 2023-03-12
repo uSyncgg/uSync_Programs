@@ -14,6 +14,11 @@ const Navbar = () => {
             <CustomLink href="/More">More</CustomLink>
             <CustomLink href="/Games/Cod/Cod_Leagues">Cod Leagues</CustomLink>
             <CustomLink href="/snd_league">SnD League</CustomLink>
+            <CustomLink href="/Games/Cod">CoD</CustomLink>
+            <CustomLink href="/Games/Cod/LANs">CoD LANs</CustomLink>
+            <CustomLink href="/Games/Halo/LANs">Halo LANs</CustomLink>
+            <CustomLink href="/Games/LoL/LANs">League of Legends LANs</CustomLink>
+            <CustomLink href="/Games/Wz/LANs">Warzone LANs</CustomLink>
         </ul>
     </nav> 
 }
