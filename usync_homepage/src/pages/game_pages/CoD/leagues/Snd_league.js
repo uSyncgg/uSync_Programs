@@ -8,8 +8,8 @@ import '../../../../Info.css';
 import sndleagueheader from '../../../../website_images/games/cod/cod-leagues/sndleagueheader.png';
 // usyncletter and gamecheck will be imported the same way on every single verified CoD league game page
 // If it is not verified you must import the NOT Verified image and the X
-import usyncletter from '../../../../website_images/games/uSync-letter-small.png';
-import gamecheck from '../../../../website_images/games/game-page-check.png';
+import usyncverified from '../../../../website_images/games/uSync-letter-small.png';
+import checkmark from '../../../../website_images/games/game-page-check.png';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -27,8 +27,8 @@ const Snd_league = () => {
              <div>
                 {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed*/}
-                <img src={usyncletter} alt="uSync Verified" className='Checkmark' />
-                <img src={gamecheck} alt="Checkmark" className='Checkmark' />
+                <img src={usyncverified} alt="uSync Verified" className='Checkmark' />
+                <img src={checkmark} alt="Checkmark" className='Checkmark' />
              </div>
             </div>
             {/* ***You must have this container div*** */}
@@ -40,7 +40,7 @@ const Snd_league = () => {
                         <h1>Date:</h1>
                         {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
-                        <p>Fall 2022 (Estimated)</p>
+                        <p>Fall 2023 (Estimated)</p>
                         <button type="submit" className='back-button'>Back</button>
                     </div>
                     <div className='col-2'>

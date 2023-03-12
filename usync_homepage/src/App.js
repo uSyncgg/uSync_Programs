@@ -3,7 +3,7 @@ import './App.css';
 import Home from './pages/Home';
 import Comingsoon from './pages/Comingsoon';
 import Games from './pages/Games';
-import More from './pages/More';
+import More from './pages/More'; 
 import Navbar from './Navbar';
 import Cod_Leagues from './pages/game_pages/CoD/Cod_Leagues';
 // All CoD league pages will be imported the same way Snd_league was imported
@@ -11,6 +11,7 @@ import Cod_Leagues from './pages/game_pages/CoD/Cod_Leagues';
 // Change from Snd_league to whatever the filename is
 // Also make sure to have the name after import be spelled the exact same as the filename otherwise it will not work
 import Snd_league from './pages/game_pages/CoD/leagues/Snd_league';
+import NACAL_league from './pages/game_pages/CoD/leagues/NACAL_league';
 
 // Different components needed for homepage: Nav bar, on click events for each image + button currently just take to a random page, css (A LOT)
 
@@ -40,6 +41,9 @@ function App() {
       break;
     case "/snd_league":
       component = <Snd_league />
+      break;
+    case "/NACAL_league":
+      component = <NACAL_league />
       break;
   }
 
