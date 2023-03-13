@@ -1,0 +1,98 @@
+***React Notes on React JS Full Course Video***
+*Components*
+-Component based front end library
+-Small piece of the user interface
+-Every reactjs application is a tree of Components
+-Let you split the UI into independent reusable components
+-Two Types of components
+-Functional Components
+-Class-based components
+
+To Create a react app:
+-npx create-react-app ./
+
+*Class-based components (not being used anymore)*
+-import React, {Component} from 'react'
+-class Example extends Component {
+    render() {
+        return <div>Hello World</div>
+    }
+}
+
+**Functional Components**
+import React from 'react'
+const Example = () => {
+    return <div> Hello Worlds! </div> //this syntax is neither a string nor jsl, it is jsx
+    //jsx is used in react to describe what the user interface is, produces react elements
+}
+
+2 ways of setting up the react environment:
+1. Manually set it up with everything using webpack and babel
+2. Use the create-react-app command (use this)
+
+-Need Node Js on computer for react
+
+***Folder Structure***
+-package.json: all dependencies and core packages
+-node_modules: contains all packages
+-src: where all the logic for the app goes
+-public: contains a simple html document, all of our react components will be injected into the root div tags
+-App.js: functional component in jsx need to use className instead of class 
+
+Only call react-dom once in the entire project
+
+If you want to render two+ elements you must wrap it in a react tag
+React tag: <> </>
+
+Components:
+format: const name = () => {
+    return (
+        <>
+        // Any information you want 
+        </>
+    )
+}
+
+can call compoenents in other components as long as they are in the same file or imported
+How to use: <name />
+If you want to use parameters: <name person={'John'} />
+using curly braces are optional unless doing math
+
+React State:
+need to import the useState hook: import { useState } from 'react';
+-have a button with a -
+-have h1 that shows a count
+-have a button with a +
+^ need to use a state to make it work
+how to use:
+const [counter, setCounter] = useState(0);
+
+return (
+    <div className="App">
+    <button onClick={() => setCounter((prevCount) => prevCount - 1)}>-</button>
+    <h1>{counter}</h1>
+    <button onClick={() => setCounter((prevCount) => prevCount + 1)}>+</button>
+    </div>
+);
+
+-Uses events in order to fully work, its always good practice to keep names similar
+
+when using the useEffect hook:
+import { useState, useEffect } from 'react';
+
+const App = () => {
+    useEffect(() => {
+        // counter = 100; NEVER DO this
+        alert("You've changed the counter to " + counter);
+    }, [counter]);
+
+    return (
+        <div className="App">
+        <button onClick={() => setCounter((prevCount) => prevCount - 1)}>-</button>
+        <h1>{counter}</h1>
+        <button onClick={() => setCounter((prevCount) => prevCount + 1)}>+</button>
+        </div>
+    );
+}
+
+- NEVER MUTATE A STATE ESPECIALLY MANUALLY

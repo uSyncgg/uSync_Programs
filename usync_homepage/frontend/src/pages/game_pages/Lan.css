@@ -1,0 +1,29 @@
+.long-underline {
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 20%;
+    margin-left: 100px;
+}
+
+.Background-mid {
+    background-color: rgb(49, 49, 49);
+    padding: 50px;
+    padding-left: 0px;
+    padding-right: 170px;
+}
+
+.Lan {
+    margin-bottom: 0;
+    margin-left: 100px;
+    color: white;
+    font-size: 48px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+
+.LanMap {
+    width: 100%;
+    margin-left: 100px;
+    height: 750px;
+}
+
