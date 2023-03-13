@@ -1,0 +1,80 @@
+.verification-background-top {
+    background-image: url("../../website_images/home-images/home_background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.usync-verified-header img {
+  width: 25%;
+  height: 25%;
+}
+
+#verified-logo-text {
+  font-size: 500%;
+}
+
+#verified_features {
+  font-size: 450%;
+}
+
+h1, h2, p {
+  color: white;
+}
+
+.become-verified-form {
+  color: white;
+}
+
+.form-question {
+  border: 10px;
+  border-width: 3px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: white;
+  padding: 5px;
+  margin: 10px 300px;
+  background-color: white;
+  color: black;
+}
+
+.form-question input[type="text"], .form-question input[type="email"] {
+  border: 0;
+  border-bottom: 1px solid black;
+  outline: 0;
+}
+
+.form-question h1, .form-question p {
+  color: black;
+}
+
+label {
+  font-size: larger;
+}
+
+body {
+  background-color: rgb(69, 69, 69);
+}
+
+li {
+  color: white;
+  text-align: left;
+}
+
+.short-bar {
+  justify-content: center;
+}
+
+.usync-verified-header {
+  display: inline;
+}
+
+hr {
+  background-color: white;
+  height: 5px;
+}
+  
+#verified-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

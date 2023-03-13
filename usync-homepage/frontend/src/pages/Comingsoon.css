@@ -1,0 +1,36 @@
+.coming-soon-header {
+    background-image: url("../website_images/home-images/home_background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    font-size: xx-large;
+}
+
+.coming-soon-header img {
+    float: center;
+}
+
+#coming-soon-gfm {
+    width: 200px;
+    height: 200px;
+}
+
+.coming-soon-game-img img{
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+}
+
+#coming-soon-online-tournaments {
+    width: 200px;
+    height: 200px;
+}
+
+.coming-soon-event-types {
+    margin: 10px 200px;
+}
+
+.coming-soon-game-titles {
+    margin: 10px 200px;
+}
+
