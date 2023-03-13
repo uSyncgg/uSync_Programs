@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+.blockimg {
+    width: 33%;
+    height: 33%;
+}
+
+.Background-mid {
+    background-color: rgb(49, 49, 49);
+}
