@@ -61,6 +61,7 @@ function App() {
       break;
     case "/Games/Wz/LANs":
       component = <Wz_Lan />
+      break;
     case "/NACAL_league":
       component = <NACAL_league />
       break;
