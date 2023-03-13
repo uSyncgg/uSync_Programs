@@ -11,7 +11,6 @@ const Navbar = () => {
             <CustomLink href="/">Home</CustomLink>
             <CustomLink href="/Games">Games</CustomLink>
             <CustomLink href="/Comingsoon">Coming Soon</CustomLink>
-            <CustomLink href="/More">More</CustomLink>
             <CustomLink href="/Games/Cod/Cod_Leagues">Cod Leagues</CustomLink>
             <CustomLink href="/snd_league">SnD League</CustomLink>
             <CustomLink href="/Games/Cod">CoD</CustomLink>
@@ -20,6 +19,10 @@ const Navbar = () => {
             <CustomLink href="/Games/LoL/LANs">League of Legends LANs</CustomLink>
             <CustomLink href="/Games/Wz/LANs">Warzone LANs</CustomLink>
             <CustomLink href="/NACAL_league">NACAL League</CustomLink>
+            <CustomLink href="/Verification">Verification</CustomLink>
+            <CustomLink href="/Becomeverified">Become Verified</CustomLink>
+            <CustomLink href="/Eventhost">Event Host</CustomLink> 
+            <CustomLink href="/Contactus">Contact Us</CustomLink>
         </ul>
     </nav> 
 }

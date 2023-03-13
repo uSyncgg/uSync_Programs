@@ -2,21 +2,28 @@ import { useState } from 'react';
 import './App.css';
 import Home from './pages/Home';
 import Comingsoon from './pages/Comingsoon';
-import Games from './pages/Games';
-import More from './pages/More'; 
+import Games from './pages/Games'; 
 import Navbar from './Navbar';
 import Cod_Leagues from './pages/game_pages/CoD/Cod_Leagues';
 import Cod from './pages/game_pages/CoD/Cod.js';
 import Cod_Lan from './pages/game_pages/CoD/Cod_Lan.js';
 import Halo_Lan from './pages/game_pages/Halo/Halo_Lan.js';
 import Lol_Lan from './pages/game_pages/LoL/Lol_Lan';
-import Wz_Lan from './pages/game_pages/Wz/Wz_Lan';
+import Wz_Lan from './pages/game_pages/Warzone/Wz_Lan';
+import Verification from './pages/more-pages/Verification';
+import Becomeverified from './pages/more-pages/Becomeverified';
+import Eventhost from './pages/more-pages/Eventhost';
+import Contactus from './pages/more-pages/Contactus';
 // All CoD league pages will be imported the same way Snd_league was imported
 // All that needs to be changed is the information after the last /
 // Change from Snd_league to whatever the filename is
 // Also make sure to have the name after import be spelled the exact same as the filename otherwise it will not work
 import Snd_league from './pages/game_pages/CoD/leagues/Snd_league';
 import NACAL_league from './pages/game_pages/CoD/leagues/NACAL_league';
+import './pages/more-pages/Verification.css';
+import './pages/more-pages/Eventhost.css';
+import './pages/more-pages/Contactus.css';
+import './pages/Comingsoon.css';
 
 // Different components needed for homepage: Nav bar, on click events for each image + button currently just take to a random page, css (A LOT)
 
@@ -37,9 +44,6 @@ function App() {
       break;
     case "/Comingsoon":
       component = <Comingsoon />
-      break;
-    case "/More":
-      component = <More />
       break;
     case "/Games/Cod/Cod_Leagues":
       component = <Cod_Leagues />
@@ -64,6 +68,18 @@ function App() {
       break;
     case "/NACAL_league":
       component = <NACAL_league />
+      break;
+    case "/Verification":
+      component = <Verification />
+      break;
+    case "/Becomeverified":
+      component = <Becomeverified />
+      break;
+    case "/Eventhost":
+      component = <Eventhost />
+      break;
+    case "/Contactus":
+      component = <Contactus />
       break;
   }
 

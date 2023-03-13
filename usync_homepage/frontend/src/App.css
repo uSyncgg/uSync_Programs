@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 .Background-top {
   background-image: url("./website_images/home-images/home_background.png");
   background-repeat: no-repeat;
