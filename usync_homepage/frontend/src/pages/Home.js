@@ -74,6 +74,7 @@ const Home = () => {
                         <img src={twitch} alt="Twitch" height="50px" width="50px" />
                         <img src={gmail} alt="Gmail" height="50px" width="50px" />
                     </div>
+
                     <p>
                         usyncgg@gmail.com ©2022 by uSync LLC. link contact us <br />
                         All content, game titles, trade names and/or trade dress, trademarks, artworks and associated imagery are <br />

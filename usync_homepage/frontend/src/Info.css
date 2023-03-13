@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.Header-Img {
+    display: block;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back-button {
+    background-color: rgb(49, 49, 49);
+    color: rgb(141, 125, 181);
+    border: 2px solid rgb(141, 125, 181);
+    width: 100%;
+    transition-duration: 0.4s;
+    position: relative;
+    margin-top: 100%;
+    margin-right: 100%;
+}
+
+.back-button:hover {
+    background-color: rgb(141, 125, 181);
+    color: rgb(49, 49, 49);
+}
+
+.Checkmark {
+    background-color: rgb(49, 49, 49);
+    height: 33%;
+    width: 33%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

@@ -4,23 +4,20 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-}
-
 .Background-top {
   background-image: url("./website_images/home-images/home_background.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: scroll;
 }
 
 .Background-mid {
-  background-color: rgb(69, 69, 69);
+  background-color: rgb(49, 49, 49);
 }
 
 .Background-bottom {
-  background-color: rgb(69, 69, 69);
-};
+  background-color: gray;
+}
 
 .Intro {
   color: white;
