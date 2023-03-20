@@ -5,7 +5,6 @@
 import '../../../../../Info.css';
 // The header image will have to be imported the same way as sndleagueheader was but change the name after the last /
 // To whatever the name of the saved image is **NOTE** the image must be saved as one word or have -/_ connecting words
-import sndleagueheader from '../../../../website_images/games/cod/cod-leagues/sndleagueheader.png';
 // usyncletter and gamecheck will be imported the same way on every single verified CoD league game page
 // If it is not verified you must import the NOT Verified image and the X
 import usyncverified from '../../../../website_images/games/uSync-letter-small.png';
@@ -20,7 +19,7 @@ const Risen_Unstoppable = () => {
             <header>
               {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
-              <img src={sndleagueheader} alt="Risen Unstoppable Header" className="Header-Img" />
+              <a href="https://imgur.com/Rpkj9TA"><img src="https://i.imgur.com/Rpkj9TA.png" title="source: imgur.com" /></a>
             </header>
             {/* ***Must have this div tage with the Background-mid class name on every file*** */}
             <div className='Background-mid'>
