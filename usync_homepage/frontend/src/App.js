@@ -15,6 +15,11 @@ import Becomeverified from './pages/more-pages/Becomeverified';
 import Eventhost from './pages/more-pages/Eventhost';
 import Contactus from './pages/more-pages/Contactus';
 import AWL_League from './pages/game_pages/CoD/leagues/AWL_League';
+import Halo_Leagues from './pages/game_pages/Halo/Halo_Leagues';
+import Lol_Leagues from './pages/game_pages/LoL/Lol_Leagues';
+import Rl_Leagues from './pages/game_pages/RocketLeague/Rl_Leagues';
+import Val_Leagues from './pages/game_pages/Valorant/Val_Leagues';
+import Wz_Leagues from './pages/game_pages/Warzone/Wz_Leagues';
 // All CoD league pages will be imported the same way Snd_league was imported
 // All that needs to be changed is the information after the last /
 // Change from Snd_league to whatever the filename is
@@ -84,6 +89,21 @@ function App() {
       break;
     case "/AWL":
       component = <AWL_League />
+      break;
+    case "/Halo_Leagues":
+      component = <Halo_Leagues />
+      break;
+    case "/Lol_Leagues":
+      component = <Lol_Leagues />
+      break;
+    case "/Rl_Leagues":
+      component = <Rl_Leagues />
+      break;
+    case "/Val_Leagues":
+      component = <Val_Leagues />
+      break;
+    case "/Wz_Leagues":
+      component = <Wz_Leagues />
       break;
   }
 
