@@ -43,7 +43,7 @@ def get_tournament_info(driver, URL):
     # than dictionary of lists
     # div tag was 'text-gray-700 text-[13px] uppercase letter tracking-wide'
     date_time_res = soup.find_all('div', {'class': 'text-gray-500 uppercase text-sm font-roboto'})
-    print(date_time_res)
+    # print(date_time_res)
     # for i in range(len(date_time_res)):
     date_time = date_time_res[0].text.strip()
     date_time_list = date_time.split()
@@ -61,9 +61,9 @@ def get_tournament_info(driver, URL):
 
     # Tourney Title
     # span was 'font-semibold text-lg leading-6 text-white'
-    title_res = soup.find_all('span', {'class': 'font-semibold text-2xl lg:text-3xl text-white'})
+    title_res = soup.find_all('span', {'class': 'font-semibold text-2xl lg:text-3xl max-w-[420px] break-words text-white'})
     if len(title_res) < 1:
-        title_res = soup.find_all('span', {'class': 'font-semibold text-2xl lg:text-3xl text-gold'})
+        title_res = soup.find_all('span', {'class': 'font-semibold text-2xl lg:text-3xl max-w-[420px] break-words text-gold'})
     title = title_res[0].text.strip()
     # print(title)
 

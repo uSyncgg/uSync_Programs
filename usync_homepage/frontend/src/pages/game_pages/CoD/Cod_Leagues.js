@@ -12,9 +12,9 @@ const Cod_Leagues = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>The SND League</h1>
-                                <div className='back-img'>
-                                {/* <img src={snd_league} alt="The SND League" className='league-img' /> */}
-                                <img src={check} alt="The SND League" className='check2' />
+                                <div className='parent'>
+                                    <img src={snd_league} alt="The SND League" className='league-img' />
+                                    <img src={check} alt="The SND League" className='over-img' />
                                 </div>
                                 <p className='Leaguep'>All Regions</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

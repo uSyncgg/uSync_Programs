@@ -14,6 +14,7 @@ import Verification from './pages/more-pages/Verification';
 import Becomeverified from './pages/more-pages/Becomeverified';
 import Eventhost from './pages/more-pages/Eventhost';
 import Contactus from './pages/more-pages/Contactus';
+import CodTourneys from './pages/game_pages/CoD/CodTourneys';
 // All CoD league pages will be imported the same way Snd_league was imported
 // All that needs to be changed is the information after the last /
 // Change from Snd_league to whatever the filename is
@@ -80,6 +81,9 @@ function App() {
       break;
     case "/Contactus":
       component = <Contactus />
+      break;
+    case "/Tournaments":
+      component = <CodTourneys />
       break;
   }
 

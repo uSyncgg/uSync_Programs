@@ -17,7 +17,7 @@
 .check {
     width: 40%;
     height: 40%;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
 
 .info-button {
@@ -63,7 +63,7 @@
     margin-top: 5px;
 }
 
-.back-img {
+/* .back-img {
     background-image: url("../../../website_images/games/cod/cod-leagues/snd-league-unround.png");
     background-repeat: no-repeat;
     background-position: center center;
@@ -75,9 +75,22 @@
     margin-right: 20px;
     filter: brightness(90%);
     transition: filter 0.7s;
-  }
+  } */
 
-.back-img:hover {
+.parent {
+  position: relative;
+}
+
+.over-img {
+  position: absolute;
+  top: 2%;
+  left: 88%;
+  transform: translateX(-50%);
+  width: 70%;
+  height: 40%;
+}
+
+.league-img:hover {
   filter: brightness(135%);
   transition: filter 0.7s;
 }
