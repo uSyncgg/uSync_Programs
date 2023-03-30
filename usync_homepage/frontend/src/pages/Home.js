@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../App.css';
+import styles from '../Home.module.css';
 import letter_logo from '../website_images/home-images/letter_logo.png';
 import short_underline from '../website_images/home-images/short_underline.png';
 import halo from '../website_images/home-images/halo_banner.png';
@@ -21,10 +21,10 @@ import twitch from '../website_images/home-images/twitch.png';
 const Home = () => {
     return (
         <div>
-            <div class="Background-top">
+            <div className={styles.backgroundTop}>
                 <div>
                     <img src={letter_logo} alt="uSync" width="100px" />
-                    <h2 class="Intro">Finding esports competitions is challenging. We <br />
+                    <h2 className="Intro">Finding esports competitions is challenging. We <br />
                         make finding competition for each game not only <br />
                         simple, but all in one place.</h2>
                 </div>
@@ -34,39 +34,41 @@ const Home = () => {
                 <h2 class="Slogan">We Sync so uSync</h2>
             </div>
 
-            <div class="Background-mid">
-                <h2 class="Intro">Supported Titles</h2>
+            <div class={styles.backgroundMid}>
+                <h2 id="">Supported Titles</h2>
                 <img src={short_underline} alt="underline" width="500px" />
 
-                <div>
+                <div className={styles.backgroundImages}>
                     <img src={halo} alt="Halo Infinite" height="200px" width="200px" />
                     <img src={mw2} alt="Modern Warfare 2" height="200px" width="200px" />
                     <img src={wz} alt="Warzone 2" height="200px" width="200px" />
                     <img src={lol} alt="League of Legends" height="200px" width="200px" />
                     <br />
+                    <br />
                     <img src={rl} alt="Rocket League" height="200px" width="200px" />
                     <img src={val} alt="Valorant" height="200px" width="200px" />
+                    <hr />
                 </div>
 
-                <h2 class="Intro">LAN Events</h2>
+                <h2 className={styles.Intro}>LAN Events</h2>
                 <img src={short_underline} alt="underline" width="500px" />
                 <iframe src="https://www.google.com/maps/d/u/6/embed?mid=1QrCfeXFSyZJMXLzUeAiIWy0hcWgaJVg&ehbc=2E312F" width="640" height="480"></iframe>
-                <h3 class="Intro">Learn how to post your LAN to the map </h3>
+                <h3 className={styles.Intro}>Learn how to post your LAN to the map </h3>
 
-                <h2 class="Intro">Coming Soon!</h2>
+                <h2 className={styles.Intro}>Coming Soon!</h2>
                 <img src={short_underline} alt="underline" width="500px" />
 
-                <div>
+                <div className={styles.comingSoonGames}>
                     <img src={apex} alt="Apex Legends" height="200px" width="200px" />
                     <img src={smash} alt="Super Smash Brothers" height="200px" width="200px" />
                     <img src={ow} alt="Overwatch 2" height="200px" width="200px" />
                 </div>
             </div>
 
-            <div class="Background-bottom">
+            <div className={styles.backgroundBottom}>
                 <footer>
                     <h3>Report a problem</h3>
-                    <div>
+                    <div className={styles.footer}>
                         <img src={yt} alt="Youtube" height="50px" width="50px" />
                         <img src={ig} alt="Instagram" height="50px" width="50px" />
                         <img src={twitter} alt="Twitter" height="50px" width="50px" />
