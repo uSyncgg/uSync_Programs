@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './App.css';
+import styles from './Home.module.css';
 import Home from './pages/Home';
 import Comingsoon from './pages/Comingsoon';
 import Games from './pages/Games'; 

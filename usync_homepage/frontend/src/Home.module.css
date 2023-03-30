@@ -8,18 +8,25 @@ body {
   margin: 0;
 }
 
-.Background-top {
+.backgroundTop {
+  height: 750px;
+  width: 100%;
   background-image: url("./website_images/home-images/home_background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
 }
 
-.Background-mid {
+.backgroundTop img{
+  width: 60%;
+  height: 600px;
+}
+
+.backgroundMid {
   background-color: rgb(49, 49, 49);
 }
 
-.Background-bottom {
+.backgroundBottom {
   background-color: gray;
 }
 
@@ -42,6 +49,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.backgroundImages img{
+  margin: 1%;
+  width: 11%;
 }
 
 .btn-block {
