@@ -44,6 +44,8 @@ connectDB()
 
 const app = express()
 
+app.use('/usyncApp/tournaments', require('./routes/TourneyRoutes'));
+
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 
@@ -53,10 +55,4 @@ app.use(express.urlencoded({extended: false}))
 
 // app.use(errorHandler)
 
-app.get('/api/tourneys', (req, res) => {
-    res.send('Get Tournaments')
-})
-
 app.listen(port, () => console.log(`Server start on port ${port}`))
-
-// do in separate project and transfer to this one

@@ -1,7 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const { tournament } = require('../controllers/TourneyController');
+const {getTourneys} = require('../controllers/TourneyController')
 
-router.post('/tournaments', tournament)
+
+router.get('/', getTourneys)
+
+// router.post('/tournaments', tournament)
 
 module.exports = router;
