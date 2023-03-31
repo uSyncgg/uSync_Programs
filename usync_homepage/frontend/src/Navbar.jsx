@@ -28,6 +28,25 @@ const Navbar = () => {
             <CustomLink href="/Rl_Leagues">Rocket League Leagues</CustomLink>
             <CustomLink href="/Val_Leagues">Valorant Leagues</CustomLink>
             <CustomLink href="/Wz_Leagues">Warzone Leagues</CustomLink>
+            <CustomLink href="/Cod_Wagers">Cod Wagers</CustomLink>
+            <CustomLink href="/Halo_Wagers">Halo Wagers</CustomLink>
+            <CustomLink href="/LoL_Wagers">LoL Wagers</CustomLink>
+            <CustomLink href="/Rl_Wagers">Rl Wagers</CustomLink>
+            <CustomLink href="/Wz_Wagers">Wz Wagers</CustomLink>
+            <CustomLink href="/Cod_headtohead">cod h2h</CustomLink>
+            <CustomLink href="/Halo_headtohead">Halo h2h</CustomLink>
+            <CustomLink href="/Lol_headtohead">Lol h2h</CustomLink>
+            <CustomLink href="/Val_headtohead">Val h2h</CustomLink>
+            <CustomLink href="/Wz_headtohead">WZ h2h</CustomLink>
+
+
+
+
+
+
+
+
+
         </ul>
     </nav> 
 }

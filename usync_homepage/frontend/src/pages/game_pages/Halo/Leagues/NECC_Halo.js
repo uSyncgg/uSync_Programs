@@ -7,27 +7,27 @@ import '../../../../Info.css';
 // To whatever the name of the saved image is **NOTE** the image must be saved as one word or have -/_ connecting words
 // usyncletter and gamecheck will be imported the same way on every single verified CoD league game page
 // If it is not verified you must import the NOT Verified image and the X
-import usyncverified from '../../../../website_images/games/uSync-letter-small.png';
-import checkmark from '../../../../website_images/games/game-page-check.png';
+import notverified from '../../../../website_images/games/not-verified.png';
+import xverification from '../../../../website_images/games/x-verification.png';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 
 // Make sure the name following const is the same as the file name
-const Snd_league = () => {
+const NECC_Halo = () => {
     return (
         <div>
             <header>
               {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
-              <img src="https://i.imgur.com/l4H7TsU.png"/>
+              <a href="https://imgur.com/YG5mBVv"><img src="https://i.imgur.com/YG5mBVv.jpg" /></a>
             </header>
             {/* ***Must have this div tage with the Background-mid class name on every file*** */}
             <div className='Background-mid'>
              <div>
                 {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed*/}
-                <img src={usyncverified} alt="uSync Verified" className='Checkmark' />
-                <img src={checkmark} alt="Checkmark" className='Checkmark' />
+                <img src={notverified} alt="Not Verified" className='Checkmark' />
+                <img src={xverification} alt="X" className='Checkmark' />
              </div>
             </div>
             {/* ***You must have this container div*** */}
@@ -39,36 +39,29 @@ const Snd_league = () => {
                         <h1>Date:</h1>
                         {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
-                        <p>Fall 2023 (Estimated)</p>
+                        <p>Annual Fall Season</p>
                         <button type="submit" className='back-button'>Back</button>
                     </div>
                     <div className='col-2'>
                         <h1>Details:</h1>
                         {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
-                        <p>$1000 Prize Pool (Estimated)</p>
-                        <p>Highly Competitive</p>
-                        <p>Live Streamed games with High Profile Players</p>
-                        <p>24/7 Live Support and Admins</p>
+                        <p>TBD Prize Pool</p>
+                        <p>Highly-Competitive</p>
+                        <p>Live Streamed Matches</p>
+                        <p>Live Support on Discord</p>
                         <h1>Region/Type:</h1>
-                        <p>3v3/4v4 - All Regions</p>
+                        <p>4v4 - NA</p>
                     </div>
                     <div className='col-2'>
                         <h1>Entry Fee</h1>
                         {/* Follow the same format as above, keep the Entry fee the same and change information below */}
-                        <p>Must place high in a</p>
-                        <p>CODAgent SND League</p>
-                        <p>Qualifier Tournament</p>
-                        <br></br>
-                        <p>Must have Prestige</p>
-                        <p>($6.99/month -</p>
-                        <p>$99.99/month)</p>
+                        <p>$1000/yr - Must be a FULL TIME College Student</p>
                     </div>
                 </div>
             </div>
         </div>
-
     );
 }
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default Snd_league;
+export default NECC_Halo;

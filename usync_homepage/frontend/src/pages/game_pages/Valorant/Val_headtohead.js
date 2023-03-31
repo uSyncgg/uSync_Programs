@@ -1,6 +1,6 @@
-import '../CoD/Cod.css'
+import '../CoD/Cod.css';
 
-const Wz_Leagues = () => {
+const Val_headtohead = () => {
     return(
         <div>
 
@@ -9,12 +9,12 @@ const Wz_Leagues = () => {
                     <div className='row'>
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <h1 className='Leagueh1'>Contender Gaming Network</h1>
+                                <h1 className='Leagueh1'>Gankster GG</h1>
                                 <div className='parent'>
-                                <a href="https://imgur.com/j8aBZUK"><img src="https://i.imgur.com/j8aBZUK.png" className='league-img' /></a>
+                                <a href="https://imgur.com/wIi3tlA"><img src="https://i.imgur.com/wIi3tlA.png" className='league-img'/></a> 
                                 <a href="https://www.usync.gg"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
+                                <p className='Leaguep'></p>
                                 </div>
-                                <p className='Leaguep'>All Regions</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <button type="submit" className='info-button'>More Info</button>
                             </div>
@@ -22,12 +22,12 @@ const Wz_Leagues = () => {
                         
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <h1 className='Leagueh1'>The Esports Hub</h1>
+                                <h1 className='Leagueh1'>Esport Scrim</h1>
                                 <div className='parent'>
-                                <a href="https://imgur.com/Hgv2WwN"><img src="https://i.imgur.com/Hgv2WwN.png" className='league-img' /></a>
+                                <a href="https://imgur.com/T2IA9mL"><img src="https://i.imgur.com/T2IA9mL.png" className='league-img'/></a> 
                                 <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                <p className='Leaguep'></p>
                                 </div>
-                                <p className='Leaguep'>NA/EU</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <button type="submit" className='info-button'>More Info</button>
                             </div> 
@@ -36,12 +36,12 @@ const Wz_Leagues = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <h1 className='Leagueh1'>GG Gaming League</h1>
+                                <h1 className='Leagueh1'>Drop-In Gaming</h1>
                                 <div className='parent'>
-                                <a href="https://imgur.com/2MzFYVs"><img src="https://i.imgur.com/2MzFYVs.png" className='league-img' /></a>
+                                <a href="https://imgur.com/78DWiv0"><img src="https://i.imgur.com/78DWiv0.png" className='league-img'/></a> 
                                 <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>All Regions</p>
+                                <p className='Leaguep'></p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <button type="submit" className='info-button'>More Info</button>
                             </div>
@@ -49,12 +49,12 @@ const Wz_Leagues = () => {
                         
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <h1 className='Leagueh1'>GMHL Gaming</h1>
+                                <h1 className='Leagueh1'>Collegiate Valorant Hub Scrims</h1>
                                 <div className='parent'>
-                                <a href="https://imgur.com/hDF13fh"><img src="https://i.imgur.com/hDF13fh.png" className='league-img' /></a>
+                                <a href="https://imgur.com/wAHYH2Q"><img src="https://i.imgur.com/wAHYH2Q.png" className='league-img'/></a> 
                                 <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>NA</p>
+                                <p className='Leaguep'></p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <button type="submit" className='info-button'>More Info</button>
                             </div> 
@@ -63,31 +63,17 @@ const Wz_Leagues = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <h1 className='Leagueh1'>College COD</h1>
+                                <h1 className='Leagueh1'>Project V League</h1>
                                 <div className='parent'>
-                                <a href="https://imgur.com/71EePEn"><img src="https://i.imgur.com/71EePEn.png" className='league-img' /></a>
-                                <a href="https://www.usync.gg"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
-                                </div>
-                                <p className='Leaguep'>NA</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <button type="submit" className='info-button'>More Info</button>
-                            </div>
-                        </div>
-                        
-                        <div className='col-lg-6'>
-                            <div className='league'>
-                                <h1 className='Leagueh1'>NJCAAE</h1>
-                                <div className='parent'>
-                                <a href="https://imgur.com/Yer31Qr"><img src="https://i.imgur.com/Yer31Qr.png" className='league-img' /></a>
+                                <a href="https://imgur.com/lDPgnzb"><img src="https://i.imgur.com/lDPgnzb.png" className='league-img'/></a> 
                                 <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>USA</p>
+                                <p className='Leaguep'></p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <button type="submit" className='info-button'>More Info</button>
                             </div> 
                         </div>
                         <p className='hr' />
-
 
                     </div>
                 </div>
@@ -96,4 +82,4 @@ const Wz_Leagues = () => {
     );
 }
 
-export default Wz_Leagues;
+export default Val_headtohead;
