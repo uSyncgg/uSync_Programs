@@ -23,6 +23,7 @@ const Navbar = () => {
             <CustomLink href="/Becomeverified">Become Verified</CustomLink>
             <CustomLink href="/Eventhost">Event Host</CustomLink> 
             <CustomLink href="/Contactus">Contact Us</CustomLink>
+            <CustomLink href="/Tournaments">Cod Tournaments</CustomLink>
             <CustomLink href="/Halo_Leagues">Halo Leagues</CustomLink>
             <CustomLink href="/Lol_Leagues">League of Legends Leagues</CustomLink>
             <CustomLink href="/Rl_Leagues">Rocket League Leagues</CustomLink>

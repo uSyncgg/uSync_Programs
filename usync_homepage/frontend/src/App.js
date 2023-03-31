@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './App.css';
+import styles from './Home.module.css';
 import Home from './pages/Home';
 import Comingsoon from './pages/Comingsoon';
 import Games from './pages/Games'; 
@@ -14,6 +14,7 @@ import Verification from './pages/more-pages/Verification';
 import Becomeverified from './pages/more-pages/Becomeverified';
 import Eventhost from './pages/more-pages/Eventhost';
 import Contactus from './pages/more-pages/Contactus';
+import CodTourneys from './pages/game_pages/CoD/CodTourneys';
 import AWL_League from './pages/game_pages/CoD/leagues/AWL_League';
 import Halo_Leagues from './pages/game_pages/Halo/Halo_Leagues';
 import Lol_Leagues from './pages/game_pages/LoL/Lol_Leagues';
@@ -97,6 +98,8 @@ function App() {
     case "/Contactus":
       component = <Contactus />
       break;
+    case "/Tournaments":
+      component = <CodTourneys />
     case "/AWL":
       component = <AWL_League />
       break;

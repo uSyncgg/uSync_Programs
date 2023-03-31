@@ -16,16 +16,16 @@ def get_all_info(tournament_ids, driver, URL):
     all_info = []
     URL_begin = "https://esportsagent.gg"
     for i in range(len(tournament_ids)):
-        print(tournament_ids[i])
+        # print(tournament_ids[i])
         url = URL_begin + str(tournament_ids[i]) + "/overview"
         all_info.append(get_tournament_info(driver, url))
-        print(all_info)
+        # print(all_info)
 
     return all_info
         
 
 def main():
-    main_path = 'data/tournaments_data.csv'
+    main_path = './tournaments_data.csv'
     URL = "https://esportsagent.gg/tournament"
     driver = webdriver.Chrome(ChromeDriverManager().install()) 
 
@@ -35,8 +35,10 @@ def main():
     # print(tourney_links)
     # all_info = get_all_info(tourney_links, driver, URL)
     all_info = get_all_info(tourney_ids, driver, URL)
-    # print(get_all_info(tourney_links, driver, URL))
-    write_all(all_info, path=main_path)
+    # print(get_all_info(tourney_ids, driver, URL))
+    # print(all_info[1]["date"])
+    write_all(all_info)
+    # write_all(all_info, path=main_path)
     # all_info = get_tournament_info(driver, URL_begin)
 
     # write_all()

@@ -11,6 +11,8 @@ import re
 import csv
 import os
 import shutil
+from pymongo_get_database import get_database
+
 
 # use while loop to check the date using the getDate function created in web_scraper
 
@@ -35,25 +37,62 @@ import shutil
 
 # print(current_tournaments(driver, URL))
 
+def write_all(data):
+    dbname = get_database()
+    collection_name = dbname["tournaments"]
+    # print(data[0]["date"])
+    num = 0
+    
+    for i in data:
+        print(i["date"])
+    #     date = data[i]["date"]
+    #     time = data[i]["time"]
+    #     title = data[i]["title"]
+    #     entry = data[i]["entry"]
+    #     size = data[i]["size"]
+    #     platforms = data[i]["platforms"]
+    #     gamemode = data[i]["gamemode"]
+
+        tournament_num = {
+            "_id": num,
+            "date": i["date"],
+            "time": i["time"],
+            "title": i["title"],
+            "entry": i["entry"],
+            "size": i["size"],
+            "platforms": i["platforms"],
+            "gamemode": i["gamemode"]
+        }
+
+        collection_name.insert_one(tournament_num)
+        num += 1
+    
+    return None
+
+
+
+
 # Write all data to CSV file
 # Input: data to write, optional path but will default to tournaments_data.csv
 # Returns: None
-def write_all(data, path = "tournaments_data.csv"):
+# def write_all(data, path = "tournaments_data.csv"):
 
-    # Header for CSV file
-    header = ['Date', 'Time', 'Title', 'Entry', 'Team Size', 'Platforms', 'Gamemode']
-    field_names = ["date", "time", "title", "entry", "size", "platforms", "gamemode"]
+#     # Header for CSV file
+#     header = ['Date', 'Time', 'Title', 'Entry', 'Team Size', 'Platforms', 'Gamemode']
+#     field_names = ["date", "time", "title", "entry", "size", "platforms", "gamemode"]
 
-    # Case: 'tournaments data' file does not exist
-    # if not(os.path.isfile(path)):
-    with open(path, 'w', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerow(header)
-        dict_writer = csv.DictWriter(f, fieldnames=field_names)
-        dict_writer.writerows(data)
+#     # Case: 'tournaments data' file does not exist
+#     # if not(os.path.isfile(path)):
+#     with open(path, 'w', newline='') as f:
+#         writer = csv.writer(f)
+#         writer.writerow(header)
+#         dict_writer = csv.DictWriter(f, fieldnames=field_names)
+#         dict_writer.writerows(data)
 
-        print("Done. New file Created")
-        return None
+#         print("Done. New file Created")
+#         return None
+
+
     # Case: 'tournaments data' exists
     # else:
     #     with open(path, 'r') as fr:
