@@ -19,7 +19,7 @@ const Snd_league = () => {
             <header>
               {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
-              <img src="https://i.imgur.com/l4H7TsU.png"/>
+              <img src="https://i.imgur.com/l4H7TsU.png" />
             </header>
             {/* ***Must have this div tage with the Background-mid class name on every file*** */}
             <div className='Background-mid'>

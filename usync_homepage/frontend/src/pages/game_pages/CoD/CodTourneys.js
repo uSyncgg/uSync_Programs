@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import {useNavigate} from 'react-router-dom';
-import {useSelector} from 'react-redux';
+// import React, { useEffect, useState } from 'react';
+// import axios from 'axios';
+// import {useNavigate} from 'react-router-dom';
+// import {useSelector} from 'react-redux';
 
-async function CodTourneys() {
+// async function CodTourneys() {
     // const navigate = useNavigate();
 
     // const {tournament} = useSelector((state) => state.auth);
@@ -16,13 +16,13 @@ async function CodTourneys() {
     //     <div>CodTourneys</div>
     // );
 
-    try {
-        const tourneys = await axios.get('/tournaments');
-        console.log(tourneys);
-    } catch (error) {
-        console.log(error);
-    }
-}
+  //  try {
+ //       const tourneys = await axios.get('/tournaments');
+  //      console.log(tourneys);
+  //  } catch (error) {
+   //     console.log(error);
+  //  }
+// }
 
 // const CodTourneys = () => {
 //     const [data, setData] = useState([]);
@@ -52,4 +52,4 @@ async function CodTourneys() {
 //     );
 // };
 
-export default CodTourneys;
+// export default CodTourneys;

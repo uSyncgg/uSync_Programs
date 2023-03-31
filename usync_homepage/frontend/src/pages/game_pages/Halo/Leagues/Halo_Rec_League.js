@@ -3,12 +3,6 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../Info.css';
-// The header image will have to be imported the same way as sndleagueheader was but change the name after the last /
-// To whatever the name of the saved image is **NOTE** the image must be saved as one word or have -/_ connecting words
-// usyncletter and gamecheck will be imported the same way on every single verified CoD league game page
-// If it is not verified you must import the NOT Verified image and the X
-import usyncverified from '../../../../website_images/games/uSync-letter-small.png';
-import checkmark from '../../../../website_images/games/game-page-check.png';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -19,15 +13,15 @@ const Halo_Rec_League = () => {
             <header>
               {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
-              <a href="https://imgur.com/vbE6N88"><img src="https://i.imgur.com/vbE6N88.png" title="source: imgur.com" /></a>
+              <img src="https://i.imgur.com/vbE6N88.png"/>
             </header>
             {/* ***Must have this div tage with the Background-mid class name on every file*** */}
             <div className='Background-mid'>
              <div>
                 {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed*/}
-                <img src={usyncverified} alt="uSync Verified" className='Checkmark' />
-                <img src={checkmark} alt="Checkmark" className='Checkmark' />
+                <a href="https://imgur.com/OEOfxuA"><img src="https://i.imgur.com/OEOfxuA.png" className='Checkmark' /></a>
+                <a href="https://imgur.com/PCHIHQB"><img src="https://i.imgur.com/PCHIHQB.png" className='Checkmark' /></a>
              </div>
             </div>
             {/* ***You must have this container div*** */}
