@@ -3,10 +3,6 @@
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
 import '../../../../Info.css';
-// The header image will have to be imported the same way as sndleagueheader was but change the name after the last /
-// To whatever the name of the saved image is **NOTE** the image must be saved as one word or have -/_ connecting words
-// usyncletter and gamecheck will be imported the same way on every single verified CoD league game page
-// If it is not verified you must import the NOT Verified image and the X
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 
