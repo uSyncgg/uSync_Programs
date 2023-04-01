@@ -18,7 +18,7 @@ import ig from '../website_images/home-images/instagram.png';
 import twitter from '../website_images/home-images/twitter.png';
 import twitch from '../website_images/home-images/twitch.png';
 
-const Home = () => {
+const Home = () => { 
     return (
         <div>
             <div className={styles.backgroundTop}>

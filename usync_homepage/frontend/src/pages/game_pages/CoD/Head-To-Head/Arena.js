@@ -23,7 +23,7 @@ const Arena = () => {
                 <a href="https://imgur.com/HaRfFh9"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark' /></a>
                 <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
              </div>
-            </div>
+             <button type="submit" className='join-button'>Join Now</button>
             {/* ***You must have this container div*** */}
             <div className='container'>
                 {/* ***Must have the row div*** */}
@@ -50,6 +50,7 @@ const Arena = () => {
                         <p>Available Worldwide</p>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
 

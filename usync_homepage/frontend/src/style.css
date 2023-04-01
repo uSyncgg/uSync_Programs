@@ -2,11 +2,11 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     margin: 0;
     background-color: rgb(49, 49, 49);
 }
-
+ */
 .container {
     margin: 1rem;
     text-align: center;
@@ -20,8 +20,10 @@ body {
     align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
-}
-
+    position: relative;
+    z-index: 2;
+  }
+  
 .site-title {
     font-size: 2rem;
 }
@@ -41,6 +43,7 @@ body {
     display: flex;
     align-items: center;
     padding: .25rem;
+    
 }
 
 .nav li.active {

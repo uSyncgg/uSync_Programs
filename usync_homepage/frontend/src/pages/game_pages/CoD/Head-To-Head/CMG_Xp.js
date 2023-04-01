@@ -23,7 +23,7 @@ const CMG_Xp = () => {
                 <a href="https://imgur.com/OSMYolc"><img src="https://i.imgur.com/OSMYolc.png" className='Checkmark' /></a>
                 <a href="https://imgur.com/PCHIHQB"><img src="https://i.imgur.com/PCHIHQB.png" className='Checkmark' /></a>
              </div>
-            </div>
+             <button type="submit" className='join-button'>Join Now</button>
             {/* ***You must have this container div*** */}
             <div className='container'>
                 {/* ***Must have the row div*** */}
@@ -50,6 +50,7 @@ const CMG_Xp = () => {
                         <p>US State Restrictions: AZ, IA, MS, MT, NV, and SD</p>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
 
