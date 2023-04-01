@@ -7,21 +7,21 @@ import '../../../../../Info.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 // Make sure the name following const is the same as the file name
-const ExpertTrip = () => {
+const Independent = () => {
     return (
         <div>
             <header>
               {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
-              <img src="https://i.imgur.com/DWyIbm3.png"/>
+              <img src="https://i.imgur.com/XlkTEDt.png"/>
             </header>
             {/* ***Must have this div tage with the Background-mid class name on every file*** */}
             <div className='Background-mid'>
              <div>
                 {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed*/}
-                <a href="https://imgur.com/HaRfFh9"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark' /></a>
-                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
+                <a href="https://imgur.com/OSMYolc"><img src="https://i.imgur.com/OSMYolc.png" className='Checkmark' /></a>
+                <a href="https://imgur.com/PCHIHQB"><img src="https://i.imgur.com/PCHIHQB.png" className='Checkmark' /></a>
              </div>
             </div>
             {/* ***You must have this container div*** */}
@@ -33,19 +33,22 @@ const ExpertTrip = () => {
                         <h1>Date:</h1>
                         {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
-                        <p>Fall 2023 (Estimated)</p>
+                        <p>Late-Spring 2023 (Estimated)</p>
                         <button type="submit" className='back-button'>Back</button>
                     </div>
                     <div className='col-2'>
                         <h1>Details:</h1>
                         {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
-                        <p>Salary Determined by MMR</p>
-                        <p>1200 - 1399 MMR</p>
-                        <p>12+ Week Season</p>
-                        <p>Hosted on NA East, Open to Any Region</p>
-                        <p>Draft League Format</p>
+                        <p>No Prize Pool</p>
+                        <p>1000 - 1360 MMR</p>
+                        <p>Must Sign up Solo</p>
+                        <p>Draft Based League</p>
+                        <p>Must Sign 1-3 Season Contract</p>
+                        <p>Highly Competitive</p>
+                        <p>Live Streamed Matches</p>
+                        <p>Live Support on Discord</p>
                         <h1>Region/Type:</h1>
-                        <p>3v3 - All Regions</p>
+                        <p>3v3 - NA</p>
                     </div>
                     <div className='col-2'>
                         <h1>Entry Fee</h1>
@@ -60,4 +63,4 @@ const ExpertTrip = () => {
 }
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default ExpertTrip;
+export default Independent;

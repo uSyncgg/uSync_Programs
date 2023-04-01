@@ -40,7 +40,7 @@ const Major = () => {
                         <h1>Details:</h1>
                         {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                         <p>Prize Pool Based on Donations</p>
-                        <p>1850+ MMR</p>
+                        <p>1752+ MMR</p>
                         <p>Must Sign up Solo</p>
                         <p>Draft Based League</p>
                         <p>Must Sign 1-3 Season Contract</p>

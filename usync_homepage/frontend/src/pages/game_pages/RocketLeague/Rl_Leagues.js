@@ -192,18 +192,6 @@ const Rl_Leagues = () => {
                             </div> 
                         </div>
                         <p className='hr' />
-                        <div className='col-lg-6'>
-                            <div className='league'>
-                                <h1 className='Leagueh1'>Frontier Triples League</h1>
-                                <div className='parent'>
-                                <a href="https://imgur.com/N843lHV"><img src="https://i.imgur.com/N843lHV.png" className='league-img' /></a>
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
-                                </div>
-                                <p className='Leaguep'>NA</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <button type="submit" className='info-button'>All Leagues</button>
-                            </div>
-                        </div>
                         
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -217,7 +205,6 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>All Leagues</button>
                             </div> 
                         </div>
-                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>OCE Draft League</h1>
@@ -230,6 +217,7 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>All Leagues</button>
                             </div>
                         </div>
+                        <p className='hr' />
                         
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -243,7 +231,6 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div> 
                         </div>
-                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>NACE Starleague</h1>
@@ -256,7 +243,7 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div>
                         </div>
-                        
+                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>ECAC Esports</h1>
@@ -269,7 +256,6 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div> 
                         </div>
-                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>UGC Battle Academy</h1>
@@ -282,7 +268,7 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div>
                         </div>
-                        
+                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>NECC</h1>
@@ -295,7 +281,6 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div> 
                         </div>
-                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>OPSE</h1>
@@ -308,7 +293,7 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div>
                         </div>
-                        
+                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>CSMG League</h1>
@@ -321,7 +306,6 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div> 
                         </div>
-                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>EGFC League</h1>
@@ -334,7 +318,7 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div>
                         </div>
-                        
+                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>HBCU Esports League</h1>
@@ -347,7 +331,6 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div> 
                         </div>
-                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>High School Esports League</h1>
@@ -360,7 +343,7 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div>
                         </div>
-                        
+                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>PlayVS</h1>
@@ -373,7 +356,6 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div> 
                         </div>
-                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>The Esports Company League</h1>
@@ -386,7 +368,7 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div>
                         </div>
-                        
+                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>VantaGG</h1>
@@ -399,7 +381,6 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div> 
                         </div>
-                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>UGC HS Battle Academy</h1>
@@ -412,7 +393,7 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div>
                         </div>
-                        
+                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>NECL League</h1>
@@ -425,7 +406,6 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div> 
                         </div>
-                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>NASEF League</h1>
@@ -438,7 +418,7 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div>
                         </div>
-                        
+                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>EGFH League</h1>
@@ -451,7 +431,6 @@ const Rl_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div> 
                         </div>
-                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>NACL</h1>

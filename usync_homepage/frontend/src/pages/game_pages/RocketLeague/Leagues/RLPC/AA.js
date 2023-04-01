@@ -40,7 +40,7 @@ const AA = () => {
                         <h1>Details:</h1>
                         {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                         <p>No Prize Pool</p>
-                        <p>11581 - 1681 MMR</p>
+                        <p>1495 - 1586 MMR</p>
                         <p>Must Sign up Solo</p>
                         <p>Draft Based League</p>
                         <p>Must Sign 1-3 Season Contract</p>
