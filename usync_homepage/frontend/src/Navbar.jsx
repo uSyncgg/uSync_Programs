@@ -39,6 +39,10 @@ const Navbar = () => {
             <CustomLink href="/Lol_headtohead">Lol h2h</CustomLink>
             <CustomLink href="/Val_headtohead">Val h2h</CustomLink>
             <CustomLink href="/Wz_headtohead">WZ h2h</CustomLink>
+            <CustomLink href="/HOE_Leagues">HOE Leagues</CustomLink>
+            <CustomLink href="/Frontpage_Aegis">AEGIS Leagues</CustomLink>
+
+
 
 
 
