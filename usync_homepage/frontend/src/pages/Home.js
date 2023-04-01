@@ -23,15 +23,15 @@ const Home = () => {
         <div>
             <div className={styles.backgroundTop}>
                 <div>
-                    <img src={letter_logo} alt="uSync" width="100px" />
-                    <h2 className="Intro">Finding esports competitions is challenging. We <br />
+                    <img src={letter_logo} alt="uSync" />
+                    <h2 className={styles.Intro}>Finding esports competitions is challenging. We <br />
                         make finding competition for each game not only <br />
                         simple, but all in one place.</h2>
                 </div>
                 <div>
-                    <button type="submit" className='btn btn-block'>Get Started</button>
+                    <button type="submit" className={styles.getStarted}>Get Started</button>
                 </div>
-                <h2 class="Slogan">We Sync so uSync</h2>
+                <h2 className={styles.Slogan}>We Sync so uSync</h2>
             </div>
 
             <div class={styles.backgroundMid}>
@@ -52,8 +52,11 @@ const Home = () => {
 
                 <h2 className={styles.Intro}>LAN Events</h2>
                 <img src={short_underline} alt="underline" width="500px" />
-                <iframe src="https://www.google.com/maps/d/u/6/embed?mid=1QrCfeXFSyZJMXLzUeAiIWy0hcWgaJVg&ehbc=2E312F" width="640" height="480"></iframe>
-                <h3 className={styles.Intro}>Learn how to post your LAN to the map </h3>
+                <iframe className={styles.Map} src="https://www.google.com/maps/d/u/6/embed?mid=1QrCfeXFSyZJMXLzUeAiIWy0hcWgaJVg&ehbc=2E312F" width="640" height="480"></iframe>
+                <h3 className={styles.Intro}>Learn how to post your LAN to the map <a href="/">here</a></h3>
+                <br />
+                <hr />
+
 
                 <h2 className={styles.Intro}>Coming Soon!</h2>
                 <img src={short_underline} alt="underline" width="500px" />
@@ -63,12 +66,17 @@ const Home = () => {
                     <img src={smash} alt="Super Smash Brothers" height="200px" width="200px" />
                     <img src={ow} alt="Overwatch 2" height="200px" width="200px" />
                 </div>
+                <br />
+                <hr />
+                <br />
+                <br />
+                <br />
+                <br />
             </div>
-
             <div className={styles.backgroundBottom}>
-                <footer>
-                    <h3>Report a problem</h3>
-                    <div className={styles.footer}>
+                <footer className={styles.footer}>
+                    <a href="/" className={styles.reportProblem}>Report a problem</a>
+                    <div className={styles.footerImages}>
                         <img src={yt} alt="Youtube" height="50px" width="50px" />
                         <img src={ig} alt="Instagram" height="50px" width="50px" />
                         <img src={twitter} alt="Twitter" height="50px" width="50px" />
@@ -77,8 +85,8 @@ const Home = () => {
                         <img src={gmail} alt="Gmail" height="50px" width="50px" />
                     </div>
 
-                    <p>
-                        usyncgg@gmail.com ©2022 by uSync LLC. link contact us <br />
+                    <p className={styles.footer}>
+                        usyncgg@gmail.com ©2022 by uSync LLC. <a href="/">contact us</a> <br />
                         All content, game titles, trade names and/or trade dress, trademarks, artworks and associated imagery are <br />
                         trademarks and/or copyright material of their respective owners.
                     </p>
