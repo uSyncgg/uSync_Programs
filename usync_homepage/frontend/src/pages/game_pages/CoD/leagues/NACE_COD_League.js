@@ -13,7 +13,7 @@ const NACE_COD_League = () => {
             <header>
               {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
-              <a href="https://imgur.com/VBYcKej"><img src="https://i.imgur.com/VBYcKej.png" title="source: imgur.com" /></a>
+              <img src="https://i.imgur.com/VBYcKej.png"/>
             </header>
             {/* ***Must have this div tage with the Background-mid class name on every file*** */}
             <div className='Background-mid'>
