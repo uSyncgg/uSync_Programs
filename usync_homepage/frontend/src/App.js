@@ -39,6 +39,7 @@ import Val_headtohead from './pages/game_pages/Valorant/Val_headtohead';
 import Wz_headtohead from './pages/game_pages/Warzone/Wz_headtohead';
 import HOE_Leagues from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Leagues';
 import Frontpage_Aegis from './pages/game_pages/LoL/Leagues/Aegis_Leagues/Frontpage_Aegis';
+import CCL_WZ_League from './pages/game_pages/Warzone/Leagues/CCL_WZ_League'
 import './pages/more-pages/Verification.css';
 import './pages/more-pages/Eventhost.css';
 import './pages/more-pages/Contactus.css';
@@ -159,7 +160,10 @@ function App() {
     case "/Frontpage_Aegis":
       component = <Frontpage_Aegis />
       break;
-
+    case "/CCL_WZ_League":
+        component = <CCL_WZ_League />
+        break;
+  
   
   
   
