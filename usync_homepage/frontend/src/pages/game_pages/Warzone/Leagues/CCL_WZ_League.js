@@ -13,14 +13,14 @@ const CCL_WZ_League = () => {
             <header>
               {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
-              <img src="https://i.imgur.com/DpkbVPg.png"/>
+              <img src="https://i.imgur.com/3KEHdrP.png"/>
             </header>
             {/* ***Must have this div tage with the Background-mid class name on every file*** */}
             <div className='Background-mid'>
              <div>
                 {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed*/}
-                <a href="https://imgur.com/OEOfxuA"><img src="https://i.imgur.com/OEOfxuA.png" className='Checkmark' /></a>
+                <a href="https://imgur.com/OSMYolc"><img src="https://i.imgur.com/OSMYolc.png" className='Checkmark' /></a>
                 <a href="https://imgur.com/PCHIHQB"><img src="https://i.imgur.com/PCHIHQB.png" className='Checkmark' /></a>
              </div>
             </div>

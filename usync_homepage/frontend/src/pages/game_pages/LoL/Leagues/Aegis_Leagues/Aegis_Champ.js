@@ -20,7 +20,7 @@ const Aegis_Champ = () => {
              <div>
                 {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed*/}
-                <a href="https://imgur.com/OEOfxuA"><img src="https://i.imgur.com/OEOfxuA.png" className='Checkmark' /></a>
+                <a href="https://imgur.com/OSMYolc"><img src="https://i.imgur.com/OSMYolc.png" className='Checkmark' /></a>
                 <a href="https://imgur.com/PCHIHQB"><img src="https://i.imgur.com/PCHIHQB.png" className='Checkmark' /></a>
              </div>
             </div>

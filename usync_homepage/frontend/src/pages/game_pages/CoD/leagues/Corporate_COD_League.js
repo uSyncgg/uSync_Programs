@@ -13,7 +13,7 @@ const Corporate_COD_League = () => {
             <header>
               {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
-              <img src="https://i.imgur.com/YG5mBVv.jpg"/>
+              <img src="https://i.imgur.com/DWyIbm3.png"/>
             </header>
             {/* ***Must have this div tage with the Background-mid class name on every file*** */}
             <div className='Background-mid'>
