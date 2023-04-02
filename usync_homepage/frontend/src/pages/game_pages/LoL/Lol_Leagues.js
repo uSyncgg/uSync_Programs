@@ -4,7 +4,7 @@ const Lol_Leagues = () => {
     return(
         <div>
 
-            <div className='Background-mid'>
+            <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
                         <div className='col-lg-6'>

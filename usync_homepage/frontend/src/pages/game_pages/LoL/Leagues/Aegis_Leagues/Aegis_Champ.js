@@ -10,17 +10,19 @@ import 'bootstrap/dist/css/bootstrap.css';
 const Aegis_Champ = () => {
     return (
         <div>
+                        <body id='league-body'>
+
             <header>
                 {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
-                <img src="https://i.imgur.com/Nkbas5Z.png" />
+                <img src="https://i.imgur.com/Nkbas5Z.png" className='Header-Img'/>
             </header>
             {/* ***Must have this div tage with the Background-mid class name on every file*** */}
             <div className='Background-mid'>
                 <div>
                     {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed*/}
-                    <a href="https://imgur.com/OSMYolc"><img src="https://i.imgur.com/OSMYolc.png" className='Checkmark' /></a>
+                    <a href="https://imgur.com/OSMYolc"><img src="https://i.imgur.com/OSMYolc.png" className='Checkmark-title' /></a>
                     <a href="https://imgur.com/PCHIHQB"><img src="https://i.imgur.com/PCHIHQB.png" className='Checkmark' /></a>
                 </div>
                 <button type="submit" className='join-button'>Join Now</button>
@@ -55,6 +57,7 @@ const Aegis_Champ = () => {
                     </div>
                 </div>
             </div>
+            </body>
         </div>
 
     );

@@ -10,17 +10,19 @@ import 'bootstrap/dist/css/bootstrap.css';
 const OPSE_LoL = () => {
     return (
         <div>
+                        <body id='league-body'>
+
             <header>
                 {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
-                <img src="https://i.imgur.com/DWyIbm3.png" />
+                <img src="https://i.imgur.com/DWyIbm3.png" className='Header-Img'/>
             </header>
             {/* ***Must have this div tage with the Background-mid class name on every file*** */}
             <div className='Background-mid'>
                 <div>
                     {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed*/}
-                    <a href="https://imgur.com/HaRfFh9"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark' /></a>
+                    <a href="https://imgur.com/HaRfFh9"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark-title' /></a>
                     <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
                 </div>
                 <button type="submit" className='join-button'>Join Now</button>
@@ -55,6 +57,7 @@ const OPSE_LoL = () => {
                     </div>
                 </div>
             </div>
+            </body>
         </div>
 
     );
