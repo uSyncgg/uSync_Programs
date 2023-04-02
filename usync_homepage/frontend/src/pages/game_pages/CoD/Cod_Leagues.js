@@ -3,6 +3,13 @@ import './Cod.css';
 const Cod_Leagues = () => {
     return(
         <div>
+            <header id='League-header'>
+                {/* Use this exact format to insert the header image, change the alt to the league name and
+              Change the name inside the {} to be whatever the imported image is but className is the same */}
+                <img src="https://i.imgur.com/DWyIbm3.png" className='Header-Img-l' />
+                <h2 id="league-title">Call of Duty Leagues</h2>
+                <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h'/>
+            </header>
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

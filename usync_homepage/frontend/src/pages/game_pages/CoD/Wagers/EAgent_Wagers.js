@@ -29,18 +29,17 @@ const EAgent_Wagers = () => {
                 {/* ***You must have this container div*** */}
                 <div className='container'>
                     {/* ***Must have the row div*** */}
-                    <div className='row'>
+                    <div className='row'id='league-row'>
                         {/* All div tags must be set up the same way for every single CoD League game page */}
-                        <div className='col-2 offset-3'>
+                        <div className='col-2 offset-3'id='league-info'>
                             <h1>Fees:</h1>
                             {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
                             <p>Regular Member: 5%</p>
                             <p>Prestige Member: 0%</p>
                             <p>No Fee & Instant Deposits/Withdrawals</p>
-                            <button type="submit" className='back-button'>Back</button>
                         </div>
-                        <div className='col-2'>
+                        <div className='col-2'id='league-info'>
                             <h1>Features:</h1>
                             {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                             <p>24/7 Live Support on Website</p>
@@ -48,7 +47,7 @@ const EAgent_Wagers = () => {
                             <p>Consistent Rule Updates</p>
                             <p>PC Reset / Monitor Cam Options</p>
                         </div>
-                        <div className='col-2'>
+                        <div className='col-2'id='league-info'>
                             <h1>Restrictions:</h1>
                             {/* Follow the same format as above, keep the Entry fee the same and change information below */}
                             <p>18+</p>
@@ -56,7 +55,9 @@ const EAgent_Wagers = () => {
                             <p>US State Restrictions: AZ, MT, and SD</p>
                         </div>
                     </div>
-                </div>
+                </div>             
+                               <button type="submit" className='back-button'>Back</button>
+
             </div>
             </body>
         </div>

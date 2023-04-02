@@ -29,16 +29,15 @@ const NJCAAE_League = () => {
                 {/* ***You must have this container div*** */}
                 <div className='container'>
                     {/* ***Must have the row div*** */}
-                    <div className='row'>
+                    <div className='row'id='league-row'>
                         {/* All div tags must be set up the same way for every single CoD League game page */}
-                        <div className='col-2 offset-3'>
+                        <div className='col-2 offset-3'id='league-info'>
                             <h1>Date:</h1>
                             {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
                             <p>Spring 2024 (Estimated)</p>
-                            <button type="submit" className='back-button'>Back</button>
                         </div>
-                        <div className='col-2'>
+                        <div className='col-2'id='league-info'>
                             <h1>Details:</h1>
                             {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                             <p>2 Qualifier Tournaments</p>
@@ -48,13 +47,15 @@ const NJCAAE_League = () => {
                             <h1>Region/Type:</h1>
                             <p>2v2 - USA</p>
                         </div>
-                        <div className='col-2'>
+                        <div className='col-2'id='league-info'>
                             <h1>Entry Fee</h1>
                             {/* Follow the same format as above, keep the Entry fee the same and change information below */}
                             <p>$2000/yr NJCAAE Membership</p>
                         </div>
                     </div>
-                </div>
+                </div>    
+                                        <button type="submit" className='back-button'>Back</button>
+
             </div>
             </body>
         </div>

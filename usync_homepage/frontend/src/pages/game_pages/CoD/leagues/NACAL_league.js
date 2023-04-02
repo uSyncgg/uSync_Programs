@@ -28,7 +28,7 @@ const NACAL_league = () => {
                 {/* ***You must have this container div*** */}
                 <div className='container'>
                     {/* ***Must have the row div*** */}
-                    <div className='row'>
+                    <div className='row' id='league-row'>
                         {/* All div tags must be set up the same way for every single CoD League game page */}
                         <div className='col-2 offset-3' id='league-info'>
                         <h1 className='info-title'>Date:</h1>
@@ -40,7 +40,7 @@ const NACAL_league = () => {
                             <h1 className='info-title'>Details:</h1>
                             {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                             <p>$500+ Prize Pool</p>
-                            <p>Console ONLY</p>
+                            <p>Join Now</p>
                             <p>Semi-Competitive</p>
                             <p>Live Streamed Matches</p>
                             <p>Support on Discord</p>

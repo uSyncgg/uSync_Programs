@@ -29,9 +29,9 @@ const Oneup_Wagers = () => {
                 {/* ***You must have this container div*** */}
                 <div className='container'>
                     {/* ***Must have the row div*** */}
-                    <div className='row'>
+                    <div className='row'id='league-row'>
                         {/* All div tags must be set up the same way for every single CoD League game page */}
-                        <div className='col-2 offset-3'>
+                        <div className='col-2 offset-3'id='league-info'>
                             <h1>Fees:</h1>
                             {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
@@ -39,9 +39,8 @@ const Oneup_Wagers = () => {
                             <p>Instant Withdrawals: 10%</p>
                             <p>Free 3-5 Day Withdrawals</p>
                             <p>$50 MINIMUM Withdrawals</p>
-                            <button type="submit" className='back-button'>Back</button>
                         </div>
-                        <div className='col-2'>
+                        <div className='col-2'id='league-info'>
                             <h1>Features:</h1>
                             {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                             <p>Cold War - 1v1 ONLY</p>
@@ -49,7 +48,7 @@ const Oneup_Wagers = () => {
                             <p>Small Maps ONLY</p>
                             <p>Small Number of Users</p>
                         </div>
-                        <div className='col-2'>
+                        <div className='col-2'id='league-info'>
                             <h1>Restrictions:</h1>
                             {/* Follow the same format as above, keep the Entry fee the same and change information below */}
                             <p>18+</p>
@@ -58,6 +57,8 @@ const Oneup_Wagers = () => {
                         </div>
                     </div>
                 </div>
+                                            <button type="submit" className='back-button'>Back</button>
+
             </div>
             </body>
         </div>

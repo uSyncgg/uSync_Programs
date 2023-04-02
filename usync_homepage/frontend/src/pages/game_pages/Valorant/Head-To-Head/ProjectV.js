@@ -29,16 +29,15 @@ const ProjectV = () => {
                 {/* ***You must have this container div*** */}
                 <div className='container'>
                     {/* ***Must have the row div*** */}
-                    <div className='row'>
+                    <div className='row'id='league-row'>
                         {/* All div tags must be set up the same way for every single CoD League game page */}
-                        <div className='col-2 offset-3'>
+                        <div className='col-2 offset-3'id='league-info'>
                             <h1>Fees:</h1>
                             {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
                             <p>Free Ladder Matches</p>
-                            <button type="submit" className='back-button'>Back</button>
                         </div>
-                        <div className='col-2'>
+                        <div className='col-2'id='league-info'>
                             <h1>Features:</h1>
                             {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                             <p>€5000 Prize Pool</p>
@@ -46,13 +45,15 @@ const ProjectV = () => {
                             <p>Challenge Ladder Teams for Points</p>
                             <p>12 Teams MAX</p>
                         </div>
-                        <div className='col-2'>
+                        <div className='col-2'id='league-info'>
                             <h1>Restrictions:</h1>
                             {/* Follow the same format as above, keep the Entry fee the same and change information below */}
                             <p>3 Players from DACH Region</p>
                         </div>
                     </div>
-                </div>
+                </div>      
+                                      <button type="submit" className='back-button'>Back</button>
+
             </div>
             </body>
         </div>
