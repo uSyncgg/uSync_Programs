@@ -1,4 +1,5 @@
 import check from '../../../website_images/games/check-under-image.png';
+import snd_league from '../../../website_images/games/cod/cod-leagues/snd-league.png';
 import './Cod.css';
 
 const Cod_Leagues = () => {
