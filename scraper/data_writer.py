@@ -40,19 +40,9 @@ from pymongo_get_database import get_database
 def write_all(data):
     dbname = get_database()
     collection_name = dbname["tournaments"]
-    # print(data[0]["date"])
     num = 0
     
     for i in data:
-        print(i["date"])
-    #     date = data[i]["date"]
-    #     time = data[i]["time"]
-    #     title = data[i]["title"]
-    #     entry = data[i]["entry"]
-    #     size = data[i]["size"]
-    #     platforms = data[i]["platforms"]
-    #     gamemode = data[i]["gamemode"]
-
         tournament_num = {
             "_id": num,
             "date": i["date"],
@@ -61,12 +51,29 @@ def write_all(data):
             "entry": i["entry"],
             "size": i["size"],
             "platforms": i["platforms"],
-            "gamemode": i["gamemode"]
+            "game": i["game"]
         }
 
         collection_name.insert_one(tournament_num)
         num += 1
     
+    return None
+
+def write_all_links(data):
+    dbname = get_database()
+    collection_name = dbname["links"]
+    num = 0
+
+    for i in data:
+
+        link_num = {
+            "_id": num,
+            "url": data[num]
+        }        
+
+        collection_name.insert_one(link_num)
+        num += 1
+
     return None
 
 

@@ -8,6 +8,10 @@ from webdriver_manager.chrome import ChromeDriverManager
 import requests
 import re
 import datetime
+import dateutil
+from dateutil import tz
+from dateutil.parser import parse
+from datetime import datetime
 
 # Test Data
 # Codagent tournament page, testing valid tournaments
@@ -22,11 +26,30 @@ import datetime
 # Platform
 # Link
 
-# URL = "https://esportsagent.gg/tournament"
+# **Notes**
+# Need to sift through titles to see if there is a '*' and if so move everything until the next '*' to requirements if it doesnt contain
+# a skill requirement within it, need to look for one of the various skill levels and check if there is a no before it 
+# if so then import "no skill" into skill else import "skill only" into skill
+# Need to check to see what platforms it contains and then do either console only or NONE
+# Filter game to only contain MW2
+
+URL = "https://esportsagent.gg/tournament/12756352"
 # URL_begin = "https://esportsagent.gg/tournament"
-# driver = webdriver.Chrome(ChromeDriverManager().install())
+driver = webdriver.Chrome(ChromeDriverManager().install())
 
 #### IMPORTANT: you will need to set a bound for each piece of code here or else it will look through outdate tourneys as well
+
+def conv_time(x):
+    from_zone = tz.gettz('UTC')
+    to_zone = tz.gettz('America/New_York')
+    utc = datetime.strptime(x, '%Y-%m-%d %H:%M:%S')
+    utc = x.replace(tzinfo=from_zone)
+    east = utc.astimezone(to_zone)
+    hour = int(east.strftime('%I'))
+    minute = int(east.strftime('%M'))
+    date = east.strftime('%m-%d-%Y')
+    print(date)
+    return east
 
 # Inputs: driver, tourney URL
 # Returns: all tournament information
@@ -48,8 +71,14 @@ def get_tournament_info(driver, URL):
     date_time = date_time_res[0].text.strip()
     date_time_list = date_time.split()
     date = date_time_list[0] + " " + date_time_list[1] + " " + date_time_list[2]
-    # print(date)
-    time = date_time_list[3] + " " + date_time_list[4]
+    print(date_time)
+    time = date_time_list[3]
+    # + " " + date_time_list[4]
+    time_parsed = parse(time)
+    res = conv_time(time_parsed)
+    # print(res)
+    new_time = '{}:{}'.format(res.hour, res.minute)
+    # print(new_time)
     # print(time)
         # if(date != get_date()):
         #     break
@@ -89,21 +118,23 @@ def get_tournament_info(driver, URL):
     if battle_net_res is not None:
         platforms.append(battle_net_logo)
     
+    # Dont think I need this
     # Team Size & Format
     # span was 'ui-label__text'
     team_size_res = soup.find_all('span', {'class': 'font-semibold text-white'})
     team_size = team_size_res[1].text.strip()
     # print(team_size)
 
-    # Gamemode
+    # Need this to compare to see if the game is MW2 or not
+    # Game
     #span was 'text-white font-semibold'
-    game_res = soup.find_all('span', {'class': 'font-semibold text-white'})
-    game = game_res[4].text.strip()
+    game_res = soup.find_all('span', {'class': 'uppercase text-[#8E8EA1] text-sm pr-3'})
+    game = game_res[0].text.strip()
     # print(game)
 
-    info = {"date": date, "time": time, "title": title, "entry": per_person, "size": team_size, "platforms": platforms, "gamemode": game}
+    # info = {"date": date, "time": time, "title": title, "entry": per_person, "size": team_size, "platforms": platforms, "game": game}
     # info = date
-    return info
+    # return info
 
 # Inputs: driver, URL_begin
 # Returns: a list of all the valid tournament links for the day
@@ -160,6 +191,7 @@ def get_date():
 # testinfo = get_tournament_info(driver, URL)
 # if (get_tournament_info(driver, URL) == testinfo):
 #     print("tournament info method works")
+get_tournament_info(driver, URL)
 
 # testid = {}
 # testid = get_tournament_ids(driver, URL)
