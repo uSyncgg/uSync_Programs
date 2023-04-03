@@ -11,7 +11,6 @@ const FFS_Heroic = () => {
     return (
         <div>
                         <body id='league-body'>
-
             <header>
                 {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
@@ -25,7 +24,9 @@ const FFS_Heroic = () => {
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark-title' /></a>
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
                 </div>
-                <button type="submit" className='join-button'>Join Now</button>
+                <a href='https://www.fofesports.com/'>
+                        <button className='join-button'>Join Now</button>
+                    </a>
                 {/* ***You must have this container div*** */}
                 <div className='container'>
                     {/* ***Must have the row div*** */}
