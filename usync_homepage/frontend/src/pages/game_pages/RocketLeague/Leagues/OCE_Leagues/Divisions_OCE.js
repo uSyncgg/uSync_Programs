@@ -56,7 +56,7 @@ const Divisions_OCE = () => {
                             </div>
                         </div>
                     </div>
-                    <a href='https://www.usync.gg/games/RocketLeague/leagues'>
+                    <a href='https://www.usync.gg/games/RocketLeague/leagues/oce-leagues'>
                         <button className='back-button'>Back</button>
                     </a>
                 </div>

@@ -54,7 +54,7 @@ const Tier_2 = () => {
                             </div>
                         </div>
                     </div>
-                    <a href='https://www.usync.gg/games/LoL/leagues'>
+                    <a href='https://www.usync.gg/games/LoL/leagues/las-leagues'>
                         <button className='back-button'>Back</button>
                     </a>
                 </div>

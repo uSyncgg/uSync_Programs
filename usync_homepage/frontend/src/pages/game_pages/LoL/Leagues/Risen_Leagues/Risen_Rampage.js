@@ -56,7 +56,7 @@ const Risen_Rampage = () => {
                             </div>
                         </div>
                     </div>
-                    <a href='https://www.usync.gg/games/LoL/leagues'>
+                    <a href='https://www.usync.gg/games/LoL/leagues/risen-leagues'>
                         <button className='back-button'>Back</button>
                     </a>
                 </div>

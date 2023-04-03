@@ -56,7 +56,7 @@ const Aegis_Champ = () => {
                             </div>
                         </div>
                     </div>
-                    <a href='https://www.usync.gg/games/LoL/leagues'>
+                    <a href='https://www.usync.gg/games/LoL/leagues/aegis-leagues'>
                         <button className='back-button'>Back</button>
                     </a>
                 </div>

@@ -57,7 +57,7 @@ const Blue_Otter_Gold = () => {
                             </div>
                         </div>
                     </div>
-                    <a href='https://www.usync.gg/games/LoL/leagues'>
+                    <a href='https://www.usync.gg/games/LoL/leagues/blue-otter-leagues'>
                         <button className='back-button'>Back</button>
                     </a>
                 </div>

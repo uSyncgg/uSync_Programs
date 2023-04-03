@@ -56,7 +56,7 @@ const IBSGCS = () => {
                             </div>
                         </div>
                     </div>
-                    <a href='https://www.usync.gg/games/LoL/leagues'>
+                    <a href='https://www.usync.gg/games/LoL/leagues/duo-esports-league'>
                         <button className='back-button'>Back</button>
                     </a>
                 </div>

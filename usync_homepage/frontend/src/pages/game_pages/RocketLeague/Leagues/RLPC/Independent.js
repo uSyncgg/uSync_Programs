@@ -59,7 +59,7 @@ const Independent = () => {
                             </div>
                         </div>
                     </div>
-                    <a href='https://www.usync.gg/games/RocketLeague/leagues'>
+                    <a href='https://www.usync.gg/games/RocketLeague/leagues/rlpc-leagues'>
                         <button className='back-button'>Back</button>
                     </a>
                 </div>

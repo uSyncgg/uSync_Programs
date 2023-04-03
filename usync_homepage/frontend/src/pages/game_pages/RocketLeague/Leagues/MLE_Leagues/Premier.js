@@ -57,7 +57,7 @@ const Premier = () => {
                             </div>
                         </div>
                     </div>
-                    <a href='https://www.usync.gg/games/RocketLeague/leagues'>
+                    <a href='https://www.usync.gg/games/RocketLeague/leagues/mle-leagues'>
                         <button className='back-button'>Back</button>
                     </a>
                 </div>

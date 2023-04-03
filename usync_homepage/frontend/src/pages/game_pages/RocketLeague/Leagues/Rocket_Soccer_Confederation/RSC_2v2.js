@@ -55,7 +55,7 @@ const RSC_2v2 = () => {
                             </div>
                         </div>
                     </div>
-                    <a href='https://www.usync.gg/games/RocketLeague/leagues'>
+                    <a href='https://www.usync.gg/games/RocketLeague/leagues/rsc-leagues'>
                         <button className='back-button'>Back</button>
                     </a>
                 </div>

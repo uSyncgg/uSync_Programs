@@ -55,7 +55,7 @@ const Division_2 = () => {
                             </div>
                         </div>
                     </div>
-                    <a href='https://www.usync.gg/games/LoL/leagues'>
+                    <a href='https://www.usync.gg/games/LoL/leagues/cobalt-winds-leagues'>
                         <button className='back-button'>Back</button>
                     </a>
                 </div>

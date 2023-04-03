@@ -56,7 +56,7 @@ const LCS_Financial = () => {
                             </div>
                         </div>
                     </div>
-                    <a href='https://www.usync.gg/games/LoL/leagues'>
+                    <a href='https://www.usync.gg/games/LoL/leagues/low-budget-leagues'>
                         <button className='back-button'>Back</button>
                     </a>
                 </div>

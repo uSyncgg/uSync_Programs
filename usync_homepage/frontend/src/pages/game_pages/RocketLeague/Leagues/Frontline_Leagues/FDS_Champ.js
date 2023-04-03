@@ -58,7 +58,7 @@ const FDS_Champ = () => {
                             </div>
                         </div>
                     </div>
-                    <a href='https://www.usync.gg/games/RocketLeague/leagues'>
+                    <a href='https://www.usync.gg/games/RocketLeague/leagues/frontline-leagues'>
                         <button className='back-button'>Back</button>
                     </a>
                 </div>

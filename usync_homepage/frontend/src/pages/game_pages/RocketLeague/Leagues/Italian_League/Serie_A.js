@@ -55,7 +55,7 @@ const Serie_A = () => {
                             </div>
                         </div>
                     </div>
-                    <a href='https://www.usync.gg/games/RocketLeague/leagues'>
+                    <a href='https://www.usync.gg/games/RocketLeague/leagues/italian-leagues'>
                         <button className='back-button'>Back</button>
                     </a>
                 </div>

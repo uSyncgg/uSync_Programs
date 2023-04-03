@@ -55,7 +55,7 @@ const DivisionC = () => {
                             </div>
                         </div>
                     </div>
-                    <a href='https://www.usync.gg/games/Valorant/leagues'>
+                    <a href='https://www.usync.gg/games/Valorant/leagues/ecac-leagues'>
                         <button className='back-button'>Back</button>
                     </a>
                 </div>

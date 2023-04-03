@@ -56,7 +56,7 @@ const Conqueror = () => {
                             </div>
                         </div>
                     </div>
-                    <a href='https://www.usync.gg/games/LoL/leagues'>
+                    <a href='https://www.usync.gg/games/LoL/leagues/titan-leagues'>
                         <button className='back-button'>Back</button>
                     </a>
                 </div>

@@ -56,7 +56,7 @@ const Victoris_Rival = () => {
                             </div>
                         </div>
                     </div>
-                    <a href='https://www.usync.gg/games/LoL/leagues'>
+                    <a href='https://www.usync.gg/games/LoL/leagues/victoris-leagues'>
                         <button className='back-button'>Back</button>
                     </a>
                 </div>

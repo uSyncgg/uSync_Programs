@@ -57,7 +57,7 @@ const CCS_Diamond = () => {
                             </div>
                         </div>
                     </div>
-                    <a href='https://www.usync.gg/games/LoL/leagues'>
+                    <a href='https://www.usync.gg/games/LoL/leagues/ccs-leagues'>
                         <button className='back-button'>Back</button>
                     </a>
                 </div>
