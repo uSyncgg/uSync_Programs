@@ -22,8 +22,8 @@ const HBCU_RL = () => {
                 <div>
                     {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed*/}
-                    <a href="https://imgur.com/HaRfFh9"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark-title' /></a>
-                    <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
+                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark-title' /></a>
+                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
                 </div>
                 <button type="submit" className='join-button'>Join Now</button>
                 {/* ***You must have this container div*** */}
@@ -52,8 +52,9 @@ const HBCU_RL = () => {
                         </div>
                     </div>
                 </div>         
-                                   <button type="submit" className='back-button'>Back</button>
-
+                <a href='https://www.usync.gg/games/RocketLeague/leagues'>
+                    <button className='back-button'>Back</button>
+                </a>
             </div>
             </body>
         </div>

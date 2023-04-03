@@ -135,19 +135,6 @@ const Cod_Leagues = () => {
                         
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <h1 className='Leagueh1'>Carbo COD League</h1>
-                                <div className='parent'>
-                                <a href="https://imgur.com/FdQHdhL"><img src="https://i.imgur.com/FdQHdhL.png" className='league-img'/></a> 
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
-                                </div>
-                                <p className='Leaguep'>NA</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <button type="submit" className='info-button'>More Info</button>
-                            </div> 
-                        </div>
-                        <p className='hr' />
-                        <div className='col-lg-6'>
-                            <div className='league'>
                                 <h1 className='Leagueh1'>The Esports Hub</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/Hgv2WwN"><img src="https://i.imgur.com/Hgv2WwN.png" className='league-img'/></a> 
@@ -159,18 +146,6 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
                         
-                        <div className='col-lg-6'>
-                            <div className='league'>
-                                <h1 className='Leagueh1'>WYGGZZ World League</h1>
-                                <div className='parent'>
-                                <a href="https://imgur.com/BJEyErm"><img src="https://i.imgur.com/BJEyErm.png" className='league-img'/></a> 
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
-                                </div>
-                                <p className='Leaguep'>All Regions</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <button type="submit" className='info-button'>More Info</button>
-                            </div> 
-                        </div>
                         <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -288,20 +263,7 @@ const Cod_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div>
                         </div>
-                        
-                        <div className='col-lg-6'>
-                            <div className='league'>
-                                <h1 className='Leagueh1'>Obsidian League</h1>
-                                <div className='parent'>
-                                <a href="https://imgur.com/7UIPtG3"><img src="https://i.imgur.com/7UIPtG3.png" className='league-img'/></a> 
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
-                                </div>
-                                <p className='Leaguep'>NA</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <button type="submit" className='info-button'>More Info</button>
-                            </div> 
-                        </div>
-                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>UNG League</h1>
@@ -314,7 +276,8 @@ const Cod_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div>
                         </div>
-                        
+                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>College COD</h1>
@@ -327,7 +290,7 @@ const Cod_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div> 
                         </div>
-                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>NACE Starleague</h1>
@@ -340,7 +303,8 @@ const Cod_Leagues = () => {
                                 <button type="submit" className='info-button'>More Info</button>
                             </div>
                         </div>
-                        
+                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <h1 className='Leagueh1'>College XP</h1>
