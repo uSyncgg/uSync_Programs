@@ -143,4 +143,4 @@ function Tournament(props) {
     );
 }
 
-export default CodTourneys;
+// export default CodTourneys;

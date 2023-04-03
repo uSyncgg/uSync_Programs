@@ -6,27 +6,28 @@
 .league {
     border-style:hidden;
     width: 100%;
-    margin-left: 80px;
+    margin-left: 5rem;
 }
 
 .league-img {
     width: 90%;
-    height: 33%;
+    height: auto;
+    border-radius: 1.813rem;
 }
 
 .check {
     width: 40%;
-    height: 40%;
-    margin-bottom: 20px; 
+    height: auto;
+    margin-bottom: 1.25rem; 
 }
 
 .info-button {
     background-color: rgb(49, 49, 49);
     color: rgb(141, 125, 181);
-    border: 2px solid rgb(144, 125, 181);
+    border: .125rem solid rgb(144, 125, 181);
     width: 90%;
     transition-duration: 0.4s;
-    border-radius: 5px;
+    border-radius: .313rem;
     font-weight: bold;
     font-family: 'Helvetica';
 }
@@ -36,11 +37,13 @@
     color: rgb(49, 49, 49);
 }
 
-.Background-mid {
+.Background-leagues {
     background-color: rgb(49, 49, 49);
-    padding: 50px;
-    padding-left: 0px;
-    padding-right: 170px;
+    padding: 3.125rem;
+    padding-left: 0rem;
+    padding-right: 10%;
+    transform: translateY(-10%);
+    z-index: 1;
 }
 
 .Background-bottom {
@@ -49,18 +52,21 @@
 
 .Leagueh1{
     color: white; 
-    text-decoration-line: underline;
-    font-size: 32px;
+    font-size: 2rem;
+    /* Set a text shadow with a blur radius of 4px and an offset of 2px */
+    text-shadow: .125rem .125rem .25rem rgba(0, 0, 0, 0.8);
     font-family: 'Helvetica';
     font-weight: bold;
 }
 
 .Leaguep {
     color: rgb(144, 141, 141);
-    font-size: 21px;
+    font-size: 1.313rem;
     font-family: 'Helvetica';
+    /* Set a text shadow with a blur radius of 4px and an offset of 2px */
+    text-shadow: 125rem .063rem 125rem rgba(0, 0, 0, 0.8);
     font-weight: bold;
-    margin-top: 5px;
+    margin-top: .313rem;
 }
 
 /* .back-img {
@@ -77,23 +83,33 @@
     transition: filter 0.7s;
   } */
 
-.parent {
-  position: relative;
-}
-
-.over-img {
-  position: absolute;
-  top: 2%;
-  left: 88%;
-  transform: translateX(-50%);
-  width: 70%;
-  height: 40%;
-}
-
 .league-img:hover {
   filter: brightness(135%);
   transition: filter 0.7s;
 }
+
+.parent {
+    position: relative;
+}
+
+
+.over-img {
+    position: absolute;
+    top: 6%;
+    right:5%;
+    transform: translateX(-50%);
+    width: 6%;
+    height: auto;
+    transform-origin: center;
+    transition: transform 0.3s;
+    display: block;
+
+}
+.over-img:hover {
+  transition: filter 0.7s;
+  filter: contrast(200%);               
+  }
+  
 
 /* transition {
   transition-duration: 0.3s, 0.3s;
@@ -109,10 +125,10 @@
 
   .check2 {
     width: 40%;
-    height: 40%;
-    margin-bottom: 90px;
-    margin-left: 495px;
-    margin-top: 5px;
+    height: auto;
+    margin-bottom: 5.625rem;
+    margin-left: 10%;
+    margin-top: .313rem;
     
 }
 
@@ -124,18 +140,46 @@
     margin: 1em 0;
     padding: 0; */
     width: 100%;
-    height: 100px;
-    border-bottom: 1px solid rgb(255, 252, 252);
-    margin-left: 80px;
-    margin-bottom: 60px;
+    height: 6.25rem;
+    border-bottom: .063rem solid rgb(255, 252, 252);
+    margin-left: 5rem;
+    margin-bottom: 3.75rem;
     
 }
 
 
 
 
+#league-title {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 5rem;
+    transform: translate(-50%, -90%);
 
+  }
+  
+  .Underline-h {
+    width: 100rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
 
-
-
-
+  }
+  
+  .Header-Img-l {
+    display: block;
+    width: 100%;
+    height: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 0; /* Decrease the z-index */
+    top: -18.75rem;
+  }
+  
+  #league-header {
+    position: relative;
+  }

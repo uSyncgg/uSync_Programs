@@ -1,28 +1,38 @@
-* {
-    box-sizing: border-box;
-}
-
-.container {
-    background-color: rgb(49, 49, 49);
-    color: white;
-}
-
 .Header-Img {
     display: block;
-    width: 750px;
+    width: 100%;
+    height: 50rem;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    z-index: 0;
+    top: -300px;
 }
+
+.Background-mid {
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    height: 150%; /* set the height to 200% to double the vertical size */
+    background-color: rgb(49, 49, 49);
+    z-index: 1;
+    transform: translateY(-40%);
+}
+
+
+
 
 .back-button {
     background-color: rgb(49, 49, 49);
     color: rgb(141, 125, 181);
     border: 2px solid rgb(141, 125, 181);
-    width: 100%;
+    width: 15%;
     transition-duration: 0.4s;
     position: relative;
-    margin-top: 100%;
-    margin-right: 100%;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    margin-right: 75%; /* Add a left margin of 10% */
+    border-radius: 5px;
 }
 
 .back-button:hover {
@@ -31,11 +41,82 @@
 }
 
 .Checkmark {
-    background-color: rgb(49, 49, 49);
-    height: 33%;
-    width: 33%;
+    position: absolute;
+    top: 40%; /* Move upward by 10% */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 3%; /* Reduce the width */
+    height: auto; /* Make the height adjust to the width to prevent stretching */
+    top: 10%; /* Adjust the top position as needed */
+
+  }
+    
+  .Checkmark-title {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    position: absolute;
+    top: 5%; /* Adjust the top position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: auto; /* Set height to auto to maintain aspect ratio */
+  }
+              
+
+  .join-button {
+    background-color: rgb(49, 49, 49);
+    color: rgb(141, 125, 181);
+    border: 2px solid rgb(144, 125, 181);
+    width: 50%;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    margin: 0 auto; /* Add a margin property to center the button */
+    position: absolute; /* Set the position to absolute */
+    left: 50%; /* Position the button horizontally at the center of the parent element */
+    transform: translate(-50%, -50%); /* Adjust the position of the button based on its dimensions */
+    top: 15%; /* Adjust the top position as needed */
+
 }
 
+.join-button:hover {
+    background-color: rgb(141, 125, 181);
+    color: rgb(49, 49, 49);
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10% 0;
+  }
+  
+  .info-title {
+    text-align: center;
+    text-decoration-line: underline;
+    position: relative;
+  }
+  
+  .info-title2 {
+    text-align: center;
+    text-decoration-line: underline;
+    position: relative;
+  }
+  
+  #league-info p {
+    font-size: 1.5rem;
+    position: relative;
+  }
+  
+  #league-body {
+    position: relative;
+  }
+  #league-row {
+    text-align: center;
+    transform: translate(6%,25%);
+    min-width: 50rem;
+
+  }
+  

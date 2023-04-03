@@ -95,6 +95,18 @@ function App() {
     // case "/test":
     //   component = <Test />
     //   break;    
+    case "/AWL":
+      component = <AWL_League />
+      break;
+    case "/Halo_Leagues":
+      component = <Halo_Leagues />
+      break;
+    case "/Lol_Leagues":
+      component = <Lol_Leagues />
+      break;
+    case "/Rl_Leagues":
+      component = <Rl_Leagues />
+      break;
   }
 
   return (
