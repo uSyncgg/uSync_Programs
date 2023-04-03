@@ -32,24 +32,24 @@ const LCS_Financial = () => {
                     <div className='row'id='league-row'>
                         {/* All div tags must be set up the same way for every single CoD League game page */}
                         <div className='col-2 offset-3'id='league-info'>
-                            <h1>Date:</h1>
+                        <h1 className='info-title'>Date:</h1>
                             {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
                             <p>Early-Fall 2023 (Estimated)</p>
                         </div>
                         <div className='col-2'id='league-info'>
-                            <h1>Details:</h1>
+                        <h1 className='info-title'>Details:</h1>
                             {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                             <p>Semi-Competitive</p>
                             <p>Platinum 3 Average, One Diamond 3 Per Team</p>
                             <p>16 Teams Max</p>
                             <p>Live Streamed Matches</p>
                             <p>Live Support on Discord</p>
-                            <h1>Region/Type:</h1>
+                            <h1 className='info-title2'>Region/Type:</h1>
                             <p>5v5 - NA</p>
                         </div>
                         <div className='col-2'id='league-info'>
-                            <h1>Entry Fee</h1>
+                        <h1 className='info-title'>Entry Fee:</h1>
                             {/* Follow the same format as above, keep the Entry fee the same and change information below */}
                             <p>Free Entry</p>
                         </div>

@@ -121,7 +121,7 @@ const Rl_Leagues = () => {
                                 <a href="https://imgur.com/VjsPbnv"><img src="https://i.imgur.com/VjsPbnv.png" className='league-img' /></a>
                                 <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>SER</p>
+                                <p className='Leaguep'>ITL</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <button type="submit" className='info-button'>All Leagues</button>
                             </div>

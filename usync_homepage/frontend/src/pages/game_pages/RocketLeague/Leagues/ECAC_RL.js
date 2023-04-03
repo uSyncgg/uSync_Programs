@@ -11,7 +11,6 @@ const ECAC_RL = () => {
     return (
         <div>
                         <body id='league-body'>
-
             <header>
                 {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
@@ -42,6 +41,7 @@ const ECAC_RL = () => {
                             {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                             <p>TBD Prize Pool</p>
                             <p>Two Matches Weekly</p>
+                            <p>8 Week Regular Season with Playoffs</p>
                             <p>Live Streamed Matches</p>
                             <p>Must be a FULL TIME College Student</p>
                             <h1>Region/Type:</h1>

@@ -11,7 +11,6 @@ const TEC_VAL = () => {
     return (
         <div>
                         <body id='league-body'>
-
             <header>
                 {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
@@ -32,23 +31,23 @@ const TEC_VAL = () => {
                     <div className='row'id='league-row'>
                         {/* All div tags must be set up the same way for every single CoD League game page */}
                         <div className='col-2 offset-3'id='league-info'>
-                            <h1>Date:</h1>
+                        <h1 className='info-title'>Date:</h1>
                             {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
                             <p>Annual Spring and Fall Seasons</p>
                         </div>
                         <div className='col-2'id='league-info'>
-                            <h1>Details:</h1>
+                        <h1 className='info-title'>Details:</h1>
                             {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                             <p>Monday Weekly Matches</p>
                             <p>Championship on LAN</p>
                             <p>8 Team Playoffs</p>
                             <p>Live Streamed Matches</p>
-                            <h1>Region/Type:</h1>
+                            <h1 className='info-title2'>Region/Type:</h1>
                             <p>5v5 - USA</p>
                         </div>
                         <div className='col-2'id='league-info'>
-                            <h1>Entry Fee</h1>
+                        <h1 className='info-title'>Entry Fee:</h1>
                             {/* Follow the same format as above, keep the Entry fee the same and change information below */}
                             <p>Contact for Quote - Must be a High School Student</p>
                         </div>

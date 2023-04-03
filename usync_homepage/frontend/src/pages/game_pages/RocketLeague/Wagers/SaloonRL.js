@@ -11,7 +11,6 @@ const SaloonRL = () => {
     return (
         <div>
                         <body id='league-body'>
-
             <header>
                 {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
@@ -32,14 +31,14 @@ const SaloonRL = () => {
                     <div className='row'id='league-row'>
                         {/* All div tags must be set up the same way for every single CoD League game page */}
                         <div className='col-2 offset-3'id='league-info'>
-                            <h1>Fees:</h1>
+                        <h1 className='info-title'>Fees:</h1>
                             {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
                             <p>Match Fees: 10%</p>
                             <p>Varying Deposit/Withdrawal Fee</p>
                         </div>
                         <div className='col-2'id='league-info'>
-                            <h1>Features:</h1>
+                        <h1 className='info-title'>Features:</h1>
                             {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                             <p>1v1 Best of 3 Console ONLY</p>
                             <p>5 Minute Matches</p>
@@ -48,7 +47,7 @@ const SaloonRL = () => {
                             <p>Small Number of Users</p>
                         </div>
                         <div className='col-2'id='league-info'>
-                            <h1>Restrictions:</h1>
+                        <h1 className='info-title'>Restrictions:</h1>
                             {/* Follow the same format as above, keep the Entry fee the same and change information below */}
                             <p>18+</p>
                             <p>Available Worldwide</p>

@@ -32,24 +32,24 @@ const IBSGCS = () => {
                     <div className='row'id='league-row'>
                         {/* All div tags must be set up the same way for every single CoD League game page */}
                         <div className='col-2 offset-3'id='league-info'>
-                            <h1>Date:</h1>
+                        <h1 className='info-title'>Date:</h1>
                             {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
                             <p>Fall 2023 (Estimated)</p>
                         </div>
                         <div className='col-2'id='league-info'>
-                            <h1>Details:</h1>
+                        <h1 className='info-title'>Details:</h1>
                             {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                             <p>$300 Prize Pool</p>
                             <p>Semi-Competitive</p>
                             <p>Gold 1 100LP cap</p>
                             <p>Live Streamed Matches</p>
                             <p>Live Support on Discord</p>
-                            <h1>Region/Type:</h1>
+                            <h1 className='info-title2'>Region/Type:</h1>
                             <p>5v5 - NA</p>
                         </div>
                         <div className='col-2'id='league-info'>
-                            <h1>Entry Fee</h1>
+                        <h1 className='info-title'>Entry Fee:</h1>
                             {/* Follow the same format as above, keep the Entry fee the same and change information below */}
                             <p>$30 Per Team</p>
                         </div>
