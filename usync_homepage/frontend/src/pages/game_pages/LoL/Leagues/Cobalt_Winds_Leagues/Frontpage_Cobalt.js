@@ -1,7 +1,7 @@
 import '../../../CoD/Cod.css';
 
 const Frontpage_Cobalt = () => {
-    return(
+    return (
         <div>
 
             <div className='Background-mid'>
@@ -9,42 +9,54 @@ const Frontpage_Cobalt = () => {
                     <div className='row'>
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <h1 className='Leagueh1'>Division 1 League</h1>
+                                <a href='PLACE LINK HERE'>
+                                    <h1 className='Leagueh1'>Division 1 League</h1>
+                                </a>
                                 <div className='parent'>
-                                <a href="https://imgur.com/gIQ6ryI"><img src="https://i.imgur.com/gIQ6ryI.png" className='league-img' /></a>
-                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                    <a href="https://imgur.com/gIQ6ryI"><img src="https://i.imgur.com/gIQ6ryI.png" className='league-img' /></a>
+                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Diamond 4 - Masters AVG</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <button type="submit" className='info-button'>More Info</button>
+                                <a href='PLACE LINK HERE'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
                             </div>
                         </div>
-                        
+
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <h1 className='Leagueh1'>Division 2 League</h1>
+                                <a href='PLACE LINK HERE'>
+                                    <h1 className='Leagueh1'>Division 2 League</h1>
+                                </a>
                                 <div className='parent'>
-                                <a href="https://imgur.com/gIQ6ryI"><img src="https://i.imgur.com/gIQ6ryI.png" className='league-img' /></a>
-                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                    <a href="https://imgur.com/gIQ6ryI"><img src="https://i.imgur.com/gIQ6ryI.png" className='league-img' /></a>
+                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Platinum 4 - Platinum 1 AVG</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <button type="submit" className='info-button'>More Info</button>
-                            </div> 
+                                <a href='PLACE LINK HERE'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
                         </div>
                         <p className='hr' />
-                        
+
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <h1 className='Leagueh1'>Division 3 League</h1>
+                                <a href='PLACE LINK HERE'>
+                                    <h1 className='Leagueh1'>Division 3 League</h1>
+                                </a>
                                 <div className='parent'>
-                                <a href="https://imgur.com/gIQ6ryI"><img src="https://i.imgur.com/gIQ6ryI.png" className='league-img' /></a>
-                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                    <a href="https://imgur.com/gIQ6ryI"><img src="https://i.imgur.com/gIQ6ryI.png" className='league-img' /></a>
+                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Gold 1 - Lower AVG</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <button type="submit" className='info-button'>More Info</button>
-                            </div> 
+                                <a href='PLACE LINK HERE'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
                         </div>
                         <p className='hr' />
 
