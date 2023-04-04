@@ -1,7 +1,7 @@
 import '../../Cod.css';
 
 const HOE_Leagues = () => {
-    return(
+    return (
         <div>
 
             <div className='Background-mid'>
@@ -9,55 +9,70 @@ const HOE_Leagues = () => {
                     <div className='row'>
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <h1 className='Leagueh1'>Masters League</h1>
+                                <a href='PLACE LINK HERE'>
+                                    <h1 className='Leagueh1'>Masters League</h1>
+                                </a>
                                 <div className='parent'>
-                                <a href="https://imgur.com/47wczZC"><img src="https://i.imgur.com/47wczZC.png" className='league-img'/></a> 
-                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                    <a href="https://imgur.com/47wczZC"><img src="https://i.imgur.com/47wczZC.png" className='league-img' /></a>
+                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>All Regions</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <button type="submit" className='info-button'>More Info</button>
+                                <a href='PLACE LINK HERE'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
                             </div>
                         </div>
-                        
+
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <h1 className='Leagueh1'>Challengers League</h1>
+                                <a href='PLACE LINK HERE'>
+                                    <h1 className='Leagueh1'>Challengers League</h1>
+                                </a>
                                 <div className='parent'>
-                                <a href="https://imgur.com/47wczZC"><img src="https://i.imgur.com/47wczZC.png" className='league-img'/></a> 
-                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                    <a href="https://imgur.com/47wczZC"><img src="https://i.imgur.com/47wczZC.png" className='league-img' /></a>
+                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>All Regions</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <button type="submit" className='info-button'>More Info</button>
-                            </div> 
+                                <a href='PLACE LINK HERE'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
                         </div>
                         <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <h1 className='Leagueh1'>Amateurs League</h1>
+                                <a href='PLACE LINK HERE'>
+                                    <h1 className='Leagueh1'>Amateurs League</h1>
+                                </a>
                                 <div className='parent'>
-                                <a href="https://imgur.com/47wczZC"><img src="https://i.imgur.com/47wczZC.png" className='league-img'/></a> 
-                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                    <a href="https://imgur.com/47wczZC"><img src="https://i.imgur.com/47wczZC.png" className='league-img' /></a>
+                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>All Regions</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <button type="submit" className='info-button'>More Info</button>
+                                <a href='PLACE LINK HERE'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
                             </div>
                         </div>
-                        
+
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <h1 className='Leagueh1'>Cross-Play League</h1>
+                                <a href='PLACE LINK HERE'>
+                                    <h1 className='Leagueh1'>Cross-Play League</h1>
+                                </a>
                                 <div className='parent'>
-                                <a href="https://imgur.com/47wczZC"><img src="https://i.imgur.com/47wczZC.png" className='league-img'/></a> 
-                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                    <a href="https://imgur.com/47wczZC"><img src="https://i.imgur.com/47wczZC.png" className='league-img' /></a>
+                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>All Regions</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <button type="submit" className='info-button'>More Info</button>
-                            </div> 
+                                <a href='PLACE LINK HERE'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
                         </div>
                         <p className='hr' />
 
