@@ -1,8 +1,11 @@
 import { useState } from 'react';
-import styles from './Home.module.css';
+//import styles from './Home.module.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Comingsoon from './pages/Comingsoon';
-import Games from './pages/Games'; 
+import Games from './pages/Games';
+import More from './pages/More';
+import './App.css';
 import Navbar from './Navbar';
 import Cod_Leagues from './pages/game_pages/CoD/Cod_Leagues';
 import Cod from './pages/game_pages/CoD/Cod.js';
@@ -14,6 +17,11 @@ import Verification from './pages/more-pages/Verification';
 import Becomeverified from './pages/more-pages/Becomeverified';
 import Eventhost from './pages/more-pages/Eventhost';
 import Contactus from './pages/more-pages/Contactus';
+import Halo from './pages/game_pages/Halo/Halo';
+import Lol from './pages/game_pages/LoL/LoL';
+import Rl from './pages/game_pages/RocketLeague/Rl';
+import Valorant from './pages/game_pages/Valorant/Val';
+import Warzone from './pages/game_pages/Warzone/Wz';
 import CodTourneys from './pages/game_pages/CoD/CodTourneys';
 import AWL_League from './pages/game_pages/CoD/leagues/AWL_League';
 import Halo_Leagues from './pages/game_pages/Halo/Halo_Leagues';
@@ -40,16 +48,17 @@ import Wz_headtohead from './pages/game_pages/Warzone/Wz_headtohead';
 import HOE_Leagues from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Leagues';
 import Frontpage_Aegis from './pages/game_pages/LoL/Leagues/Aegis_Leagues/Frontpage_Aegis';
 import CCL_WZ_League from './pages/game_pages/Warzone/Leagues/CCL_WZ_League'
-import './pages/more-pages/Verification.css';
-import './pages/more-pages/Eventhost.css';
-import './pages/more-pages/Contactus.css';
-import './pages/Comingsoon.css';
+import './style.css'
+//import './pages/more-pages/Verification.css';
+//import './pages/more-pages/Eventhost.css';
+//import './pages/more-pages/Contactus.css';
+//import './pages/Comingsoon.css';
 
 // Different components needed for homepage: Nav bar, on click events for each image + button currently just take to a random page, css (A LOT)
 
 
 function App() {
-  let component
+  let component;
   console.log(window.location.pathname);
   switch (window.location.pathname) {
     // To create a custom path to implement in the navbar simply hit enter after the last break;
@@ -163,38 +172,9 @@ function App() {
     case "/CCL_WZ_League":
         component = <CCL_WZ_League />
         break;
-  
-  
-  
-  
-  
-  
-  
   }
 
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
-
-    // Need to hollow out the button
-    // Need to center everything
-    // Need a long thin white underline
-    // Need to implement mymaps
-    // Need to link "here" to our events page
     <div className="App">
       <Navbar />
       <div>{component}</div>

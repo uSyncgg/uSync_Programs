@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 
@@ -55,3 +55,141 @@ a img {
     height: 25%;
     width: 25%;
 }
+
+*/
+
+
+
+.nav {
+    background-color: rgb(29, 29, 28);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    /*padding: 0 20px; */
+  }
+  
+  .site-title img {
+    height: 60px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    
+    
+  }
+  
+  li.active a {
+    color: purple;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropbtn {
+    color: rgb(249, 249, 249);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(29, 29, 28);
+    min-width: 160px;
+    z-index: 1;
+    display: none;
+    text-align: center;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  .cLinkText {
+    text-align: center;
+  }
+
+  .dropdown-content li {
+    text-align: center;
+  }
+  
+  .dropdown-content a {
+    text-decoration: none;
+ 
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  
+  .cLinkDropdown, .cLink {
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+  }
+
+  .active .dropbtn {
+    color: #fff;
+  }
+  
+  ul {
+    padding-left: 0;
+    margin-right: 10%;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px;
+    margin: 0 10px;
+    margin-top: 5%;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  ul li:first-child {
+    margin-left: 0;
+  }
+  
+  ul li:last-child {
+    margin-right: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
