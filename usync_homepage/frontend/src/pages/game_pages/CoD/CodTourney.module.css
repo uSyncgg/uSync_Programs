@@ -1,0 +1,180 @@
+.entry {
+    width: 90%;
+}
+
+.text {
+    /* margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 3%;
+    padding-left: 3%; */
+    /* display:inline-block; */
+    /* font-size: 22px;
+    font-family: 'Helvetica';
+    font-weight: bold; */
+    /* display: inline-block; */
+    /* justify-content: space-between;
+    width: 80%;
+    margin: 0 auto; */
+    /* display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    position: relative;
+    max-width: 960px;
+}
+
+.columnContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* .columnContainer > *:not(:first-child) {
+    border-left: 2px solid purple;
+    margin-left: calc((20% / 4) / 2);
+} */
+
+.centeredText {
+    text-align: center;
+    /* margin: 5px; */
+    /* min-width: 50px;  */
+    color: white;
+    font-weight: bold;
+    font-family: 'Helvetica';
+}
+
+.entryPlayer {
+    /* flex-basis: 25%; */
+    text-align: center;
+    color: white;
+    text-decoration-line: underline;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    grid-column: 1 / span 1;
+    font-size: 1.5rem;
+    /* border-right: 1px solid purple;
+    height: 2rem; */
+}
+
+.region {
+    text-align: center;
+    color: white;
+    text-decoration-line: underline;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    grid-column: 2 / span 1;
+    font-size: 1.5rem;
+    /* border-right: 1px solid purple;
+    height: 2rem; */
+}
+
+.skill {
+    text-align: center;
+    color: white;
+    text-decoration-line: underline;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    grid-column: 3 / span 1;
+    font-size: 1.5rem;
+    /* border-right: 1px solid purple;
+    height: 2rem; */
+}
+
+.requirements {
+    text-align: center;
+    color: white;
+    text-decoration-line: underline;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    grid-column: 4 / span 1;
+    font-size: 1.5rem;
+}
+
+/* .variable {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    flex-basis: 75%;
+    flex-wrap: wrap;
+} */
+
+.line {
+    width: 1px;
+    height: 100%;
+    background-color: purple;
+    content: "";
+}
+
+.variableContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.entryPlayerVar {
+    grid-column: 1 / span 1;
+    font-size: 1.25rem;
+}
+
+.regionVar {
+    grid-column: 2 / span 1;
+    font-size: 1.25rem;
+}
+
+.skillVar {
+    grid-column: 3 / span 1;
+    font-size: 1.25rem;
+}
+
+.requirementsVar {
+    grid-column: 4 / span 1;
+    font-size: 1.25rem;
+}
+
+.vertLine::before {
+    content: "";
+    border-left: 1px solid purple;
+    height: 100px;
+    display: block;
+    margin-right: 10px;
+}
+
+/* .info {
+    flex-basis: 21%;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;  
+    color: white;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    display: inline-block;
+    text-align: center;  
+}
+
+.infotitle {
+    flex-basis: 21%;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-decoration-line: underline;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    display: inline-block;
+    text-align: left;
+} */
+
+@media screen and (max-width: 768px) {
+    .info {
+        flex-basis: 48%;
+    }
+}

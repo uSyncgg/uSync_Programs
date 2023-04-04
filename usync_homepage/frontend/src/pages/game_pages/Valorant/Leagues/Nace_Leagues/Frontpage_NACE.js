@@ -12,7 +12,7 @@ const Frontpage_NACE = () => {
                                 <h1 className='Leagueh1'>Varsity League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/QYYAzjq"><img src="https://i.imgur.com/QYYAzjq.png" className='league-img' /></a>
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Platinum & Above</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -25,7 +25,7 @@ const Frontpage_NACE = () => {
                                 <h1 className='Leagueh1'>Open League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/QYYAzjq"><img src="https://i.imgur.com/QYYAzjq.png" className='league-img' /></a>
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Gold & Below</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

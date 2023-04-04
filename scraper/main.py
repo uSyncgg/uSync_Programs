@@ -9,7 +9,8 @@ import requests
 import re
 
 from web_scraper import get_tournament_info, get_tournament_link, get_date, get_tournament_ids
-from data_writer import write_all
+from data_writer import write_all, write_all_links
+from drop_info import drop_all_tourneys, drop_all_links
 
 
 def get_all_info(tournament_ids, driver, URL):
@@ -25,7 +26,9 @@ def get_all_info(tournament_ids, driver, URL):
         
 
 def main():
-    main_path = './tournaments_data.csv'
+    drop_all_tourneys()
+    drop_all_links()
+
     URL = "https://esportsagent.gg/tournament"
     driver = webdriver.Chrome(ChromeDriverManager().install()) 
 
@@ -35,9 +38,11 @@ def main():
     # print(tourney_links)
     # all_info = get_all_info(tourney_links, driver, URL)
     all_info = get_all_info(tourney_ids, driver, URL)
+    all_links = get_tournament_link(tourney_ids, URL)
     # print(get_all_info(tourney_ids, driver, URL))
     # print(all_info[1]["date"])
     write_all(all_info)
+    write_all_links(all_links)
     # write_all(all_info, path=main_path)
     # all_info = get_tournament_info(driver, URL_begin)
 

@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const TourneySchema = mongoose.Schema({
     tournament: {
-        _id: Object,
+        _id: mongoose.Schema.Types.ObjectId,
 
         date: String,
 
@@ -14,9 +14,9 @@ const TourneySchema = mongoose.Schema({
 
         size: String,
 
-        platforms: Array,
+        platforms: [String],
 
-        gamemode: String
+        game: String
     }
 })
 

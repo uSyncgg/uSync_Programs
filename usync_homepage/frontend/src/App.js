@@ -23,20 +23,22 @@ import Rl from './pages/game_pages/RocketLeague/Rl';
 import Valorant from './pages/game_pages/Valorant/Val';
 import Warzone from './pages/game_pages/Warzone/Wz';
 import CodTourneys from './pages/game_pages/CoD/CodTourneys';
+// import CodTourneys from './pages/game_pages/CoD/CodTourneys';
 import AWL_League from './pages/game_pages/CoD/leagues/AWL_League';
 import Halo_Leagues from './pages/game_pages/Halo/Halo_Leagues';
 import Lol_Leagues from './pages/game_pages/LoL/Lol_Leagues';
 import Rl_Leagues from './pages/game_pages/RocketLeague/Rl_Leagues';
 import Val_Leagues from './pages/game_pages/Valorant/Val_Leagues';
 import Wz_Leagues from './pages/game_pages/Warzone/Wz_Leagues';
-import Cod_Wagers from './pages/game_pages/CoD/Cod_Wagers';
-import Halo_Wagers from './pages/game_pages/Halo/Halo_Wagers';
+import Test from './pages/game_pages/CoD/Test';
 // All CoD league pages will be imported the same way Snd_league was imported
 // All that needs to be changed is the information after the last /
 // Change from Snd_league to whatever the filename is
 // Also make sure to have the name after import be spelled the exact same as the filename otherwise it will not work
 import Snd_league from './pages/game_pages/CoD/leagues/Snd_league';
 import NACAL_league from './pages/game_pages/CoD/leagues/NACAL_league';
+import Cod_Wagers from './pages/game_pages/CoD/Cod_Wagers';
+import Halo_Wagers from './pages/game_pages/Halo/Halo_Wagers';
 import Rl_Wagers from './pages/game_pages/RocketLeague/Rl_Wagers';
 import LoL_Wagers from './pages/game_pages/LoL/LoL_Wagers';
 import Wz_Wagers from './pages/game_pages/Warzone/Wz_Wagers';
@@ -53,6 +55,10 @@ import './style.css'
 //import './pages/more-pages/Eventhost.css';
 //import './pages/more-pages/Contactus.css';
 //import './pages/Comingsoon.css';
+import './pages/more-pages/Verification.css';
+import './pages/more-pages/Eventhost.css';
+import './pages/more-pages/Contactus.css';
+import './pages/Comingsoon.css';
 
 // Different components needed for homepage: Nav bar, on click events for each image + button currently just take to a random page, css (A LOT)
 
@@ -110,8 +116,12 @@ function App() {
     case "/Contactus":
       component = <Contactus />
       break;
-    case "/Tournaments":
-      component = <CodTourneys />
+    // case "/CoD/Tournaments":
+    //   component = <CodTourneys />
+    //   break;
+    // case "/test":
+    //   component = <Test />
+    //   break;    
     case "/AWL":
       component = <AWL_League />
       break;

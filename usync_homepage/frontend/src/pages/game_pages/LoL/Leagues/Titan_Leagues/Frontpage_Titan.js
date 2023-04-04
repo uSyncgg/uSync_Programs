@@ -12,7 +12,7 @@ const Frontpage_Titan = () => {
                                 <h1 className='Leagueh1'>Conqueror League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/cB4ptXT"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Diamond 4 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -25,7 +25,7 @@ const Frontpage_Titan = () => {
                                 <h1 className='Leagueh1'>Divinity League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/cB4ptXT"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Gold 1 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

@@ -10,50 +10,57 @@ import 'bootstrap/dist/css/bootstrap.css';
 const COD_Beer_League = () => {
     return (
         <div>
+            <body id='league-body'>
             <header>
-              {/* Use this exact format to insert the header image, change the alt to the league name and
+                {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
-              <img src="https://i.imgur.com/DWyIbm3.png"/>
+                <img src="https://i.imgur.com/DWyIbm3.png" className='Header-Img'/>
             </header>
             {/* ***Must have this div tage with the Background-mid class name on every file*** */}
             <div className='Background-mid'>
-             <div>
-                {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
+                <div>
+                    {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed*/}
-                <a href="https://imgur.com/HaRfFh9"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark' /></a>
-                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
-             </div>
-            </div>
-            {/* ***You must have this container div*** */}
-            <div className='container'>
-                {/* ***Must have the row div*** */}
-                <div className='row'>
-                    {/* All div tags must be set up the same way for every single CoD League game page */}
-                    <div className='col-2 offset-3'>
-                        <h1>Date:</h1>
-                        {/* Keep above date and change the information below to whatever the current date is on the given page
+                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark-title' /></a>
+                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
+                </div>
+                <a href='https://www.google.com/url?q=https%3A%2F%2Ftwitter.com%2FCoDBeerLeague&sa=D&sntz=1&usg=AOvVaw3LK3JovZ7B1-JO42DXymZJ'>
+                    <button className='join-button'>Join Now</button>
+                </a>
+                {/* ***You must have this container div*** */}
+                <div className='container'>
+                    {/* ***Must have the row div*** */}
+                    <div className='row'id='league-row'>
+                        {/* All div tags must be set up the same way for every single CoD League game page */}
+                        <div className='col-2 offset-3'id='league-info'>
+                        <h1 className='info-title'>Date:</h1>
+                            {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
-                        <p>S2 - April 2023</p>
-                        <button type="submit" className='back-button'>Back</button>
-                    </div>
-                    <div className='col-2'>
-                        <h1>Details:</h1>
-                        {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
-                        <p>4v4 Variant CDL Ruleset</p>
-                        <p>Sign up as a Duo</p>
-                        <p>Drink Before / During / After Matches</p>
-                        <p>Playoffs for T32 Teams</p>
-                        <p>Must be 21+ to Enter</p>
-                        <h1>Region/Type:</h1>
-                        <p>4v4 - NA</p>
-                    </div>
-                    <div className='col-2'>
-                        <h1>Entry Fee</h1>
-                        {/* Follow the same format as above, keep the Entry fee the same and change information below */}
-                        <p>Free Entry</p>
+                            <p>S2 - April 2023</p>
+                        </div>
+                        <div className='col-2'id='league-info'>
+                        <h1 className='info-title'>Details:</h1>
+                            {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
+                            <p>4v4 Variant CDL Ruleset</p>
+                            <p>Sign up as a Duo</p>
+                            <p>Drink Before / During / After Matches</p>
+                            <p>Playoffs for T32 Teams</p>
+                            <p>Must be 21+ to Enter</p>
+                            <h1 className='info-title2'>Region/Type:</h1>
+                            <p>4v4 - NA</p>
+                        </div>
+                        <div className='col-2'id='league-info'>
+                        <h1 className='info-title'>Entry Fee:</h1>
+                            {/* Follow the same format as above, keep the Entry fee the same and change information below */}
+                            <p>Free Entry</p>
+                        </div>
                     </div>
                 </div>
+                <a href='https://www.usync.gg/games/call-of-duty/leagues'>
+                    <button className='back-button'>Back</button>
+                </a>
             </div>
+            </body>
         </div>
 
     );

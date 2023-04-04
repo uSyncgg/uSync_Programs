@@ -12,7 +12,7 @@ const Frontpage_LAS = () => {
                                 <h1 className='Leagueh1'>Tier 1 League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/0xe76Iu"><img src="https://i.imgur.com/0xe76Iu.png" className='league-img' /></a>
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Platinum 1 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -25,7 +25,7 @@ const Frontpage_LAS = () => {
                                 <h1 className='Leagueh1'>Tier 2 League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/0xe76Iu"><img src="https://i.imgur.com/0xe76Iu.png" className='league-img' /></a>
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Gold 1 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

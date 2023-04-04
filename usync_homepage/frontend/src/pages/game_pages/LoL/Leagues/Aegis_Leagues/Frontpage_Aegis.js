@@ -12,7 +12,7 @@ const Frontpage_Aegis = () => {
                                 <h1 className='Leagueh1'>Champions League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/iy67hgo"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
-                                <a href="https://www.usync.gg"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
                                 </div>
                                 <p className='Leaguep'>Uncapped</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -25,7 +25,7 @@ const Frontpage_Aegis = () => {
                                 <h1 className='Leagueh1'>Marauder League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/iy67hgo"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
-                                <a href="https://www.usync.gg"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
                                 </div>
                                 <p className='Leaguep'>Master 200LP cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -39,7 +39,7 @@ const Frontpage_Aegis = () => {
                                 <h1 className='Leagueh1'>Protectors League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/iy67hgo"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
-                                <a href="https://www.usync.gg"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
                                 </div>
                                 <p className='Leaguep'>Diamond 4 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -52,7 +52,7 @@ const Frontpage_Aegis = () => {
                                 <h1 className='Leagueh1'>Guardians League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/iy67hgo"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
-                                <a href="https://www.usync.gg"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
                                 </div>
                                 <p className='Leaguep'>Platinum 4 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -66,7 +66,7 @@ const Frontpage_Aegis = () => {
                                 <h1 className='Leagueh1'>Squire League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/iy67hgo"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
-                                <a href="https://www.usync.gg"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
                                 </div>
                                 <p className='Leaguep'>Gold 4 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
