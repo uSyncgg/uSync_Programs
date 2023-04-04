@@ -12,7 +12,7 @@ const Frontpage_RSC = () => {
                                 <h1 className='Leagueh1'>3v3 NA League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/HAJTMrA"><img src="https://i.imgur.com/HAJTMrA.png" className='league-img' /></a>
-                                <a href="https://www.usync.gg"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
                                 </div>
                                 <p className='Leaguep'>Draft Format</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -25,7 +25,7 @@ const Frontpage_RSC = () => {
                                 <h1 className='Leagueh1'>3v3 EU League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/HAJTMrA"><img src="https://i.imgur.com/HAJTMrA.png" className='league-img' /></a>
-                                <a href="https://www.usync.gg"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
                                 </div>
                                 <p className='Leaguep'>Draft Format</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -39,7 +39,7 @@ const Frontpage_RSC = () => {
                                 <h1 className='Leagueh1'>2v2 League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/HAJTMrA"><img src="https://i.imgur.com/HAJTMrA.png" className='league-img' /></a>
-                                <a href="https://www.usync.gg"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
                                 </div>
                                 <p className='Leaguep'>Draft Format</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

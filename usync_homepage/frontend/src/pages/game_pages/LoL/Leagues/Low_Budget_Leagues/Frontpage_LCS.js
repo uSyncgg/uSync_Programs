@@ -12,7 +12,7 @@ const Frontpage_LCS = () => {
                                 <h1 className='Leagueh1'>Executive League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/lPFfJL9"><img src="https://i.imgur.com/lPFfJL9.png" className='league-img' /></a>
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Diamond 3 AVG / Two GM+</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -25,7 +25,7 @@ const Frontpage_LCS = () => {
                                 <h1 className='Leagueh1'>Financial League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/lPFfJL9"><img src="https://i.imgur.com/lPFfJL9.png" className='league-img' /></a>
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Platinum 3 AVG / One Diamond 3</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -39,7 +39,7 @@ const Frontpage_LCS = () => {
                                 <h1 className='Leagueh1'>Commercial League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/lPFfJL9"><img src="https://i.imgur.com/lPFfJL9.png" className='league-img' /></a>
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Gold 1 AVG</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -52,7 +52,7 @@ const Frontpage_LCS = () => {
                                 <h1 className='Leagueh1'>Economy League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/lPFfJL9"><img src="https://i.imgur.com/lPFfJL9.png" className='league-img' /></a>
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Silver 1 AVG</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

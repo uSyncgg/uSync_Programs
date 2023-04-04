@@ -14,7 +14,7 @@ import Verification from './pages/more-pages/Verification';
 import Becomeverified from './pages/more-pages/Becomeverified';
 import Eventhost from './pages/more-pages/Eventhost';
 import Contactus from './pages/more-pages/Contactus';
-import CodTourneys from './pages/game_pages/CoD/CodTourneys';
+// import CodTourneys from './pages/game_pages/CoD/CodTourneys';
 import AWL_League from './pages/game_pages/CoD/leagues/AWL_League';
 import Halo_Leagues from './pages/game_pages/Halo/Halo_Leagues';
 import Lol_Leagues from './pages/game_pages/LoL/Lol_Leagues';
@@ -89,9 +89,9 @@ function App() {
     case "/Contactus":
       component = <Contactus />
       break;
-    case "/CoD/Tournaments":
-      component = <CodTourneys />
-      break;
+    // case "/CoD/Tournaments":
+    //   component = <CodTourneys />
+    //   break;
     // case "/test":
     //   component = <Test />
     //   break;    

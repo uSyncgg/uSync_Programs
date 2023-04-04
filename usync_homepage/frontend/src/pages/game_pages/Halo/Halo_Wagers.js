@@ -12,7 +12,7 @@ const Halo_Wagers = () => {
                                 <h1 className='Leagueh1'>Checkmate Gaming</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/e9CIHsR"><img src="https://i.imgur.com/e9CIHsR.png" className='league-img'/></a> 
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -25,7 +25,7 @@ const Halo_Wagers = () => {
                                 <h1 className='Leagueh1'>One Up (App)</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/ExuRlsG"><img src="https://i.imgur.com/ExuRlsG.png" className='league-img'/></a> 
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

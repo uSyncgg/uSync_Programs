@@ -12,7 +12,7 @@ const Frontpage_Italian = () => {
                                 <h1 className='Leagueh1'>Serie A League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/VjsPbnv"><img src="https://i.imgur.com/VjsPbnv.png" className='league-img' /></a>
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>By Rank</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -25,7 +25,7 @@ const Frontpage_Italian = () => {
                                 <h1 className='Leagueh1'>Serie B League</h1>
                                 <div className='parent'>
                                 <a href="https://imgur.com/VjsPbnv"><img src="https://i.imgur.com/VjsPbnv.png" className='league-img' /></a>
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>By Rank</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
