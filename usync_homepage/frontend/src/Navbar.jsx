@@ -37,7 +37,7 @@ const CustomLink = ({ href, children, ...props }) => {
 
   return (
     <li className={path === href ? "active" : ""}>
-      <a href={href} {...props}>
+      <a id="navbarLink" href={href} {...props}>
         {children}
       </a>
     </li>
