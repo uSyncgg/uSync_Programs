@@ -3,8 +3,11 @@ import '../../../CoD/Cod.css';
 const Frontpage_Frontline = () => {
     return (
         <div>
+            <header id='League-header'>
+                <img src="https://i.imgur.com/DWyIbm3.png" className='Header-Img-l' />
+            </header>
 
-            <div className='Background-mid'>
+            <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
                         <div className='col-lg-6'>

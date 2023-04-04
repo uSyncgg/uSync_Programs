@@ -38,12 +38,13 @@
 }
 
 .Background-leagues {
-    background-color: rgb(49, 49, 49);
-    padding: 3.125rem;
-    padding-left: 0rem;
-    padding-right: 10%;
-    transform: translateY(-10%);
-    z-index: 1;
+  background-color: rgb(49, 49, 49);
+  padding: 3.125rem;
+  padding-left: 0rem;
+  padding-right: 10%;
+  position: relative;
+  margin-top: -40%; /* adjust the margin-top property */
+  z-index: 1;
 }
 
 .Background-bottom {
@@ -154,21 +155,31 @@
     color: white;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 25%;
     font-size: 5rem;
-    transform: translate(-50%, -90%);
+    margin-top: -8%; /* adjust the margin-top property */
 
   }
   
   .Underline-h {
-    width: 100rem;
+    width: 110%;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, 10%);
+    left: -4%;
+    margin-top: -1%; /* adjust the margin-top property */
 
   }
-  
+  @media only screen and (max-width: 767px) {
+    .Underline-h {
+      width: 90%; /* adjust the width to a relative value */
+      left: 5%; /* adjust the left position to center the element */
+    }
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+      
   .Header-Img-l {
     display: block;
     width: 100%;

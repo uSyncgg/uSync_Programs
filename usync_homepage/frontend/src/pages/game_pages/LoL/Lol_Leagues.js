@@ -3,6 +3,11 @@ import '../CoD/Cod.css'
 const Lol_Leagues = () => {
     return (
         <div>
+            <header id='League-header'>
+                <img src="https://i.imgur.com/DWyIbm3.png" className='Header-Img-l' />
+                <h2 id="league-title">League of Legends Leagues</h2>
+                <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+            </header>
 
             <div className='Background-leagues'>
                 <div className='container-fluid'>

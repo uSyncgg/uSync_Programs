@@ -3,8 +3,13 @@ import '../CoD/Cod.css'
 const Wz_Leagues = () => {
     return (
         <div>
+            <header id='League-header'>
+                <img src="https://i.imgur.com/DWyIbm3.png" className='Header-Img-l' />
+                <h2 id="league-title">Warzone Leagues</h2>
+                <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+            </header>
 
-            <div className='Background-mid'>
+            <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
                         <div className='col-lg-6'>
