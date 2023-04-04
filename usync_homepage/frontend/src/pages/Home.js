@@ -20,7 +20,7 @@ import twitch from '../website_images/home-images/twitch.png';
 
 const Home = () => { 
     return (
-        <div>
+        <div className={styles.homeContainer}>
             <div className={styles.backgroundTop}>
                 <div>
                     <img src={letter_logo} alt="uSync" />
@@ -35,8 +35,8 @@ const Home = () => {
             </div>
 
             <div class={styles.backgroundMid}>
-                <h2 id="">Supported Titles</h2>
-                <img src={short_underline} alt="underline" width="500px" />
+                <h2 className={styles.Intro}>Supported Titles</h2>
+                <img className={styles.underline} src={short_underline} alt="underline" width="500px" />
 
                 <div className={styles.backgroundImages}>
                     <img src={halo} alt="Halo Infinite" height="200px" width="200px" />
@@ -51,7 +51,7 @@ const Home = () => {
                 </div>
 
                 <h2 className={styles.Intro}>LAN Events</h2>
-                <img src={short_underline} alt="underline" width="500px" />
+                <img className={styles.underline} src={short_underline} alt="underline" width="500px" />
                 <iframe className={styles.Map} src="https://www.google.com/maps/d/u/6/embed?mid=1QrCfeXFSyZJMXLzUeAiIWy0hcWgaJVg&ehbc=2E312F" width="640" height="480"></iframe>
                 <h3 className={styles.Intro}>Learn how to post your LAN to the map <a href="/">here</a></h3>
                 <br />
@@ -59,7 +59,7 @@ const Home = () => {
 
 
                 <h2 className={styles.Intro}>Coming Soon!</h2>
-                <img src={short_underline} alt="underline" width="500px" />
+                <img className={styles.underline} src={short_underline} alt="underline" width="500px" />
 
                 <div className={styles.comingSoonGames}>
                     <img src={apex} alt="Apex Legends" height="200px" width="200px" />
