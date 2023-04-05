@@ -96,7 +96,9 @@ const Frontpage_MLE = () => {
                             </div>
                         </div>
                         <p className='hr' />
-
+                        <a href='https://www.usync.gg/games/RocketLeague/leagues'>
+                        <button className='back-button'>Back</button>
+                    </a>
                     </div>
                 </div>
             </div>

@@ -41,7 +41,7 @@ const FPC_League = () => {
                         <div className='col-2'id='league-info'>
                         <h1 className='info-title'>Details:</h1>
                             {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
-                            <p>$1000 Prize Pool</p>
+                            <p>$2000 Prize Pool</p>
                             <p>Female ONLY</p>
                             <p>Organized Structure/Format</p>
                             <p>Live Streamed Matches</p>

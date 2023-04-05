@@ -56,7 +56,9 @@ const Frontpage_Zero = () => {
                             </div>
                         </div>
                         <p className='hr' />
-
+                        <a href='https://www.usync.gg/games/LoL/leagues'>
+                        <button className='back-button'>Back</button>
+                    </a>
                     </div>
                 </div>
             </div>

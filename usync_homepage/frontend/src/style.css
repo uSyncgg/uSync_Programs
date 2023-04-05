@@ -6,7 +6,6 @@
   justify-content: space-between;
   align-items: center;
   height: 5rem;
-  width: 100%;
   padding: 0 1.25rem;
   position: relative;
   z-index: 2;
@@ -14,9 +13,9 @@
 
 /* Style the site title logo */
 .site-title img {
-  height: 3.75rem;
+  height: 3.8rem;
   margin-left: 5%;
-  width: 75%;
+  margin-top: -2.5%;
 }
 
 /* Style the list items in the navbar */
@@ -93,8 +92,7 @@ ul a, .cLinkDropdown {
   text-align: left;
   font-size: 1rem;
   font-weight: 600;
-  padding: 0.625rem;
-  width: 100%;
+  margin-left: -1rem !important;
   white-space: nowrap;
 }
 

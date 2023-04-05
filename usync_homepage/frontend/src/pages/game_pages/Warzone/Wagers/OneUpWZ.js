@@ -69,4 +69,4 @@ const OneUpWZ = () => {
 }
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default Oneup_Wagers;
+export default OneUpWZ;

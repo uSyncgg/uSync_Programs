@@ -14,18 +14,18 @@ const Navbar = () => {
           <ul>
               <CustomLink className="cLink" href="/">Home</CustomLink>
               <CustomLinkDropdown className="cLinkDropdown" title="Games">
-                  <CustomLink className='cLinkText' href="/Games/Cod">CoD</CustomLink>
-                  <CustomLink className='cLinkText' href="/Games/Halo">Halo</CustomLink>
-                  <CustomLink className='cLinkText' href="/Games/LoL">League of Legends</CustomLink>
-                  <CustomLink className='cLinkText' href="/Games/Rl">Rocket League</CustomLink>
-                  <CustomLink className='cLinkText' href="/Games/Val">Valorant</CustomLink>
-                  <CustomLink className='cLinkText' href="/Games/Wz">Warzone</CustomLink>
+                  <CustomLink className='cLinkText' href="/games/call-of-duty">CoD</CustomLink>
+                  <CustomLink className='cLinkText' href="/games/Halo">Halo</CustomLink>
+                  <CustomLink className='cLinkText' href="/games/LoL">League of Legends</CustomLink>
+                  <CustomLink className='cLinkText' href="/games/RocketLeague">Rocket League</CustomLink>
+                  <CustomLink className='cLinkText' href="/games/Valorant">Valorant</CustomLink>
+                  <CustomLink className='cLinkText' href="/games/Warzone">Warzone</CustomLink>
               </CustomLinkDropdown>
               <CustomLink className="cLink" href="/Comingsoon">Coming Soon</CustomLink>
               <CustomLinkDropdown className="cLinkDropdown" title="More">
-                  <CustomLink className='cLinkText' href="/Verification">Verification</CustomLink>
-                  <CustomLink className='cLinkText'href="/Eventhost">Event Host</CustomLink>
-                  <CustomLink className='cLinkText'href="/Contactus">Contact Us</CustomLink>
+                  <CustomLink className='cLinkText' href="/more/verification">Verification</CustomLink>
+                  <CustomLink className='cLinkText'href="/more/eventhost">Event Host</CustomLink>
+                  <CustomLink className='cLinkText'href="/more/contactus">Contact Us</CustomLink>
               </CustomLinkDropdown>
           </ul>
         </nav>

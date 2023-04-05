@@ -7,7 +7,7 @@ import '../../../../../Info.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 // Make sure the name following const is the same as the file name
-const Academy = () => {
+const Academy_val = () => {
     return (
         <div>
             <body id='league-body'>
@@ -68,4 +68,4 @@ const Academy = () => {
 }
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default Academy;
+export default Academy_val;
