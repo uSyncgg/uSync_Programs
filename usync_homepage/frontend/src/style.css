@@ -37,6 +37,10 @@ li.active a {
   text-decoration: none;
 }
 
+li:hover {
+  color: blue;
+}
+
 /* Style the links in the navbar */
 ul a, .cLinkDropdown {
   margin: 1rem;
@@ -94,6 +98,10 @@ ul a, .cLinkDropdown {
   white-space: nowrap;
 }
 
+ul a:hover {
+  color: blue;
+}
+
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
@@ -102,6 +110,7 @@ ul a, .cLinkDropdown {
 /* Set the active dropdown link */
 .dropdown-content a:hover {
   text-align: left;
+  color: blue;
 }
 
 /* Set the active dropdown item */
