@@ -53,7 +53,7 @@ function Tournament(props) {
                                     <img src={snd_league} alt="The SND League" className='league-img' />
                                     <img src={check} alt="The SND League" className='over-img' />
                                 </div>
-                                <h2><EventTime time={time} /></h2>
+                                <h2>{tournament.time}</h2>
                                 {/* <img src="https://i.imgur.com/DRq2uD6.png" alt="entry, region, skill, req" className={styles.entry}/> */}
                                 {/* className={styles.text} */}
                                 <div className={styles.text}>
@@ -143,4 +143,4 @@ function Tournament(props) {
     );
 }
 
-// export default CodTourneys;
+ export default CodTourneys;

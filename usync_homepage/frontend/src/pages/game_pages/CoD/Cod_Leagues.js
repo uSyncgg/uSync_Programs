@@ -287,6 +287,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
                         <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='PLACE LINK HERE'>
@@ -321,6 +322,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
                         <p className='hr' />
+                        
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='PLACE LINK HERE'>
