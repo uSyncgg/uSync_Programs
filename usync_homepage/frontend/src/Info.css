@@ -19,9 +19,6 @@
     transform: translateY(-40%);
 }
 
-
-
-
 .back-button {
     background-color: rgb(49, 49, 49);
     color: rgb(141, 125, 181);
@@ -123,3 +120,12 @@
     min-width: 50rem;
   }
   
+  .Leaguep {
+    color: rgb(144, 141, 141);
+    font-size: 1.313rem;
+    font-family: 'Helvetica';
+    /* Set a text shadow with a blur radius of 4px and an offset of 2px */
+    text-shadow: 125rem .063rem 125rem rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    margin-top: .313rem;
+}

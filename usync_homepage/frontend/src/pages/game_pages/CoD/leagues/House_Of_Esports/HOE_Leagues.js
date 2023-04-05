@@ -78,6 +78,9 @@ const HOE_Leagues = () => {
                             </div>
                         </div>
                         <p className='hr' />
+                        <a href='https://www.usync.gg/games/call-of-duty/leagues/House-of-esports-leagues'>
+                        <button className='back-button'>Back</button>
+                        </a>
 
                     </div>
                 </div>

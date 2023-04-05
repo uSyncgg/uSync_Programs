@@ -14,16 +14,16 @@ const Cod_Leagues = () => {
                     <div className='row'>
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='PLACE LINK HERE'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/snd-league'>
                                     <h1 className='Leagueh1'>The SND League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="https://imgur.com/eXZFLGH"><img src="https://i.imgur.com/eXZFLGH.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/snd-league"><img src="https://i.imgur.com/eXZFLGH.png" className='league-img' /></a>
+                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>All Regions</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='PLACE LINK HERE'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/snd-league'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -31,7 +31,7 @@ const Cod_Leagues = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='PLACE LINK HERE'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/snd-league'>
                                     <h1 className='Leagueh1'>Contender Gaming Network</h1>
                                 </a>
                                 <div className='parent'>
@@ -221,7 +221,7 @@ const Cod_Leagues = () => {
                         <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='PLACE LINK HERE'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/awl-league'>
                                     <h1 className='Leagueh1'>Amateur World League</h1>
                                 </a>
                                 <div className='parent'>
@@ -307,16 +307,16 @@ const Cod_Leagues = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='PLACE LINK HERE'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/House-of-esports-leagues'>
                                     <h1 className='Leagueh1'>House of Esports Leagues</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="https://imgur.com/47wczZC"><img src="https://i.imgur.com/47wczZC.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/House-of-esports-leagues"><img src="https://i.imgur.com/47wczZC.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>All Regions</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='PLACE LINK HERE'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/House-of-esports-leagues'>
                                     <button type="submit" className='info-button'>All Leagues</button>
                                 </a>
                             </div>

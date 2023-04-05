@@ -1,6 +1,6 @@
 import '../../../CoD/Cod.css';
 
-const Frontpage_Frontline = () => {
+const Frontpage_Frontline_val = () => {
     return (
         <div>
             <header id='League-header'>
@@ -44,7 +44,9 @@ const Frontpage_Frontline = () => {
                             </div>
                         </div>
                         <p className='hr' />
-
+                        <a href='https://www.usync.gg/games/Valorant/leagues'>
+                        <button className='back-button'>Back</button>
+                    </a>
                     </div>
                 </div>
             </div>
@@ -52,4 +54,4 @@ const Frontpage_Frontline = () => {
     );
 }
 
-export default Frontpage_Frontline;
+export default Frontpage_Frontline_val;
