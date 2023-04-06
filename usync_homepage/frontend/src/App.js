@@ -1400,7 +1400,7 @@ function App() {
     <div className="App">
       <Navbar />
       <div>{component}</div>
-    </div>
+    </div>    
   );
 }
 
