@@ -297,7 +297,62 @@ import United_Rogue from './pages/game_pages/RocketLeague/Leagues/United_Rogue'
 import VantaGG_HS_RL from './pages/game_pages/RocketLeague/Leagues/VantaGG_HS_RL'
 //ROCKET LEAGUE LEAGUES
 
+//VALORANT HEAD TO HEAD
+import College_Hub from './pages/game_pages/Valorant/Head-To-Head/College_Hub'
+import Dropin_VAL_XP from './pages/game_pages/Valorant/Head-To-Head/Dropin_VAL_XP'
+import EsportScrim from './pages/game_pages/Valorant/Head-To-Head/EsportScrim'
+import GanksterVAL from './pages/game_pages/Valorant/Head-To-Head/GanksterVAL'
+import ProjectV from './pages/game_pages/Valorant/Head-To-Head/ProjectV'
+//VALORANT HEAD TO HEAD
 
+//VALORANT WAGERS
+import DropinVAL from './pages/game_pages/Valorant/Wagers/DropinVAL'
+//VALORANT WAGERS
+
+//VALORANT LEAGUES
+import Frontpage_ECAC from './pages/game_pages/Valorant/Leagues/ECAC_Val/Frontpage_ECAC'
+import DivisionA from './pages/game_pages/Valorant/Leagues/ECAC_Val/DivisionA'
+import DivisionB from './pages/game_pages/Valorant/Leagues/ECAC_Val/DivisionB'
+import DivisionC from './pages/game_pages/Valorant/Leagues/ECAC_Val/DivisionC'
+
+import Academy_val from './pages/game_pages/Valorant/Leagues/Frontline_Leagues_Val/Academy_val'
+import Frontpage_Frontline_val from './pages/game_pages/Valorant/Leagues/Frontline_Leagues_Val/Frontpage_Frontline_val'
+import Prime from './pages/game_pages/Valorant/Leagues/Frontline_Leagues_Val/Prime'
+
+import Amateur from './pages/game_pages/Valorant/Leagues/LPL_Leagues/Amateur'
+import Evolution from './pages/game_pages/Valorant/Leagues/LPL_Leagues/Evolution'
+import Frontpage_LPL from './pages/game_pages/Valorant/Leagues/LPL_Leagues/Frontpage_LPL'
+import Open from './pages/game_pages/Valorant/Leagues/LPL_Leagues/Open'
+
+import Frontpage_NACE from './pages/game_pages/Valorant/Leagues/Nace_Leagues/Frontpage_NACE'
+import NACE_Open from './pages/game_pages/Valorant/Leagues/Nace_Leagues/NACE_Open'
+import NACE_VARSITY from './pages/game_pages/Valorant/Leagues/Nace_Leagues/NACE_VARSITY'
+
+import Frontpage_Val_Victoris from './pages/game_pages/Valorant/Leagues/Victoris_Val_Leagues/Frontpage_Val_Victoris'
+import VLS from './pages/game_pages/Valorant/Leagues/Victoris_Val_Leagues/VLS'
+import VRS from './pages/game_pages/Valorant/Leagues/Victoris_Val_Leagues/VRS'
+
+import CGN_League_Val from './pages/game_pages/Valorant/Leagues/CGN_League_Val'
+import CSMG_VAL from './pages/game_pages/Valorant/Leagues/CSMG_VAL'
+import College_Val_Riot from './pages/game_pages/Valorant/Leagues/College_Val_Riot'
+import EGFC_College_VAL from './pages/game_pages/Valorant/Leagues/EGFC_College_VAL'
+import EGFH_VAL from './pages/game_pages/Valorant/Leagues/EGFH_VAL'
+import HBCU_VAL from './pages/game_pages/Valorant/Leagues/HBCU_VAL'
+import HSEL_VAL from './pages/game_pages/Valorant/Leagues/HSEL_VAL'
+import NASEF_VAL from './pages/game_pages/Valorant/Leagues/NASEF_VAL'
+import NECC_Val from './pages/game_pages/Valorant/Leagues/NECC_Val'
+import NECL_VAL from './pages/game_pages/Valorant/Leagues/NECL_VAL'
+import NJCAAE_Val from './pages/game_pages/Valorant/Leagues/NJCAAE_Val'
+import OPSE_VAL from './pages/game_pages/Valorant/Leagues/OPSE_VAL'
+import Scottish_Val from './pages/game_pages/Valorant/Leagues/Scottish_Val'
+import Talent_League from './pages/game_pages/Valorant/Leagues/Talent_League'
+import TEC_VAL from './pages/game_pages/Valorant/Leagues/TEC_VAL'
+import UGC_College_Val from './pages/game_pages/Valorant/Leagues/UGC_College_Val'
+import Unified_Val from './pages/game_pages/Valorant/Leagues/Unified_Val'
+import VantaGG_VAL from './pages/game_pages/Valorant/Leagues/VantaGG_VAL'
+import VCT_Game from './pages/game_pages/Valorant/Leagues/VCT_Game'
+import VMaster from './pages/game_pages/Valorant/Leagues/VMaster'
+//VALORANT LEAGUES
 
 
 import Halo_headtohead from './pages/game_pages/Halo/Halo_headtohead'
@@ -348,6 +403,7 @@ import './pages/more-pages/Verification.css';
 import './pages/more-pages/Eventhost.css';
 import './pages/more-pages/Contactus.css';
 import './pages/Comingsoon.css';
+import EGFC_College_Val from './pages/game_pages/Valorant/Leagues/EGFC_College_VAL';
 
 // Different components needed for homepage: Nav bar, on click events for each image + button currently just take to a random page, css (A LOT)
 
@@ -1191,10 +1247,149 @@ function App() {
       break;
     // ROCKET LEAGUE WAGERS
 
+    // VALORANT HEAD TO HEAD
+      case "/games/Valorant/head-to-head/college-hub":
+      component = <College_Hub />
+      break;
+      case "/games/Valorant/head-to-head/dropingaming":
+      component = <Dropin_VAL_XP />
+      break;
+      case "/games/Valorant/head-to-head/esport-scrim":
+      component = <EsportScrim />
+      break;
+      case "/games/Valorant/head-to-head/gankster":
+      component = <GanksterVAL />
+      break;
+      case "/games/Valorant/head-to-head/project-v":
+      component = <ProjectV />
+      break;
+    // VALORANT HEAD TO HEAD
 
+    // VALORANT WAGERS
+      case "/games/Valorant/wagers/dropingaming":
+      component = <DropinVAL />
+      break;
+    // VALORANT WAGERS
 
+    // VALORANT LEAGUES
+      case "/games/Valorant/leagues/ecac-leagues":
+      component = <Frontpage_ECAC />
+      break;
+      case "/games/Valorant/leagues/ecac-leagues/division-a":
+      component = <DivisionA />
+      break;
+      case "/games/Valorant/leagues/ecac-leagues/division-b":
+      component = <DivisionB />
+      break;
+      case "/games/Valorant/leagues/ecac-leagues/division-c":
+      component = <DivisionC />
+      break;
 
+      case "/games/Valorant/leagues/frontline-leagues":
+      component = <Frontpage_Frontline_val />
+      break;
+      case "/games/Valorant/leagues/frontline-leagues/academy":
+      component = <Academy_val />
+      break;
+      case "/games/Valorant/leagues/frontline-leagues/prime":
+      component = <Prime />
+      break;
 
+      case "/games/Valorant/leagues/lpl-leagues":
+      component = <Frontpage_LPL />
+      break;
+      case "/games/Valorant/leagues/lpl-leagues/amateur":
+      component = <Amateur />
+      break;
+      case "/games/Valorant/leagues/lpl-leagues/evolution":
+      component = <Evolution />
+      break;
+      case "/games/Valorant/leagues/lpl-leagues/open":
+      component = <Open />
+      break;
+
+      case "/games/Valorant/leagues/nace-leagues":
+      component = <Frontpage_NACE />
+      break;
+      case "/games/Valorant/leagues/nace-leagues/open":
+      component = <NACE_Open />
+      break;
+      case "/games/Valorant/leagues/nace-leagues/varsity":
+      component = <NACE_VARSITY />
+      break;
+
+      case "/games/Valorant/leagues/victoris-leagues":
+      component = <Frontpage_Val_Victoris />
+      break;
+      case "/games/Valorant/leagues/victoris-leagues/vls":
+      component = <VLS />
+      break;
+      case "/games/Valorant/leagues/victoris-leagues/vrs":
+      component = <VRS />
+      break;
+
+      case "/games/Valorant/leagues/cgn-league":
+      component = <CGN_League_Val />
+      break;
+      case "/games/Valorant/leagues/csmg":
+      component = <CSMG_VAL />
+      break;
+      case "/games/Valorant/leagues/riot":
+      component = <College_Val_Riot />
+      break;
+      case "/games/Valorant/leagues/egfc":
+      component = <EGFC_College_VAL />
+      break;
+      case "/games/Valorant/leagues/egfh":
+      component = <EGFH_VAL />
+      break;
+      case "/games/Valorant/leagues/hbcu":
+      component = <HBCU_VAL />
+      break;
+      case "/games/Valorant/leagues/hsel":
+      component = <HSEL_VAL />
+      break;
+      case "/games/Valorant/leagues/nasef":
+      component = <NASEF_VAL />
+      break;
+      case "/games/Valorant/leagues/necc":
+      component = <NECC_Val />
+      break;
+      case "/games/Valorant/leagues/necl":
+      component = <NECL_VAL />
+      break;
+      case "/games/Valorant/leagues/njcaae":
+      component = <NJCAAE_Val />
+      break;
+      case "/games/Valorant/leagues/opse":
+      component = <OPSE_VAL />
+      break;
+      case "/games/Valorant/leagues/scottish-esports":
+      component = <Scottish_Val />
+      break;
+      case "/games/Valorant/leagues/talent-league":
+      component = <Talent_League />
+      break;
+      case "/games/Valorant/leagues/tec":
+      component = <TEC_VAL />
+      break;
+      case "/games/Valorant/leagues/ugc-college":
+      component = <UGC_College_Val />
+      break;
+      case "/games/Valorant/leagues/unified":
+      component = <Unified_Val />
+      break;
+      case "/games/Valorant/leagues/vantagg":
+      component = <VantaGG_VAL />
+      break;
+      case "/games/Valorant/leagues/vct-game-changers":
+      component = <VCT_Game />
+      break;
+      case "/games/Valorant/leagues/vmaster":
+      component = <VMaster />
+      break;
+    // VALORANT LEAGUES
+    
   }
 
   return (
