@@ -2,12 +2,23 @@
     box-sizing: border-box;
 }
 
-.blockimg {
-    width: 33%;
-    height: 33%;
-}
 
-.Background-mid {
-    background-color: rgb(49, 49, 49);
-}
- 
+.blockimg1 {
+    width: 100%;
+} 
+
+.blockimg2 {
+    width: 100%;
+} 
+
+.blockimg3 {
+    width: 100%;
+} 
+
+.blockimg4 {
+    width: 100%;
+} 
+
+.blockimg5 {
+    width: 100%;
+} 
