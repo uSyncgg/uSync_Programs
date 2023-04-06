@@ -4,6 +4,9 @@ import { useState } from 'react';
 const navbarLogo = new URL("./website_images/home-images/usync-navbar-logo.png", import.meta.url)
 
 const Navbar = () => {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
   // const path = window.location.pathname;
   // If you are adding something to the navbar simply add a <CustomLink href="custompath">Page name</CustomLink> to the ul tag
   return (
@@ -11,22 +14,44 @@ const Navbar = () => {
           <a href="/" className="site-title">
               <img src={navbarLogo} alt="USYNC logo" />
           </a>
-          <ul>
+          <div className='menu-icon' onClick={handleClick}>
+            <i className={click ? 'fa-regular fa-circle-xmark' : 'fa-solid fa-bars'}></i>
+          </div>
+          <div className={click ? 'mobile-menu' : 'mobile-menu hide-mobile'}>
+            <ul className='mobile-menu-ul'>
+                <CustomLink className="cLink-mobile" href="/">Home</CustomLink>
+                <CustomLinkDropdown className="cLinkDropdown-mobile" title="Games">
+                    <CustomLink className='cLinkText-mobile' href="/games/call-of-duty">CoD</CustomLink>
+                    <CustomLink className='cLinkText-mobile' href="/games/Halo">Halo</CustomLink>
+                    <CustomLink className='cLinkText-mobile' href="/games/LoL">League of Legends</CustomLink>
+                    <CustomLink className='cLinkText-mobile' href="/games/RocketLeague">Rocket League</CustomLink>
+                    <CustomLink className='cLinkText-mobile' href="/games/Valorant">Valorant</CustomLink>
+                    <CustomLink className='cLinkText-mobile' href="/games/Warzone">Warzone</CustomLink>
+                </CustomLinkDropdown>
+                <CustomLink className="cLink-mobile" href="/Comingsoon">Coming Soon</CustomLink>
+                <CustomLinkDropdown className="cLinkDropdown-mobile" title="More">
+                    <CustomLink className='cLinkText-mobile' href="/more/verification">Verification</CustomLink>
+                    <CustomLink className='cLinkText-mobile' href="/more/eventhost">Event Host</CustomLink>
+                    <CustomLink className='cLinkText-mobile' href="/more/contactus">Contact Us</CustomLink>
+                </CustomLinkDropdown>
+            </ul>
+          </div>
+          <ul className='webpage-ul'>
               <CustomLink className="cLink" href="/">Home</CustomLink>
-              <CustomLinkDropdown className="cLinkDropdown" title="Games">
+              <MobileCustomLinkDropdown className="cLinkDropdown" title="Games">
                   <CustomLink className='cLinkText' href="/games/call-of-duty">CoD</CustomLink>
                   <CustomLink className='cLinkText' href="/games/Halo">Halo</CustomLink>
                   <CustomLink className='cLinkText' href="/games/LoL">League of Legends</CustomLink>
                   <CustomLink className='cLinkText' href="/games/RocketLeague">Rocket League</CustomLink>
                   <CustomLink className='cLinkText' href="/games/Valorant">Valorant</CustomLink>
                   <CustomLink className='cLinkText' href="/games/Warzone">Warzone</CustomLink>
-              </CustomLinkDropdown>
+              </MobileCustomLinkDropdown>
               <CustomLink className="cLink" href="/Comingsoon">Coming Soon</CustomLink>
-              <CustomLinkDropdown className="cLinkDropdown" title="More">
+              <MobileCustomLinkDropdown className="cLinkDropdown" title="More">
                   <CustomLink className='cLinkText' href="/more/verification">Verification</CustomLink>
-                  <CustomLink className='cLinkText'href="/more/eventhost">Event Host</CustomLink>
-                  <CustomLink className='cLinkText'href="/more/contactus">Contact Us</CustomLink>
-              </CustomLinkDropdown>
+                  <CustomLink className='cLinkText' href="/more/eventhost">Event Host</CustomLink>
+                  <CustomLink className='cLinkText' href="/more/contactus">Contact Us</CustomLink>
+              </MobileCustomLinkDropdown>
           </ul>
         </nav>
   );
@@ -60,7 +85,31 @@ const CustomLinkDropdown = ({ title, children }) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <span className="dropbtn">{title}</span>
+      <span className="dropbtn"><i className='fa-solid fa-caret-down'></i>{title}</span>
+      {showMenu && (
+        <ul className="dropdown-content">{children}</ul>
+      )}
+    </li>
+  );
+};
+
+const MobileCustomLinkDropdown = ({ title, children }) => {
+  const [showMenu, setShowMenu] = useState(false);
+
+  const handleMouseEnter = () => {
+    setShowMenu(true);
+  };
+
+  const handleMouseLeave = () => {
+    setShowMenu(false);
+  };
+  
+  return (
+    <li className="dropdown dropdown-wrapper"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      <span className="dropbtn">{title} <i className='fa-solid fa-caret-down'></i></span>
       {showMenu && (
         <ul className="dropdown-content">{children}</ul>
       )}
