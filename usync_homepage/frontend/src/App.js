@@ -40,6 +40,7 @@ import NACE_COD_League from './pages/game_pages/CoD/leagues/NACE_COD_League'
 import U18_League from './pages/game_pages/CoD/leagues/U18_League'
 import UNG_League from './pages/game_pages/CoD/leagues/UNG_League'
 import XP_League_Cod from './pages/game_pages/CoD/leagues/XP_League_Cod'
+import COD_Rec_League from './pages/game_pages/CoD/leagues/COD_Rec_League'
 //COD LEAGUES
 
 //COD HEAD TO HEAD
@@ -541,7 +542,10 @@ function App() {
     case "/games/call-of-duty/leagues/snd-league":
       component = <Snd_league />
       break;
-    case "/NACAL-league":
+      case "/games/call-of-duty/leagues/cod-rec-league":
+      component = <COD_Rec_League />
+      break;
+    case "/games/call-of-duty/nacal-league":
       component = <NACAL_league />
       break;
     case "/games/call-of-duty/leagues/awl-league":
@@ -1389,7 +1393,7 @@ function App() {
       component = <VMaster />
       break;
     // VALORANT LEAGUES
-    
+
   }
 
   return (

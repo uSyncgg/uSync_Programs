@@ -12,16 +12,16 @@ const Frontpage_GG = () => {
                     <div className='row'>
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='PLACE LINK HERE'>
+                                <a href='http://localhost:3000/games/LoL/leagues/gg-leagues/division-a'>
                                     <h1 className='Leagueh1'>Division A League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="https://imgur.com/hs7swgq"><img src="https://i.imgur.com/hs7swgq.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/LoL/leagues/gg-leagues/division-a"><img src="https://i.imgur.com/hs7swgq.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>By Rank</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='PLACE LINK HERE'>
+                                <a href='http://localhost:3000/games/LoL/leagues/gg-leagues/division-a'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -29,16 +29,16 @@ const Frontpage_GG = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='PLACE LINK HERE'>
+                                <a href='http://localhost:3000/games/LoL/leagues/gg-leagues/division-b'>
                                     <h1 className='Leagueh1'>Division B League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="https://imgur.com/hs7swgq"><img src="https://i.imgur.com/hs7swgq.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/LoL/leagues/gg-leagues/division-b"><img src="https://i.imgur.com/hs7swgq.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>By Rank</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='PLACE LINK HERE'>
+                                <a href='http://localhost:3000/games/LoL/leagues/gg-leagues/division-b'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -47,16 +47,16 @@ const Frontpage_GG = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='PLACE LINK HERE'>
+                                <a href='http://localhost:3000/games/LoL/leagues/gg-leagues/division-c'>
                                     <h1 className='Leagueh1'>Division C League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="https://imgur.com/hs7swgq"><img src="https://i.imgur.com/hs7swgq.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/LoL/leagues/gg-leagues/division-c"><img src="https://i.imgur.com/hs7swgq.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>By Rank</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='PLACE LINK HERE'>
+                                <a href='http://localhost:3000/games/LoL/leagues/gg-leagues/division-c'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>

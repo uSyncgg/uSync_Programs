@@ -36,7 +36,7 @@ const COD_Rec_League = () => {
                         <h1 className='info-title'>Date:</h1>
                             {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
-                            <p>February 2023</p>
+                            <p>Late Spring 2023</p>
                         </div>
                         <div className='col-2'id='league-info'>
                         <h1 className='info-title'>Details:</h1>

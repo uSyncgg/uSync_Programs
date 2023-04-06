@@ -36,7 +36,7 @@ const College_XP = () => {
                         <h1 className='info-title'>Date:</h1>
                             {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
-                            <p>Annualy Early Spring</p>
+                            <p>Annual Spring and Fall Seasons</p>
                         </div>
                         <div className='col-2'id='league-info'>
                         <h1 className='info-title'>Details:</h1>

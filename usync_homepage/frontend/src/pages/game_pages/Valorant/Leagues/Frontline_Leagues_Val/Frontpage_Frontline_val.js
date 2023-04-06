@@ -12,16 +12,16 @@ const Frontpage_Frontline_val = () => {
                     <div className='row'>
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='PLACE LINK HERE'>
+                                <a href='http://localhost:3000/games/Valorant/leagues/frontline-leagues/prime'>
                                     <h1 className='Leagueh1'>Prime League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="https://imgur.com/pjxLzXe"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/Valorant/leagues/frontline-leagues/prime"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Platinum & Above</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='PLACE LINK HERE'>
+                                <a href='http://localhost:3000/games/Valorant/leagues/frontline-leagues/prime'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -29,16 +29,16 @@ const Frontpage_Frontline_val = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='PLACE LINK HERE'>
+                                <a href='http://localhost:3000/games/Valorant/leagues/frontline-leagues/academy'>
                                     <h1 className='Leagueh1'>Academy League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="https://imgur.com/pjxLzXe"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/Valorant/leagues/frontline-leagues/academy"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Gold & Below</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='PLACE LINK HERE'>
+                                <a href='http://localhost:3000/games/Valorant/leagues/frontline-leagues/academy'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
