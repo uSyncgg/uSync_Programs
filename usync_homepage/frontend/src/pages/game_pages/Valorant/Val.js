@@ -13,15 +13,15 @@ const Val = () => {
                     <div className='row'>
                         <div className='col-2 offset-3'>
                             <a href='http://localhost:3000/games/Valorant/head-to-head'>
-                            <img src="https://i.imgur.com/CiO5ViA.png" alt="Cod Head to Head" className='blockimg1' /> </a>
+                            <img src="https://i.imgur.com/Eb0q3VJ.png" alt="Valorant Head to Head" className='blockimg1' /> </a>
                             <a href='http://localhost:3000/games/Valorant/lans'>
-                            <img src="https://i.imgur.com/NXTgpHd.png" alt="Cod Lans" className='blockimg2' /></a>
+                            <img src="https://i.imgur.com/pRnsLUn.png" alt="Valorant Lans" className='blockimg2' /></a>
                             <a href='http://localhost:3000/games/Valorant/leagues'>
-                            <img src="https://i.imgur.com/Zj3dVpv.png" alt="Cod Leagues" className='blockimg3' /></a>
+                            <img src="https://i.imgur.com/D9hSzYi.png" alt="Valorant Leagues" className='blockimg3' /></a>
                             <a href='http://localhost:3000/games/Valorant/NEED PATHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH'>
-                            <img src="https://i.imgur.com/nVx3C4M.png" alt="Cod Tourneys" className='blockimg4' /></a>
+                            <img src="https://i.imgur.com/S6xUnmR.png" alt="Valorant Tourneys" className='blockimg4' /></a>
                             <a href='http://localhost:3000/games/Valorant/wagers'>
-                            <img src="https://i.imgur.com/EgBRBVS.png" alt="Cod Wagers" className='blockimg5' /></a>
+                            <img src="https://i.imgur.com/q3EujhS.png" alt="Valorant Wagers" className='blockimg5' /></a>
                         </div>
                     </div>
                 </div>

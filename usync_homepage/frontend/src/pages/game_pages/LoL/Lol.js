@@ -18,15 +18,15 @@ const Lol = () => {
                     <div className='row'>
                         <div className='col-2 offset-3'>
                             <a href='http://localhost:3000/games/LoL/head-to-head'>
-                            <img src="https://i.imgur.com/CiO5ViA.png" alt="Cod Head to Head" className='blockimg1' /> </a>
+                            <img src="https://i.imgur.com/y5W9NXc.png" alt="LoL Head to Head" className='blockimg1' /> </a>
                             <a href='http://localhost:3000/games/LoL/lans'>
-                            <img src="https://i.imgur.com/NXTgpHd.png" alt="Cod Lans" className='blockimg2' /></a>
+                            <img src="https://i.imgur.com/sXCt646.png" alt="LoL Lans" className='blockimg2' /></a>
                             <a href='http://localhost:3000/games/LoL/leagues'>
-                            <img src="https://i.imgur.com/Zj3dVpv.png" alt="Cod Leagues" className='blockimg3' /></a>
+                            <img src="https://i.imgur.com/p77z4SF.png" alt="LoL Leagues" className='blockimg3' /></a>
                             <a href='http://localhost:3000/games/LoL/NEED PATHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH'>
-                            <img src="https://i.imgur.com/nVx3C4M.png" alt="Cod Tourneys" className='blockimg4' /></a>
+                            <img src="https://i.imgur.com/P6GL2lx.png" alt="LoL Tourneys" className='blockimg4' /></a>
                             <a href='http://localhost:3000/games/LoL/wagers'>
-                            <img src="https://i.imgur.com/EgBRBVS.png" alt="Cod Wagers" className='blockimg5' /></a>
+                            <img src="https://i.imgur.com/OhtUL4E.png" alt="LoL Wagers" className='blockimg5' /></a>
                         </div>
                     </div>
                 </div>
