@@ -24,8 +24,8 @@ body {
 
 
 .backgroundTop img{
-  width: 60%;
-  height: 75vh;
+  width: 50%;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
@@ -46,37 +46,62 @@ body {
   font-size: 3rem;
 }
 
-.Intro h2{
-  font-size: 18px;
+@media screen and (max-width: 768px) {
+  .Intro {
+    font-size: 2rem;
+    max-width: 90%;
+  }
 }
+
+
+.Intro h2{
+  font-size: 1.125rem;
+}
+@media screen and (max-width: 768px) {
+  .Intro h2{
+    font-size: 2rem;
+    max-width: 90%;
+  }
+}
+
 
 .getStarted {
   display: inline-block;
   background-color: transparent;
-  border: 2px solid #fff;
-  border-radius: 10px;
+  border: .125rem solid #fff;
+  border-radius: .625rem;
   color: #fff;
   font-size: 1rem;
   font-weight: bold;
   width: 90%;
   margin: 10vh auto;
-  padding: 10px 20px;
+  padding: .625rem 1.25rem;
   display: block;
   text-align: center;
   text-decoration: none;
+  transition-duration: 0.4s;
 }
 
-.backgroundImages img{
+.getStarted:hover {
+  background-color: rgba(137, 124, 141, 0.407);
+  color: rgb(255, 255, 255);
+}
+
+.backgroundImages img {
   margin: 1%;
-  width: 11%;
+  width: 10%;
+  height: auto;
+  border-radius: 25px;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
-.backgroundImages, .comingSoonGames {
-  text-align: center;
+.backgroundImages img:hover {
+  box-shadow: 0 0 10px 3px rgba(153, 102, 255, 0.8);
 }
 
 .underline {
   margin: 0 auto;
+  width: 50%;
 }
 
 
@@ -93,7 +118,7 @@ body {
 }
 
 .reportProblem {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .footer {
@@ -109,14 +134,21 @@ body {
 
 .btn-block {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .Slogan {
-  font-size: 50px;
+  font-size: 3.125rem;
   color: rgb(48 189, 123);
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .Slogan {
+    font-size: 2rem;
+    max-width: 90%;
+  }
+}
+
 
 .Map {
   display: block;
@@ -129,6 +161,6 @@ hr {
   width: 90%;
   margin: 0 auto;
   border: none;
-  height: 3px;
+  height: .188rem;
 }
 
