@@ -4,8 +4,7 @@ const Val = () => {
     return (
         <div>
             <header id='League-header'>
-                <img src="https://i.imgur.com/uXaqfq9.png" className='Header-Img-l' />
-                <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                <img src="https://i.imgur.com/E5cKttY.png" className='Header-Img-l' />
             </header>
 
             <div className='Background-mid'>

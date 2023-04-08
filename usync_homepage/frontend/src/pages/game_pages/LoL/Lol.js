@@ -1,16 +1,10 @@
-//import '../Game.css';
-// import lolh2h from '../../../website_images/games/lol/lol-h2h.png';
-// import lollans from '../../../website_images/games/lol/lol-lans.png';
-// import lolleagues from '../../../website_images/games/lol/lol-leagues';
-// import loltourneys from '../../../website_images/games/lol/lol-tourneys.png';
-// import lolwagers from '../../../website_images/games/lol/lol-wagers.png';
+import '../Game.css';
 
 const Lol = () => {
     return (
         <div>
             <header id='League-header'>
-                <img src="https://i.imgur.com/uXaqfq9.png" className='Header-Img-l' />
-                <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                <img src="https://i.imgur.com/S1RgHJ3.png" className='Header-Img-l' />
             </header>
 
             <div className='Background-mid'>

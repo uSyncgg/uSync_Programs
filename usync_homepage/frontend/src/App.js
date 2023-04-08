@@ -423,16 +423,16 @@ function App() {
     case "/Comingsoon":
       component = <Comingsoon />
       break;
-    case "/Verification":
+    case "/more/verification":
       component = <Verification />
       break;
-    case "/Becomeverified":
+    case "/more/verification/becomeverified":
       component = <Becomeverified />
       break;
-    case "/Eventhost":
+    case "/more/eventhost":
       component = <Eventhost />
       break;
-    case "/Contactus":
+    case "/more/contactus":
       component = <Contactus />
       break;
 
@@ -455,16 +455,16 @@ function App() {
       component = <Cod_headtohead />
       break;
 
-    case "/games/Halo":
+    case "/games/halo":
       component = <Halo />
       break;
-    case "/games/Halo/leagues":
+    case "/games/halo/leagues":
       component = <Halo_Leagues />
       break;
-    case "/games/Halo/lans":
+    case "/games/halo/lans":
       component = <Halo_Lan />
       break;
-    case "/games/Halo/wagers":
+    case "/games/halo/wagers":
       component = <Halo_Wagers />
       break;
     case "/games/halo/head-to-head":
@@ -513,19 +513,19 @@ function App() {
       component = <Val_headtohead />
       break;
 
-    case "/games/Warzone":
+    case "/games/warzone":
       component = <Wz />
       break;
-    case "/games/Warzone/leagues":
+    case "/games/warzone/leagues":
       component = <Wz_Leagues />
       break;
-    case "/games/Warzone/lans":
+    case "/games/warzone/lans":
       component = <Wz_Lan />
       break;
-    case "/games/Warzone/wagers":
+    case "/games/warzone/wagers":
       component = <Wz_Wagers />
       break;
-    case "/games/Warzone/head-to-head":
+    case "/games/warzone/head-to-head":
       component = <Wz_headtohead />
       break;
 

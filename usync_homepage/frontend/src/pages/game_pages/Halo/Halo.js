@@ -4,8 +4,7 @@ const Halo = () => {
     return (
         <div>
             <header id='League-header'>
-                <img src="https://i.imgur.com/uXaqfq9.png" className='Header-Img-l' />
-                <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                <img src="https://i.imgur.com/whRC25A.png" className='Header-Img-l' />
             </header>
 
             <div className='Background-mid'>

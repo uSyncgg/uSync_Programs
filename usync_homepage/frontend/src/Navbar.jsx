@@ -21,12 +21,12 @@ const Navbar = () => {
             <ul className='mobile-menu-ul'>
                 <CustomLink className="cLink-mobile" href="/">Home</CustomLink>
                 <CustomLinkDropdown className="cLinkDropdown-mobile" title="Games">
-                    <CustomLink className='cLinkText-mobile' href="/games/call-of-duty">CoD</CustomLink>
-                    <CustomLink className='cLinkText-mobile' href="/games/Halo">Halo</CustomLink>
+                    <CustomLink className='cLinkText-mobile' href="/games/call-of-duty">Call of Duty</CustomLink>
+                    <CustomLink className='cLinkText-mobile' href="/games/halo">Halo</CustomLink>
                     <CustomLink className='cLinkText-mobile' href="/games/LoL">League of Legends</CustomLink>
                     <CustomLink className='cLinkText-mobile' href="/games/RocketLeague">Rocket League</CustomLink>
                     <CustomLink className='cLinkText-mobile' href="/games/Valorant">Valorant</CustomLink>
-                    <CustomLink className='cLinkText-mobile' href="/games/Warzone">Warzone</CustomLink>
+                    <CustomLink className='cLinkText-mobile' href="/games/warzone">Warzone</CustomLink>
                 </CustomLinkDropdown>
                 <CustomLink className="cLink-mobile" href="/Comingsoon">Coming Soon</CustomLink>
                 <CustomLinkDropdown className="cLinkDropdown-mobile" title="More">
@@ -39,12 +39,12 @@ const Navbar = () => {
           <ul className='webpage-ul'>
               <CustomLink className="cLink" href="/">Home</CustomLink>
               <MobileCustomLinkDropdown className="cLinkDropdown" title="Games">
-                  <CustomLink className='cLinkText' href="/games/call-of-duty">CoD</CustomLink>
-                  <CustomLink className='cLinkText' href="/games/Halo">Halo</CustomLink>
+                  <CustomLink className='cLinkText' href="/games/call-of-duty">Call of Duty</CustomLink>
+                  <CustomLink className='cLinkText' href="/games/halo">Halo</CustomLink>
                   <CustomLink className='cLinkText' href="/games/LoL">League of Legends</CustomLink>
                   <CustomLink className='cLinkText' href="/games/RocketLeague">Rocket League</CustomLink>
                   <CustomLink className='cLinkText' href="/games/Valorant">Valorant</CustomLink>
-                  <CustomLink className='cLinkText' href="/games/Warzone">Warzone</CustomLink>
+                  <CustomLink className='cLinkText' href="/games/warzone">Warzone</CustomLink>
               </MobileCustomLinkDropdown>
               <CustomLink className="cLink" href="/Comingsoon">Coming Soon</CustomLink>
               <MobileCustomLinkDropdown className="cLinkDropdown" title="More">
