@@ -14,12 +14,16 @@ body {
 }
 
 .backgroundTop {
-  height: 150vh; /* Set height to 150% of the viewport height */
+  height: 120vh; /* Set height to 150% of the viewport height */
   width: 100%;
   background-image: url("./website_images/home-images/home_background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
+}
+.Intro u {
+  text-decoration: none;
+  border-bottom: .15rem solid rgb(142, 106, 206);
 }
 
 
@@ -28,15 +32,14 @@ body {
   height: auto;
   display: block;
   margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: .3rem;
 }
 
 .backgroundMid {
   background-color: rgb(49, 49, 49);
 }
 
-.backgroundBottom {
-  background-color: gray;
-}
 
 .Intro {
   color: white;
@@ -44,6 +47,16 @@ body {
   margin: 0;
   text-align: center;
   font-size: 3rem;
+}
+
+.hometitles {
+  color: white;
+  white-space: pre-line;
+  margin: 0;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: .9rem;
+  padding-bottom: .8rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -102,6 +115,7 @@ body {
 .underline {
   margin: 0 auto;
   width: 50%;
+  padding-bottom: .9rem;
 }
 
 
@@ -119,17 +133,35 @@ body {
 
 .reportProblem {
   margin-top: 1.25rem;
+  color: rgb(142, 106, 206);
+  text-decoration: underline !important;
+  font-weight: 600;
+}
+.reportProblem:hover{
+  color: rgb(142, 106, 206) !important;
+  filter: brightness(120%);
 }
 
 .footer {
   color: black;
   background-color: rgb(67, 67, 67);
   text-align: center;
+  padding-bottom: .625rem;
 }
 
+.contactus{
+  color: white;
+  text-decoration: underline !important;
+  font-weight: 600;
+}
+.contactus:hover{
+  color: rgb(190, 190, 190) !important;
+  filter: brightness(120%);
+}
 
 .footer p {
   color: black;
+  font-weight: 600;
 }
 
 .btn-block {
@@ -162,5 +194,23 @@ hr {
   margin: 0 auto;
   border: none;
   height: .188rem;
+}
+
+.eventhost{
+  color: rgb(142, 106, 206);
+  text-decoration: underline !important;
+}
+
+.eventhost:hover{
+  color: rgb(142, 106, 206) !important;
+  filter: brightness(120%);
+}
+
+
+.learnhow{
+  color: white;
+  font-size: medium;
+  padding-top: 1rem;
+  font-weight: 600;
 }
 

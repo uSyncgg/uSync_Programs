@@ -31,12 +31,12 @@ ul {
 
 /* Style the active list item */
 li.active a {
-  color: purple;
+  color: rgb(142, 106, 206);
   text-decoration: none;
 }
 
 li:hover {
-  color: blue;
+  color: rgb(142, 106, 206);
 }
 
 /* Style the links in the navbar */
@@ -96,7 +96,8 @@ ul a, .cLinkDropdown {
 }
 
 ul a:hover {
-  color: blue;
+  color: rgb(142, 106, 206);
+  filter: brightness(120%);
 }
 
 .dropbtn i {
@@ -113,7 +114,7 @@ ul a:hover {
 /* Set the active dropdown link */
 .dropdown-content a:hover {
   text-align: left;
-  color: blue;
+  color: rgb(142, 106, 206);
 }
 
 /* Media queries */
