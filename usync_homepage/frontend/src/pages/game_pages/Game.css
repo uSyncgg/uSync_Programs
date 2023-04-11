@@ -1,24 +1,45 @@
 * {
+    margin: 0;
+    border: 0;
     box-sizing: border-box;
-}
+  }
 
 
-.blockimg1 {
-    width: 100%;
-} 
+  .blockimg {
+    width: 150%;
+    margin: 1% auto; /* set left and right margin to auto */
+    height: auto;
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: .9rem;
+  } 
+  
+  .blockimg:hover{
+    box-shadow: 0 0 .625rem .188rem rgba(153, 102, 255, 0.8);
+  }
 
-.blockimg2 {
-    width: 100%;
-} 
+  #bubbler {
+    margin-right: 7.9rem;
+    margin-left: 7rem;
+    margin-bottom: 2.5rem;
+  }
 
-.blockimg3 {
-    width: 100%;
-} 
+  #bubblel {
+    margin-left: 12rem !important;
+    margin-right: 7rem;
+    margin-bottom: 2.5rem;
+  }
 
-.blockimg4 {
-    width: 100%;
-} 
+  #bubble {
+    margin-bottom: 2.5rem;
+  }
 
-.blockimg5 {
-    width: 100%;
-} 
+  #bubblerb {
+    margin-right: 7.9rem;
+    margin-left: 3.5rem;
+  }
+
+  #bubblelb {
+    margin-left: 12rem !important;
+    margin-right: 3.5rem;
+  }
+  

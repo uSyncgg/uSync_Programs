@@ -6,17 +6,27 @@
     margin-right: auto;
     position: relative;
     z-index: 0;
-    top: -18.75rem;
+    top: -17rem;
 }
 
 .Background-mid {
     position: absolute;
-    top: 80%;
+    top: 90%;
     width: 100%;
     height: 150%; /* set the height to 200% to double the vertical size */
     background-color: rgb(49, 49, 49);
     z-index: 1;
     transform: translateY(-40%);
+}
+
+.Background-lans {
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  height: 150%; /* set the height to 200% to double the vertical size */
+  background-color: rgb(49, 49, 49);
+  z-index: 1;
+  transform: translateY(-40%);
 }
 
 .back-button {

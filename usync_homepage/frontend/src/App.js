@@ -403,6 +403,7 @@ import './style.css'
 import './pages/more-pages/Verification.css';
 import './pages/more-pages/Eventhost.css';
 import './pages/more-pages/Contactus.css';
+import Report from './pages/game_pages/Report';
 import './pages/Comingsoon.css';
 import EGFC_College_Val from './pages/game_pages/Valorant/Leagues/EGFC_College_VAL';
 
@@ -434,6 +435,9 @@ function App() {
       break;
     case "/more/contactus":
       component = <Contactus />
+      break;
+    case"/reportproblem":
+      component = <Report />
       break;
 
     case "/games":

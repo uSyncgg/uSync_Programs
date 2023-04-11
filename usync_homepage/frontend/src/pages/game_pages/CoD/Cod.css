@@ -45,6 +45,17 @@
   position: relative;
   margin-top: -40%; /* adjust the margin-top property */
   z-index: 1;
+  text-align: center;
+}
+
+.Background-game {
+  background-color: rgb(49, 49, 49);
+  padding: 3.125rem;
+  padding-left: 0rem;
+  padding-right: 10%;
+  position: relative;
+  margin-top: -42%; /* adjust the margin-top property */
+  z-index: 1;
 }
 
 .Background-bottom {
@@ -139,20 +150,50 @@ transition {
 #league-title {
     color: white;
     position: absolute;
-    top: 50%;
+    top: 42%;
     left: 25%;
     font-size: 5rem;
     margin-top: -8%; /* adjust the margin-top property */
-
+      /* existing CSS rules */
+      text-align: center;
+      transform: translate(-50%, -50%);
+      left: 50%;
   }
   
-  .Underline-h {
-    width: 100%;
+  #league-title-lol {
+    color: white;
     position: absolute;
-    top: 50%;
-    left: -4%;
+    top: 40%;
+    left: 25%;
+    font-size: 5rem;
+    margin-top: -8%; /* adjust the margin-top property */
+      /* existing CSS rules */
+      text-align: center;
+      transform: translate(-50%, -50%);
+      left: 50%;
+    
+  }
+  
+  .Underline-h-lol {
+    position: absolute;
+    top: 40%;
+    left: 9%;
     margin-top: -1%; /* adjust the margin-top property */
+  }
+  @media only screen and (max-width: 767px) {
+    .Underline-h-lol {
+      width: 90%; /* adjust the width to a relative value */
+      left: 5%; /* adjust the left position to center the element */
+    }
+  }
 
+
+
+  .Underline-h {
+    position: absolute;
+    top: 35%;
+    left: 9%;
+    margin-top: -1%; /* adjust the margin-top property */
   }
   @media only screen and (max-width: 767px) {
     .Underline-h {
@@ -168,7 +209,7 @@ transition {
   .Header-Img-l {
     display: block;
     width: 100%;
-    height: 50rem;
+    height: 57rem;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -176,6 +217,72 @@ transition {
     top: -18.75rem;
   }
   
+  .Header-Img-l-cod {
+    display: block;
+    width: 100%;
+    height: 57rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 0; /* Decrease the z-index */
+    top: -13rem;
+  }
+
+  .Header-Img-l-lol {
+    display: block;
+    width: 100%;
+    height: 57rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 0; /* Decrease the z-index */
+    top: -17.7rem;
+  }
+
+  .Header-Img-l-rl {
+    display: block;
+    width: 100%;
+    height: 57rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 0; /* Decrease the z-index */
+    top: 3rem;
+  }
+  .Header-Img-l-val {
+    display: block;
+    width: 100%;
+    height: 57rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 0; /* Decrease the z-index */
+    top: -15.8rem;
+  }
+
+  .Header-Img-l-halo {
+    display: block;
+    width: 100%;
+    height: 57rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 0; /* Decrease the z-index */
+    top: -2.5rem;
+  }
+
+  .Header-Img-l-wz {
+    display: block;
+    width: 100%;
+    height: 57rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 0; /* Decrease the z-index */
+    top: -15rem;
+  }
+
+
   #league-header {
     position: relative;
   }

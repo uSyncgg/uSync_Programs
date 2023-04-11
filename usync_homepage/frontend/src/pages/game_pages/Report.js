@@ -1,10 +1,10 @@
-import styles from '../Home.module.css';
-import './game_pages/CoD/Cod.css';
+import styles from '../../Home.module.css';
+import './CoD/Cod.css';
 
 
 
 
-const Games = () => {
+const Report = () => {
     return(
 <div>
             <div>
@@ -18,24 +18,24 @@ const Games = () => {
 
 <div class={styles.backgroundMid}>
 <div className={styles.backgroundImages}>
-    <a href='http://localhost:3000/games/halo'>
+    <a href='http://localhost:3000/Report/halo'>
         <img src="https://i.imgur.com/wqKJfEu.png" alt="Halo Infinite" height="12.5rem" width="12.5rem" />
     </a>
-    <a href='http://localhost:3000/games/call-of-duty'>
+    <a href='http://localhost:3000/Report/call-of-duty'>
         <img src="https://i.imgur.com/CsoQufa.png" alt="Modern Warfare 2" height="12.5rem" width="12.5rem" />
     </a>
-    <a href='http://localhost:3000/games/warzone'>
+    <a href='http://localhost:3000/Report/warzone'>
         <img src="https://i.imgur.com/BIs3u5h.png" alt="Warzone 2" height="12.5rem" width="12.5rem" />
     </a>
-    <a href='http://localhost:3000/games/LoL'>
+    <a href='http://localhost:3000/Report/LoL'>
         <img src="https://i.imgur.com/5riYNow.png" alt="League of Legends" height="12.5rem" width="12.5rem" />
     </a>
     <br />
     <br />
-    <a href='http://localhost:3000/games/RocketLeague'>
+    <a href='http://localhost:3000/Report/RocketLeague'>
         <img src="https://i.imgur.com/GJO8JIZ.png" alt="Rocket League" height="12.5rem" width="12.5rem" />
     </a>
-    <a href='http://localhost:3000/games/Valorant'>
+    <a href='http://localhost:3000/Report/Valorant'>
         <img src="https://i.imgur.com/Gsl3oIp.png" alt="Valorant" height="12.5rem" width="12.5rem" />
     </a>
     <hr />
@@ -43,7 +43,7 @@ const Games = () => {
     </div>
 </div>
 <footer className={styles.footer}>
-                    <a href="/reportproblem" className={styles.reportProblem}>Report a problem</a>
+                    <a href="/" className={styles.reportProblem}>Report a problem</a>
                     <div className={styles.footerImages}>
                         <a href='https://www.youtube.com/@usyncGG'>
                             <img src="https://i.imgur.com/zlUggwt.png" alt="Youtube"/></a>
@@ -77,4 +77,4 @@ const Games = () => {
 
     )
 }
-export default Games;
+export default Report;

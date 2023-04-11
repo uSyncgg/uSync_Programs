@@ -4,9 +4,9 @@ const Lol_Leagues = () => {
     return (
         <div>
             <header id='League-header'>
-                <img src="https://i.imgur.com/xolpoTy.png" className='Header-Img-l' />
-                <h2 id="league-title">League of Legends Leagues</h2>
-                <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+                <img src="https://i.imgur.com/aWT4Lye.png" className='Header-Img-l' />
+                <h2 id="league-title-lol">League of Legends Leagues</h2>
+                <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h-lol' />
             </header>
 
             <div className='Background-leagues'>

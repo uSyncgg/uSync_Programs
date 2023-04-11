@@ -16,7 +16,8 @@ const Home = () => {
 
                 </div>
                 <div>
-                    <button type="submit" className={styles.getStarted}>Get Started</button>
+                    <a href="http://localhost:3000/games"> <button type="submit" className={styles.getStarted}>Get Started</button> 
+                    </a>
                 </div>
                 <h2 className={styles.Slogan}>We Sync so uSync</h2>
             </div>
@@ -79,25 +80,25 @@ const Home = () => {
             </div>
             <div>
                 <footer className={styles.footer}>
-                    <a href="/" className={styles.reportProblem}>Report a problem</a>
+                    <a href="/reportproblem" className={styles.reportProblem}>Report a problem</a>
                     <div className={styles.footerImages}>
                         <a href='https://www.youtube.com/@usyncGG'>
-                            <img src="https://i.imgur.com/zlUggwt.png" alt="Youtube" height="3.125rem" width="3.125rem" /></a>
+                            <img src="https://i.imgur.com/zlUggwt.png" alt="Youtube"/></a>
 
                         <a href='https://www.instagram.com/usyncgg/'>
-                            <img src="https://i.imgur.com/9VJzdPs.png" alt="Instagram" height="3.125rem" width="3.125rem" /></a>
+                            <img src="https://i.imgur.com/9VJzdPs.png" alt="Instagram"/></a>
 
                         <a href='https://twitter.com/uSyncGG'>
-                            <img src="https://i.imgur.com/oS43wb8.png" alt="Twitter" height="3.125rem" width="3.125rem" /></a>
+                            <img src="https://i.imgur.com/oS43wb8.png" alt="Twitter"/></a>
 
                         <a href='https://www.gofundme.com/f/uSync-the-hub-for-esport-events'>
-                            <img src="https://i.imgur.com/KAhoC36.png" alt="Go Fund Me" height="3.125rem" width="3.125rem" /></a>
+                            <img src="https://i.imgur.com/KAhoC36.png" alt="Go Fund Me"/></a>
 
                         <a href='https://www.twitch.tv/usyncgg'>
-                            <img src="https://i.imgur.com/xATJ11Q.png" alt="Twitch" height="3.125rem" width="3.125rem" /></a>
+                            <img src="https://i.imgur.com/xATJ11Q.png" alt="Twitch"/></a>
 
                         <a href='mailto:usyncgg@gmail.com'>
-                            <img src="https://i.imgur.com/wSrk5b3.png" alt="Gmail" height="3.125rem" width="3.125rem" /></a>
+                            <img src="https://i.imgur.com/wSrk5b3.png" alt="Gmail"/></a>
 
                     </div>
 

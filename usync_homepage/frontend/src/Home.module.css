@@ -32,7 +32,7 @@ body {
   height: auto;
   display: block;
   margin: 0 auto;
-  padding-top: 4rem;
+  padding-top: 8rem;
   padding-bottom: .3rem;
 }
 
@@ -52,12 +52,18 @@ body {
 .hometitles {
   color: white;
   white-space: pre-line;
-  margin: 0;
   text-align: center;
   font-size: 3rem;
   padding-top: .9rem;
   padding-bottom: .8rem;
 }
+@media screen and (max-width: 768px) {
+  .hometitles {
+    font-size: 2rem;
+    max-width: 90%;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .Intro {
@@ -104,18 +110,26 @@ body {
   margin: 1%;
   width: 10%;
   height: auto;
-  border-radius: 25px;
+  border-radius: 1.563rem;
   transition: box-shadow 0.3s ease-in-out;
 }
 
 .backgroundImages img:hover {
-  box-shadow: 0 0 10px 3px rgba(153, 102, 255, 0.8);
+  box-shadow: 0 0 .625rem .188rem rgba(153, 102, 255, 0.8);
 }
 
 .underline {
   margin: 0 auto;
   width: 50%;
   padding-bottom: .9rem;
+}
+@media screen and (max-width: 768px) {
+  .underline{
+    margin: 0 auto;
+
+    width: 100%;
+
+  }
 }
 
 
