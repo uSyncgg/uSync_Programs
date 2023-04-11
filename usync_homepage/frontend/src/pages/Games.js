@@ -1,5 +1,6 @@
 import styles from '../Home.module.css';
 import './game_pages/CoD/Cod.css';
+import Footer from '../Footer';
 
 
 
@@ -9,7 +10,7 @@ const Games = () => {
 <div>
             <div>
             <header id='League-header'>
-                <img src="https://i.imgur.com/eSKIOA4.png" className='Header-Img-l' />
+                <img src="https://i.imgur.com/HDFldS8.png" className='Header-Img-l' />
                 <h2 id="league-title">uSync Titles</h2>
                 <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
             </header>
@@ -42,36 +43,7 @@ const Games = () => {
     </div>
     </div>
 </div>
-<footer className={styles.footer}>
-                    <a href="/reportproblem" className={styles.reportProblem}>Report a problem</a>
-                    <div className={styles.footerImages}>
-                        <a href='https://www.youtube.com/@usyncGG'>
-                            <img src="https://i.imgur.com/zlUggwt.png" alt="Youtube"/></a>
-
-                        <a href='https://www.instagram.com/usyncgg/'>
-                            <img src="https://i.imgur.com/9VJzdPs.png" alt="Instagram"/></a>
-
-                        <a href='https://twitter.com/uSyncGG'>
-                            <img src="https://i.imgur.com/oS43wb8.png" alt="Twitter"/></a>
-
-                        <a href='https://www.gofundme.com/f/uSync-the-hub-for-esport-events'>
-                            <img src="https://i.imgur.com/KAhoC36.png" alt="Go Fund Me"/></a>
-
-                        <a href='https://www.twitch.tv/usyncgg'>
-                            <img src="https://i.imgur.com/xATJ11Q.png" alt="Twitch"/></a>
-
-                        <a href='mailto:usyncgg@gmail.com'>
-                            <img src="https://i.imgur.com/wSrk5b3.png" alt="Gmail"/></a>
-
-                    </div>
-
-                    <p className={styles.footer}>
-                        usyncgg@gmail.com ©2022 by uSync LLC. <a href="/more/contactus" className={styles.contactus}>Contact Us</a> <br />
-                        All content, game titles, trade names and/or trade dress, trademarks, artworks and associated imagery are <br />
-                        trademarks and/or copyright material of their respective owners.
-                    </p>
-                </footer>
-
+<Footer/>
 </div>
 </div>
 

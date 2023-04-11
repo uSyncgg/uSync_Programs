@@ -53,9 +53,10 @@ ul a, .cLinkDropdown {
   font-size: 1.3rem;
   font-weight: 600;
   padding: 0.625rem;
-  text-decoration: none;
   display: flex;
   align-items: center;
+  position: relative;
+  top: -.2rem; /* adjust this value as needed */
 }
 
 /* Style the dropdown menu */
@@ -71,6 +72,8 @@ ul a, .cLinkDropdown {
   padding: 0.625rem;
   cursor: pointer;
   display: flex;
+  position: relative;
+  top: -.2rem;
 }
 
 /* Style the dropdown content */

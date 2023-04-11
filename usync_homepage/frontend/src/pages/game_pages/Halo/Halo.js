@@ -1,5 +1,6 @@
 import '../Game.css';
 import '../CoD/Cod.css'
+import Footer from '../../../Footer';
 
 
 const Halo = () => {
@@ -35,6 +36,7 @@ const Halo = () => {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
     );
 }

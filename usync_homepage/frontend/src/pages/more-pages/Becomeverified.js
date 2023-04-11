@@ -1,3 +1,5 @@
+import Footer from '../../Footer';
+
 const Becomeverified = () => {
     return (
         <div className="container">
@@ -50,6 +52,7 @@ const Becomeverified = () => {
               <input type="submit" value="Submit" className="btn btn-primary" id="verified-submit" name="become-verified-submit"/>
             </form>
           </div>
+          <Footer/>
         </div>
       )
 }

@@ -1,4 +1,5 @@
 import shortBar from "../../website_images/home-images/short_underline.png"
+import Footer from '../../Footer';
 
 const Eventhost = () => {
   return (
@@ -23,6 +24,7 @@ const Eventhost = () => {
             <div className="host-events">
                 <h2>Already Featured? Become <a href="/">Verified</a></h2>
             </div>
+            <Footer/>
     </div>
   )
 }

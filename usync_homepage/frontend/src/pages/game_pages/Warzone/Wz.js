@@ -1,4 +1,5 @@
 import '../Game.css';
+import Footer from '../../../Footer';
 
 const Wz = () => {
     return (
@@ -33,6 +34,7 @@ const Wz = () => {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
     );
 }

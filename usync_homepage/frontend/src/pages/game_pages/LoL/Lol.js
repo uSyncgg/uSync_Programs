@@ -1,4 +1,6 @@
 import '../Game.css';
+import Footer from '../../../Footer';
+
 
 const Lol = () => {
     return (
@@ -33,6 +35,7 @@ const Lol = () => {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
     );
 }

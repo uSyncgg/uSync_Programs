@@ -1,23 +1,21 @@
-import shortBar from '../website_images/home-images/short_underline.png'
-import youtube from '../website_images/home-images/youtube.png'
-import gofundme from "../website_images/home-images/gofundme.png"
+import Footer from '../Footer';
 
 const Comingsoon = () => {
     return (
         <div className="container">
             <div className="coming-soon-header">
                 <h1>Coming  Soon</h1>
-                <img src={shortBar} alt="short-bar" />
+                <img src="{shortBar}" alt="short-bar" />
             </div>
             <div className="coming-soon-game-titles">
                 <h1>Game Titles</h1>
-                <img src={shortBar} alt="short-bar" />
+                <img src="{shortBar}" alt="short-bar" />
                 <br />
                 <br />
                 <div className="coming-soon-game-img">
-                    <img src={youtube} alt="APEX" />
-                    <img src={youtube} alt="Smash" />
-                    <img src={youtube} alt="Overwatch" />
+                    <img src="{youtube}" alt="APEX" />
+                    <img src="{youtube}" alt="Smash" />
+                    <img src="{youtube}" alt="Overwatch" />
                 </div>
                 <br />
                 <p>
@@ -30,9 +28,9 @@ const Comingsoon = () => {
             </div>
             <div className="coming-soon-event-types">
                 <h1>Event Types</h1>
-                <img src={shortBar} alt="short-bar" />
+                <img src="{shortBar}" alt="short-bar" />
                 <br />
-                <img src={youtube} alt="online tournaments" id='coming-soon-online-tournaments'/>
+                <img src="{youtube}" alt="online tournaments" id='coming-soon-online-tournaments'/>
                 <br />
                 <br />
                 <p>
@@ -54,15 +52,16 @@ const Comingsoon = () => {
             </div>
             <div className="coming-soon-support-us">
                 <h1>Support Us</h1>
-                <img src={shortBar} alt="short-bar" />
+                <img src="{shortBar}" alt="short-bar" />
                 <br />
                 <br />
-                <img src={gofundme} alt="go fund me" id="coming-soon-gfm"/>
+                <img src="{gofundme}" alt="go fund me" id="coming-soon-gfm"/>
                 <p>Support Our Vision</p>
                 <br />
                 <br />
                 <br />
             </div>
+            <Footer/>
         </div>
     )
 }

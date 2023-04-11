@@ -1,10 +1,11 @@
 import '../Game.css';
+import Footer from '../../../Footer';
 
 const Rl = () => {
     return (
         <div>
             <header id='League-header'>
-                <img src="https://i.imgur.com/4b7xpUW.png" className='Header-Img-l-rl' />
+                <img src="https://i.imgur.com/UjRebiR.png" className='Header-Img-l-rl' />
             </header>
 
             <div className='Background-game'>
@@ -33,6 +34,7 @@ const Rl = () => {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
     );
 }

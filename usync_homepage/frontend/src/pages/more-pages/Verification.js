@@ -2,6 +2,7 @@ import verX from "../../website_images/verification-images/verification-x.png"
 import verCheck from "../../website_images/verification-images/verification-check.png"
 import usyncLogo from "../../website_images/home-images/letter_logo.png"
 import shortBar from "../../website_images/home-images/short_underline.png"
+import Footer from '../../Footer';
 
 
 
@@ -48,6 +49,7 @@ const Verification = () => {
             <div className="host-events">
                 <h2>Looking to post an event? Send an <a href="/">Event Submission</a></h2>
             </div>
+            <Footer/>
         </div>
         
     )

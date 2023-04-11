@@ -140,6 +140,8 @@ body {
 }
 
 .footer img {
+  position: relative;
+  z-index: 9999 !important;
   margin: 2%;
   width: 6%;
   height: 6%;
@@ -157,10 +159,12 @@ body {
 }
 
 .footer {
+  position: relative;
   color: black;
   background-color: rgb(67, 67, 67);
   text-align: center;
   padding-bottom: .625rem;
+  z-index: 99999 !important;
 }
 
 .contactus{
@@ -174,8 +178,10 @@ body {
 }
 
 .footer p {
+  position: relative;
   color: black;
   font-weight: 600;
+  z-index: 99999 !important;
 }
 
 .btn-block {

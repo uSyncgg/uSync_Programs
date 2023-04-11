@@ -5,6 +5,7 @@ import youtube from "../../website_images/home-images/youtube.png"
 import twitch from "../../website_images/home-images/twitch.png"
 import gofundme from "../../website_images/home-images/gofundme.png"
 import gmail from "../../website_images/home-images/gmail.png"
+import Footer from '../../Footer';
 
 const Contactus = () => {
     return (
@@ -104,6 +105,7 @@ const Contactus = () => {
                 <br />
                 <br />
             </div>
+            <Footer/>
         </div>
     )
 }
