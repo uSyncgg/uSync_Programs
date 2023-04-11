@@ -1,5 +1,5 @@
 import '../../../CoD/Cod.css';
-
+import Footer from '../../../../../Footer';
 const Frontpage_GG = () => {
     return (
         <div>
@@ -68,6 +68,7 @@ const Frontpage_GG = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

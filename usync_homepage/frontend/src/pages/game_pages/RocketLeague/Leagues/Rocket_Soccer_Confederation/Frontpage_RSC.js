@@ -1,12 +1,10 @@
 import '../../../CoD/Cod.css';
-
+import Footer from '../../../../../Footer';
 const Frontpage_RSC = () => {
     return (
         <div>
             <header id='League-header'>
                 <img src="https://i.imgur.com/56dTSan.png" className='Header-Img-l' />
-                <h2 id="league-title">RSC Leagues</h2>
-                <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
             </header>
 
             <div className='Background-leagues'>
@@ -70,6 +68,7 @@ const Frontpage_RSC = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

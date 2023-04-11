@@ -1,5 +1,5 @@
 import '../CoD/Cod.css'
-
+import Footer from '../../../Footer';
 const Halo_headtohead = () => {
     return (
         <div>
@@ -103,6 +103,7 @@ const Halo_headtohead = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

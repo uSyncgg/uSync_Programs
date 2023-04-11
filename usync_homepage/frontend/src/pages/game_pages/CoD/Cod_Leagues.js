@@ -1,5 +1,5 @@
 import './Cod.css'
-
+import Footer from '../../../Footer';
 const Cod_Leagues = () => {
     return (
         <div>
@@ -396,6 +396,7 @@ const Cod_Leagues = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

@@ -1,5 +1,5 @@
 import '../CoD/Cod.css'
-
+import Footer from '../../../Footer';
 const Lol_headtohead = () => {
     return (
         <div>
@@ -50,6 +50,7 @@ const Lol_headtohead = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

@@ -5,7 +5,7 @@
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
-
+import Footer from '../../../../Footer';
 // Make sure the name following const is the same as the file name
 const CCL_WZ_League = () => {
     return (
@@ -62,6 +62,7 @@ const CCL_WZ_League = () => {
                 </a>
             </div>
             </body>
+            <Footer/>
         </div>
 
     );

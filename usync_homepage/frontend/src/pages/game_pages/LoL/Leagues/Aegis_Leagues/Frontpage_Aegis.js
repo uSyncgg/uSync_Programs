@@ -1,5 +1,5 @@
 import '../../../CoD/Cod.css';
-
+import Footer from '../../../../../Footer';
 const Frontpage_Aegis = () => {
     return (
         <div>
@@ -105,6 +105,7 @@ const Frontpage_Aegis = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

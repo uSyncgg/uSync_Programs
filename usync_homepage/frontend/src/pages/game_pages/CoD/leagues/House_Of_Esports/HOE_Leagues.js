@@ -1,5 +1,5 @@
 import '../../Cod.css';
-
+import Footer from '../../../../../Footer';
 const HOE_Leagues = () => {
     return (
         <div>
@@ -85,6 +85,7 @@ const HOE_Leagues = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

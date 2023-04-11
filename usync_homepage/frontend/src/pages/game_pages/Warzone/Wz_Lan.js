@@ -1,6 +1,6 @@
 import longunderline from '../../../website_images/games/long-underline.png';
 import '../Lan.css';
-
+import Footer from '../../../Footer'; // DONT FORGET TO ADD TO THE BOTTOM!!!!!!!
 const Wz_Lan = () => {
     return (
         <div>

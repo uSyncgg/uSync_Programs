@@ -1,5 +1,5 @@
 import '../../../CoD/Cod.css';
-
+import Footer from '../../../../../Footer';
 const Frontpage_LPL = () => {
     return (
         <div>
@@ -70,6 +70,7 @@ const Frontpage_LPL = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

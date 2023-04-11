@@ -1,5 +1,5 @@
 import '../../../CoD/Cod.css';
-
+import Footer from '../../../../../Footer';
 const Frontpage_Italian = () => {
     return (
         <div>
@@ -50,6 +50,7 @@ const Frontpage_Italian = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

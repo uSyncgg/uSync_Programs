@@ -1,5 +1,5 @@
 import './Cod.css'
-
+import Footer from '../../../Footer';
 const Cod_Wagers = () => {
     return (
         <div>
@@ -121,6 +121,7 @@ const Cod_Wagers = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

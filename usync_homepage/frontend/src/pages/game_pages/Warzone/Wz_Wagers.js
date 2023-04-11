@@ -1,5 +1,5 @@
 import '../CoD/Cod.css';
-
+import Footer from '../../../Footer';
 const Wz_Wagers = () => {
     return (
         <div>
@@ -121,6 +121,7 @@ const Wz_Wagers = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

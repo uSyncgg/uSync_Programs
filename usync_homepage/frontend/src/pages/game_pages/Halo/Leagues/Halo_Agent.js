@@ -5,7 +5,7 @@
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
-
+import Footer from '../../../../Footer';
 // Make sure the name following const is the same as the file name
 const Halo_Agent = () => {
     return (
@@ -25,7 +25,7 @@ const Halo_Agent = () => {
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/OSMYolc.png" className='Checkmark-title' /></a>
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" className='Checkmark' /></a>
                 </div>
-                <a href='https://twitter.com/TheHaloAgent'>
+                <a href='https://twitter.com/TheHaloAgent'target='_blank' rel='noopener noreferrer'>
                     <button className='join-button'>Join Now</button>
                 </a>
                 {/* ***You must have this container div*** */}
@@ -61,6 +61,7 @@ const Halo_Agent = () => {
                 </a>
             </div>
             </body>
+            <Footer/>
         </div>
 
     );

@@ -1,5 +1,5 @@
 import '../../../CoD/Cod.css';
-
+import Footer from '../../../../../Footer';
 const Frontpage_MetaShift = () => {
     return (
         <div>
@@ -119,6 +119,7 @@ const Frontpage_MetaShift = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

@@ -1,5 +1,5 @@
 import '../../../CoD/Cod.css';
-
+import Footer from '../../../../../Footer';
 const Frontpage_Nemesis = () => {
     return (
         <div>
@@ -102,6 +102,7 @@ const Frontpage_Nemesis = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }
