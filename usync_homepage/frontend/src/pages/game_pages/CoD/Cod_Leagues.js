@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-import check from '../../../website_images/games/check-under-image.png';
-import snd_league from '../../../website_images/games/cod/cod-leagues/snd-league.png';
-=======
->>>>>>> 5d7e24fc4a9f1633dd55150cc758a3a3e0636640
 import './Cod.css';
 
 const Cod_Leagues = () => {

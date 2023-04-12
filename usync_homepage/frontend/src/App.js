@@ -92,9 +92,9 @@ function App() {
     case "/CoD/Tournaments":
       component = <CodTourneys />
       break;
-    // case "/test":
-    //   component = <Test />
-    //   break;    
+    case "/test":
+      component = <Test />
+      break;    
     case "/AWL":
       component = <AWL_League />
       break;
