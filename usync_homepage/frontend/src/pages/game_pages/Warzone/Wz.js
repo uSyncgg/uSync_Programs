@@ -1,27 +1,41 @@
 import '../Game.css';
-import wzh2h from '../../../website_images/games/wz/wz-h2h.png';
-import wzlans from '../../../website_images/games/wz/wz-lans.png';
-import wzleagues from '../../../website_images/wz/wz-leagues.png';
-import wztourneys from '../../../website_images/wz/wz-tourneys.png';
-import wzwagers from '../../../website_images/wz/wz-wagers.png';
+import Footer from '../../../Footer';
 
 const Wz = () => {
     return (
         <div>
-            <div className='Background-mid'>
+            <header id='League-header'>
+                <img src="https://i.imgur.com/hRxTBgv.png" className='Header-Img-l-wz' />
+            </header>
+
+            <div className='Background-game'>
                 <div className='container'>
-                    <div className='row'>
-                        <div className='col-2 offset-3'>
-                            <img src={wzlans} alt="Warzone Head to Head" className='blockimg' />
-                            <img src={wztourneys} alt="Warzone Lans" className='blockimg' />
-                            <img src={wzleagues} alt="Warzone Leagues" className='blockimg' />
-                            <img src={wzh2h} alt="Warzone Tourneys" className='blockimg' />
-                            <img src={wzwagers} alt="Warzone Wagers" className='blockimg' />
+                    <div className='row justify-content-center'> {/* add justify-content-center class to center the columns */}
+                        <div className='col-2 offset-3' id='bubblel'>
+                            <a href='http://localhost:3000/games/warzone/lans'>
+                                <img src="https://i.imgur.com/8mmKkCg.png" alt="warzone LANs" className='blockimg' /> </a>
+                        </div>
+                        <div className='col-2' id='bubble'>
+                            <a href='http://localhost:3000/Comingsoon'>
+                                <img src="https://i.imgur.com/Q5kApQ8.png" alt="warzone Tournaments" className='blockimg' /></a>
+                            </div>
+                            <div className='col-2' id='bubbler'>
+                                <a href='http://localhost:3000/games/warzone/leagues'>
+                                    <img src="https://i.imgur.com/XejELXr.png" alt="warzone Leagues" className='blockimg' /></a>
+                            </div>
+                            <div className='col-2 offset-3' id='bubblelb'>
+                                <a href='http://localhost:3000/games/warzone/wagers'>
+                                    <img src="https://i.imgur.com/HrpTxPD.png" alt="warzone Wagers" className='blockimg' /></a>
+                            </div>
+                            <div className='col-2' id='bubblerb'>
+                                <a href='http://localhost:3000/games/warzone/head-to-head'>
+                                    <img src="https://i.imgur.com/pVeF9I1.png" alt="warzone head-to-head" className='blockimg' /></a>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
-        </div>
     );
 }
 

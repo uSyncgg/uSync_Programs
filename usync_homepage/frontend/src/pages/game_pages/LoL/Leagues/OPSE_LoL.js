@@ -5,7 +5,7 @@
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
-
+import Footer from '../../../../Footer';
 // Make sure the name following const is the same as the file name
 const OPSE_LoL = () => {
     return (
@@ -24,7 +24,7 @@ const OPSE_LoL = () => {
                         <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark-title' /></a>
                         <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
                     </div>
-                    <a href='https://opsesports.ca/'>
+                    <a href='https://opsesports.ca/'target='_blank' rel='noopener noreferrer'>
                         <button className='join-button'>Join Now</button>
                     </a>
                     {/* ***You must have this container div*** */}
@@ -50,7 +50,7 @@ const OPSE_LoL = () => {
                                 <p>5v5 - Ontario ONLY</p>
                             </div>
                             <div className='col-2' id='league-info'>
-                                <h1>Entry Fee</h1>
+                            <h1 className='info-title'>Entry Fee:</h1>
                                 {/* Follow the same format as above, keep the Entry fee the same and change information below */}
                                 <p>Free Entry - Must be a FULL TIME College Student</p>
                             </div>
@@ -61,6 +61,7 @@ const OPSE_LoL = () => {
                     </a>
                 </div>
             </body>
+            <Footer/>
         </div>
 
     );

@@ -1,27 +1,42 @@
 import '../Game.css';
-import lolh2h from '../../../website_images/games/lol/lol-h2h.png';
-import lollans from '../../../website_images/games/lol/lol-lans.png';
-import lolleagues from '../../../website_images/games/lol/lol-leagues';
-import loltourneys from '../../../website_images/games/lol/lol-tourneys.png';
-import lolwagers from '../../../website_images/games/lol/lol-wagers.png';
+import Footer from '../../../Footer';
+
 
 const Lol = () => {
     return (
         <div>
-            <div className='Background-mid'>
+            <header id='League-header'>
+                <img src="https://i.imgur.com/de3poHJ.png" className='Header-Img-l-lol' />
+            </header>
+
+            <div className='Background-game'>
                 <div className='container'>
-                    <div className='row'>
-                        <div className='col-2 offset-3'>
-                            <img src={lollans} alt="League of Legends Head to Head" className='blockimg' />
-                            <img src={loltourneys} alt="League of Legends Lans" className='blockimg' />
-                            <img src={lolleagues} alt="League of Legends Leagues" className='blockimg' />
-                            <img src={lolh2h} alt="League of Legends Tourneys" className='blockimg' />
-                            <img src={lolwagers} alt="League of Legends Wagers" className='blockimg' />
+                    <div className='row justify-content-center'> {/* add justify-content-center class to center the columns */}
+                        <div className='col-2 offset-3' id='bubblel'>
+                            <a href='http://localhost:3000/games/LoL/lans'>
+                                <img src="https://i.imgur.com/sXCt646.png" alt="LoL LANs" className='blockimg' /> </a>
+                        </div>
+                        <div className='col-2' id='bubble'>
+                            <a href='http://localhost:3000/Comingsoon'>
+                                <img src="https://i.imgur.com/P6GL2lx.png" alt="LoL Tournaments" className='blockimg' /></a>
+                            </div>
+                            <div className='col-2' id='bubbler'>
+                                <a href='http://localhost:3000/games/LoL/leagues'>
+                                    <img src="https://i.imgur.com/p77z4SF.png" alt="LoL Leagues" className='blockimg' /></a>
+                            </div>
+                            <div className='col-2 offset-3' id='bubblelb'>
+                                <a href='http://localhost:3000/games/LoL/wagers'>
+                                    <img src="https://i.imgur.com/OhtUL4E.png" alt="LoL Wagers" className='blockimg' /></a>
+                            </div>
+                            <div className='col-2' id='bubblerb'>
+                                <a href='http://localhost:3000/games/LoL/head-to-head'>
+                                    <img src="https://i.imgur.com/y5W9NXc.png" alt="LoL head-to-head" className='blockimg' /></a>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
-        </div>
     );
 }
 

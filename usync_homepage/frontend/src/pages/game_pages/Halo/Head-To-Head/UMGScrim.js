@@ -5,7 +5,7 @@
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
-
+import Footer from '../../../../Footer';
 // Make sure the name following const is the same as the file name
 const UMGScrim = () => {
     return (
@@ -25,7 +25,7 @@ const UMGScrim = () => {
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark-title' /></a>
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
                 </div>
-                <a href='https://www.umggaming.com/g/halo-infinite'>
+                <a href='https://www.umggaming.com/g/halo-infinite'target='_blank' rel='noopener noreferrer'>
                     <button className='join-button'>Join Now</button>
                 </a>
                 {/* ***You must have this container div*** */}
@@ -58,6 +58,7 @@ const UMGScrim = () => {
                 </a>
             </div>
             </body>
+            <Footer/>
         </div>
 
     );

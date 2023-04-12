@@ -5,9 +5,9 @@
 import '../../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
-
+import Footer from '../../../../../Footer';
 // Make sure the name following const is the same as the file name
-const HOE_Amateur = () => {
+const Academy_val = () => {
     return (
         <div>
             <body id='league-body'>
@@ -24,7 +24,7 @@ const HOE_Amateur = () => {
                         <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark-title' /></a>
                         <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
                     </div>
-                    <a href='https://twitter.com/HouseofEsports4'>
+                    <a href='https://discord.com/invite/tfl'target='_blank' rel='noopener noreferrer'>
                         <button className='join-button'>Join Now</button>
                     </a>
                     {/* ***You must have this container div*** */}
@@ -36,16 +36,19 @@ const HOE_Amateur = () => {
                                 <h1 className='info-title'>Date:</h1>
                                 {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
-                                <p>Spring 2023 (Estimated)</p>
+                                <p>Fall 2023 (Estimated)</p>
                             </div>
                             <div className='col-2' id='league-info'>
                                 <h1 className='info-title'>Details:</h1>
                                 {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
-                                <p>R 1000+ Prize Pool</p>
-                                <p>Competitive</p>
-                                <p>South African Servers</p>
+                                <p>$300 Prize Pool</p>
+                                <p>Gold & Below</p>
+                                <p>5 Week Regular Season, 2 Week Playoffs</p>
+                                <p>Live Streamed Matches</p>
+                                <p>Must Sign up Solo</p>
+                                <p>Teams Drafted by Captains</p>
                                 <h1 className='info-title2'>Region/Type:</h1>
-                                <p>4v4 - All Regions</p>
+                                <p>5v5 - NA</p>
                             </div>
                             <div className='col-2' id='league-info'>
                                 <h1 className='info-title'>Entry Fee:</h1>
@@ -54,15 +57,16 @@ const HOE_Amateur = () => {
                             </div>
                         </div>
                     </div>
-                    <a href='https://www.usync.gg/games/call-of-duty/leagues/House-of-esports-leagues'>
+                    <a href='https://www.usync.gg/games/Valorant/leagues/frontline-leagues'>
                         <button className='back-button'>Back</button>
                     </a>
                 </div>
             </body>
+            <Footer/>
         </div>
 
     );
 }
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default HOE_Amateur;
+export default Academy_val;

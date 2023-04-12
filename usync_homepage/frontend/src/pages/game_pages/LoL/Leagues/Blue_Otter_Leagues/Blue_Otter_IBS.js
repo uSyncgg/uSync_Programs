@@ -4,7 +4,7 @@
 // All CoD League game pages must have Info.css imported this way
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
-
+import Footer from '../../../../../Footer';
 // Make sure the name following const is the same as the file name
 const Blue_Otter_IBS = () => {
     return (
@@ -23,7 +23,7 @@ const Blue_Otter_IBS = () => {
                         <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark-title' /></a>
                         <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
                     </div>
-                    <a href='https://discord.com/invite/BK5b2BHxdQ'>
+                    <a href='https://discord.com/invite/BK5b2BHxdQ'target='_blank' rel='noopener noreferrer'>
                         <button className='join-button'>Join Now</button>
                     </a>
                     {/* ***You must have this container div*** */}
@@ -42,7 +42,7 @@ const Blue_Otter_IBS = () => {
                                 {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                                 <p>5 Mystery Skins Prize Pool</p>
                                 <p>Slightly-Competitive</p>
-                                <p>Silver 1 99LP cap, One Gold 4 per team</p>
+                                <p>Silver 1 99LP cap, One Gold 4 per Team</p>
                                 <p>Live Streamed Matches</p>
                                 <p>Live Support on Discord</p>
                                 <h1 className='info-title2'>Region/Type:</h1>
@@ -61,6 +61,7 @@ const Blue_Otter_IBS = () => {
                     </a>
                 </div>
             </body>
+            <Footer/>
         </div>
 
     );

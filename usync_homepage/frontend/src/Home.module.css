@@ -6,60 +6,132 @@
 
 body {
   margin: 0;
+} 
+
+.homeContainer {
+  width: 100%;
+  height: 100%;
 }
 
 .backgroundTop {
-  height: 150vh; /* Set height to 100% of the viewport height */
+  height: 120vh; /* Set height to 150% of the viewport height */
   width: 100%;
   background-image: url("./website_images/home-images/home_background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
 }
+.Intro u {
+  text-decoration: none;
+  border-bottom: .15rem solid rgb(142, 106, 206);
+}
 
 
 .backgroundTop img{
-  width: 60%;
-  height: 75vh;
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-top: 8rem;
+  padding-bottom: .3rem;
 }
 
 .backgroundMid {
   background-color: rgb(49, 49, 49);
 }
 
-.backgroundBottom {
-  background-color: gray;
-}
 
 .Intro {
   color: white;
   white-space: pre-line;
   margin: 0;
+  text-align: center;
+  font-size: 3rem;
 }
 
-.Intro h2{
-  font-size: 18px;
+.hometitles {
+  color: white;
+  white-space: pre-line;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: .9rem;
+  padding-bottom: .8rem;
 }
+@media screen and (max-width: 768px) {
+  .hometitles {
+    font-size: 2rem;
+    max-width: 90%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .Intro {
+    font-size: 2rem;
+    max-width: 90%;
+  }
+}
+
+
+.Intro h2{
+  font-size: 1.125rem;
+}
+@media screen and (max-width: 768px) {
+  .Intro h2{
+    font-size: 2rem;
+    max-width: 90%;
+  }
+}
+
 
 .getStarted {
   display: inline-block;
   background-color: transparent;
-  border: 2px solid #fff;
-  border-radius: 10px;
+  border: .125rem solid #fff;
+  border-radius: .625rem;
   color: #fff;
   font-size: 1rem;
   font-weight: bold;
   width: 90%;
-  margin: 10vh 2vh;
-  padding: 10px 20px;
+  margin: 10vh auto;
+  padding: .625rem 1.25rem;
+  display: block;
   text-align: center;
   text-decoration: none;
+  transition-duration: 0.4s;
 }
 
-.backgroundImages img{
-  margin: 1%;
-  width: 11%;
+.getStarted:hover {
+  background-color: rgba(137, 124, 141, 0.407);
+  color: rgb(255, 255, 255);
 }
+
+.backgroundImages img {
+  margin: 1%;
+  width: 10%;
+  height: auto;
+  border-radius: 1.563rem;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.backgroundImages img:hover {
+  box-shadow: 0 0 .625rem .188rem rgba(153, 102, 255, 0.8);
+}
+
+.underline {
+  margin: 0 auto;
+  width: 50%;
+  padding-bottom: .9rem;
+}
+@media screen and (max-width: 768px) {
+  .underline{
+    margin: 0 auto;
+
+    width: 100%;
+
+  }
+}
+
 
 .comingSoonGames img {
   margin: 2% 1%;
@@ -68,43 +140,97 @@ body {
 }
 
 .footer img {
+  position: relative;
+  z-index: 9999 !important;
   margin: 2%;
   width: 6%;
   height: 6%;
 }
 
 .reportProblem {
-  margin-top: 20px;
+  margin-top: 1.25rem;
+  color: rgb(142, 106, 206);
+  text-decoration: underline !important;
+  font-weight: 600;
+}
+.reportProblem:hover{
+  color: rgb(142, 106, 206) !important;
+  filter: brightness(120%);
 }
 
 .footer {
+  position: relative;
   color: black;
   background-color: rgb(67, 67, 67);
+  text-align: center;
+  padding-bottom: .625rem;
+  z-index: 99999 !important;
 }
 
-hr {
-  border-color: white;
-  color: #fff;
-  height: .25vh;
-  width: 90%;
-  margin: 5vh auto;
+.contactus{
+  color: white;
+  text-decoration: underline !important;
+  font-weight: 600;
+}
+.contactus:hover{
+  color: rgb(190, 190, 190) !important;
+  filter: brightness(120%);
 }
 
 .footer p {
+  position: relative;
   color: black;
+  font-weight: 600;
+  z-index: 99999 !important;
 }
 
 .btn-block {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .Slogan {
-  color: rgb(48, 189, 123);
+  font-size: 3.125rem;
+  color: rgb(48 189, 123);
+  text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .Slogan {
+    font-size: 2rem;
+    max-width: 90%;
+  }
+}
+
 
 .Map {
   display: block;
   margin: 0 auto;
   width: 90%;
 }
+
+hr {
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+  border: none;
+  height: .188rem;
+}
+
+.eventhost{
+  color: rgb(142, 106, 206);
+  text-decoration: underline !important;
+}
+
+.eventhost:hover{
+  color: rgb(142, 106, 206) !important;
+  filter: brightness(120%);
+}
+
+
+.learnhow{
+  color: white;
+  font-size: medium;
+  padding-top: 1rem;
+  font-weight: 600;
+}
+

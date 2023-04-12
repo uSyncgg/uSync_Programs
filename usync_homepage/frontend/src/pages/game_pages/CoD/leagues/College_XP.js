@@ -5,7 +5,7 @@
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
-
+import Footer from '../../../../Footer';
 // Make sure the name following const is the same as the file name
 const College_XP = () => {
     return (
@@ -24,7 +24,7 @@ const College_XP = () => {
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark-title' /></a>
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
                 </div>
-                <a href='https://www.google.com/url?q=https%3A%2F%2Ftwitter.com%2FCXPCoD%3Fs%3D20%26t%3DN2OZw8_-YwE5njWQQGZw3w&sa=D&sntz=1&usg=AOvVaw0_Ax6xVxfuIthd2WWgq3Qm'>
+                <a href='https://www.google.com/url?q=https%3A%2F%2Ftwitter.com%2FCXPCoD%3Fs%3D20%26t%3DN2OZw8_-YwE5njWQQGZw3w&sa=D&sntz=1&usg=AOvVaw0_Ax6xVxfuIthd2WWgq3Qm'target='_blank' rel='noopener noreferrer'>
                     <button className='join-button'>Join Now</button>
                 </a>
                 {/* ***You must have this container div*** */}
@@ -36,7 +36,7 @@ const College_XP = () => {
                         <h1 className='info-title'>Date:</h1>
                             {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
-                            <p>Annualy Early Spring</p>
+                            <p>Annual Spring and Fall Seasons</p>
                         </div>
                         <div className='col-2'id='league-info'>
                         <h1 className='info-title'>Details:</h1>
@@ -62,6 +62,7 @@ const College_XP = () => {
                 </a>
             </div>
             </body>
+            <Footer/>
         </div>
 
     );

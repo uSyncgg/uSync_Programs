@@ -1,95 +1,110 @@
-import './Cod.css';
-
+import './Cod.css'
+import Footer from '../../../Footer';
 const Cod_Wagers = () => {
-    return(
+    return (
         <div>
+            <header id='League-header'>
+                <img src="https://i.imgur.com/DoXBmLT.png" className='Header-Img-l' />
+                <h2 id="league-title">Wagers</h2>
+                <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+            </header>
 
-            <div className='Background-mid'>
+            <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <h1 className='Leagueh1'>Checkmate Gaming</h1>
+                                <a href='http://localhost:3000/games/call-of-duty/wagers/cmg'>
+                                    <h1 className='Leagueh1'>Checkmate Gaming</h1>
+                                </a>
                                 <div className='parent'>
-                                <a href="https://imgur.com/e9CIHsR"><img src="https://i.imgur.com/e9CIHsR.png" className='league-img'/></a> 
-                                <a href="https://www.usync.gg"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
-                                <p className='Leaguep'></p>
+                                    <a href="http://localhost:3000/games/call-of-duty/wagers/cmg"><img src="https://i.imgur.com/e9CIHsR.png" className='league-img' /></a>
+                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <button type="submit" className='info-button'>More Info</button>
+                                <a href='http://localhost:3000/games/call-of-duty/wagers/cmg'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
                             </div>
                         </div>
-                        
-                        <div className='col-lg-6'>
-                            <div className='league'>
-                                <h1 className='Leagueh1'>Drop-In Gaming</h1>
-                                <div className='parent'>
-                                <a href="https://imgur.com/78DWiv0"><img src="https://i.imgur.com/78DWiv0.png" className='league-img'/></a> 
-                                <a href="https://www.usync.gg"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
-                                <p className='Leaguep'></p>
-                                </div>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <button type="submit" className='info-button'>More Info</button>
-                            </div> 
-                        </div>
-                        <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <h1 className='Leagueh1'>Esports Agent</h1>
+                                <a href='http://localhost:3000/games/call-of-duty/wagers/eagent'>
+                                    <h1 className='Leagueh1'>Esports Agent</h1>
+                                </a>
                                 <div className='parent'>
-                                <a href="https://imgur.com/XQtN0sp"><img src="https://i.imgur.com/XQtN0sp.png" className='league-img'/></a> 
-                                <a href="https://www.usync.gg"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img'/></a>
+                                    <a href="http://localhost:3000/games/call-of-duty/wagers/eagent"><img src="https://i.imgur.com/XQtN0sp.png" className='league-img' /></a>
+                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'></p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <button type="submit" className='info-button'>More Info</button>
+                                <a href='http://localhost:3000/games/call-of-duty/wagers/eagent'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
                             </div>
-                        </div>
-                        
-                        <div className='col-lg-6'>
-                            <div className='league'>
-                                <h1 className='Leagueh1'>One Up (App)</h1>
-                                <div className='parent'>
-                                <a href="https://imgur.com/ExuRlsG"><img src="https://i.imgur.com/ExuRlsG.png" className='league-img'/></a> 
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
-                                </div>
-                                <p className='Leaguep'></p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <button type="submit" className='info-button'>More Info</button>
-                            </div> 
                         </div>
                         <p className='hr' />
 
+
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <h1 className='Leagueh1'>Stakester (App)</h1>
+                                <a href='http://localhost:3000/games/call-of-duty/wagers/oneup'>
+                                    <h1 className='Leagueh1'>One Up (App)</h1>
+                                </a>
                                 <div className='parent'>
-                                <a href="https://imgur.com/wl5JqGy"><img src="https://i.imgur.com/wl5JqGy.png" className='league-img'/></a> 
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                    <a href="http://localhost:3000/games/call-of-duty/wagers/oneup"><img src="https://i.imgur.com/ExuRlsG.png" className='league-img' /></a>
+                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'></p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <button type="submit" className='info-button'>More Info</button>
-                            </div> 
+                                <a href='http://localhost:3000/games/call-of-duty/wagers/oneup'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
                         </div>
+
+
+                        <div className='col-lg-6'>
+                            <div className='league'>
+                                <a href='http://localhost:3000/games/call-of-duty/wagers/dropin'>
+                                    <h1 className='Leagueh1'>Drop-In Gaming</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="http://localhost:3000/games/call-of-duty/wagers/dropin"><img src="https://i.imgur.com/78DWiv0.png" className='league-img' /></a>
+                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                    <p className='Leaguep'></p>
+                                </div>
+                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
+                                <a href='http://localhost:3000/games/call-of-duty/wagers/dropin'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
+                        <p className='hr' />
                         
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <h1 className='Leagueh1'>1v1 Me (App)</h1>
+                                <a href='http://localhost:3000/games/call-of-duty/wagers/1v1me'>
+                                    <h1 className='Leagueh1'>1v1 Me (App)</h1>
+                                </a>
                                 <div className='parent'>
-                                <a href="https://imgur.com/d2KuuJE"><img src="https://i.imgur.com/d2KuuJE.png" className='league-img'/></a> 
-                                <a href="https://imgur.com/0MPIBOK"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
+                                    <a href="http://localhost:3000/games/call-of-duty/wagers/1v1me"><img src="https://i.imgur.com/d2KuuJE.png" className='league-img' /></a>
+                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'></p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <button type="submit" className='info-button'>More Info</button>
-                            </div> 
+                                <a href='http://localhost:3000/games/call-of-duty/wagers/1v1me'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
                         </div>
                         <p className='hr' />
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

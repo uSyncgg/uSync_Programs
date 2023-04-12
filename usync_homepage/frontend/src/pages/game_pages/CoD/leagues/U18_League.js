@@ -5,6 +5,7 @@
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
+import Footer from '../../../../Footer';
 
 // Make sure the name following const is the same as the file name
 const U18_League = () => {
@@ -24,7 +25,7 @@ const U18_League = () => {
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark-title' /></a>
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
                 </div>
-                <a href='https://twitter.com/U18CODLeague?s=20&t=KF_TfGh6U3dk7gMSosJncQ'>
+                <a href='https://twitter.com/U18CODLeague?s=20&t=KF_TfGh6U3dk7gMSosJncQ'target='_blank' rel='noopener noreferrer'>
                     <button className='join-button'>Join Now</button>
                 </a>
                 {/* ***You must have this container div*** */}
@@ -43,7 +44,7 @@ const U18_League = () => {
                             {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                             <p>$450 - $550 Prize Pool</p>
                             <p>Highly Competitive</p>
-                            <p>MUST be younger than 18</p>
+                            <p>MUST be Younger Than 18</p>
                             <p>Live Streamed Matches</p>
                             <p>Draft Format for Teams</p>
                             <h1 className='info-title2'>Region/Type:</h1>
@@ -62,6 +63,7 @@ const U18_League = () => {
                 </a>
             </div>
             </body>
+            <Footer/>
         </div>
 
     );

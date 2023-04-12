@@ -5,7 +5,7 @@
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
-
+import Footer from '../../../../Footer';
 // Make sure the name following const is the same as the file name
 const CGN_WZ_League = () => {
     return (
@@ -25,7 +25,7 @@ const CGN_WZ_League = () => {
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/OSMYolc.png" className='Checkmark-title' /></a>
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" className='Checkmark' /></a>
                 </div>
-                <a href='https://contenderesports.com/location-events/'>
+                <a href='https://contenderesports.com/location-events/'target='_blank' rel='noopener noreferrer'>
                     <button className='join-button'>Join Now</button>
                 </a>
                 {/* ***You must have this container div*** */}
@@ -48,7 +48,7 @@ const CGN_WZ_League = () => {
                             <p>Live Streamed Matches</p>
                             <p>Qualifier Tournament before Regular Season</p>
                             <h1 className='info-title2'>Region/Type:</h1>
-                            <p>2v2 or 4v4 - NA</p>
+                            <p>2v2 or 4v4 - All Regions</p>
                         </div>
                         <div className='col-2'id='league-info'>
                         <h1 className='info-title'>Entry Fee:</h1>
@@ -62,6 +62,7 @@ const CGN_WZ_League = () => {
                 </a>
             </div>
             </body>
+            <Footer/>
         </div>
 
     );

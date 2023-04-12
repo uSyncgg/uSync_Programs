@@ -1,27 +1,42 @@
 import '../Game.css';
-import vallans from '../../../website_images/games/val/val-const-lans.png';
-import valtourneys from '../../../website_images/games/val/val-const-tourneys.png';
-import valh2h from '../../../website_images/games/val/val-h2h.png';
-import valleagues from '../../../website_images/games/val/val-leagues.png';
-import valwagers from '../../../website_images/games/val/val-wagers.png';
+import Footer from '../../../Footer';
+
 
 const Val = () => {
     return (
         <div>
-            <div className='Background-mid'>
+            <header id='League-header'>
+                <img src="https://i.imgur.com/5KhNJfg.png" className='Header-Img-l-val' />
+            </header>
+
+            <div className='Background-game'>
                 <div className='container'>
-                    <div className='row'>
-                        <div className='col-2 offset-3'>
-                            <img src={vallans} alt="Valorant Head to Head" className='blockimg' />
-                            <img src={valtourneys} alt="Valorant Lans" className='blockimg' />
-                            <img src={valleagues} alt="Valorant Leagues" className='blockimg' />
-                            <img src={valh2h} alt="Valorant Tourneys" className='blockimg' />
-                            <img src={valwagers} alt="Valorant Wagers" className='blockimg' />
+                    <div className='row justify-content-center'> {/* add justify-content-center class to center the columns */}
+                        <div className='col-2 offset-3' id='bubblel'>
+                            <a href='http://localhost:3000/Comingsoon'>
+                                <img src="https://i.imgur.com/pRnsLUn.png" alt="Valorant LANs" className='blockimg' /> </a>
+                        </div>
+                        <div className='col-2' id='bubble'>
+                            <a href='http://localhost:3000/Comingsoon'>
+                                <img src="https://i.imgur.com/S6xUnmR.png" alt="Valorant Tournaments" className='blockimg' /></a>
+                            </div>
+                            <div className='col-2' id='bubbler'>
+                                <a href='http://localhost:3000/games/Valorant/leagues'>
+                                    <img src="https://i.imgur.com/D9hSzYi.png" alt="Valorant Leagues" className='blockimg' /></a>
+                            </div>
+                            <div className='col-2 offset-3' id='bubblelb'>
+                                <a href='http://localhost:3000/games/Valorant/wagers'>
+                                    <img src="https://i.imgur.com/q3EujhS.png" alt="Valorant Wagers" className='blockimg' /></a>
+                            </div>
+                            <div className='col-2' id='bubblerb'>
+                                <a href='http://localhost:3000/games/Valorant/head-to-head'>
+                                    <img src="https://i.imgur.com/Eb0q3VJ.png" alt="Valorant head-to-head" className='blockimg' /></a>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
-        </div>
     );
 }
 

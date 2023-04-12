@@ -5,7 +5,7 @@
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
-
+import Footer from '../../../../Footer';
 // Make sure the name following const is the same as the file name
 const DropinRL = () => {
     return (
@@ -14,17 +14,17 @@ const DropinRL = () => {
                 <header>
                     {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
-                    <img src="https://i.imgur.com/gtHpIBf.png" className='Header-Img' />
+                    <img src="https://i.imgur.com/DWyIbm3.png" className='Header-Img' />
                 </header>
                 {/* ***Must have this div tage with the Background-mid class name on every file*** */}
                 <div className='Background-mid'>
                     <div>
                         {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed*/}
-                        <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/OSMYolc.png" className='Checkmark-title' /></a>
-                        <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" className='Checkmark' /></a>
+                        <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark-title' /></a>
+                        <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
                     </div>
-                    <a href='https://www.dropingaming.com/matches/'>
+                    <a href='https://www.dropingaming.com/matches/'target='_blank' rel='noopener noreferrer'>
                         <button className='join-button'>Join Now</button>
                     </a>
                     {/* ***You must have this container div*** */}
@@ -58,6 +58,7 @@ const DropinRL = () => {
                     </a>
                 </div>
             </body>
+            <Footer/>
         </div>
 
     );

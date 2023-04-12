@@ -5,7 +5,7 @@
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
-
+import Footer from '../../../../Footer';
 // Make sure the name following const is the same as the file name
 const VantaGG_LoL = () => {
     return (
@@ -24,7 +24,7 @@ const VantaGG_LoL = () => {
                         <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark-title' /></a>
                         <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
                     </div>
-                    <a href='https://www.vanta.gg/games/league-of-legends'>
+                    <a href='https://www.vanta.gg/games/league-of-legends'target='_blank' rel='noopener noreferrer'>
                         <button className='join-button'>Join Now</button>
                     </a>
                     {/* ***You must have this container div*** */}
@@ -47,7 +47,7 @@ const VantaGG_LoL = () => {
                                 <p>Live Streamed Matches</p>
                                 <p>No Skill Requirement</p>
                                 <h1 className='info-title2'>Region/Type:</h1>
-                                <p>5v5 - NA</p>
+                                <p>5v5 - USA</p>
                             </div>
                             <div className='col-2' id='league-info'>
                                 <h1 className='info-title'>Entry Fee:</h1>
@@ -61,6 +61,7 @@ const VantaGG_LoL = () => {
                     </a>
                 </div>
             </body>
+            <Footer/>
         </div>
 
     );

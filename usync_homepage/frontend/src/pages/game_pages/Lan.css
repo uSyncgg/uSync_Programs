@@ -1,29 +1,30 @@
 .long-underline {
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     width: 20%;
-    margin-left: 100px;
+    margin-left: 6.25rem;
 }
 
 .Background-mid {
     background-color: rgb(49, 49, 49);
-    padding: 50px;
-    padding-left: 0px;
-    padding-right: 170px;
+    padding: 3.125rem;
+    padding-left: 0rem;
+    padding-right: 10.625rem;
 }
 
 .Lan {
     margin-bottom: 0;
-    margin-left: 100px;
+    margin-left: 6.25rem;
     color: white;
-    font-size: 48px;
+    font-size: 3rem;
     font-family: 'Helvetica';
     font-weight: bold;
 }
 
 .LanMap {
     width: 100%;
-    margin-left: 100px;
-    height: 750px;
+    margin-left: 6.25rem;
+    height: 46.875rem;
 }
+
 

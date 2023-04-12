@@ -5,7 +5,7 @@
 import '../../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
-
+import Footer from '../../../../../Footer';
 // Make sure the name following const is the same as the file name
 const RSC_3v3_EU = () => {
     return (
@@ -14,7 +14,7 @@ const RSC_3v3_EU = () => {
                 <header>
                     {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
-                    <img src="https://i.imgur.com/56dTSan.png" className='Header-Img' />
+                    <img src="https://i.imgur.com/MjLL31b.png" className='Header-Img' />
                 </header>
                 {/* ***Must have this div tage with the Background-mid class name on every file*** */}
                 <div className='Background-mid'>
@@ -24,7 +24,7 @@ const RSC_3v3_EU = () => {
                         <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/OSMYolc.png" className='Checkmark-title' /></a>
                         <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" className='Checkmark' /></a>
                     </div>
-                    <a href='https://discord.com/invite/Bw4rvpG'>
+                    <a href='https://discord.com/invite/Bw4rvpG'target='_blank' rel='noopener noreferrer'>
                         <button className='join-button'>Join Now</button>
                     </a>
                     {/* ***You must have this container div*** */}
@@ -60,6 +60,7 @@ const RSC_3v3_EU = () => {
                     </a>
                 </div>
             </body>
+            <Footer/>
         </div>
 
     );

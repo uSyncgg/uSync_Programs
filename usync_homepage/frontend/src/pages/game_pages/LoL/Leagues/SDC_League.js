@@ -5,7 +5,7 @@
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
-
+import Footer from '../../../../Footer';
 // Make sure the name following const is the same as the file name
 const SDC_League = () => {
     return (
@@ -24,7 +24,7 @@ const SDC_League = () => {
                         <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark-title' /></a>
                         <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
                     </div>
-                    <a href='https://discord.com/invite/YFJPd5Xz8G'>
+                    <a href='https://discord.com/invite/YFJPd5Xz8G'target='_blank' rel='noopener noreferrer'>
                         <button className='join-button'>Join Now</button>
                     </a>
                     {/* ***You must have this container div*** */}
@@ -44,7 +44,6 @@ const SDC_League = () => {
                                 <p>Prize Pool Funded by Community & Winner Card</p>
                                 <p>Semi-Competitive</p>
                                 <p>NO Rank Requirements</p>
-                                <h1>Region/Type:</h1>
                                 <h1 className='info-title2'>Region/Type:</h1>
                                 <p>5v5 - NA</p>
                             </div>
@@ -60,6 +59,7 @@ const SDC_League = () => {
                     </a>
                 </div>
             </body>
+            <Footer/>
         </div>
 
     );

@@ -5,7 +5,7 @@
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
-
+import Footer from '../../../../Footer';
 // Make sure the name following const is the same as the file name
 const COD_Rec_League = () => {
     return (
@@ -14,7 +14,7 @@ const COD_Rec_League = () => {
             <header>
                 {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
-                <img src="https://i.imgur.com/VX8e42V.png" className='Header-Img'/>
+                <img src="https://i.imgur.com/DztNIjY.png" className='Header-Img'/>
             </header>
             {/* ***Must have this div tage with the Background-mid class name on every file*** */}
             <div className='Background-mid'>
@@ -24,7 +24,7 @@ const COD_Rec_League = () => {
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/OSMYolc.png" className='Checkmark-title' /></a>
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" className='Checkmark' /></a>
                 </div>
-                <a href='https://www.google.com/url?q=https%3A%2F%2Fcod.esrl.gg%2F&sa=D&sntz=1&usg=AOvVaw359r5MIeBPnIT5_Guhelh-'>
+                <a href='https://www.google.com/url?q=https%3A%2F%2Fcod.esrl.gg%2F&sa=D&sntz=1&usg=AOvVaw359r5MIeBPnIT5_Guhelh-'target='_blank' rel='noopener noreferrer'>
                     <button className='join-button'>Join Now</button>
                 </a>
                 {/* ***You must have this container div*** */}
@@ -36,7 +36,7 @@ const COD_Rec_League = () => {
                         <h1 className='info-title'>Date:</h1>
                             {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
-                            <p>February 2023</p>
+                            <p>Late Spring 2023</p>
                         </div>
                         <div className='col-2'id='league-info'>
                         <h1 className='info-title'>Details:</h1>
@@ -45,7 +45,7 @@ const COD_Rec_League = () => {
                             <p>Recreational</p>
                             <p>Live Streamed Matches</p>
                             <h1 className='info-title2'>Region/Type:</h1>
-                            <p>4v4 - NA</p>
+                            <p>4v4 - All Regions</p>
                         </div>
                         <div className='col-2'id='league-info'>
                         <h1 className='info-title'>Entry Fee:</h1>
@@ -60,6 +60,7 @@ const COD_Rec_League = () => {
                 </a>
             </div>
             </body>
+            <Footer/>
         </div>
 
     );

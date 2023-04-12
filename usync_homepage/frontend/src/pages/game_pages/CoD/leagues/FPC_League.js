@@ -5,7 +5,7 @@
 import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
-
+import Footer from '../../../../Footer';
 // Make sure the name following const is the same as the file name
 const FPC_League = () => {
     return (
@@ -24,7 +24,7 @@ const FPC_League = () => {
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark-title' /></a>
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
                 </div>
-                <a href='https://twitter.com/FPCOfficial'>
+                <a href='https://twitter.com/FPCOfficial'target='_blank' rel='noopener noreferrer'>
                     <button className='join-button'>Join Now</button>
                 </a>
                 {/* ***You must have this container div*** */}
@@ -41,7 +41,7 @@ const FPC_League = () => {
                         <div className='col-2'id='league-info'>
                         <h1 className='info-title'>Details:</h1>
                             {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
-                            <p>$1000 Prize Pool</p>
+                            <p>$2000 Prize Pool</p>
                             <p>Female ONLY</p>
                             <p>Organized Structure/Format</p>
                             <p>Live Streamed Matches</p>
@@ -60,6 +60,7 @@ const FPC_League = () => {
                 </a>
             </div>
             </body>
+            <Footer/>
         </div>
 
     );
