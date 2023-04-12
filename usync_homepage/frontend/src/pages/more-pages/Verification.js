@@ -1,58 +1,58 @@
-import verX from "../../website_images/verification-images/verification-x.png"
-import verCheck from "../../website_images/verification-images/verification-check.png"
-import usyncLogo from "../../website_images/home-images/letter_logo.png"
-import shortBar from "../../website_images/home-images/short_underline.png"
+import '../../Info.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../Footer';
-
-
 
 const Verification = () => {
     return (
         <div>
-            <div className="verification-background-top">
-                <span className="row">
-                        <img src={verX} alt="x-logo" width="300px" height="200px" id="ver-x-image"/>
-                        <img src={verCheck} alt="check-logo" width="300px" height="200px" id="ver-check-image" />
-                </span>
-            </div>
-            <div className="usync-verified">
-                <div className="usync-verified-header">
-                    <h1><img src={usyncLogo} alt="usync-logo" id="usync-logo-verified" />Verified</h1> 
-                </div>
-                <div className="usync-verified-header-underline">
-                    <img src={shortBar} alt="short bar" className="short-bar"/>
-                </div>
-                <div>
-                    <h2> uSync Verified providers are some of the most trustworthy providers that we feature. These events are not only extremely well trusted but have shown a record of exceptional quality in their work. We strive to verify as many events as possible so that you can bring your organization to the highest level of competitive play. </h2>
-                </div>
-            </div>
-            <div className="verified-features">
-                <h1 id="verified_features">Verified Features</h1>
-                <img src={shortBar} alt="short bar" className="short-bar"/>
-                    <ul>
-                        <li><h1>Usync Verified Badge</h1></li>
-                        <li><h1>Choose where your event is located on the page</h1></li>
-                        <li><h1>Choose the images you would like to use for your brand</h1></li>
-                        <li><h1>Custom and up to date information</h1></li>
-                        <li><h1>Dynamic link to participate in events</h1></li>
-                        <li><h1>Access to our verified support team</h1></li>
-                        <li><h1>Social media promotions</h1></li>
-                    </ul>
-            </div>
-            <br />
-            <div className="become-verified">
-                <button type="button" className="btn btn-primary" id="become-verified">Become Verified</button> 
-            </div>
-            <br />
-            <hr />
-            <br />
-            <div className="host-events">
-                <h2>Looking to post an event? Send an <a href="/">Event Submission</a></h2>
-            </div>
-            <Footer/>
-        </div>
-        
-    )
-}
+            <body id='league-body'>
+                <header>
+                    <img src="https://i.imgur.com/mViTltX.png" className='Header-Img' />
+                </header>
+                <div className='Background-mid'>
+                    <div>
+                        <img src="https://i.imgur.com/PCHIHQB.png" className='Checkmark-check'/>
+                        <img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark-notcheck'/>
+                        <img src="https://i.imgur.com/OSMYolc.png" className='Checkmark-title-verification'/>
+                        <img src="https://i.imgur.com/eNhKhTI.png" className='Underline-h-verification' />
+                    </div>
+                    <div className='container'>
+                        <div className='row' id='verif-row'>
+                            <div className='col-8 offset-2'>
+                                <h1 className='info-title-verification'>uSync Verified providers are some of the most trustworthy providers that we 
+                                feature. These events are not only extremely well trusted but have shown a record of exceptional quality in their 
+                                work. We strive to verify as many events as possible so that you can bring your organization to the highest level 
+                                of competitive play.</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <header>
+                    <h1 className='verified-title'>Verified Features</h1>
+                    <img src="https://i.imgur.com/eNhKhTI.png" className='Underline-h-verification-2' />
+                </header>
+                    <div className='container'>
+                        <div className='row' id='league-row'>
+                            <div className='col-8 offset-2' id='league-info'>
+                                <li className='info-title-veri'>uSync Verified Badge</li>
+                                <li className='info-title-veri'>Choose where your event is located on the page</li>
+                                <li className='info-title-veri'>Choose the header image </li>
+                                <li className='info-title-veri'>Custom and up to date information</li>
+                                <li className='info-title-veri'>Dynamic link to participate in events</li>
+                                <li className='info-title-veri'>Access to our verified support team</li>
+                                <li className='info-title-veri'>Social media promotions</li>
+                                <li className='info-title-veri'>Ability to sell event passes</li>
+                            </div>
+                        </div>
+                    </div>
+                    <a href='https://www.usync.gg/games/call-of-duty/leagues'>
+                        <button className='verified-button'>Become Verified</button>
+                    </a>
 
+                </div>
+            </body>
+            <Footer />
+        </div>
+
+    );
+}
 export default Verification;

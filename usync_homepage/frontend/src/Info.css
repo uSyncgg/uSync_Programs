@@ -143,3 +143,98 @@
     font-weight: bold;
     margin-top: .313rem;
 }
+
+#verif-img {
+  margin-top: 20rem;
+  margin-bottom: 20rem;
+}
+
+
+#verif-row {
+  text-align: center;
+  margin-top: 20rem;
+  margin-bottom: 20rem;
+}
+
+.Checkmark-check {
+  position: absolute;
+  top: -10%; /* Move upward */
+  left: 43%;
+  transform: translate(-50%, -50%);
+  width: 10%; /* Increase the width */
+  height: auto; /* Make the height adjust to the width to prevent stretching */
+}
+.Checkmark-notcheck {
+  position: absolute;
+  top: -10%; /* Move upward */
+  left: 57%;
+  transform: translate(-50%, -50%);
+  width: 10%; /* Increase the width */
+  height: auto; /* Make the height adjust to the width to prevent stretching */
+}
+.Checkmark-title-verification {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 5.5%; /* Move further upward than the checkmark */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%; /* Keep the same width */
+  height: auto; /* Set height to auto to maintain aspect ratio */
+}
+
+.Underline-h-verification {
+  position: absolute;
+  top: 8.5%;
+  left: 9%;
+}
+.info-title-verification {
+  color: white;
+  position: relative;
+  top: -130%;
+  width: 150%;
+  right: 15%;
+  font-size: 2rem;
+}
+.verified-title {
+  color: white;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 3.5rem;
+  left: 6%;
+  transform: translateY(-720%);
+  font-weight: 700;
+}
+.Underline-h-verification-2 {
+  position: absolute;
+  top: 31.5%;
+  left: 9%;
+}
+.info-title-veri {
+  color: white;
+  position: relative;
+  top: -140%;
+  right: 20%;
+  font-size: 1.8rem;
+  text-align: left;
+  font-weight: 700;
+}
+.verified-button {
+  background-color: rgb(49, 49, 49);
+  color: rgb(141, 125, 181);
+  border: .125rem solid rgb(141, 125, 181);
+  width: 25%;
+  transition-duration: 0.4s;
+  position: absolute;
+  font-weight: bold;
+  font-family: 'Helvetica';
+  border-radius: .313rem;
+  top: 65%;
+  right: 36.8%;
+}
+
+.verified-button:hover {
+  background-color: rgb(141, 125, 181);
+  color: rgb(49, 49, 49);
+}
