@@ -61,22 +61,6 @@ const HOE_Leagues = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/House-of-esports-leagues/hoe-crossplay'>
-                                    <h1 className='Leagueh1'>Cross-Play League</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/House-of-esports-leagues/hoe-crossplay"><img src="https://i.imgur.com/47wczZC.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
-                                </div>
-                                <p className='Leaguep'>All Regions</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/House-of-esports-leagues/hoe-crossplay'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
                         <p className='hr' />
                         <a href='https://www.usync.gg/games/call-of-duty/leagues/House-of-esports-leagues'>
                         <button className='back-button'>Back</button>

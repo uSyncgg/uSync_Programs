@@ -5,8 +5,6 @@ const Frontpage_Risen = () => {
         <div>
             <header id='League-header'>
                 <img src="https://i.imgur.com/Rpkj9TA.png" className='Header-Img-l' />
-                <h2 id="league-title">Risen Leagues</h2>
-                <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
             </header>
 
             <div className='Background-leagues'>

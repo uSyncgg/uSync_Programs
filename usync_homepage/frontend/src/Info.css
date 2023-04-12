@@ -1,12 +1,12 @@
 .Header-Img {
-    display: block;
-    width: 100%;
-    height: 50rem;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    z-index: 0;
-    top: -17rem;
+  display: block;
+  width: 100%;
+  height: 57rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 0; /* Decrease the z-index */
+  top: -18.75rem;
 }
 
 .Background-mid {
@@ -18,6 +18,7 @@
   margin-top: -40%; /* adjust the margin-top property */
   z-index: 1;
   text-align: center;
+  padding-bottom: 10%;
 }
 
 .Background-lans {
@@ -39,7 +40,7 @@
     position: relative;
     font-weight: bold;
     font-family: 'Helvetica';
-    margin-right: 75%; /* Add a left margin of 10% */
+    margin-right: 65%; /* Add a left margin of 10% */
     border-radius: .313rem;
 }
 
@@ -49,27 +50,26 @@
 }
 
 .Checkmark {
-    position: absolute;
-    top: 40%; /* Move upward by 10% */
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 3%; /* Reduce the width */
-    height: auto; /* Make the height adjust to the width to prevent stretching */
-    top: 10%; /* Adjust the top position as needed */
-
-  }
-    
-  .Checkmark-title {
-    display: block;
-    margin: 0 auto;
-    position: absolute;
-    top: 5%; /* Adjust the top position as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 20%;
-    height: auto; /* Set height to auto to maintain aspect ratio */
-  }
-              
+  position: absolute;
+  top: 15%; /* Move upward */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 5%; /* Increase the width */
+  height: auto; /* Make the height adjust to the width to prevent stretching */
+  margin-bottom: 10px; /* Add some space between the checkmark and its title */
+}
+  
+.Checkmark-title {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 5.5%; /* Move further upward than the checkmark */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%; /* Keep the same width */
+  height: auto; /* Set height to auto to maintain aspect ratio */
+}
+          
 
   .join-button {
     background-color: rgb(49, 49, 49);
@@ -84,8 +84,8 @@
     position: absolute; /* Set the position to absolute */
     left: 50%; /* Position the button horizontally at the center of the parent element */
     transform: translate(-50%, -50%); /* Adjust the position of the button based on its dimensions */
-    top: 15%; /* Adjust the top position as needed */
-
+    top: 24%; /* Adjust the top position as needed */
+    height: 2.2rem
 }
 
 .join-button:hover {
@@ -106,6 +106,7 @@
     text-align: center;
     text-decoration-line: underline;
     position: relative;
+    top: 7%;
   }
   
   .info-title2 {
@@ -113,6 +114,7 @@
     text-align: center;
     text-decoration-line: underline;
     position: relative;
+    top: 7%;
   }
   
 #league-info p {
@@ -120,6 +122,7 @@
   font-size: 1.5rem;
   position: relative;
   font-weight: normal;
+  top: 7%;
 }
   
   #league-body {

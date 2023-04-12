@@ -50,7 +50,7 @@ const OPSE_LoL = () => {
                                 <p>5v5 - Ontario ONLY</p>
                             </div>
                             <div className='col-2' id='league-info'>
-                                <h1>Entry Fee</h1>
+                            <h1 className='info-title'>Entry Fee:</h1>
                                 {/* Follow the same format as above, keep the Entry fee the same and change information below */}
                                 <p>Free Entry - Must be a FULL TIME College Student</p>
                             </div>

@@ -5,8 +5,6 @@ const Frontpage_Aegis = () => {
         <div>
             <header id='League-header'>
                 <img src="https://i.imgur.com/Nkbas5Z.png" className='Header-Img-l' />
-                <h2 id="league-title">Aegis Leagues</h2>
-                <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
             </header>
 
             <div className='Background-leagues'>

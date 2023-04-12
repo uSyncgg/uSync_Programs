@@ -4,7 +4,7 @@ const Frontpage_RSC = () => {
     return (
         <div>
             <header id='League-header'>
-                <img src="https://i.imgur.com/56dTSan.png" className='Header-Img-l' />
+                <img src="https://i.imgur.com/MjLL31b.png" className='Header-Img-l' />
             </header>
 
             <div className='Background-leagues'>

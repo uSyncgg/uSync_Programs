@@ -296,7 +296,7 @@ const Rl_Leagues = () => {
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/cca"><img src="https://i.imgur.com/UqFxQ9Q.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>NA</p>
+                                <p className='Leaguep'>NA/EU</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/cca'>
                                     <button type="submit" className='info-button'>More Info</button>

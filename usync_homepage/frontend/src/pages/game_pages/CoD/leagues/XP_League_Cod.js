@@ -22,7 +22,7 @@ const XP_League_Cod = () => {
                 <div>
                     {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed*/}
-                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/OEOfxuA.png" className='Checkmark-title' /></a>
+                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/OSMYolc.png" className='Checkmark-title' /></a>
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" className='Checkmark' /></a>
                 </div>
                 <a href='https://sites.google.com/view/xpleague/home'target='_blank' rel='noopener noreferrer'>

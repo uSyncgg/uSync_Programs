@@ -43,7 +43,7 @@ const Victoris_Amateur = () => {
                                 {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                                 <p>$1000+ Prize Pool</p>
                                 <p>Highly Competitive</p>
-                                <p>Gold 1 cap, One Platinum 4 per team</p>
+                                <p>Gold 1 cap, One Platinum 4 per Team</p>
                                 <p>Live Streamed Matches</p>
                                 <h1 className='info-title2'>Region/Type:</h1>
                                 <p>5v5 - NA</p>

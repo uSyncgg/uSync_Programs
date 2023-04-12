@@ -43,6 +43,7 @@ const HOE_Amateur = () => {
                                 {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                                 <p>R 1000+ Prize Pool</p>
                                 <p>Competitive</p>
+                                <p>MNK Allowed</p>
                                 <p>South African Servers</p>
                                 <h1 className='info-title2'>Region/Type:</h1>
                                 <p>4v4 - All Regions</p>

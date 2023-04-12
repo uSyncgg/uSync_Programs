@@ -116,22 +116,6 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
                         <p className='hr' />
-                        <div className='col-lg-6'>
-                            <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/gec-league'>
-                                    <h1 className='Leagueh1'>GEC League</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/gec-league"><img src="https://i.imgur.com/keuTCvA.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
-                                </div>
-                                <p className='Leaguep'>NA/EU</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/gec-league'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -149,7 +133,7 @@ const Cod_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/call-of-duty/leagues/lunar-league'>
@@ -166,6 +150,7 @@ const Cod_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -184,7 +169,6 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
 
-                        <p className='hr' />
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/call-of-duty/leagues/kanna-gaming-league'>
@@ -201,6 +185,8 @@ const Cod_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/call-of-duty/leagues/awl-league'>
@@ -217,7 +203,6 @@ const Cod_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -235,6 +220,8 @@ const Cod_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/call-of-duty/leagues/chicago-league-cod'>
@@ -251,7 +238,6 @@ const Cod_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -269,6 +255,8 @@ const Cod_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='hr' />
+
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -286,7 +274,6 @@ const Cod_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -304,6 +291,8 @@ const Cod_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='hr' />
+
                         
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -321,7 +310,6 @@ const Cod_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>

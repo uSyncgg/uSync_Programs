@@ -46,7 +46,7 @@ const CSMG_RL = () => {
                                 <p>LAN Finals</p>
                                 <p>Live Streamed Matches</p>
                                 <h1 className='info-title2'>Region/Type:</h1>
-                                <p>3v3 - NA</p>
+                                <p>3v3 - USA</p>
                             </div>
                             <div className='col-2' id='league-info'>
                                 <h1 className='info-title'>Entry Fee:</h1>

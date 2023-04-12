@@ -14,7 +14,7 @@ const URL_2s = () => {
                 <header>
                     {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
-                    <img src="https://i.imgur.com/YG5mBVv.jpg" className='Header-Img' />
+                    <img src="https://i.imgur.com/DWyIbm3.png" className='Header-Img' />
                 </header>
                 {/* ***Must have this div tage with the Background-mid class name on every file*** */}
                 <div className='Background-mid'>

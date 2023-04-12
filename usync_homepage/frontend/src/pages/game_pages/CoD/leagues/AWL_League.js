@@ -46,7 +46,7 @@ const AWL_League = () => {
                             <p>Live Streamed Matches</p>
                             <p>4 Majors with Prize Pools</p>
                             <h1 className='info-title2'>Region/Type:</h1>
-                            <p>4v4 - All Regions</p>
+                            <p>4v4 - NA</p>
                         </div>
                         <div className='col-2'id='league-info'>
                         <h1 className='info-title'>Entry Fee:</h1>

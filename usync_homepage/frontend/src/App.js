@@ -18,13 +18,11 @@ import CodTourneys from './pages/game_pages/CoD/CodTourneys';
 //COD LEAGUES
 import HOE_Amateur from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Amateur'
 import HOE_Challengers from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Challengers'
-import HOE_CrossPlay from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_CrossPlay'
 import HOE_Masters from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Masters'
 import AWL_League from './pages/game_pages/CoD/leagues/AWL_League'
 import CCL_League from './pages/game_pages/CoD/leagues/CCL_League'
 import K7_League from './pages/game_pages/CoD/leagues/K7_League'
 import EHUB_League from './pages/game_pages/CoD/leagues/EHUB_League'
-import GEC_League from './pages/game_pages/CoD/leagues/GEC_League'
 import Cgn_league_cod from './pages/game_pages/CoD/leagues/Cgn_league_cod'
 import Chicago_COD_League from './pages/game_pages/CoD/leagues/Chicago_COD_League'
 import Click_Gaming_LeagueCOD from './pages/game_pages/CoD/leagues/Click_Gaming_LeagueCOD'
@@ -56,7 +54,6 @@ import CMG_Wagers from './pages/game_pages/CoD/Wagers/CMG_Wagers'
 import Dropin_Wagers from './pages/game_pages/CoD/Wagers/Dropin_Wagers'
 import EAgent_Wagers from './pages/game_pages/CoD/Wagers/EAgent_Wagers'
 import Oneup_Wagers from './pages/game_pages/CoD/Wagers/Oneup_Wagers'
-import Stakester from './pages/game_pages/CoD/Wagers/Stakester'
 //COD WAGERS
 
 //HALO HEAD TO HEAD
@@ -95,7 +92,6 @@ import CMG_WZ from './pages/game_pages/Warzone/Wagers/CMG_WZ'
 import DropinWZ from './pages/game_pages/Warzone/Wagers/DropinWZ'
 import GamerSaloon from './pages/game_pages/Warzone/Wagers/GamerSaloon'
 import OneUpWZ from './pages/game_pages/Warzone/Wagers/OneUpWZ'
-import StakeWZ from './pages/game_pages/Warzone/Wagers/StakeWZ'
 import Wager_1v1WZ from './pages/game_pages/Warzone/Wagers/Wager_1v1WZ'
 //WARZONE WAGERS
 
@@ -115,7 +111,6 @@ import Gankster from './pages/game_pages/LoL/Head-To-Head/Gankster'
 
 //LoL WAGERS
 import DropinLoL from './pages/game_pages/LoL/Wagers/DropinLoL'
-import StakeLoL from './pages/game_pages/LoL/Wagers/StakeLoL'
 //LoL WAGERS
 
 //LoL LEAGUES
@@ -132,9 +127,6 @@ import Blue_Otter_IBS from './pages/game_pages/LoL/Leagues/Blue_Otter_Leagues/Bl
 import Blue_Otter_Plat from './pages/game_pages/LoL/Leagues/Blue_Otter_Leagues/Blue_Otter_Plat'
 import Frontpage_Otter from './pages/game_pages/LoL/Leagues/Blue_Otter_Leagues/Frontpage_Otter'
 
-import CCS_Diamond from './pages/game_pages/LoL/Leagues/CCS_Leagues/CCS_Diamond'
-import CCS_Plat from './pages/game_pages/LoL/Leagues/CCS_Leagues/CCS_Plat'
-import Frontpage_CCS from './pages/game_pages/LoL/Leagues/CCS_Leagues/Frontpage_CCS'
 
 import Division_1 from './pages/game_pages/LoL/Leagues/Cobalt_Winds_Leagues/Division_1'
 import Division_2 from './pages/game_pages/LoL/Leagues/Cobalt_Winds_Leagues/Division_2'
@@ -218,7 +210,6 @@ import GanksterRL from './pages/game_pages/RocketLeague/Head-To-Head/GanksterRL'
 import CMGRL from './pages/game_pages/RocketLeague/Wagers/CMGRL'
 import DropinRL from './pages/game_pages/RocketLeague/Wagers/DropinRL'
 import SaloonRL from './pages/game_pages/RocketLeague/Wagers/SaloonRL'
-import StakeRL from './pages/game_pages/RocketLeague/Wagers/StakeRL'
 //ROCKET LEAGUE WAGERS
 
 //ROCKET LEAGUE LEAGUES
@@ -564,9 +555,6 @@ function App() {
     case "/games/call-of-duty/leagues/House-of-esports-leagues/hoe-challengers":
       component = <HOE_Challengers />
       break;
-    case "/games/call-of-duty/leagues/House-of-esports-leagues/hoe-crossplay":
-      component = <HOE_CrossPlay />
-      break;
     case "/games/call-of-duty/leagues/House-of-esports-leagues/hoe-masters":
       component = <HOE_Masters />
       break;
@@ -575,9 +563,6 @@ function App() {
       break;
     case "/games/call-of-duty/leagues/ehub-league":
       component = <EHUB_League />
-      break;
-    case "/games/call-of-duty/leagues/gec-league":
-      component = <GEC_League />
       break;
     case "/games/call-of-duty/leagues/k7-league":
       component = <K7_League />
@@ -653,9 +638,6 @@ function App() {
       break;
     case "/games/call-of-duty/wagers/oneup":
       component = <Oneup_Wagers />
-      break;
-    case "/games/call-of-duty/wagers/stakester":
-      component = <Stakester />
       break;
     // COD WAGERS
 
@@ -738,9 +720,6 @@ function App() {
     case "/games/warzone/wagers/oneup":
       component = <OneUpWZ />
       break;
-    case "/games/warzone/wagers/stakester":
-      component = <StakeWZ />
-      break;
     case "/games/warzone/wagers/1v1me":
       component = <Wager_1v1WZ />
       break;
@@ -780,9 +759,6 @@ function App() {
     case "/games/LoL/wagers/dropingaming":
       component = <DropinLoL />
       break;
-    case "/games/LoL/wagers/stakester":
-      component = <StakeLoL />
-      break;
     // LoL WAGERS
 
     // LoL LEAGUES
@@ -819,16 +795,6 @@ function App() {
       break;
     case "/games/LoL/leagues/blue-otter-leagues/plat":
       component = <Blue_Otter_Plat />
-      break;
-
-    case "/games/LoL/leagues/ccs-leagues":
-      component = <Frontpage_CCS />
-      break;
-    case "/games/LoL/leagues/ccs-leagues/diamond":
-      component = <CCS_Diamond />
-      break;
-    case "/games/LoL/leagues/ccs-leagues/plat":
-      component = <CCS_Plat />
       break;
 
     case "/games/LoL/leagues/cobalt-winds-leagues":
@@ -1249,9 +1215,6 @@ function App() {
       break;
       case "/games/RocketLeague/wagers/gamersaloon":
       component = <SaloonRL />
-      break;
-      case "/games/RocketLeague/wagers/stakester":
-      component = <StakeRL />
       break;
     // ROCKET LEAGUE WAGERS
 

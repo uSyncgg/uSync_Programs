@@ -16,7 +16,7 @@ const Dropin_Wagers = () => {
             <header>
                 {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
-                <img src="https://i.imgur.com/gtHpIBf.png" className='Header-Img'/>
+                <img src="https://i.imgur.com/DWyIbm3.png" className='Header-Img'/>
             </header>
             {/* ***Must have this div tage with the Background-mid class name on every file*** */}
             <div className='Background-mid'>
@@ -47,7 +47,7 @@ const Dropin_Wagers = () => {
                             <p>MWII and Cold War Matches</p>
                             <p>CDL Ruleset</p>
                             <p>Support on Twitter</p>
-                            <p>small Number of Users and Set Wager Amounts by Site</p>
+                            <p>Small Number of Users and Set Wager Amounts by Site</p>
                         </div>
                         <div className='col-2'id='league-info'>
                         <h1 className='info-title'>Restrictions:</h1>

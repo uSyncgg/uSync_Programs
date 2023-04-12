@@ -30,7 +30,7 @@ const Rl_Wagers = () => {
 
                             </div>
                         </div>
-                        <p className='hr' />
+                        
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/RocketLeague/wagers/gamersaloon'>
@@ -63,24 +63,6 @@ const Rl_Wagers = () => {
                                 <a href='http://localhost:3000/games/RocketLeague/wagers/dropingaming'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
-                            </div>
-                        </div>
-
-                        <div className='col-lg-6'>
-                            <div className='league'>
-                                <a href='http://localhost:3000/games/RocketLeague/wagers/stakester'>
-                                    <h1 className='Leagueh1'>Stakester (App)</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="http://localhost:3000/games/RocketLeague/wagers/stakester"><img src="https://i.imgur.com/wl5JqGy.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
-                                    <p className='Leaguep'></p>
-                                </div>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/RocketLeague/wagers/stakester'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-
                             </div>
                         </div>
                         <p className='hr' />

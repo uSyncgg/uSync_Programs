@@ -43,7 +43,7 @@ const Blue_Otter_Gold = () => {
                                 {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                                 <p>$800+ Prize Pool</p>
                                 <p>Slightly-Competitive</p>
-                                <p>Gold 1 99LP cap, One Platinum 4 per team</p>
+                                <p>Gold 1 99LP cap, One Platinum 4 per Team</p>
                                 <p>Live Streamed Matches</p>
                                 <p>Live Support on Discord</p>
                                 <h1 className='info-title2'>Region/Type:</h1>

@@ -85,7 +85,7 @@ const Wz_Leagues = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/warzone/leagues/ccl'>
-                                    <h1 className='Leagueh1'>College COD</h1>
+                                    <h1 className='Leagueh1'>College Warzone</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/warzone/leagues/ccl"><img src="https://i.imgur.com/71EePEn.png" className='league-img' /></a>

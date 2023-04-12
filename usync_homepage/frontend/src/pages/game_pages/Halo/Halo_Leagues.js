@@ -91,7 +91,7 @@ const Halo_Leagues = () => {
                                     <a href="http://localhost:3000/games/halo/leagues/ecac"><img src="https://i.imgur.com/VCXkcNL.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>USA</p>
+                                <p className='Leaguep'>NA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/halo/leagues/ecac'>
                                     <button type="submit" className='info-button'>More Info</button>

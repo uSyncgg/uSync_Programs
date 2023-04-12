@@ -65,24 +65,6 @@ const Cod_Wagers = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/wagers/stakester'>
-                                    <h1 className='Leagueh1'>Stakester (App)</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/wagers/stakester"><img src="https://i.imgur.com/wl5JqGy.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
-                                </div>
-                                <p className='Leaguep'></p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/wagers/stakester'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
-                        <p className='hr' />
-
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -100,7 +82,8 @@ const Cod_Wagers = () => {
                                 </a>
                             </div>
                         </div>
-
+                        <p className='hr' />
+                        
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/call-of-duty/wagers/1v1me'>

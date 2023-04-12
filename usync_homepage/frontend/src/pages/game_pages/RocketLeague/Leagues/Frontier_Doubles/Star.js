@@ -47,7 +47,7 @@ const Star = () => {
                                 <p>Hosted on NA East, Open to Any Region</p>
                                 <p>Not a Draft League</p>
                                 <h1 className='info-title2'>Region/Type:</h1>
-                                <p>2v2 - All Regions</p>
+                                <p>2v2 - NA</p>
                             </div>
                             <div className='col-2' id='league-info'>
                                 <h1 className='info-title'>Entry Fee:</h1>

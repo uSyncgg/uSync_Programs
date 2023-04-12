@@ -44,7 +44,7 @@ const U18_League = () => {
                             {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                             <p>$450 - $550 Prize Pool</p>
                             <p>Highly Competitive</p>
-                            <p>MUST be younger than 18</p>
+                            <p>MUST be Younger Than 18</p>
                             <p>Live Streamed Matches</p>
                             <p>Draft Format for Teams</p>
                             <h1 className='info-title2'>Region/Type:</h1>

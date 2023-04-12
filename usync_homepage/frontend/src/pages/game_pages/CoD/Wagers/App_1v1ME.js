@@ -26,7 +26,7 @@ const App_1v1ME = () => {
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark-title' /></a>
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
                 </div>
-                <a href='https://www.1v1me.com/?_branch_match_id=1171220535276814040&utm_medium=marketing&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXNywz1MtN1S8trsxLTk8HAAKI9TcWAAAA'target='_blank' rel='noopener noreferrer'>
+                <a href='https://www.1v1me.com/'target='_blank' rel='noopener noreferrer'>
                     <button className='join-button'>Join Now</button>
                 </a>
                 {/* ***You must have this container div*** */}

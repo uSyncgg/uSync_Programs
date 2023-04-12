@@ -47,7 +47,7 @@ const VantaGG_LoL = () => {
                                 <p>Live Streamed Matches</p>
                                 <p>No Skill Requirement</p>
                                 <h1 className='info-title2'>Region/Type:</h1>
-                                <p>5v5 - NA</p>
+                                <p>5v5 - USA</p>
                             </div>
                             <div className='col-2' id='league-info'>
                                 <h1 className='info-title'>Entry Fee:</h1>

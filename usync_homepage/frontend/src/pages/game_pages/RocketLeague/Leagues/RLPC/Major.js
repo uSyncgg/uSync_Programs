@@ -14,7 +14,7 @@ const Major = () => {
                 <header>
                     {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
-                    <img src="https://i.imgur.com/XlkTEDt.png" className='Header-Img' />
+                    <img src="https://i.imgur.com/S3G558E.png" className='Header-Img' />
                 </header>
                 {/* ***Must have this div tage with the Background-mid class name on every file*** */}
                 <div className='Background-mid'>
@@ -45,8 +45,6 @@ const Major = () => {
                                 <p>1752+ MMR</p>
                                 <p>Must Sign up Solo</p>
                                 <p>Draft Based League</p>
-                                <p>Must Sign 1-3 Season Contract</p>
-                                <p>Highly Competitive</p>
                                 <p>Live Streamed Matches</p>
                                 <p>Live Support on Discord</p>
                                 <h1 className='info-title2'>Region/Type:</h1>

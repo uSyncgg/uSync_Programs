@@ -48,7 +48,7 @@ const CGN_WZ_League = () => {
                             <p>Live Streamed Matches</p>
                             <p>Qualifier Tournament before Regular Season</p>
                             <h1 className='info-title2'>Region/Type:</h1>
-                            <p>2v2 or 4v4 - NA</p>
+                            <p>2v2 or 4v4 - All Regions</p>
                         </div>
                         <div className='col-2'id='league-info'>
                         <h1 className='info-title'>Entry Fee:</h1>

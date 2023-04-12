@@ -14,7 +14,7 @@ const COD_Rec_League = () => {
             <header>
                 {/* Use this exact format to insert the header image, change the alt to the league name and
               Change the name inside the {} to be whatever the imported image is but className is the same */}
-                <img src="https://i.imgur.com/VX8e42V.png" className='Header-Img'/>
+                <img src="https://i.imgur.com/DztNIjY.png" className='Header-Img'/>
             </header>
             {/* ***Must have this div tage with the Background-mid class name on every file*** */}
             <div className='Background-mid'>
@@ -45,7 +45,7 @@ const COD_Rec_League = () => {
                             <p>Recreational</p>
                             <p>Live Streamed Matches</p>
                             <h1 className='info-title2'>Region/Type:</h1>
-                            <p>4v4 - NA</p>
+                            <p>4v4 - All Regions</p>
                         </div>
                         <div className='col-2'id='league-info'>
                         <h1 className='info-title'>Entry Fee:</h1>
