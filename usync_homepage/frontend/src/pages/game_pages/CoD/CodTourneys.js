@@ -39,7 +39,7 @@ function TournamentList(props) {
 
 function Tournament(props) {
     const { tournament } = props;
-    const time = '3:30 PM'
+    const time = '3:30'
 
     return (
         <div>
@@ -81,15 +81,15 @@ function Tournament(props) {
                                         </div>
 
                                         <div className={`${styles.regionVar} ${styles.centeredText}`}>
-                                            All
+                                            {tournament.region}
                                         </div>
 
                                         <div className={`${styles.skillVar} ${styles.centeredText}`}>
-                                            All
+                                            {tournament.skill}
                                         </div>
 
                                         <div className={`${styles.requirementsVar} ${styles.centeredText}`}>
-                                            Console Only
+                                            {tournament.requirements}
                                         </div>
                                     </div>                                    
                                 </div>
@@ -143,4 +143,4 @@ function Tournament(props) {
     );
 }
 
- export default CodTourneys;
+export default CodTourneys;

@@ -12,11 +12,15 @@ const TourneySchema = mongoose.Schema({
 
         entry: String,
 
-        size: String,
+        region: String,
 
-        platforms: [String],
+        platforms: String,
 
-        game: String
+        game: String,
+
+        requirements: String,
+
+        skill: String
     }
 })
 

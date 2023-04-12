@@ -1,7 +1,7 @@
 import EventTime from "../EventTime";
 
 const Test = () => {
-    const time = '03:30';
+    const time = '3:30';
 
     return (
         <div>

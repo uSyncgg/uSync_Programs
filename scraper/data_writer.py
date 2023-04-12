@@ -49,9 +49,11 @@ def write_all(data):
             "time": i["time"],
             "title": i["title"],
             "entry": i["entry"],
-            "size": i["size"],
+            "region": i["region"],
             "platforms": i["platforms"],
-            "game": i["game"]
+            "game": i["game"],
+            "requirements": i["requirements"],
+            "skill": i["skill"]
         }
 
         collection_name.insert_one(tournament_num)

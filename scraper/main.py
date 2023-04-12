@@ -20,7 +20,7 @@ def get_all_info(tournament_ids, driver, URL):
         # print(tournament_ids[i])
         url = URL_begin + str(tournament_ids[i]) + "/overview"
         all_info.append(get_tournament_info(driver, url))
-        # print(all_info)
+        # print(all_info[0])
 
     return all_info
         
@@ -38,7 +38,15 @@ def main():
     # print(tourney_links)
     # all_info = get_all_info(tourney_links, driver, URL)
     all_info = get_all_info(tourney_ids, driver, URL)
+    # print(all_info[0]["game"])
     all_links = get_tournament_link(tourney_ids, URL)
+    flag = 0
+    for i in all_info:
+        # print(i["game"])
+        if i["game"] == '':
+            del all_info[flag]
+            del all_links[flag]
+        flag += 1
     # print(get_all_info(tourney_ids, driver, URL))
     # print(all_info[1]["date"])
     write_all(all_info)

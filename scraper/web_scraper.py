@@ -33,22 +33,21 @@ from datetime import datetime
 # Need to check to see what platforms it contains and then do either console only or NONE
 # Filter game to only contain MW2
 
-URL = "https://esportsagent.gg/tournament/12756352"
+# URL = "https://esportsagent.gg/tournament/12780444"
 # URL_begin = "https://esportsagent.gg/tournament"
-driver = webdriver.Chrome(ChromeDriverManager().install())
-
-#### IMPORTANT: you will need to set a bound for each piece of code here or else it will look through outdate tourneys as well
+# driver = webdriver.Chrome(ChromeDriverManager().install())
 
 def conv_time(x):
+    x_str = x.strftime("%Y-%m-%d %H:%M:%S")
     from_zone = tz.gettz('UTC')
     to_zone = tz.gettz('America/New_York')
-    utc = datetime.strptime(x, '%Y-%m-%d %H:%M:%S')
+    utc = datetime.strptime(x_str, '%Y-%m-%d %H:%M:%S')
     utc = x.replace(tzinfo=from_zone)
     east = utc.astimezone(to_zone)
     hour = int(east.strftime('%I'))
     minute = int(east.strftime('%M'))
     date = east.strftime('%m-%d-%Y')
-    print(date)
+    # print(east)
     return east
 
 # Inputs: driver, tourney URL
@@ -64,77 +63,172 @@ def get_tournament_info(driver, URL):
     # Date and time, look words but figure out if its needed or if i can loop through all available tournaments in the data writer
     # IMPORTANT: look at main in the esportsagent git hub under the ld3 branch and see what he does to create a list of dictionaries rather
     # than dictionary of lists
-    # div tag was 'text-gray-700 text-[13px] uppercase letter tracking-wide'
+    # div tag is 'text-gray-500 uppercase text-sm font-roboto'
     date_time_res = soup.find_all('div', {'class': 'text-gray-500 uppercase text-sm font-roboto'})
-    # print(date_time_res)
-    # for i in range(len(date_time_res)):
     date_time = date_time_res[0].text.strip()
     date_time_list = date_time.split()
     date = date_time_list[0] + " " + date_time_list[1] + " " + date_time_list[2]
-    print(date_time)
+    # print(date)
     time = date_time_list[3]
-    # + " " + date_time_list[4]
+    ampm = date_time_list[4]
+    # print(time)
+    # print(ampm)
     time_parsed = parse(time)
+    # print(type(time_parsed))
     res = conv_time(time_parsed)
     # print(res)
-    new_time = '{}:{}'.format(res.hour, res.minute)
-    # print(new_time)
-    # print(time)
-        # if(date != get_date()):
-        #     break
-        # print(date)
-        # if(date != get_date):
-        #     break
-        
-        # date.append(a.get('grid md:grid-cols-2 lg:grid-cols-3 gap-4'))
+    mins = ""      
+    # print(type(res.hour))
+    new_time = ''
+    
+    # If the minute = 0 it will add another 0 otherwise it will only output 1 0 in result
+    # If the hour is greater than 12 it is set to -12 to keep it on a 12 hour clock
+    # If the hour is equal to 0 it is changed to 12 to keep it on a 12 hour clock
+    # new_time is the string containing the hours and minutes in the form hours:minutes
+    if (res.minute == 0):
+        if (res.hour > 12):
+            hrs = res.hour - 12
+            mins = str(res.minute) + "0"
+            new_time = '{}:{}'.format(hrs, mins)
+        elif (res.hour == 0):
+            hrs = 12
+            mins = str(res.minute) + "0"
+            new_time = '{}:{}'.format(hrs, mins)
+        else:
+            mins = str(res.minute) + "0"
+            new_time = '{}:{}'.format(res.hour, mins)
+    else:
+        if (res.hour > 12):
+            hrs = res.hour - 12
+            new_time = '{}:{}'.format(hrs, mins)
+        elif (res.hour == 0):
+            hrs = 12
+            mins = str(res.minute) + "0"
+            new_time = '{}:{}'.format(hrs, mins)
+        else:
+            new_time = '{}:{}'.format(res.hour, res.minute)
 
-    # Tourney Title
-    # span was 'font-semibold text-lg leading-6 text-white'
+    
+    # If the hour is less than 12 but greater than or equal to 8 and it is AM it will change to PM and vice versa
+    if ((res.hour - 12) < 12 and (res.hour - 12) >= 8):
+        if (ampm == "AM"):
+            ampm = "PM"
+    elif (res.hour < 12 and res.hour >= 8):
+        if (ampm == "PM"):
+            ampm = "AM"
+    
+    new_time += " " + ampm
+
+    # Tourney Title, Requirements from title, Skill from title
+    # span for white text is 'font-semibold text-2xl lg:text-3x1 max-w-[420px] break-words text-white'
+    # span for gold text is 'font-semibold text-2xl lg:text-3xl max-w-[420px] break-words text-gold'
+    # Gold text is only when the title_res is less than 1
     title_res = soup.find_all('span', {'class': 'font-semibold text-2xl lg:text-3xl max-w-[420px] break-words text-white'})
     if len(title_res) < 1:
         title_res = soup.find_all('span', {'class': 'font-semibold text-2xl lg:text-3xl max-w-[420px] break-words text-gold'})
     title = title_res[0].text.strip()
-    # print(title)
+
+    pos2 = 0
+    counter = 0
+    req = 'NONE'
+    skill = 'All'
+
+    for char in title:
+            if (char == '*' and counter != title.find('*')):
+                pos2 = counter
+                break
+        
+            counter += 1
+
+    special = title[title.find('*') + 1:pos2]
+
+    if special == 'DOLLAR ENTRY':
+        title = title[0:title.find('*')] + title[pos2 + 2:]
+    elif special.find('AGENTS') != -1 or special.find('MASTERS') != -1 or special.find('CHALLENGERS') != -1 or special.find('AMATEURS') != -1 or special.find('NOVICE') != -1:
+        title = title[0:title.find('*')] + title[pos2 + 2:]
+        skill = special
+    else:
+        title = title[0:title.find('*')] + title[pos2 + 2:]
+        req = special
+
+    pos2 = 0
+    counter = 0
+
+    if title.find('*') != -1:
+        for char in title:
+            if (char == '*'):
+                pos2 = counter
+        
+            counter += 1
+
+        special = title[title.find('*') + 1:pos2]
+
+        if special == 'DOLLAR ENTRY':
+            title = title[0:title.find('*')] + title[pos2 + 2:]
+        elif special.find('AGENTS') != -1 or special.find('MASTERS') != -1 or special.find('CHALLENGERS') != -1 or special.find('AMATEURS') != -1 or special.find('NOVICE') != -1:
+            title = title[0:title.find('*')] + title[pos2 + 2:]
+            skill = special
+        else:
+            title = title[0:title.find('*')] + title[pos2 + 2:]
+            req = special
+    
 
     # Entry/Per Person
-    # span was 'font-semibold text-gold'
+    # span was 'font-semibold text-white'
     per_person_res = soup.find_all('span', {'class': 'font-semibold text-white'})
     per_person = per_person_res[0].text.strip()
-    # print(per_person)
 
     # Platforms
-    xbox_logo = "xbox"
-    ps_logo = "playstation"
-    battle_net_logo = "battle.net"
-    steam_logo = "steam"
-    xbox_res = soup.find_all(srcset=re.compile(xbox_logo))
-    ps_res = soup.find_all(srcset=re.compile(ps_logo))
-    battle_net_res = soup.find_all(srcset=re.compile(battle_net_logo))
+    # div is 'flex gap-1
+    logo_res = soup.find('div', {'class': 'flex gap-1'}).find_all('img')
     platforms = []
-    if xbox_res is not None:
-        platforms.append(xbox_logo)
-    if ps_res is not None:
-        platforms.append(ps_logo)
-    if battle_net_res is not None:
-        platforms.append(battle_net_logo)
+    logo_list = []
+    plat = ''
+    flag = 0
+    for i in logo_res:
+        logo_list.append(str(i))
+    for j in logo_list:
+        if j.find('xbox') != -1:
+            platforms.append('xbox')
+        if j.find('playstation') != -1:
+            platforms.append('playstation')
+        if j.find('steam') != -1:
+            platforms.append('steam')
+        if j.find('battle.net') != -1:
+            platforms.append('battle.net')
     
-    # Dont think I need this
-    # Team Size & Format
-    # span was 'ui-label__text'
-    team_size_res = soup.find_all('span', {'class': 'font-semibold text-white'})
-    team_size = team_size_res[1].text.strip()
-    # print(team_size)
+    if len(platforms) == 4:
+        plat = 'All'
+    elif len(platforms) == 2:
+        for i in platforms:
+            if i == 'xbox':
+                flag += 1
+            if i == 'playstation':
+                flag += 1
+        if flag == 2:
+            plat = 'Console Only'
+        else:
+            plat = 'PC Only'
+    else:
+        plat = platforms[0]
+    
+    # Region
+    # span is 'uppercase text-[#8E8EA1] text-sm px-3'
+    region_res = soup.find_all('span', {'class': 'uppercase text-[#8E8EA1] text-sm px-3'})
+    region = region_res[0].text.strip()
 
     # Need this to compare to see if the game is MW2 or not
     # Game
     #span was 'text-white font-semibold'
     game_res = soup.find_all('span', {'class': 'uppercase text-[#8E8EA1] text-sm pr-3'})
-    game = game_res[0].text.strip()
+    games = game_res[0].text.strip()
+    game = ''
+    if games == 'Modern Warfare II':
+        game = games
     # print(game)
 
-    # info = {"date": date, "time": time, "title": title, "entry": per_person, "size": team_size, "platforms": platforms, "game": game}
-    # info = date
-    # return info
+    info = {"date": date, "time": new_time, "title": title, "entry": per_person, "region": region, "platforms": plat, "game": game, "requirements": req, "skill": skill}
+    return info
 
 # Inputs: driver, URL_begin
 # Returns: a list of all the valid tournament links for the day
@@ -178,6 +272,8 @@ def get_date():
     # print(month)
     # print(day)
 
+    print(today_date)
+
     return today_date
 
 # tourney_test = get_tournament_info(driver, URL)
@@ -191,7 +287,7 @@ def get_date():
 # testinfo = get_tournament_info(driver, URL)
 # if (get_tournament_info(driver, URL) == testinfo):
 #     print("tournament info method works")
-get_tournament_info(driver, URL)
+# get_tournament_info(driver, URL)
 
 # testid = {}
 # testid = get_tournament_ids(driver, URL)
