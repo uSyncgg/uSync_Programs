@@ -9,7 +9,7 @@ const Verification = () => {
                 <header>
                     <img src="https://i.imgur.com/mViTltX.png" className='Header-Img' />
                 </header>
-                <div className='Background-mid'>
+                <div className='Background-mid-veri'>
                     <div>
                         <img src="https://i.imgur.com/PCHIHQB.png" className='Checkmark-check'/>
                         <img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark-notcheck'/>

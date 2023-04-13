@@ -1,113 +1,56 @@
-import shortBar from "../../website_images/home-images/short_underline.png"
-import twitter from "../../website_images/home-images/twitter.png"
-import instagram from "../../website_images/home-images/instagram.png"
-import youtube from "../../website_images/home-images/youtube.png"
-import twitch from "../../website_images/home-images/twitch.png"
-import gofundme from "../../website_images/home-images/gofundme.png"
-import gmail from "../../website_images/home-images/gmail.png"
+import '../../Info.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../Footer';
 
 const Contactus = () => {
     return (
-        <div className="container">
-            <div className="find-us">
-                <h1>Find Us</h1>
-                <img src={shortBar} alt="shortbar" />
-            </div>
-            <div className="socials">
-                <img src={twitter} alt="twitter" />
-                <img src={instagram} alt="instagram" />
-                <img src={youtube} alt="youtube" />
-                <img src={twitch} alt="twitch" />
-            </div>
-            <div className="contact-us-text">
-                <h4>
-                    At uSync we strive to bring all of the tournaments, leagues, LANs, and more to one easy 
-                    and accessible place. You won't have to waste your time going from site to site or endlessly 
-                    scrolling on Twitter/Discord just to find competition. By utilizing the supported events on 
-                    our website, you have access to all of the esports competitions in one simple place. We are the
-                    game hub of competitive titles across all of esports!
-                </h4>
-                <br />
-                <hr />
-                <br />
-            </div>
-            <div className="support-us">
-                <h1>Support Us</h1>
-                <img src={shortBar} alt="short-bar" />
-                <br />
-                <br />
-                <img src={gofundme} alt="goFundMe" id="contact-us-gfm" />
-                <p>Support Our Vision</p>
-                <br />
-                <hr />
-                <br />
-            </div>
-            <div className="contact-us-event-host">
-                <h1>Event Host?</h1>
-                <img src={shortBar} alt="short-bar" />
-                <br />
-                <br />
-                <div className="row">
-                    <div className="col-3">
-                        <img src={gmail} alt="gmail" id="contact-us-gmail" />
-                        <p>Email Us!</p>
+        <div>
+            <body id='league-body1'>
+                <header>
+                        <img src="https://i.imgur.com/0Wrn8wp.png" className='Header-Img' />
+                        <a href='https://twitter.com/uSyncGG'target='_blank' rel='noopener noreferrer'><img src="https://i.imgur.com/oS43wb8.png" className='twitter-contact'/></a>
+                        <a href='https://www.instagram.com/usyncgg/'target='_blank' rel='noopener noreferrer'><img src="https://i.imgur.com/9VJzdPs.png" className='instagram-contact'/></a>
+                        <a href='https://www.youtube.com/@usyncGG'target='_blank' rel='noopener noreferrer'><img src="https://i.imgur.com/zlUggwt.png" className='youtube-contact'/></a>
+                        <a href='https://www.twitch.tv/usyncgg'target='_blank' rel='noopener noreferrer'><img src="https://i.imgur.com/xATJ11Q.png" className='twitch-contact'/></a>
+                </header>
+                <div className='Background-mid-contact'>
+                    <div>
+                    <h1 className='event-title-contactus'>Find Us</h1>
+                        <img src="https://i.imgur.com/eNhKhTI.png" className='Underline-h-verification-event' />
                     </div>
-                    <div className="col-9">
-                        <p id="contact-us-event-host-p">
-                            We support plenty of different events/websites but may miss a few from time to time in 
-                            our search to support all games. If you are interested in working with us, click <a href="/">HERE</a>
-                             to learn more!
-                        </p>
-                    </div>
-                </div>
-                <br />
-                <br />
-                <br />
-                <hr />
-                <br />
-            </div>
-            <div className="about-us">
-                <h1>About Us</h1>
-                <img src={shortBar} alt="short-bar" />
-                <br />
-                <br />
-                <p>
-                    Our founders played competitive esports in both the amateur and collegiate level. uSync was founded
-                    after noticing that esports is extremely disorganized and in some circumstances impossible to find 
-                    information without knowing the right people. Our vision is to solve this by allowing all events to 
-                    be shown in one place, so everyone can participate in as many events as they desire.
-                </p>
-                <br />
-                <br />
-                <div className="row">
-                    <div className="col-4">
-                        <img src={youtube} alt="Jake" id="jake-headshot" />
-                        <h2>Jake Bruscino</h2>
-                        <br />
-                        <h3>CEO & Co-founder</h3>
-                    </div>
-                    <div className="col-4">
-                        <img src={youtube} alt="Matthew" id="matt-headshot" />
-                        <h2>Matthew O'Connor</h2>
-                        <br />
-                        <h3>Co-founder</h3>
-                    </div>
-                    <div className="col-4">
-                        <img src={youtube} alt="Mason" id="mason-headshot" />
-                        <h2>Mason Wiley</h2>
-                        <br />
-                        <h3>Co-founder</h3>
-                    </div>
-                </div>
-                <br />
-                <hr />
-                <br />
-                <br />
-            </div>
-            <Footer/>
-        </div>
-    )
-}
+                    <div className='container'>
+                        <div className='row' id='verif-row'>
+                            <div className='col-8 offset-2'>
+                                <h1 className='info-title-contactus'>At uSync we strive to bring all of the tournaments, leagues, LANs, 
+                                and more to one easy and accessible place. You won't have to waste your time going from site to site or endlessly 
+                                scrolling on Twitter/Discord just to find competition. By utilizing the supported events on our website, you have 
+                                access to all of the esports competitions in one simple place. We are the game hub of competitive titles across 
+                                all of esports!</h1>
+                                <h1 className='event-title-contactus2'>About Us</h1>
+                        <img src="https://i.imgur.com/eNhKhTI.png" className='Underline-h-verification-event2' />
+                                <h1 className='info-title-contactus2'>Our founders played competitive esports in both the amateur and collegiate 
+                                level. uSync was founded after noticing that esports is extremely disorganized and in some circumstances 
+                                impossible to find information without knowing the right people. Our vision is to solve this by allowing all 
+                                events to be shown in one place, so everyone can participate in as many events as they desire.</h1>
+                                <img src="https://i.imgur.com/47yLm7t.png" className='jake-image'/>
+                                <h1 className='cofounder-title-jake'>Jake Bruscino</h1>
+                                <h1 className='cofounder-title-jake1'>CEO / Co-Founder</h1>
+                                <img src="https://i.imgur.com/cBWEv6G.png" className='matt-image'/>
+                                <h1 className='cofounder-title-matt'>Matthew O'Connor</h1>
+                                <h1 className='cofounder-title-matt1'>Co-Founder</h1>
+                                <img src="https://i.imgur.com/MHnmk8V.png" className='mason-image'/>
+                                <h1 className='cofounder-title-mason'>Mason Wiley</h1>
+                                <h1 className='cofounder-title-mason1'>Co-Founder</h1>
+                            </div>
 
-export default Contactus
+                        </div>
+                    </div>
+
+                </div>
+            </body>
+            <Footer />
+        </div>
+
+    );
+}
+export default Contactus;

@@ -128,6 +128,7 @@
   #league-body {
     position: relative;
   }
+  
   #league-row {
     text-align: center;
     transform: translate(6%,25%);
@@ -208,7 +209,7 @@
 }
 .Underline-h-verification-2 {
   position: absolute;
-  top: 31.5%;
+  top: 33.5%;
   left: 9%;
 }
 .info-title-veri {
@@ -224,17 +225,245 @@
   background-color: rgb(49, 49, 49);
   color: rgb(141, 125, 181);
   border: .125rem solid rgb(141, 125, 181);
-  width: 25%;
+  width: 30%;
   transition-duration: 0.4s;
   position: absolute;
   font-weight: bold;
   font-family: 'Helvetica';
   border-radius: .313rem;
-  top: 65%;
-  right: 36.8%;
+  top: 73%;
+  right: 34.5%;
+  height: 2.8%;
 }
 
 .verified-button:hover {
   background-color: rgb(141, 125, 181);
   color: rgb(49, 49, 49);
+}
+.Background-mid-veri {
+  background-color: rgb(49, 49, 49);
+  padding: 3.125rem;
+  padding-left: 0rem;
+  padding-right: 10%;
+  position: relative;
+  margin-top: -40%; /* adjust the margin-top property */
+  margin-bottom: -10%;
+  z-index: 1;
+  text-align: center;
+}
+.event-title {
+  color: white;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 3.5rem;
+  left: 6%;
+  transform: translateY(-65%);
+  font-weight: 700;
+}
+.Underline-h-verification-event {
+  position: absolute;
+  top: 7%;
+  left: 9%;
+}
+.info-title-verification-event1 {
+  color: white;
+  position: relative;
+  top: -95%;
+  width: 150%;
+  right: 15%;
+  font-size: 2rem;
+}
+.info-title-verification-event {
+  color: white;
+  position: relative;
+  top: -80%;
+  width: 150%;
+  right: 15%;
+  font-size: 2rem;
+}
+.eventhost-button {
+  background-color: rgb(49, 49, 49);
+  color: rgb(141, 125, 181);
+  border: .125rem solid rgb(141, 125, 181);
+  width: 30%;
+  transition-duration: 0.4s;
+  position: absolute;
+  font-weight: bold;
+  font-family: 'Helvetica';
+  border-radius: .313rem;
+  top: 52%;
+  right: 34.5%;
+  height: 3%;
+}
+
+.eventhost-button:hover {
+  background-color: rgb(141, 125, 181);
+  color: rgb(49, 49, 49);
+}
+.Background-mid-event {
+  background-color: rgb(49, 49, 49);
+  padding: 3.125rem;
+  padding-left: 0rem;
+  padding-right: 10%;
+  position: relative;
+  margin-top: -40%; /* adjust the margin-top property */
+  margin-bottom: -18.5%;
+  z-index: 1;
+  text-align: center;
+}
+.twitter-contact {
+  position: absolute;
+  top: 25%; /* Move upward */
+  left: 60.5%;
+  width: 8%; /* Increase the width */
+  height: auto; /* Make the height adjust to the width to prevent stretching */
+  z-index: 2;
+}
+.instagram-contact {
+  position: absolute;
+  top: 25%; /* Move upward */
+  left: 51%;
+  width: 8%; /* Increase the width */
+  height: auto; /* Make the height adjust to the width to prevent stretching */
+  z-index: 2;
+}
+.youtube-contact {
+  position: absolute;
+  top: 25%; /* Move upward */
+  left: 41.5%;
+  width: 8%; /* Increase the width */
+  height: auto; /* Make the height adjust to the width to prevent stretching */
+  z-index: 2;
+}
+.twitch-contact {
+  position: absolute;
+  top: 25%; /* Move upward */
+  left: 32%;
+  width: 8%; /* Increase the width */
+  height: auto; /* Make the height adjust to the width to prevent stretching */
+  z-index: 2;
+}
+.event-title-contactus {
+  color: white;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 3.5rem;
+  left: 6%;
+  transform: translateY(-75%);
+  font-weight: 700;
+}
+.info-title-contactus {
+  color: white;
+  position: relative;
+  top: -39%;
+  width: 150%;
+  right: 15%;
+  font-size: 2rem;
+}
+.info-title-contactus2 {
+  color: white;
+  position: relative;
+  top: -5%;
+  width: 150%;
+  right: 15%;
+  font-size: 1.2rem;
+}
+.Background-mid-contact {
+  background-color: rgb(49, 49, 49);
+  padding: 3.125rem;
+  padding-left: 0rem;
+  padding-right: 10%;
+  position: relative;
+  margin-top: -40%; /* adjust the margin-top property */
+  z-index: 1;
+  text-align: center;
+}
+.event-title-contactus2 {
+  color: white;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 3.5rem;
+  left: 10%;
+  transform: translateY(-120%);
+  font-weight: 700;
+}
+.Underline-h-verification-event2 {
+  position: absolute;
+  top: 55%;
+  left: 9%;
+}
+.jake-image {
+  position: absolute;
+  top: 70%; /* Move upward */
+  left: 18%;
+  width: 20%; /* Increase the width */
+  height: auto; /* Make the height adjust to the width to prevent stretching */
+  z-index: 2;
+}
+.matt-image {
+  position: absolute;
+  top: 70%; /* Move upward */
+  left: 40.5%;
+  width: 20%; /* Increase the width */
+  height: auto; /* Make the height adjust to the width to prevent stretching */
+  z-index: 2;
+}
+.mason-image {
+  position: absolute;
+  top: 70%; /* Move upward */
+  left: 63.5%;
+  width: 20%; /* Increase the width */
+  height: auto; /* Make the height adjust to the width to prevent stretching */
+  z-index: 2;
+}
+.cofounder-title-jake {
+  color: white;
+  position: absolute;
+  top: 97.9%;
+  left: 23%;
+  font-size: 1.5rem;
+}
+.cofounder-title-matt {
+  color: white;
+  position: absolute;
+  top: 97.9%;
+  left: 43.5%;
+  font-size: 1.5rem;
+}
+.cofounder-title-mason {
+  color: white;
+  position: absolute;
+  top: 97.9%;
+  left: 69%;
+  font-size: 1.5rem;
+}
+.cofounder-title-jake1 {
+  color: white;
+  position: absolute;
+  top: 101%;
+  left: 23%;
+  font-size: 1.1rem;
+}
+.cofounder-title-matt1 {
+  color: white;
+  position: absolute;
+  top: 101%;
+  left: 47%;
+  font-size: 1.1rem;
+}
+.cofounder-title-mason1 {
+  color: white;
+  position: absolute;
+  top: 101%;
+  left: 70.5%;
+  font-size: 1.1rem;
+}
+
+#league-body1 {
+  background-color: rgb(49, 49, 49);
+  position: relative;
+  padding-bottom: 20%;
 }
