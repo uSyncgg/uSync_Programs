@@ -467,3 +467,49 @@
   position: relative;
   padding-bottom: 20%;
 }
+.coming-soon-text {
+  color: white;
+  position: relative;
+  top: -140%;
+  width: 150%;
+  right: 15%;
+  font-size: 1.2rem;
+}
+
+.Underline-h-verification-coming {
+  position: absolute;
+  top: 6%;
+  left: 9.6%;
+}
+.event-title-coming {
+  color: white;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 3.5rem;
+  left: 10%;
+  transform: translateY(-250%);
+  font-weight: 700;
+}
+.Underline-h-coming {
+  position: absolute;
+  top: 50.5%;
+  left: 9.6%;
+}
+
+#bubble-coming {
+  margin-bottom: 2.5rem;
+  transform: translate(-232.5%,28%);
+}
+.info-title-coming2 {
+  color: white;
+  position: relative;
+  top: 70%;
+  width: 150%;
+  right: 15%;
+  font-size: 1.2rem;
+}
+#league-body2 {
+  background-color: rgb(49, 49, 49);
+  position: relative;
+}
