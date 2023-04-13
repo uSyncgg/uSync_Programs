@@ -17,7 +17,7 @@ const Navbar = () => {
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fa-regular fa-circle-xmark' : 'fa-solid fa-bars'}></i>
           </div>
-          <div className={click ? 'mobile-menu' : 'mobile-menu hide-mobile'}>
+          <div className={click ? 'mobile-menu' : 'hide-mobile'}>
             <ul className='mobile-menu-ul'>
                 <CustomLink className="cLink-mobile" href="/">Home</CustomLink>
                 <CustomLinkDropdown className="cLinkDropdown-mobile" title="Games">
