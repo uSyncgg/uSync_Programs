@@ -64,6 +64,13 @@ const Halo_Leagues = () => {
                             </div>
                         </div>
 
+                        <div>
+                        <p className='hr' />
+                        <h2 id="league-title1">Collegiate Leagues</h2>                        
+                        <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h1'/>
+                        <p className='hr' />
+                        </div>
+                        
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/halo/leagues/ugc-halo'>
@@ -80,7 +87,6 @@ const Halo_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -98,6 +104,7 @@ const Halo_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -115,7 +122,6 @@ const Halo_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
 
 
                         <div className='col-lg-6'>
@@ -134,6 +140,8 @@ const Halo_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/halo/leagues/nacl'>

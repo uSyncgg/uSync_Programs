@@ -286,3 +286,18 @@ transition {
   #league-header {
     position: relative;
   }
+
+
+  #league-title1 {
+    color: white;
+    position: relative;
+    font-size: 5rem;
+    left: 6%;
+    top: 5%;
+  }
+  .Underline-h1 {
+    position: relative;
+    left: 6%;
+    top: 5%;
+
+  }

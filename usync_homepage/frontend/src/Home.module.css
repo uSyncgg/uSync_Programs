@@ -234,15 +234,22 @@ hr {
   font-weight: 600;
 }
 
+
 .backgroundImg img {
   margin: 1%;
   width: 10%;
   height: auto;
   border-radius: 1.563rem;
   transition: box-shadow 0.3s ease-in-out;
-  transform: translate(50%,0%)
+  transform: translate(50%,0%);
 }
 
 .backgroundImg img:hover {
   box-shadow: 0 0 .625rem .188rem rgba(153, 102, 255, 0.8);
+}
+
+hr {
+  margin-top: 2%;
+  margin-bottom: 2%;
+
 }

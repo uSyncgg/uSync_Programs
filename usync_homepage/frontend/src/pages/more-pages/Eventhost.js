@@ -5,11 +5,11 @@ import Footer from '../../Footer';
 const Eventhost = () => {
     return (
         <div>
-            <body id='league-body'>
+            <body id='league-body2'>
                 <header>
                     <img src="https://i.imgur.com/0Wrn8wp.png" className='Header-Img' />
                 </header>
-                <div className='Background-mid-event'>
+                <div className='Background-mid-contact'>
                     <div>
                     <h1 className='event-title'>Our Events</h1>
                         <img src="https://i.imgur.com/eNhKhTI.png" className='Underline-h-verification-event' />

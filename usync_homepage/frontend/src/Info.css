@@ -301,17 +301,7 @@
   background-color: rgb(141, 125, 181);
   color: rgb(49, 49, 49);
 }
-.Background-mid-event {
-  background-color: rgb(49, 49, 49);
-  padding: 3.125rem;
-  padding-left: 0rem;
-  padding-right: 10%;
-  position: relative;
-  margin-top: -40%; /* adjust the margin-top property */
-  margin-bottom: -18.5%;
-  z-index: 1;
-  text-align: center;
-}
+
 .twitter-contact {
   position: absolute;
   top: 25%; /* Move upward */

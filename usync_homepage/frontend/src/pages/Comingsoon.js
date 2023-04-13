@@ -16,14 +16,11 @@ const Comingsoon = () => {
                         <img src="https://i.imgur.com/eNhKhTI.png" className='Underline-h-verification-coming' />
                     </div>
                     <div className={styles.backgroundImg}>
-                    <a href='http://localhost:3000/Comingsoon'>
-                        <img src="https://i.imgur.com/MUcaqmt.png" alt="Apex Legends"/> </a>
+                        <img src="https://i.imgur.com/MUcaqmt.png" alt="Apex Legends"/>
 
-                    <a href='http://localhost:3000/Comingsoon'>
-                        <img src="https://i.imgur.com/qpQDtRJ.png" alt="Super Smash Brothers"/></a>
+                        <img src="https://i.imgur.com/qpQDtRJ.png" alt="Super Smash Brothers"/>
 
-                    <a href='http://localhost:3000/Comingsoon'>
-                        <img src="https://i.imgur.com/XxOYZiE.png" alt="Overwatch 2"/></a>
+                        <img src="https://i.imgur.com/XxOYZiE.png" alt="Overwatch 2"/>
                 </div>
 
                     <div className='container'>

@@ -80,7 +80,13 @@ const Wz_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+
+                        <div>                        
                         <p className='hr' />
+                        <h2 id="league-title1">Collegiate Leagues</h2>                        
+                        <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h1'/>
+                        <p className='hr' />
+                        </div>
 
                         <div className='col-lg-6'>
                             <div className='league'>

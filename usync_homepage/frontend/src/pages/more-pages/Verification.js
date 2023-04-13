@@ -5,7 +5,7 @@ import Footer from '../../Footer';
 const Verification = () => {
     return (
         <div>
-            <body id='league-body'>
+            <body id='league-body1'>
                 <header>
                     <img src="https://i.imgur.com/mViTltX.png" className='Header-Img' />
                 </header>
