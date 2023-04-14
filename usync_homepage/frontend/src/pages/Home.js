@@ -48,7 +48,7 @@ const Home = () => {
                     <a href='http://localhost:3000/games/Valorant'>
                         <img src="https://i.imgur.com/Gsl3oIp.png" alt="Valorant" height="12.5rem" width="12.5rem" />
                     </a>
-                    <hr />
+                    <div className={styles.hr}></div>
                 </div>
 
                 <h2 className={styles.hometitles}>LAN Events</h2>
@@ -56,7 +56,7 @@ const Home = () => {
                 <iframe className={styles.Map} src="https://www.google.com/maps/d/u/6/embed?mid=1QrCfeXFSyZJMXLzUeAiIWy0hcWgaJVg&ehbc=2E312F" width="640" height="480"></iframe>
                 <h3 className={styles.learnhow}>Learn how to post your LAN to the map <a href="/more/eventhost" className={styles.eventhost}>here</a></h3>
                 <br />
-                <hr />
+                <div className={styles.hr}></div>
 
 
                 <h2 className={styles.hometitles}>Coming Soon!</h2>
@@ -73,7 +73,7 @@ const Home = () => {
                         <img src="https://i.imgur.com/XxOYZiE.png" alt="Overwatch 2" height="12.5rem" width="12.5rem" /></a>
                 </div>
                 <br />
-                <hr />
+                <div className={styles.hr}></div>
                 <br />
                 <br />
                 <br />

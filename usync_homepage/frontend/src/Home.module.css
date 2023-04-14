@@ -57,16 +57,18 @@ body {
   padding-top: .9rem;
   padding-bottom: .8rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .hometitles {
     font-size: 2rem;
     max-width: 90%;
   }
-}
 
+  .underline{
+    margin: 0 auto;
+    width: 100%;
+  }
 
-@media screen and (max-width: 768px) {
-  .Intro {
+  .Slogan {
     font-size: 2rem;
     max-width: 90%;
   }
@@ -76,13 +78,6 @@ body {
 .Intro h2{
   font-size: 1.125rem;
 }
-@media screen and (max-width: 768px) {
-  .Intro h2{
-    font-size: 2rem;
-    max-width: 90%;
-  }
-}
-
 
 .getStarted {
   display: inline-block;
@@ -108,8 +103,8 @@ body {
 
 .backgroundImages img {
   margin: 1%;
-  width: 10%;
-  height: auto;
+  width: 12rem;
+  height: 16rem;
   border-radius: 1.563rem;
   transition: box-shadow 0.3s ease-in-out;
 }
@@ -123,15 +118,6 @@ body {
   width: 50%;
   padding-bottom: .9rem;
 }
-@media screen and (max-width: 768px) {
-  .underline{
-    margin: 0 auto;
-
-    width: 100%;
-
-  }
-}
-
 
 .comingSoonGames img {
   margin: 2% 1%;
@@ -194,13 +180,6 @@ body {
   color: rgb(48 189, 123);
   text-align: center;
 }
-@media screen and (max-width: 768px) {
-  .Slogan {
-    font-size: 2rem;
-    max-width: 90%;
-  }
-}
-
 
 .Map {
   display: block;
@@ -208,12 +187,9 @@ body {
   width: 90%;
 }
 
-hr {
-  background-color: white;
-  width: 90%;
-  margin: 0 auto;
-  border: none;
-  height: .188rem;
+.hr {
+  border-top: .25rem solid white;
+  margin: 0 3rem;
 }
 
 .eventhost{

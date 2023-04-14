@@ -14,8 +14,9 @@
 /* Style the site title logo */
 .site-title img {
   height: 3.8rem;
-  margin-left: 5%;
-  margin-top: 2.5%;
+  top: .33rem;
+  left: 4rem;
+  position: fixed;
 }
 
 /* Style the list items in the navbar */
@@ -24,9 +25,6 @@ ul {
   display: flex;
   align-items: center;
   padding: 0;
-  margin: 0;
-  margin-top: 5rem;
-  margin-left: 45rem;
   text-align: center;
   justify-content: flex-end;
 }
@@ -130,11 +128,6 @@ ul a:hover {
     display: none;
   }
 
-  .fa-regular, .fa-solid {
-    width: 2rem;
-    height: 2rem;
-  }
-
   .dropbtn i {
     display: inline-block;
     padding-right: .25rem;
@@ -151,9 +144,12 @@ ul a:hover {
     display: block;
     list-style: none;
     background-color: #1C1C1C;
-    padding: 1rem;
+    padding: 0 1rem;
     text-align: center;
     margin-left: 0;
+    position: absolute;
+    left: 0rem;
+    top: 4.5rem;
   }
 
   .cLinkDropdown-mobile, .cLink-mobile {
@@ -189,18 +185,9 @@ ul a:hover {
   .menu-icon {
     color: white;
     font-size: 2rem;
-    margin-left: 1rem;
-    margin-right: 90%;
-    margin-top: -4.5rem;
+    position: fixed;
+    left: 1rem;
   }
-
-  .site-title img {
-    height: 3.8rem;
-    margin-left: 33%;
-    margin-top: .25rem;
-  }
-
-
 }
 
 @media screen and (min-width: 960px) {
@@ -209,6 +196,8 @@ ul a:hover {
   }
 
   .webpage-ul {
-    margin-top: -5%;
+    position: fixed;
+    top: -.25rem;
+    right: 2rem;
   }
 }
