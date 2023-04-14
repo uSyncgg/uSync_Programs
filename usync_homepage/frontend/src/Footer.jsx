@@ -8,7 +8,7 @@ function Footer() {
                 <a href='https://www.youtube.com/@usyncGG' target='_blank' rel='noopener noreferrer'>
                     <img src="https://i.imgur.com/zlUggwt.png" alt="Youtube" /></a>
 
-                <a href='https://www.instagram.com/usyncgg/'target='_blank' rel='noopener noreferrer'>
+                <a href='https://www.instagram.com/usyncgg/?next=%2F'target='_blank' rel='noopener noreferrer'>
                     <img src="https://i.imgur.com/9VJzdPs.png" alt="Instagram" /></a>
 
                 <a href='https://twitter.com/uSyncGG'target='_blank' rel='noopener noreferrer'>

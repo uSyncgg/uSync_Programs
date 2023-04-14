@@ -9,7 +9,7 @@ const Contactus = () => {
                 <header>
                         <img src="https://i.imgur.com/0Wrn8wp.png" className='Header-Img' />
                         <a href='https://twitter.com/uSyncGG'target='_blank' rel='noopener noreferrer'><img src="https://i.imgur.com/oS43wb8.png" className='twitter-contact'/></a>
-                        <a href='https://www.instagram.com/usyncgg/'target='_blank' rel='noopener noreferrer'><img src="https://i.imgur.com/9VJzdPs.png" className='instagram-contact'/></a>
+                        <a href='https://www.instagram.com/usyncgg/?next=%2F'target='_blank' rel='noopener noreferrer'><img src="https://i.imgur.com/9VJzdPs.png" className='instagram-contact'/></a>
                         <a href='https://www.youtube.com/@usyncGG'target='_blank' rel='noopener noreferrer'><img src="https://i.imgur.com/zlUggwt.png" className='youtube-contact'/></a>
                         <a href='https://www.twitch.tv/usyncgg'target='_blank' rel='noopener noreferrer'><img src="https://i.imgur.com/xATJ11Q.png" className='twitch-contact'/></a>
                 </header>

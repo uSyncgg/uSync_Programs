@@ -59,8 +59,6 @@
 }
   
 .Checkmark-title {
-  display: block;
-  margin: 0 auto;
   position: absolute;
   top: 5.5%; /* Move further upward than the checkmark */
   left: 50%;
@@ -104,24 +102,24 @@
     color: white;
     text-align: center;
     text-decoration-line: underline;
-    position: relative;
-    top: 7%;
+    position: absolute;
+    top: 170%;
   }
   
   .info-title2 {
     color: white;
     text-align: center;
     text-decoration-line: underline;
-    position: relative;
-    top: 7%;
+    position: absolute;
+    top: 250%;
   }
   
 #league-info p {
   color: white;
   font-size: 1.5rem;
-  position: relative;
+  position: absolute;
   font-weight: normal;
-  top: 7%;
+  top: 150%;
 }
   
   #league-body {
@@ -132,6 +130,7 @@
     text-align: center;
     transform: translate(6%,25%);
     min-width: 50rem;
+    margin-bottom: 50%;
   }
   
   .Leaguep {
