@@ -22,7 +22,6 @@ import HOE_Masters from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Mas
 import AWL_League from './pages/game_pages/CoD/leagues/AWL_League'
 import CCL_League from './pages/game_pages/CoD/leagues/CCL_League'
 import K7_League from './pages/game_pages/CoD/leagues/K7_League'
-import EHUB_League from './pages/game_pages/CoD/leagues/EHUB_League'
 import Cgn_league_cod from './pages/game_pages/CoD/leagues/Cgn_league_cod'
 import Chicago_COD_League from './pages/game_pages/CoD/leagues/Chicago_COD_League'
 import Click_Gaming_LeagueCOD from './pages/game_pages/CoD/leagues/Click_Gaming_LeagueCOD'
@@ -98,7 +97,6 @@ import Wager_1v1WZ from './pages/game_pages/Warzone/Wagers/Wager_1v1WZ'
 //WARZONE LEAGUES
 import CCL_WZ_League from './pages/game_pages/Warzone/Leagues/CCL_WZ_League'
 import CGN_WZ_League from './pages/game_pages/Warzone/Leagues/CGN_WZ_League'
-import EHUB_WZ_League from './pages/game_pages/Warzone/Leagues/EHUB_WZ_League'
 import GG_Gaming_League from './pages/game_pages/Warzone/Leagues/GG_Gaming_League'
 import GHML_Gaming_League from './pages/game_pages/Warzone/Leagues/GHML_Gaming_League'
 import NJCAAE_League from './pages/game_pages/Warzone/Leagues/NJCAAE_League'
@@ -561,9 +559,6 @@ function App() {
     case "/games/call-of-duty/leagues/ccl-league":
       component = <CCL_League />
       break;
-    case "/games/call-of-duty/leagues/ehub-league":
-      component = <EHUB_League />
-      break;
     case "/games/call-of-duty/leagues/k7-league":
       component = <K7_League />
       break;
@@ -731,9 +726,6 @@ function App() {
       break;
     case "/games/warzone/leagues/cgn":
       component = <CGN_WZ_League />
-      break;
-    case "/games/warzone/leagues/ehub":
-      component = <EHUB_WZ_League />
       break;
     case "/games/warzone/leagues/gg-gaming":
       component = <GG_Gaming_League />

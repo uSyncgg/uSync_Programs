@@ -159,11 +159,9 @@ body {
 }
 
 .footer {
-  position: relative;
-  color: black;
   background-color: rgb(67, 67, 67);
   text-align: center;
-  padding-bottom: .625rem;
+  padding-bottom: .3%;
   z-index: 99999 !important;
 }
 

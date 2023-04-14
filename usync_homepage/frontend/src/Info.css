@@ -56,7 +56,6 @@
   transform: translate(-50%, -50%);
   width: 5%; /* Increase the width */
   height: auto; /* Make the height adjust to the width to prevent stretching */
-  margin-bottom: 10px; /* Add some space between the checkmark and its title */
 }
   
 .Checkmark-title {
