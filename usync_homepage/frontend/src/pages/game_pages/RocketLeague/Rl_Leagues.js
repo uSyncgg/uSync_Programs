@@ -285,7 +285,13 @@ const Rl_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+
+                        <div>                        
                         <p className='hr' />
+                        <h2 id="league-title1">Collegiate Leagues</h2>                        
+                        <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h1'/>
+                        <p className='hr' />
+                        </div>
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -435,6 +441,15 @@ const Rl_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+
+                        <div>                        
+                        <p className='hr' />
+                        <h2 id="league-title1">High School Leagues</h2>                        
+                        <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h1'/>
+                        <p className='hr' />
+                        </div>
+
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/hsel'>
@@ -451,7 +466,7 @@ const Rl_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/playvs'>
@@ -468,6 +483,8 @@ const Rl_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/tec'>
@@ -484,7 +501,7 @@ const Rl_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/vantagg'>
@@ -501,6 +518,8 @@ const Rl_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/ugc-hs'>
@@ -517,7 +536,7 @@ const Rl_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/necl'>
@@ -534,6 +553,8 @@ const Rl_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/nasef'>
@@ -550,7 +571,7 @@ const Rl_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/egfh'>
@@ -567,6 +588,8 @@ const Rl_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/nacl'>

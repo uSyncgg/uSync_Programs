@@ -48,7 +48,9 @@ const Home = () => {
                     <a href='http://localhost:3000/games/Valorant'>
                         <img src="https://i.imgur.com/Gsl3oIp.png" alt="Valorant" height="12.5rem" width="12.5rem" />
                     </a>
-                    <div className={styles.hr}></div>
+                    <div className={styles.centerline}>
+                        <hr />
+                    </div>
                 </div>
 
                 <h2 className={styles.hometitles}>LAN Events</h2>

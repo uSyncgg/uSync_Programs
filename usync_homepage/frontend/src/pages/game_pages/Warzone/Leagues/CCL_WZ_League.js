@@ -25,7 +25,7 @@ const CCL_WZ_League = () => {
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/OSMYolc.png" className='Checkmark-title' /></a>
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" className='Checkmark' /></a>
                 </div>
-                <a href='https://collegecod.com/news/2022-college-warzone/'>
+                <a href='https://collegecod.com/news/2022-college-warzone/'target='_blank' rel='noopener noreferrer'>
                     <button className='join-button'>Join Now</button>
                 </a>
                 {/* ***You must have this container div*** */}

@@ -46,6 +46,11 @@ ul a, .cLinkDropdown {
   color: #fff;
 }
 
+#more-dropdown {
+  position: absolute;
+  left: 5rem;
+}
+
 #navbarLink {
   text-decoration: none;
   font-size: 1.3rem;
@@ -54,7 +59,7 @@ ul a, .cLinkDropdown {
   display: flex;
   align-items: center;
   position: relative;
-  top: -.2rem; /* adjust this value as needed */
+  top: 2.5rem; /* adjust this value as needed */
 }
 
 /* Style the dropdown menu */
@@ -71,19 +76,22 @@ ul a, .cLinkDropdown {
   cursor: pointer;
   display: flex;
   position: relative;
-  top: -.2rem;
+  top: 2.5rem;
 }
 
 /* Style the dropdown content */
 .dropdown-content {
   position: absolute; /* change position to relative */
-  z-index: 1;
+  z-index: -1;
   background-color: #1C1C1C;
   display: none;
   width: 12rem;
-  left: -3rem;
+  left: -5rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
   right: 0;
   margin: auto;
+  height: auto;
 }
 
 /* Style the links inside the dropdown */
@@ -96,7 +104,7 @@ ul a, .cLinkDropdown {
   font-weight: 600;
   margin-left: -2rem !important;
   white-space: nowrap;
-  margin-top: -.2rem;
+  border-top: 1px solid #333;
 }
 
 ul a:hover {
@@ -150,6 +158,7 @@ ul a:hover {
     position: absolute;
     left: 0rem;
     top: 4.5rem;
+    height: auto;
   }
 
   .cLinkDropdown-mobile, .cLink-mobile {
@@ -177,7 +186,7 @@ ul a:hover {
   /* Style the links inside the dropdown */
   .dropdown-content a {
     margin: 0;
-    padding: 1rem;
+    padding: 0 1rem;
     border-top: 1px solid #333;
   }
 
@@ -197,7 +206,7 @@ ul a:hover {
 
   .webpage-ul {
     position: fixed;
-    top: -.25rem;
+    top: -3rem;
     right: 2rem;
   }
 }

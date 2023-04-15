@@ -55,10 +55,11 @@ const EGFH_VAL = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <a href='https://www.usync.gg/games/Valorant/leagues'>
+                    <a href='https://www.usync.gg/games/Valorant/leagues'>
                     <button className='back-button'>Back</button>
                 </a>
+
+                </div>
             </body>
             <Footer/>
         </div>

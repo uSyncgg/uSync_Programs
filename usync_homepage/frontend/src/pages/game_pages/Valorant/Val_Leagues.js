@@ -166,6 +166,13 @@ const Val_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        
+                        <div>                        
+                        <p className='hr' />
+                        <h2 id="league-title1">Collegiate Leagues</h2>                        
+                        <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h1'/>
+                        <p className='hr' />
+                        </div>
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -183,7 +190,7 @@ const Val_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/Valorant/leagues/ugc-college'>
@@ -200,6 +207,7 @@ const Val_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -217,7 +225,7 @@ const Val_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/Valorant/leagues/njcaae'>
@@ -234,6 +242,7 @@ const Val_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -251,7 +260,7 @@ const Val_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/Valorant/leagues/opse'>
@@ -268,6 +277,7 @@ const Val_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -285,7 +295,7 @@ const Val_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/Valorant/leagues/hbcu'>
@@ -302,6 +312,7 @@ const Val_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -319,7 +330,7 @@ const Val_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/Valorant/leagues/csmg'>
@@ -335,6 +346,13 @@ const Val_Leagues = () => {
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
+                        </div>
+
+                        <div>                        
+                        <p className='hr' />
+                        <h2 id="league-title1">High School Leagues</h2>                        
+                        <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h1'/>
+                        <p className='hr' />
                         </div>
 
                         <div className='col-lg-6'>
@@ -353,7 +371,7 @@ const Val_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/Valorant/leagues/tec'>
@@ -370,6 +388,7 @@ const Val_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -387,7 +406,7 @@ const Val_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/Valorant/leagues/nasef'>
@@ -404,6 +423,7 @@ const Val_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                        <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -421,7 +441,7 @@ const Val_Leagues = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/Valorant/leagues/egfh'>
