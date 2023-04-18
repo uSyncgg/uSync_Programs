@@ -4,7 +4,7 @@ const Frontpage_RSC = () => {
     return (
         <div>
             <header id='League-header'>
-                <img src="https://i.imgur.com/MjLL31b.png" className='Header-Img-l' />
+                <img src="https://i.imgur.com/Z1kYTwC.png" className='Header-Img-l' />
             </header>
 
             <div className='Background-leagues'>
@@ -16,7 +16,7 @@ const Frontpage_RSC = () => {
                                     <h1 className='Leagueh1'>3v3 NA League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/RocketLeague/leagues/rsc-leagues/3v3-na"><img src="https://i.imgur.com/HAJTMrA.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/RocketLeague/leagues/rsc-leagues/3v3-na"><img src="https://i.imgur.com/QiNSeyE.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Draft Format</p>
@@ -33,7 +33,7 @@ const Frontpage_RSC = () => {
                                     <h1 className='Leagueh1'>3v3 EU League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/RocketLeague/leagues/rsc-leagues/3v3-eu"><img src="https://i.imgur.com/HAJTMrA.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/RocketLeague/leagues/rsc-leagues/3v3-eu"><img src="https://i.imgur.com/uQgW3Kj.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Draft Format</p>
@@ -51,7 +51,7 @@ const Frontpage_RSC = () => {
                                     <h1 className='Leagueh1'>2v2 League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/RocketLeague/leagues/rsc-leagues/2v2"><img src="https://i.imgur.com/HAJTMrA.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/RocketLeague/leagues/rsc-leagues/2v2"><img src="https://i.imgur.com/QiNSeyE.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Draft Format</p>

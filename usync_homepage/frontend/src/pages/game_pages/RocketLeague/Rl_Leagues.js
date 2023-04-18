@@ -53,7 +53,7 @@ const Rl_Leagues = () => {
                                     <h1 className='Leagueh1'>Rocket Soccar Confederation Leagues</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/RocketLeague/leagues/rsc-leagues"><img src="https://i.imgur.com/HAJTMrA.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/RocketLeague/leagues/rsc-leagues"><img src="https://i.imgur.com/QiNSeyE.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA/EU</p>
