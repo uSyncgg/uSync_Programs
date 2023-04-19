@@ -36,14 +36,15 @@ const Divinity = () => {
                                 <h1 className='info-title'>Date:</h1>
                                 {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
-                                <p>Fall 2023 (Estimated)</p>
+                                <p>April 2023</p>
                             </div>
                             <div className='col-2' id='league-info'>
                                 <h1 className='info-title'>Details:</h1>
                                 {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                                 <p>$400 Prize Pool (Estimated)</p>
-                                <p>Semi-Competitive</p>
                                 <p>Platinum 4 cap</p>
+                                <p>Best of 3 Regular Season</p>
+                                <p>Best of 5 Single Elim Playoffs</p>
                                 <p>Live Streamed Matches</p>
                                 <h1 className='info-title2'>Region/Type:</h1>
                                 <p>5v5 - NA</p>
@@ -52,7 +53,7 @@ const Divinity = () => {
                                 <h1 className='info-title'>Entry Fee:</h1>
                                 {/* Follow the same format as above, keep the Entry fee the same and change information below */}
                                 <p>$40 Per Team</p>
-                                <p>$20 Forfeit Deposit</p>
+                                <p>$30 Forfeit Deposit</p>
                             </div>
                         </div>
                     </div>

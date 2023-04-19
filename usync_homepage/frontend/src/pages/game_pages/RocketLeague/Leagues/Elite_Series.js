@@ -36,15 +36,17 @@ const Elite_Series = () => {
                                 <h1 className='info-title'>Date:</h1>
                                 {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
-                                <p>Annual Spring and Summer Seasons</p>
+                                <p>Annual Spring and Fall Splits</p>
                             </div>
                             <div className='col-2' id='league-info'>
                                 <h1 className='info-title'>Details:</h1>
                                 {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
-                                <p>€15k Prize Pool</p>
-                                <p>Invitational from Benelux Esports</p>
-                                <p>10 Teams</p>
-                                <p>Must Qualify for Invite</p>
+                                <p>€5k Prize Pool</p>
+                                <p>Round Robin Regular Season / Single Elim Playoffs</p>
+                                <p>8 Total Teams</p>
+                                <p>6 Invited Teams</p>
+                                <p>2 Qualifier Teams</p>
+                                <p>Qualify through Master Series</p>
                                 <p>Live Streamed Matches</p>
                                 <h1 className='info-title2'>Region/Type:</h1>
                                 <p>3v3 - Benelux</p>
@@ -52,7 +54,7 @@ const Elite_Series = () => {
                             <div className='col-2' id='league-info'>
                                 <h1 className='info-title'>Entry Fee:</h1>
                                 {/* Follow the same format as above, keep the Entry fee the same and change information below */}
-                                <p>Free Entry</p>
+                                <p>Free Entry - Must Qualify</p>
                             </div>
                         </div>
                     </div>

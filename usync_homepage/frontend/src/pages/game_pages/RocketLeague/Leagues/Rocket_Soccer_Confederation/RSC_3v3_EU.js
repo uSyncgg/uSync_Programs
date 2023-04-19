@@ -41,10 +41,11 @@ const RSC_3v3_EU = () => {
                             <div className='col-2' id='league-info'>
                                 <h1 className='info-title'>Details:</h1>
                                 {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
-                                <p>No Prize Pool</p>
-                                <p>Sign up as a Free Agent</p>
+                                <p>€1400-1480 Prize Pool</p>
+                                <p>Sign up as Individual</p>
                                 <p>Draft Based League</p>
-                                <p>9 Competitive Skill Divisons</p>
+                                <p>6 Competitive Skill Divisons</p>
+                                <p>Weekly Matches</p>
                                 <h1 className='info-title2'>Region/Type:</h1>
                                 <p>3v3 - EU</p>
                             </div>

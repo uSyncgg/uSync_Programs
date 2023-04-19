@@ -42,13 +42,13 @@ const Academy = () => {
                                 <h1 className='info-title'>Details:</h1>
                                 {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                                 <p>Case of Bawls Guarana Prize</p>
-                                <p>1100 - 1300 MMR</p>
+                                <p>1000 - 1250 MMR</p>
                                 <p>Salary Based on MMR</p>
                                 <p>Must Sign up Solo</p>
                                 <p>Draft Based League</p>
                                 <p>Live Streamed Matches</p>
                                 <h1 className='info-title2'>Region/Type:</h1>
-                                <p>3v3 - All Regions</p>
+                                <p>2v2 / 3v3 - All Regions</p>
                             </div>
                             <div className='col-2' id='league-info'>
                                 <h1 className='info-title'>Entry Fee:</h1>

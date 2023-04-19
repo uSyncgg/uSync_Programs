@@ -36,7 +36,7 @@ const Frontpage_Titan = () => {
                                     <a href="http://localhost:3000/games/LoL/leagues/titan-leagues/divinity"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Gold 1 cap</p>
+                                <p className='Leaguep'>Platinum 4 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/LoL/leagues/titan-leagues/divinity'>
                                     <button type="submit" className='info-button'>More Info</button>
