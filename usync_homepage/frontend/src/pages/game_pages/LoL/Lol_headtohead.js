@@ -36,7 +36,6 @@ const Lol_headtohead = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/head-to-head/esport-scrim"><img src="https://i.imgur.com/T2IA9mL.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

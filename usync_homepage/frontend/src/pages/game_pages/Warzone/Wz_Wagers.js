@@ -36,7 +36,6 @@ const Wz_Wagers = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/warzone/wagers/dropingaming"><img src="https://i.imgur.com/78DWiv0.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -54,7 +53,6 @@ const Wz_Wagers = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/warzone/wagers/1v1me"><img src="https://i.imgur.com/d2KuuJE.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -71,7 +69,6 @@ const Wz_Wagers = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/warzone/wagers/oneup"><img src="https://i.imgur.com/ExuRlsG.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -89,7 +86,6 @@ const Wz_Wagers = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/warzone/wagers/gamersaloon"><img src="https://i.imgur.com/w6Q1t32.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

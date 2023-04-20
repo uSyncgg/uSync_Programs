@@ -54,7 +54,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/frontline-leagues"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -71,7 +70,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/scottish-esports"><img src="https://i.imgur.com/VAurqdv.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>EU</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -89,7 +87,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/unified"><img src="https://i.imgur.com/KDf5r2a.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -106,7 +103,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/vct-game-changers"><img src="https://i.imgur.com/TJdbPmz.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -123,7 +119,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/cgn-league"><img src="https://i.imgur.com/8h5GWaO.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -140,7 +135,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/vmaster"><img src="https://i.imgur.com/PAZu639.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>ES</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -157,7 +151,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/talent-league"><img src="https://i.imgur.com/vLKklOa.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>EU</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -198,7 +191,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/ugc-college"><img src="https://i.imgur.com/SVdtnVw.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>USA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -216,7 +208,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/ecac-leagues"><img src="https://i.imgur.com/VCXkcNL.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>USA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -233,7 +224,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/njcaae"><img src="https://i.imgur.com/Yer31Qr.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>USA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -251,7 +241,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/necc"><img src="https://i.imgur.com/wUMekqz.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -268,7 +257,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/opse"><img src="https://i.imgur.com/vk4JMG4.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Ontario</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -286,7 +274,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/egfc"><img src="https://i.imgur.com/3DTxejo.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>USA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -303,7 +290,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/hbcu"><img src="https://i.imgur.com/b3AwOjm.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>USA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -321,7 +307,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/nace-leagues"><img src="https://i.imgur.com/QYYAzjq.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -338,7 +323,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/csmg"><img src="https://i.imgur.com/2EsJOXo.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>USA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -379,7 +363,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/tec"><img src="https://i.imgur.com/FZeLamS.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>USA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -397,7 +380,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/vantagg"><img src="https://i.imgur.com/4Lv3iRp.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>USA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -414,7 +396,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/nasef"><img src="https://i.imgur.com/x0SaVuR.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>USA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -432,7 +413,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/necl"><img src="https://i.imgur.com/wJRs1Vl.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>USA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -449,7 +429,6 @@ const Val_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/egfh"><img src="https://i.imgur.com/3DTxejo.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>USA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

@@ -17,7 +17,6 @@ const Frontpage_GG = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/gg-leagues/division-a"><img src="https://i.imgur.com/hs7swgq.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>By Rank</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -34,7 +33,6 @@ const Frontpage_GG = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/gg-leagues/division-b"><img src="https://i.imgur.com/hs7swgq.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>By Rank</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -52,7 +50,6 @@ const Frontpage_GG = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/gg-leagues/division-c"><img src="https://i.imgur.com/hs7swgq.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>By Rank</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

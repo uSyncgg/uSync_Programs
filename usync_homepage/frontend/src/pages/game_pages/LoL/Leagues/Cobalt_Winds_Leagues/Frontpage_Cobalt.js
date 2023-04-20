@@ -17,7 +17,6 @@ const Frontpage_Cobalt = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/cobalt-winds-leagues/division1"><img src="https://i.imgur.com/gIQ6ryI.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Diamond 4 - Masters AVG</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -34,7 +33,6 @@ const Frontpage_Cobalt = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/cobalt-winds-leagues/division2"><img src="https://i.imgur.com/gIQ6ryI.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Platinum 4 - Platinum 1 AVG</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -52,7 +50,6 @@ const Frontpage_Cobalt = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/cobalt-winds-leagues/division3"><img src="https://i.imgur.com/gIQ6ryI.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Gold 1 - Lower AVG</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

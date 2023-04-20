@@ -17,7 +17,6 @@ const Frontpage_Doubles = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/frontier-doubles-leagues/elite"><img src="https://i.imgur.com/JRaBjWV.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>1600 - 1799 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -34,7 +33,6 @@ const Frontpage_Doubles = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/frontier-doubles-leagues/star"><img src="https://i.imgur.com/JRaBjWV.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>1400 - 1599 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -52,7 +50,6 @@ const Frontpage_Doubles = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/frontier-doubles-leagues/expert"><img src="https://i.imgur.com/JRaBjWV.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>1200 - 1399 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -70,7 +67,6 @@ const Frontpage_Doubles = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/frontier-doubles-leagues/origin"><img src="https://i.imgur.com/JRaBjWV.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>0 - 1199 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

@@ -17,7 +17,6 @@ const Frontpage_Frontline = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/frontline-leagues/champ"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>1875+ MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -34,7 +33,6 @@ const Frontpage_Frontline = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/frontline-leagues/vanguard"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>1874 MMR cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -52,7 +50,6 @@ const Frontpage_Frontline = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/frontline-leagues/challenger"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>1574 MMR cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -69,7 +66,6 @@ const Frontpage_Frontline = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/frontline-leagues/prospect"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>1349 MMR and Lower</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

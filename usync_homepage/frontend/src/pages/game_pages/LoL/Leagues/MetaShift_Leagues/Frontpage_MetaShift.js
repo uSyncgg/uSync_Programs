@@ -17,7 +17,6 @@ const Frontpage_MetaShift = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/meta-shift-leagues/radon"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Diamond 2 AVG / Masters cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -34,7 +33,6 @@ const Frontpage_MetaShift = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/meta-shift-leagues/xenon"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Diamond 4 AVG / Diamond 1 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -52,7 +50,6 @@ const Frontpage_MetaShift = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/meta-shift-leagues/krypton"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Platinum 2 AVG / Diamond 4 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -69,7 +66,6 @@ const Frontpage_MetaShift = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/meta-shift-leagues/argon"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Platinum 3 AVG / Platinum 1 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -86,7 +82,6 @@ const Frontpage_MetaShift = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/meta-shift-leagues/neon"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Gold 2 AVG / Platinum 4 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -103,7 +98,6 @@ const Frontpage_MetaShift = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/meta-shift-leagues/helium"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Gold 4 AVG / Gold 1 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

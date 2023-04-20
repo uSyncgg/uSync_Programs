@@ -20,7 +20,6 @@ const Rl_Wagers = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/wagers/cmg"><img src="https://i.imgur.com/e9CIHsR.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -38,7 +37,6 @@ const Rl_Wagers = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/wagers/gamersaloon"><img src="https://i.imgur.com/w6Q1t32.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -56,7 +54,6 @@ const Rl_Wagers = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/wagers/dropingaming"><img src="https://i.imgur.com/78DWiv0.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

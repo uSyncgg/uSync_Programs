@@ -54,7 +54,6 @@ const Halo_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/halo/leagues/corporate-halo"><img src="https://i.imgur.com/k63mdno.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -95,7 +94,6 @@ const Halo_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/halo/leagues/ecac"><img src="https://i.imgur.com/VCXkcNL.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -113,7 +111,6 @@ const Halo_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/halo/leagues/college-halo"><img src="https://i.imgur.com/SnE3px8.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -131,7 +128,6 @@ const Halo_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/halo/leagues/necc"><img src="https://i.imgur.com/wUMekqz.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -149,7 +145,6 @@ const Halo_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/halo/leagues/nacl"><img src="https://i.imgur.com/JjHrrLk.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

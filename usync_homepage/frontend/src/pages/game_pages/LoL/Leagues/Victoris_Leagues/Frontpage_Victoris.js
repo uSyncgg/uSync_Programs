@@ -17,7 +17,6 @@ const Frontpage_Victoris = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/victoris-leagues/triumph"><img src="https://i.imgur.com/uNyPDcU.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Masters cap / One GM</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -34,7 +33,6 @@ const Frontpage_Victoris = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/victoris-leagues/rival"><img src="https://i.imgur.com/RVXeHoL.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Diamond 4 cap / One Diamond 3</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -51,7 +49,6 @@ const Frontpage_Victoris = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/victoris-leagues/amateur"><img src="https://i.imgur.com/vpXPc1M.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Gold 1 cap / One Platinum 4</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -68,7 +65,6 @@ const Frontpage_Victoris = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/victoris-leagues/rival-draft"><img src="https://i.imgur.com/B0DAPzg.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Diamond 3 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -85,7 +81,6 @@ const Frontpage_Victoris = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/victoris-leagues/amateur-draft"><img src="https://i.imgur.com/PJ1Qjib.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Gold 1 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

@@ -17,7 +17,6 @@ const Frontpage_ECAC = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/ecac-leagues/division-a"><img src="https://i.imgur.com/VCXkcNL.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Diamond - Radiant</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -34,7 +33,6 @@ const Frontpage_ECAC = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/ecac-leagues/division-b"><img src="https://i.imgur.com/VCXkcNL.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Gold - Platinum</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -52,7 +50,6 @@ const Frontpage_ECAC = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/ecac-leagues/division-c"><img src="https://i.imgur.com/VCXkcNL.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Iron - Silver</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

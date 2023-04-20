@@ -17,7 +17,6 @@ const Frontpage_Frontline_val = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/frontline-leagues/prime"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Platinum & Above</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -34,7 +33,6 @@ const Frontpage_Frontline_val = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/frontline-leagues/academy"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Gold & Below</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

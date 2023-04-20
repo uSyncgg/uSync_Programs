@@ -36,7 +36,6 @@ const Val_headtohead = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/head-to-head/esport-scrim"><img src="https://i.imgur.com/T2IA9mL.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -54,7 +53,6 @@ const Val_headtohead = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/head-to-head/dropingaming"><img src="https://i.imgur.com/78DWiv0.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'></p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -71,7 +69,6 @@ const Val_headtohead = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/head-to-head/college-hub"><img src="https://i.imgur.com/wAHYH2Q.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'></p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -89,7 +86,6 @@ const Val_headtohead = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/head-to-head/project-v"><img src="https://i.imgur.com/lDPgnzb.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" title="NOT Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'></p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
