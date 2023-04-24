@@ -7,7 +7,7 @@
 
   .blockimg {
     width: 150%;
-    margin: 1% auto; /* set left and right margin to auto */
+    margin: 1% auto; 
     height: auto;
     transition: box-shadow 0.3s ease-in-out;
     border-radius: .9rem;

@@ -1,0 +1,39 @@
+.total-container {
+    position: relative;
+    height: auto;
+}
+
+.background-mid {
+    background-color: rgb(49, 49, 49);
+    z-index: 10;
+    height: auto;
+    color: black;
+    position: absolute;
+    top: 23rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: solid 5px yellow;
+}
+
+.background-mid-top {
+    border: 3px solid white;
+    height: auto;
+    display: block;
+}
+
+.background-mid-top img {
+    padding: 10rem;
+}
+
+.header {
+    border: 3px solid green;
+    height: 10rem;
+    z-index: 0;
+}
+
+.footer {
+    position: absolute;
+    background-color: grey;
+    bottom: -25rem;
+    z-index: 7;
+}

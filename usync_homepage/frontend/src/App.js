@@ -6,6 +6,7 @@ import Comingsoon from './pages/Comingsoon';
 import Games from './pages/Games';
 import './App.css';
 import Navbar from './Navbar';
+import Playground from './pages/more-pages/Playground';
 
 import Cod_headtohead from './pages/game_pages/CoD/Cod_headtohead'
 import Cod_Wagers from './pages/game_pages/CoD/Cod_Wagers'
@@ -384,7 +385,7 @@ import Contactus from './pages/more-pages/Contactus';
 // Change from Snd_league to whatever the filename is
 // Also make sure to have the name after import be spelled the exact same as the filename otherwise it will not work
 import HOE_Leagues from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Leagues';
-import './style.css'
+import './Navbar.css'
 //import './pages/more-pages/Verification.css';
 //import './pages/more-pages/Eventhost.css';
 //import './pages/more-pages/Contactus.css';
@@ -1352,6 +1353,10 @@ function App() {
       component = <VMaster />
       break;
     // VALORANT LEAGUES
+      case "/more/playground":
+      component = <Playground />
+      console.log(component);
+      break;
 
   }
 

@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     text-align:center;
@@ -43,7 +44,7 @@
   padding-left: 0rem;
   padding-right: 10%;
   position: relative;
-  margin-top: -40%; /* adjust the margin-top property */
+  margin-top: -40%; 
   z-index: 1;
   text-align: center;
 }
@@ -54,7 +55,7 @@
   padding-left: 0rem;
   padding-right: 10%;
   position: relative;
-  margin-top: -42%; /* adjust the margin-top property */
+  margin-top: -42%; 
   z-index: 1;
 }
 
@@ -65,11 +66,10 @@
 .Leagueh1{
     color: white; 
     font-size: 2rem;
-    /* Set a text shadow with a blur radius of 4px and an offset of 2px */
     text-shadow: .125rem .125rem .25rem rgba(0, 0, 0, 0.8);
     font-family: 'Helvetica';
     font-weight: bold;
-} */
+} 
 
 .back-img {
     background-image: url("../../../website_images/games/cod/cod-leagues/snd-league-unround.png");
@@ -153,11 +153,10 @@ transition {
     top: 42%;
     left: 25%;
     font-size: 5rem;
-    margin-top: -8%; /* adjust the margin-top property */
-      /* existing CSS rules */
-      text-align: center;
-      transform: translate(-50%, -50%);
-      left: 50%;
+    margin-top: -8%; 
+    text-align: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
   }
   
   #league-title-lol {
@@ -166,24 +165,22 @@ transition {
     top: 40%;
     left: 25%;
     font-size: 5rem;
-    margin-top: -8%; /* adjust the margin-top property */
-      /* existing CSS rules */
-      text-align: center;
-      transform: translate(-50%, -50%);
-      left: 50%;
-    
+    margin-top: -8%; 
+    text-align: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
   }
   
   .Underline-h-lol {
     position: absolute;
     top: 40%;
     left: 9%;
-    margin-top: -1%; /* adjust the margin-top property */
+    margin-top: -1%; 
   }
   @media only screen and (max-width: 767px) {
     .Underline-h-lol {
-      width: 90%; /* adjust the width to a relative value */
-      left: 5%; /* adjust the left position to center the element */
+      width: 90%; 
+      left: 5%; 
     }
   }
 
@@ -193,12 +190,12 @@ transition {
     position: absolute;
     top: 35%;
     left: 9%;
-    margin-top: -1%; /* adjust the margin-top property */
+    margin-top: -1%; 
   }
   @media only screen and (max-width: 767px) {
     .Underline-h {
-      width: 90%; /* adjust the width to a relative value */
-      left: 5%; /* adjust the left position to center the element */
+      width: 90%; 
+      left: 5%; 
     }
   }
 
@@ -213,7 +210,7 @@ transition {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    z-index: 0; /* Decrease the z-index */
+    z-index: 0; 
     top: -18.75rem;
   }
   
@@ -224,7 +221,7 @@ transition {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    z-index: 0; /* Decrease the z-index */
+    z-index: 0; 
     top: -13rem;
   }
 
@@ -235,7 +232,7 @@ transition {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    z-index: 0; /* Decrease the z-index */
+    z-index: 0; 
     top: -17.7rem;
   }
 
@@ -246,7 +243,7 @@ transition {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    z-index: 0; /* Decrease the z-index */
+    z-index: 0; 
     top: 3rem;
   }
   .Header-Img-l-val {
@@ -256,7 +253,7 @@ transition {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    z-index: 0; /* Decrease the z-index */
+    z-index: 0; 
     top: -15.8rem;
   }
 
@@ -267,7 +264,7 @@ transition {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    z-index: 0; /* Decrease the z-index */
+    z-index: 0; 
     top: -2.5rem;
   }
 
@@ -278,7 +275,7 @@ transition {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    z-index: 0; /* Decrease the z-index */
+    z-index: 0; 
     top: -15rem;
   }
 

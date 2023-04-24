@@ -18,7 +18,7 @@ const Cgn_league_cod = () => {
             </header>
             {/* ***Must have this div tage with the Background-mid class name on every file*** */}
             <div className='Background-mid'>
-                <div>
+                <div className='Background-mid-top-temp'>
                     {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
                 along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed*/}
                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/OSMYolc.png" className='Checkmark-title' /></a>
