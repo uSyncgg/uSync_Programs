@@ -199,6 +199,7 @@ import PlayVS_LoL from './pages/game_pages/LoL/Leagues/PlayVS_LoL'
 import Scottish_Esports_League from './pages/game_pages/LoL/Leagues/Scottish_Esports_League'
 import SDC_League from './pages/game_pages/LoL/Leagues/SDC_League'
 import VantaGG_LoL from './pages/game_pages/LoL/Leagues/VantaGG_LoL'
+import Howlfun from './pages/game_pages/LoL/Leagues/Howlfun';
 //LoL LEAGUES
 
 //ROCKET LEAGUE HEAD TO HEAD
@@ -983,6 +984,9 @@ function App() {
       break;
     case "/games/LoL/leagues/vantagg":
       component = <VantaGG_LoL />
+      break;
+    case "/games/LoL/leagues/howlfun":
+      component = <Howlfun />
       break;
     // LoL LEAGUES
 

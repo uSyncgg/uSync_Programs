@@ -301,6 +301,24 @@ const Lol_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+
+                        <p className='hr' />
+                        <div className='col-lg-6'>
+                            <div className='league'>
+                                <a href='http://localhost:3000/games/LoL/leagues/howlfun'>
+                                    <h1 className='Leagueh1'>Howlfun League</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="http://localhost:3000/games/LoL/leagues/howlfun"><img src="https://i.imgur.com/nNy46KP.png" className='league-img' /></a>
+                                </div>
+                                <p className='Leaguep'>NA</p>
+                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
+                                    <a href='http://localhost:3000/games/LoL/leagues/howlfun'>
+                                        <button type="submit" className='info-button'>More Info</button>
+                                    </a>
+                            </div>
+                        </div>
+                        
                         <div>
                         <p className='hr' />
                         <h2 id="league-title1">Collegiate Leagues</h2>                        
