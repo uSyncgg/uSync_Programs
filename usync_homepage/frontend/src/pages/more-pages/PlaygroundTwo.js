@@ -1,16 +1,10 @@
-// ***File must be made with a CAPITAL first letter***
-// ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
-// Follow formatting instructions on those pages***
-// All CoD League game pages must have Info.css imported this way
-import '../../../../Info.css';
-// Import bootstrap like this on every single CoD League game page
-import 'bootstrap/dist/css/bootstrap.css';
-import Footer from '../../../../Footer';
+import "./PlaygroundTwo.css";
+import "bootstrap/dist/css/bootstrap.css";
+import Footer from "../../Footer";
 
-// Make sure the name following const is the same as the file name
-const Snd_league = () => {
-    return (
-        <div className="total-playground">
+function PlaygroundTwo() {
+  return (
+    <div className="total-playground">
       <header class="headerImg">
         <img src="https://i.imgur.com/DztNIjY.png" className="Header-Img" />
       </header>
@@ -48,37 +42,33 @@ const Snd_league = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall 2023 (Estimated)</p>
+              <p>Late Spring 2023</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$1000 Prize Pool (Estimated)</p>
-              <p>Highly Competitive</p>
-              <p>Live Streamed games with High Profile Players</p>
-              <p>24/7 Live Support and Admins</p>
+              <p>No Prize Pool</p>
+              <p>Recreational</p>
+              <p>Live Streamed Matches</p>
               <h2 className="info-title">Region/Type:</h2>
-              <p>3v3/4v4 - All Regions</p>
+              <p>4v4 - All Regions</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>Must place high in a CODAgent SND League Qualifier Tournament</p>
-              <p>Must have Prestige ($6.99/month - $99.99/month)</p>
+              <p>$30 Premade Team</p>
+              <p>Free Entry for Solo/Duo Sign Ups</p>
             </div>
           </div>
         </div>
         <a href="https://www.usync.gg/games/call-of-duty/leagues">
           <button className="back-button">Back</button>
         </a>
-        <div className="become-verified">
-          <h6>
-            Become <a href="https://www.usync.gg/more/verification">Verified</a>
-          </h6>
-        </div>
+        <h6 className="become-verified">
+          Become <a href="https://www.usync.gg/more/verification">Verified</a>
+        </h6>
       </div>
       <Footer />
     </div>
-    );
+  );
 }
 
-// Must export default filename otherwise nothing will show up on the web page!
-export default Snd_league;
+export default PlaygroundTwo;

@@ -22,7 +22,6 @@ const Home = () => {
                 </div>
                 <h2 className={styles.Slogan}>We Sync so uSync</h2>
             </div>
-
             <div class={styles.backgroundMid}>
                 <h2 className={styles.hometitles}>Supported Titles</h2>
                 <img className={styles.underline} src="https://i.imgur.com/eNhKhTI.png" alt="underline" width="31.25rem" />

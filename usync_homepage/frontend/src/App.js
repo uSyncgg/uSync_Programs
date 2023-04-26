@@ -7,6 +7,7 @@ import Games from './pages/Games';
 import './App.css';
 import Navbar from './Navbar';
 import Playground from './pages/more-pages/Playground';
+import PlaygroundTwo from './pages/more-pages/PlaygroundTwo';
 
 import Cod_headtohead from './pages/game_pages/CoD/Cod_headtohead'
 import Cod_Wagers from './pages/game_pages/CoD/Cod_Wagers'
@@ -1359,10 +1360,11 @@ function App() {
     // VALORANT LEAGUES
       case "/more/playground":
       component = <Playground />
-      console.log(component);
       break;
-
-  }
+      case "/more/playground-two":
+      component = <PlaygroundTwo />
+      break;
+  } 
 
   return (
     <div className="App">

@@ -52,6 +52,7 @@ const Navbar = () => {
                   <CustomDropLink className='cLinkText' href="/more/eventhost">Event Host</CustomDropLink>
                   <CustomDropLink className='cLinkText' href="/more/contactus">Contact Us</CustomDropLink>
                   <CustomDropLink className='cLinkText' href="/more/playground">Playground</CustomDropLink>
+                  <CustomDropLink className='cLinkText' href="/more/playground-two">Playground Two</CustomDropLink>
               </CustomLinkMoreDropdown>
           </ul>
         </nav>
@@ -74,7 +75,7 @@ const CustomDropLink = ({ href, children, ...props }) => {
   const path = window.location.pathname;
 
   return (
-    <li className={path === href ? "active" : ""}>
+    <li className={path === href ? "active mNavLink" : "mNavLink"}>
       <a id="navbarDropLink" href={href} {...props}>
         {children}
       </a>
@@ -142,11 +143,11 @@ const MobileCustomLinkDropdown = ({ title, children }) => {
   };
   
   return (
-    <li className="dropdown dropdown-wrapper"
+    <li className="dropdown dropdown-wrapper mNavLink"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <span className="dropbtn"><i className='fa-solid fa-caret-down'></i>{title}</span>
+      <span className="dropbtn mNavLink"><i className='fa-solid fa-caret-down'></i>{title}</span>
       {showMenu && (
         <ul className="dropdown-content">{children}</ul>
       )}

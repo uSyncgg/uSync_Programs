@@ -1,29 +1,29 @@
-.Header-Img {
-  width: 100%; 
-  height: 1000px;
-  margin-top: -15%;
-  z-index: 0; /* Decrease the z-index */ 
-}
-
-#row1, #row2 {
-  height: auto;
-}
-
-
-
-.Background-mid {
+.background-mid {
   background-color: rgb(49, 49, 49);
-  padding: 3.125rem;
-  /*padding-left: 0rem; */
-  /*padding-right: 10%; */
-  position: relative;
-  margin-top: -15%;
-  z-index: 1;
-  text-align: center;
-  /*padding-bottom: 10%; */
-  display: flex;
-  flex-direction: column;
-  height: auto;
+}
+
+.headerImg img {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  height: 20rem;
+}
+
+.total-playground {
+  margin-top: 5rem;
+}
+
+.become-verified {
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+  margin-bottom: -1rem;
+  color: white;
+}
+
+.become-verified a {
+  color: rgb(142, 106, 206);
 }
 
 .Background-mid-top {
@@ -33,6 +33,7 @@
   flex-direction: column;
   width: 100%;
   margin: 0 auto;
+  padding-top: 1rem;
 }
 
 #checkmark-link {
@@ -68,8 +69,33 @@
 }
 
 #join-button-link {
-  width: 35%;
+  width: 45%;
   margin: 2rem auto;
+}
+
+@media only screen and (max-width: 768px) {
+  #checkmark-link {
+    width: 15%;
+    margin: 2rem auto;
+  }
+
+  #checkmark-title-link {
+    width: 70%;
+  }
+
+  #join-button-link {
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+  .Background-mid-bottom {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.back-button {
+  margin-top: 5rem;
 }
 
 .join-button:hover {
@@ -81,6 +107,10 @@
 
 .Background-mid-bottom {
   position: relative;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  background-size: cover;
 }
 
 .Background-lans {
@@ -144,9 +174,10 @@
   top: 7%;
 } 
   
-.league-info {
+/*.league-info {
   margin: 0 auto;
 }
+*/
 
 #league-body {
   position: relative;
@@ -156,6 +187,9 @@
   text-align: center;
 }
 
+.league-row-titles-two {
+  padding-top: 2rem;
+}
 
 .Leaguep {
   color: rgb(144, 141, 141);

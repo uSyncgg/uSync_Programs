@@ -15,10 +15,9 @@ body {
 }
 
 .backgroundTop {
-  height: 120vh; /* Set height to 150% of the viewport height */
+  height: auto; 
   width: 100%;
   background-image: url("./website_images/home-images/home_background.png");
-  background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
 }
@@ -88,7 +87,7 @@ body {
   color: #fff;
   font-size: 1rem;
   font-weight: bold;
-  width: 90%;
+  width: 75%;
   margin: 10vh auto;
   padding: .625rem 1.25rem;
   display: block;
@@ -139,6 +138,7 @@ body {
   color: rgb(142, 106, 206);
   text-decoration: underline !important;
   font-weight: 600;
+  padding: 5rem;
 }
 .reportProblem:hover{
   color: rgb(142, 106, 206) !important;
@@ -150,6 +150,7 @@ body {
   text-align: center;
   padding-bottom: .3%;
   z-index: 99999 !important;
+  padding-top: 1rem;
 }
 
 .contactus{
@@ -178,6 +179,8 @@ body {
   font-size: 3.125rem;
   color: rgb(48 189, 123);
   text-align: center;
+  padding-bottom: 7.5rem;
+  margin-bottom: 0;
 }
 
 .Map {
