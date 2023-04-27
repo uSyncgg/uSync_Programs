@@ -4,7 +4,7 @@ import Footer from '../../../Footer';
 
 const Cod = () => {
     return (
-        <div>
+        <div className='total-container'>
             <header id='League-header'>
                 <img src="https://i.imgur.com/tuW3Cvn.png" className='Header-Img-l-cod' />
             </header>

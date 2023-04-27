@@ -2,13 +2,12 @@ import './Cod.css'
 import Footer from '../../../Footer';
 const Cod_Leagues = () => {
     return (
-        <div>
+        <div className='total-container'>
             <header id='League-header'>
                 <img src="https://i.imgur.com/HRDU1ad.png" className='Header-Img-l' />
                 <h2 id="league-title">Call of Duty Leagues</h2>
                 <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
             </header>
-
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>

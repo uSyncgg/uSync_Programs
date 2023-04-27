@@ -62,9 +62,11 @@ function PlaygroundTwo() {
         <a href="https://www.usync.gg/games/call-of-duty/leagues">
           <button className="back-button">Back</button>
         </a>
-        <h6 className="become-verified">
-          Become <a href="https://www.usync.gg/more/verification">Verified</a>
-        </h6>
+        <div className="become-verified">
+          <h6>
+            Become <a href="https://www.usync.gg/more/verification">Verified</a>
+          </h6>
+        </div>
       </div>
       <Footer />
     </div>

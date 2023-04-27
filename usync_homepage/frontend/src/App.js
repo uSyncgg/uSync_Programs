@@ -6,8 +6,9 @@ import Comingsoon from './pages/Comingsoon';
 import Games from './pages/Games';
 import './App.css';
 import Navbar from './Navbar';
-import Playground from './pages/more-pages/Playground';
+import Playground from './Playground';
 import PlaygroundTwo from './pages/more-pages/PlaygroundTwo';
+import { Helmet } from 'react-helmet';
 
 import Cod_headtohead from './pages/game_pages/CoD/Cod_headtohead'
 import Cod_Wagers from './pages/game_pages/CoD/Cod_Wagers'
@@ -404,6 +405,7 @@ import EGFC_College_Val from './pages/game_pages/Valorant/Leagues/EGFC_College_V
 
 function App() {
   let component;
+  let title;
   console.log(window.location.pathname);
   switch (window.location.pathname) {
     // To create a custom path to implement in the navbar simply hit enter after the last break;
@@ -411,9 +413,11 @@ function App() {
     // then for the component have it equal to the league page you imported
     // Finally have a break; after the component, everything should be the same format
     case "/":
-      component = <Home />
+      title = "Home";
+      component = <Home />;
       break;
     case "/Comingsoon":
+      title = "Coming Soon";
       component = <Comingsoon />
       break;
     case "/more/verification":
@@ -1358,7 +1362,7 @@ function App() {
       component = <VMaster />
       break;
     // VALORANT LEAGUES
-      case "/more/playground":
+      case "/playground":
       component = <Playground />
       break;
       case "/more/playground-two":
@@ -1368,8 +1372,14 @@ function App() {
 
   return (
     <div className="App">
+      {/*}
       <Navbar />
-      <div>{component}</div>
+      <Playground />
+    */} <Helmet>
+          <title>{title}</title>
+        </Helmet>
+        <Playground />
+        <div>{component}</div>
     </div>    
   );
 }

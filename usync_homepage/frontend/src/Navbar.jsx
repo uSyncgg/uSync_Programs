@@ -51,7 +51,7 @@ const Navbar = () => {
                   <CustomDropLink className='cLinkText' href="/more/verification">Verification</CustomDropLink>
                   <CustomDropLink className='cLinkText' href="/more/eventhost">Event Host</CustomDropLink>
                   <CustomDropLink className='cLinkText' href="/more/contactus">Contact Us</CustomDropLink>
-                  <CustomDropLink className='cLinkText' href="/more/playground">Playground</CustomDropLink>
+                  <CustomDropLink className='cLinkText' href="/playground">Playground</CustomDropLink>
                   <CustomDropLink className='cLinkText' href="/more/playground-two">Playground Two</CustomDropLink>
               </CustomLinkMoreDropdown>
           </ul>
