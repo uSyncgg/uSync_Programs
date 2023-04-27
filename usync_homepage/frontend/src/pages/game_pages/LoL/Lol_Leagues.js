@@ -215,7 +215,7 @@ const Lol_Leagues = () => {
                                     <h1 className='Leagueh1'>Cobalt Winds Leagues</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/LoL/leagues/cobalt-winds-leagues"><img src="https://i.imgur.com/gIQ6ryI.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/LoL/leagues/cobalt-winds-leagues"><img src="https://i.imgur.com/sMnBEnL.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>EUW</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
