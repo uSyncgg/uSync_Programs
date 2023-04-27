@@ -36,14 +36,16 @@ const Division_2 = () => {
                                 <h1 className='info-title'>Date:</h1>
                                 {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
-                                <p>Fall 2023 (Estimated)</p>
+                                <p>3 Annual Seasons</p>
                             </div>
                             <div className='col-2' id='league-info'>
                                 <h1 className='info-title'>Details:</h1>
                                 {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
                                 <p>Prize Pool Based on Entrants</p>
-                                <p>Semi-Competitive</p>
-                                <p>Platinum 4 - Platinum 1 Team Average</p>
+                                <p>Community Contests + Events</p>
+                                <p>Diamond 4 - Platinum 4</p>
+                                <p>10-12 Week Season</p>
+                                <p>Flexible Rules for EUNE Players</p>
                                 <p>Live Support on Discord</p>
                                 <h1 className='info-title2'>Region/Type:</h1>
                                 <p>5v5 - EUW</p>
@@ -51,7 +53,7 @@ const Division_2 = () => {
                             <div className='col-2' id='league-info'>
                                 <h1 className='info-title'>Entry Fee:</h1>
                                 {/* Follow the same format as above, keep the Entry fee the same and change information below */}
-                                <p>€10 Per Team</p>
+                                <p>€15 Per Team</p>
                             </div>
                         </div>
                     </div>
