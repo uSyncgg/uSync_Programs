@@ -6,7 +6,7 @@
 
 
   .blockimg {
-    width: 150%;
+    width: 100%;
     margin: 1% auto; 
     height: auto;
     transition: box-shadow 0.3s ease-in-out;
@@ -16,6 +16,15 @@
   .blockimg:hover{
     box-shadow: 0 0 .625rem .188rem rgba(153, 102, 255, 0.8);
   }
+
+  @media only screen and (min-width: 992px) {
+    .games-row-1 {
+      margin-bottom: 2rem;
+    }
+  }
+  
+
+  /*
 
   #bubbler {
     margin-right: 7.9rem;
@@ -42,4 +51,4 @@
     margin-left: 12rem !important;
     margin-right: 3.5rem;
   }
-  
+  */
