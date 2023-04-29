@@ -13,11 +13,36 @@
 }
 
 .verified-checks-col {
-    height: 100%;
+    width: 25%;
 }
 
-.verification-header-img {
+.verification-header-img-container {
     height: 20rem;
+    background-image: url("https://i.imgur.com/mViTltX.png");
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#verification-header-image {
+    height: 100%;
+    width: 100%;
+}
+
+.verification-header-checks {
+}
+
+.veri-checkmark {
+    width: 15%; /* Increase the width */
+    height: 15%; /* Make the height adjust to the width to prevent stretching */
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .veri-checkmark {
+        width: 33%;
+        padding: 1rem;
+    }
 }
 
 .usync-veri-image {

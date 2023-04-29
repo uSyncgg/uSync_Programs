@@ -6,22 +6,16 @@ const Verification = () => {
     return (
       <div>
         <div id="league-body1">
-          <div className="verification-header-img">
-            <div className="container-fluid verified-checks-images">
-              <div className="row justify-content-center verified-checks-row">
-                <div className="col-3 verified-checks-col">
-                  <img
-                    src="https://i.imgur.com/PCHIHQB.png"
-                    className="Checkmark-check"
-                  />
-                </div>
-                <div className="col-3 verified-checks-col">
-                  <img
-                    src="https://i.imgur.com/0MPIBOK.png"
-                    className="Checkmark-notcheck"
-                  />
-                </div>
-              </div>
+          <div className="verification-header-img-container">
+            <div className="verification-header-checks justify-content-center">
+              <img
+                src="https://i.imgur.com/PCHIHQB.png"
+                className="veri-checkmark"
+              />
+              <img
+                src="https://i.imgur.com/0MPIBOK.png"
+                className="veri-checkmark"
+              />
             </div>
           </div>
           <div className="Background-mid-veri">
@@ -72,8 +66,13 @@ const Verification = () => {
               <button className="verified-button">Become Verified</button>
             </a>
             <p id="verification-premium">*Must Pay a Small Premium*</p>
-            <div className='hr-border'></div>
-            <p id="verification-post-event">Looking to post event? Send <a href="/" id="verification-post-event-a">Event Submission</a></p>
+            <div className="hr-border"></div>
+            <p id="verification-post-event">
+              Looking to post event? Send{" "}
+              <a href="/" id="verification-post-event-a">
+                Event Submission
+              </a>
+            </p>
           </div>
         </div>
         <Footer />

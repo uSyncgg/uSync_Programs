@@ -148,141 +148,128 @@ transition {
     
 }
 
+.games-leagues-header-title {
+  margin-top: -13.5rem;
+}
+
 #league-title {
     color: white;
-    position: absolute;
     font-size: 5rem; 
     text-align: center;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 10rem;
   }
   
-  #league-title-lol {
-    color: white;
-    position: absolute;
-    top: 40%;
-    left: 25%;
-    font-size: 5rem;
-    margin-top: -8%; 
-    text-align: center;
-    transform: translate(-50%, -50%);
-    left: 50%;
-  }
+#league-title-lol {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+}
   
+.Underline-h-lol {
+  width: 100%;  
+}
+
+@media only screen and (max-width: 767px) {
   .Underline-h-lol {
-    position: absolute;
-    top: 40%;
-    left: 9%;
-    margin-top: -1%; 
+    width: 90%; 
+    left: 5%; 
   }
-  @media only screen and (max-width: 767px) {
-    .Underline-h-lol {
-      width: 90%; 
-      left: 5%; 
-    }
-  }
+}
 
+.Underline-h {
+  width: 100%;
+}
 
-
+@media only screen and (max-width: 767px) {
   .Underline-h {
-    position: relative;
-    width: 100%;
-    margin-top: -4rem;
-    left: 0;
+    width: 90%; 
   }
-  @media only screen and (max-width: 767px) {
-    .Underline-h {
-      width: 90%; 
-      left: 5%; 
-    }
-  }
+}
 
-  .col-2 {
-    margin: 3rem;
-  }
+.col-2 {
+  margin: 3rem;
+}
 
-  a {
-    text-decoration: none !important;
-  }
-      
-  .Header-Img-l {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .Header-Img-l-cod {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 0; 
-  }
+a {
+  text-decoration: none !important;
+}
+    
+.Header-Img-l {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .Header-Img-l-lol {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 0; 
-  }
+.Header-Img-l-cod {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0; 
+}
 
-  .Header-Img-l-rl {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 0; 
-  }
-  .Header-Img-l-val {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 0; 
-  }
+.Header-Img-l-lol {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0; 
+}
 
-  .Header-Img-l-halo {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 0; 
-  }
+.Header-Img-l-rl {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0; 
+}
+.Header-Img-l-val {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0; 
+}
 
-  .Header-Img-l-wz {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 0; 
-  }
+.Header-Img-l-halo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0; 
+}
+
+.Header-Img-l-wz {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0; 
+}
 
 
-  #league-header {
-    position: relative;
-  }
+#league-header {
+  position: relative;
+}
 
 
-  #league-title1 {
-    color: white;
-    position: relative;
-    font-size: 5rem;
-    left: 6%;
-    top: 5%;
-  }
-  .Underline-h1 {
-    position: relative;
-    left: 6%;
-    top: 5%;
+#league-title1 {
+  color: white;
+  position: relative;
+  font-size: 5rem;
+  left: 6%;
+  top: 5%;
+}
+.Underline-h1 {
+  position: relative;
+  left: 6%;
+  top: 5%;
 
-  }
+}
