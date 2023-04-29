@@ -1,17 +1,15 @@
-/* Style the navbar */
-.nav {
+/*.nav {
     background-color: rgb(29, 29, 28);
     display: flex;
     align-items: center;
     height: 4.5rem;
-    padding: 0 1.25rem 0 0; /* reduce right padding to 0 */
+    padding: 0 1.25rem 0 0; 
     position: fixed;
     z-index: 9999999;
     top: 0;
     width: 100%;
   }
   
-  /* Style the list items in the navbar */
   ul {
     list-style: none;
     display: flex;
@@ -20,8 +18,7 @@
     text-align: center;
     justify-content: flex-end;
   }
-  
-  /* Style the active list item */
+
   li.active a {
     color: rgb(142, 106, 206);
     text-decoration: none;
@@ -31,7 +28,6 @@
     color: rgb(142, 106, 206);
   }
   
-  /* Style the links in the navbar */
   ul a, .cLinkDropdown {
     margin: 1rem;
     text-decoration: none;
@@ -43,12 +39,10 @@
     left: 5rem;
   }
   
-  /* Style the dropdown menu */
   .dropdown {
     position: relative;
   }
   
-  /* Style the dropdown button */
   .dropbtn {
     color: rgb(249, 249, 249);
     font-size: 1.3rem;
@@ -71,7 +65,6 @@
         right: 2rem;
     }
 
-    /* Style the site title logo */
     .site-title img {
         height: 3.8rem;
         top: .33rem;
@@ -91,7 +84,7 @@
       }
 
     .dropdown-more-content {
-        position: absolute; /* change position to relative */
+        position: absolute; 
         z-index: -1;
         background-color: #1C1C1C;
         display: none;
@@ -104,7 +97,7 @@
       }
 
       .dropdown-games-content {
-        position: absolute; /* change position to relative */
+        position: absolute; 
         z-index: -1;
         background-color: #1C1C1C;
         display: none;
@@ -127,10 +120,7 @@
         position: relative;
       }
   }
-  /* Style the dropdown content */
-  
-  
-  /* Style the links inside the dropdown */
+
   .dropdown-games-content a, .dropdown-more-content a {
     color: white;
     text-decoration: none;
@@ -154,20 +144,16 @@
     margin-top: .4rem;
   }
   
-  /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-games-content, .dropdown:hover .dropdown-more-content {
     display: block;
   }
   
-  /* Set the active dropdown link */
   .dropdown-games-content a:hover, .dropdown-more-content a:hover {
     text-align: left;
     color: rgb(142, 106, 206);
   }
   
-  /* Media queries */
   @media screen and (max-width: 959.99px) {
-    /* Hide the navbar links */
     .webpage-ul {
       display: none;
     }
@@ -183,7 +169,6 @@
       display: none;
     }
   
-    /* Set mobile menu links to align vertically */
     .mobile-menu-ul {
       display: block;
       list-style: none;
@@ -217,33 +202,28 @@
     .cLinkDropdown-mobile, .cLink-mobile {
       text-align: center;
     }
-  
-    /* Show the dropdown button */
+
     .dropbtn {
       position: absolute;
     }
-    
-    /* Style the dropdown menu */
+
     .dropdown-content {
       position: static;
       display: none;
       width: auto;
       margin: 0;
     }
-    
-    /* Show the dropdown menu on click */
+ 
     .dropdown:hover .dropdown-content {
       display: block;
     }
-    
-    /* Style the links inside the dropdown */
+
     .dropdown-content a {
       margin: 0;
       padding: 0 1rem;
       border-top: 1px solid #333;
     }
-  
-    /* Style the menu-icon */
+
     .menu-icon {
       color: white;
       font-size: 2rem;
@@ -251,7 +231,6 @@
       left: 1rem;
     }
 
-    /* Style the site title logo */
     .site-title img {
         height: 3.8rem;
         top: .33rem;
@@ -260,4 +239,4 @@
     }
   }
   
-  
+  */

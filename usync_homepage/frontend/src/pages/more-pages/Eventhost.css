@@ -1,12 +1,19 @@
-/*.our-events {
-    background-image: url("../../website_images/home-images/home_background.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 300px;
-    font-size: xx-large;
+.event-host-header-title {
+    margin-top: -13.5rem;
 }
 
-.event-text h3 {
+#featured-become-verified {
     color: white;
+    margin-top: 3rem;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
-*/
+
+#featured-become-verified-a {
+    text-decoration: underline !important;
+    color: rgb(141, 125, 181);
+}
+
+#featured-become-verified-a:hover {
+    color: purple;
+}

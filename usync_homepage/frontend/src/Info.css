@@ -214,65 +214,41 @@ header {
 }
 
 .Checkmark-check {
-  position: absolute;
-  top: -10%; /* Move upward */
-  left: 43%;
-  transform: translate(-50%, -50%);
-  width: 10%; /* Increase the width */
-  height: auto; /* Make the height adjust to the width to prevent stretching */
+  width: 100%; /* Increase the width */
+  height: 100%; /* Make the height adjust to the width to prevent stretching */
 }
 .Checkmark-notcheck {
-  position: absolute;
-  top: -10%; /* Move upward */
-  left: 57%;
-  transform: translate(-50%, -50%);
-  width: 10%; /* Increase the width */
-  height: auto; /* Make the height adjust to the width to prevent stretching */
+  width: 100%; /* Increase the width */
+  height: 100%; /* Make the height adjust to the width to prevent stretching */
 }
 .Checkmark-title-verification {
   display: block;
   margin: 0 auto;
-  position: absolute;
-  top: 5.5%; /* Move further upward than the checkmark */
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 30%; /* Keep the same width */
+  width: 40%; /* Keep the same width */
   height: auto; /* Set height to auto to maintain aspect ratio */
 }
 
 .Underline-h-verification {
-  position: absolute;
-  top: 8.5%;
-  left: 9%;
+  width: 100%;
 }
 .info-title-verification {
   color: white;
-  position: relative;
-  top: -130%;
-  width: 150%;
-  right: 15%;
+  width: 100%;
   font-size: 2rem;
+  margin-bottom: 5rem;
 }
 .verified-title {
   color: white;
-  position: relative;
   width: 100%;
   text-align: center;
   font-size: 3.5rem;
-  left: 6%;
-  transform: translateY(-720%);
   font-weight: 700;
 }
 .Underline-h-verification-2 {
-  position: absolute;
-  top: 33.5%;
-  left: 9%;
+  width: 100%;
 }
 .info-title-veri {
   color: white;
-  position: relative;
-  top: -140%;
-  right: 20%;
   font-size: 1.8rem;
   text-align: left;
   font-weight: 700;
@@ -281,15 +257,20 @@ header {
   background-color: rgb(49, 49, 49);
   color: rgb(141, 125, 181);
   border: .125rem solid rgb(141, 125, 181);
-  width: 30%;
+  width: 50%;
   transition-duration: 0.4s;
-  position: absolute;
   font-weight: bold;
   font-family: 'Helvetica';
   border-radius: .313rem;
-  top: 73%;
-  right: 34.5%;
-  height: 2.8%;
+  height: 3.5%;
+  margin-top: 5rem;
+  padding: .5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .verified-button {
+    width: 100%;
+  }
 }
 
 .verified-button:hover {
@@ -298,122 +279,91 @@ header {
 }
 .Background-mid-veri {
   background-color: rgb(49, 49, 49);
-  padding: 3.125rem;
-  padding-left: 0rem;
-  padding-right: 10%;
+  padding: 2rem;
   position: relative;
-  margin-top: -40%; /* adjust the margin-top property */
-  margin-bottom: -10%;
   z-index: 1;
   text-align: center;
 }
 .event-title {
   color: white;
-  position: relative;
   width: 100%;
   text-align: center;
   font-size: 3.5rem;
-  left: 6%;
-  transform: translateY(-65%);
   font-weight: 700;
 }
 .Underline-h-verification-event {
-  position: absolute;
-  top: 7%;
-  left: 9%;
+  width: 100%;
 }
 .info-title-verification-event1 {
   color: white;
-  position: relative;
-  top: -95%;
-  width: 150%;
-  right: 15%;
+  width: 90%;
   font-size: 2rem;
+  text-align: left;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
 }
 .info-title-verification-event {
   color: white;
-  position: relative;
-  top: -80%;
-  width: 150%;
-  right: 15%;
+  width: 90%;
   font-size: 2rem;
+  text-align: left;
+  margin-left: 3rem;
+  margin-bottom: 5rem;
 }
 .eventhost-button {
   background-color: rgb(49, 49, 49);
   color: rgb(141, 125, 181);
   border: .125rem solid rgb(141, 125, 181);
-  width: 30%;
+  width: 40%;
   transition-duration: 0.4s;
-  position: absolute;
   font-weight: bold;
   font-family: 'Helvetica';
   border-radius: .313rem;
-  top: 52%;
-  right: 34.5%;
   height: 3%;
+  padding: .5rem;
 }
+
+@media only screen and (max-width: 768px) {
+  .eventhost-button {
+    width: 100%;
+  }
+} 
 
 .eventhost-button:hover {
   background-color: rgb(141, 125, 181);
   color: rgb(49, 49, 49);
 }
 
-.twitter-contact {
-  position: absolute;
-  top: 25%; /* Move upward */
-  left: 60.5%;
-  width: 8%; /* Increase the width */
-  height: auto; /* Make the height adjust to the width to prevent stretching */
-  z-index: 2;
+
+.hr-border {
+  border-top: .1rem solid white;
+  margin-top: 3rem;
 }
-.instagram-contact {
-  position: absolute;
-  top: 25%; /* Move upward */
-  left: 51%;
-  width: 8%; /* Increase the width */
-  height: auto; /* Make the height adjust to the width to prevent stretching */
-  z-index: 2;
+
+.contact-socials {
+  width: 100%;
+  height: auto;
+  margin-top: 3rem;
 }
-.youtube-contact {
-  position: absolute;
-  top: 25%; /* Move upward */
-  left: 41.5%;
-  width: 8%; /* Increase the width */
-  height: auto; /* Make the height adjust to the width to prevent stretching */
-  z-index: 2;
-}
-.twitch-contact {
-  position: absolute;
-  top: 25%; /* Move upward */
-  left: 32%;
-  width: 8%; /* Increase the width */
-  height: auto; /* Make the height adjust to the width to prevent stretching */
-  z-index: 2;
-}
+
 .event-title-contactus {
   color: white;
-  position: relative;
   width: 100%;
   text-align: center;
   font-size: 3.5rem;
-  transform: translateY(-75%);
   font-weight: 700;
 }
 .info-title-contactus {
   color: white;
-  position: relative;
-  top: -39%;
-  width: 150%;
-  right: 15%;
+  width: 100%;
   font-size: 2rem;
+  margin-top: 3rem;
 }
 .info-title-contactus2 {
   color: white;
-  position: relative;
-  top: -5%;
-  width: 150%;
-  right: 15%;
+  width: 100%;
   font-size: 1.2rem;
+  margin: 5rem 0;
 }
 .Background-mid-contact {
   background-color: rgb(49, 49, 49);
@@ -430,84 +380,29 @@ header {
 
 .event-title-contactus2 {
   color: white;
-  position: relative;
   width: 100%;
   text-align: center;
   font-size: 3.5rem;
-  left: 10%;
-  transform: translateY(-120%);
   font-weight: 700;
+  margin-top: 3rem;
 }
 .Underline-h-verification-event2 {
-  position: absolute;
-  top: 55%;
-  left: 9%;
+  width: 100%;
 }
-.jake-image {
-  position: absolute;
-  top: 70%; /* Move upward */
-  left: 18%;
-  width: 20%; /* Increase the width */
+.about-us-image {
+  width: 100%; /* Increase the width */
   height: auto; /* Make the height adjust to the width to prevent stretching */
-  z-index: 2;
 }
-.matt-image {
-  position: absolute;
-  top: 70%; /* Move upward */
-  left: 40.5%;
-  width: 20%; /* Increase the width */
-  height: auto; /* Make the height adjust to the width to prevent stretching */
-  z-index: 2;
-}
-.mason-image {
-  position: absolute;
-  top: 70%; /* Move upward */
-  left: 63.5%;
-  width: 20%; /* Increase the width */
-  height: auto; /* Make the height adjust to the width to prevent stretching */
-  z-index: 2;
-}
-.cofounder-title-jake {
+
+.cofounder-title {
   color: white;
-  position: absolute;
-  top: 97.9%;
-  left: 23%;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin: 1rem 0;
 }
-.cofounder-title-matt {
+
+.cofounder-subtitle {
   color: white;
-  position: absolute;
-  top: 97.9%;
-  left: 43.5%;
-  font-size: 1.5rem;
-}
-.cofounder-title-mason {
-  color: white;
-  position: absolute;
-  top: 97.9%;
-  left: 69%;
-  font-size: 1.5rem;
-}
-.cofounder-title-jake1 {
-  color: white;
-  position: absolute;
-  top: 101%;
-  left: 23%;
-  font-size: 1.1rem;
-}
-.cofounder-title-matt1 {
-  color: white;
-  position: absolute;
-  top: 101%;
-  left: 47%;
-  font-size: 1.1rem;
-}
-.cofounder-title-mason1 {
-  color: white;
-  position: absolute;
-  top: 101%;
-  left: 70.5%;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 }
 
 #league-body1 {
@@ -552,4 +447,13 @@ header {
 #league-body2 {
   background-color: rgb(49, 49, 49);
   position: relative;
+  padding-bottom: 20%;
+}
+
+.home-games-images {
+  width: 100%;
+}
+
+.home-games-img-row {
+  margin: 1rem 0;
 }
