@@ -30,7 +30,6 @@ const Home = () => {
             className={styles.underline}
             src="https://i.imgur.com/eNhKhTI.png"
             alt="underline"
-            width="31.25rem"
           />
 
           <div className="container">
@@ -95,7 +94,6 @@ const Home = () => {
             className={styles.underline}
             src="https://i.imgur.com/eNhKhTI.png"
             alt="underline"
-            width="31.25rem"
           />
           <iframe
             className={styles.Map}
@@ -117,7 +115,6 @@ const Home = () => {
             className={styles.underline}
             src="https://i.imgur.com/eNhKhTI.png"
             alt="underline"
-            width="31.25rem"
           />
 
           <div className={styles.backgroundImages}>

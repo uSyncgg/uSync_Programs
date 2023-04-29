@@ -213,14 +213,6 @@ header {
   margin-bottom: 20rem;
 }
 
-.Checkmark-check {
-  width: 100%; /* Increase the width */
-  height: 100%; /* Make the height adjust to the width to prevent stretching */
-}
-.Checkmark-notcheck {
-  width: 100%; /* Increase the width */
-  height: 100%; /* Make the height adjust to the width to prevent stretching */
-}
 .Checkmark-title-verification {
   display: block;
   margin: 0 auto;

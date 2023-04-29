@@ -60,7 +60,6 @@ body {
 @media screen and (max-width: 960px) {
   .hometitles {
     font-size: 2rem;
-    max-width: 90%;
   }
 
   .underline{
@@ -70,7 +69,6 @@ body {
 
   .Slogan {
     font-size: 2rem;
-    max-width: 90%;
   }
 }
 
@@ -114,9 +112,8 @@ body {
 }
 
 .underline {
-  margin: 0 auto;
-  width: 50%;
-  padding-bottom: .9rem;
+  width: 100%;
+  margin-bottom: 3rem;
 }
 
 .comingSoonGames img {
