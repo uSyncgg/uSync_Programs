@@ -3,9 +3,9 @@
     bottom: 0;
     left: 0;
     right: 0;
-    top: 4.5rem;
+    top: 4.27rem;
     width: 100%;
-    height: calc(100vh - 10%);
+    height: calc(100vh - 4.27rem);  
   }
   
   .info-button-lans {
@@ -28,7 +28,7 @@
     background-color: rgb(141, 125, 181);
     color: rgb(49, 49, 49);
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1200px) {
     .info-button-lans {
       width: 90%; /* adjust the width to a relative value */
     }

@@ -6,7 +6,7 @@ const Rl_Leagues = () => {
         <header id="League-header">
           <img src="https://i.imgur.com/fp6OvWK.png" className="Header-Img-l" />
           <div className="games-leagues-header-title">
-            <h2 id="league-title-lol">RL Leagues</h2>
+            <h2 id="league-title-lol">Rocket League Leagues</h2>
             <img
               src="https://i.imgur.com/eNhKhTI.png"
               alt="underline"

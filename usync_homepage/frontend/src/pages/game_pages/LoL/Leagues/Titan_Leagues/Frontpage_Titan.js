@@ -4,7 +4,7 @@ const Frontpage_Titan = () => {
     return (
         <div>
             <header id='League-header'>
-                <img src="https://i.imgur.com/DWyIbm3.png" className='Header-Img-l' />
+                <img src="https://i.imgur.com/UdgQpu1.png" className='Header-Img-l' />
             </header>
 
             <div className='Background-leagues'>
@@ -16,7 +16,7 @@ const Frontpage_Titan = () => {
                                     <h1 className='Leagueh1'>Conqueror League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/LoL/leagues/titan-leagues/conqueror"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/LoL/leagues/titan-leagues/conqueror"><img src="https://i.imgur.com/F8QKxEp.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Diamond 4 cap</p>
@@ -33,7 +33,7 @@ const Frontpage_Titan = () => {
                                     <h1 className='Leagueh1'>Divinity League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/LoL/leagues/titan-leagues/divinity"><img src="https://i.imgur.com/cB4ptXT.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/LoL/leagues/titan-leagues/divinity"><img src="https://i.imgur.com/j4M1YOn.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Platinum 4 cap</p>
