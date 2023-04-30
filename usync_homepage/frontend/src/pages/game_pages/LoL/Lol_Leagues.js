@@ -17,6 +17,36 @@ const Lol_Leagues = () => {
         <div className="Background-leagues">
           <div className="container-fluid">
             <div className="row">
+            <div className="col-lg-6">
+                <div className="league">
+                  <a href="http://localhost:3000/games/LoL/leagues/titan-leagues">
+                    <h1 className="Leagueh1">Titan Esports Leagues</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="http://localhost:3000/games/LoL/leagues/titan-leagues">
+                      <img
+                        src="https://i.imgur.com/cB4ptXT.png"
+                        className="league-img"
+                      />
+                    </a>
+                    <a href="https://www.usync.gg/more/verification">
+                      <img
+                        src="https://i.imgur.com/PCHIHQB.png"
+                        title="uSync Verified"
+                        className="over-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">NA</p>
+                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
+                  <a href="http://localhost:3000/games/LoL/leagues/titan-leagues">
+                    <button type="submit" className="info-button">
+                      All Leagues
+                    </button>
+                  </a>
+                </div>
+              </div>
+
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/risen-leagues">
@@ -46,7 +76,8 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
-
+              <p className="hr" />
+              
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/aegis-leagues">
@@ -76,7 +107,6 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <p className="hr" />
 
               <div className="col-lg-6">
                 <div className="league">
@@ -100,7 +130,7 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
-
+              <p className="hr" />
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/blue-otter-leagues">
@@ -123,7 +153,6 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <p className="hr" />
 
               <div className="col-lg-6">
                 <div className="league">
@@ -147,6 +176,7 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
+              <p className="hr" />
 
               <div className="col-lg-6">
                 <div className="league">
@@ -170,7 +200,6 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <p className="hr" />
 
               <div className="col-lg-6">
                 <div className="league">
@@ -194,6 +223,7 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
+              <p className="hr" />
 
               <div className="col-lg-6">
                 <div className="league">
@@ -217,7 +247,6 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <p className="hr" />
 
               <div className="col-lg-6">
                 <div className="league">
@@ -241,6 +270,7 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
+              <p className="hr" />
 
               <div className="col-lg-6">
                 <div className="league">
@@ -264,7 +294,7 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <p className="hr" />
+
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/zerograv-leagues">
@@ -287,6 +317,8 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
+              <p className="hr" />
+
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/sdc">
@@ -309,7 +341,7 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <p className="hr" />
+
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/cobalt-winds-leagues">
@@ -332,6 +364,8 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
+              <p className="hr" />
+
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/las-leagues">
@@ -354,7 +388,7 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <p className="hr" />
+
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/titan-leagues">
@@ -377,6 +411,8 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
+              <p className="hr" />
+
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/corporate-league">
@@ -399,7 +435,7 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <p className="hr" />
+
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/gg-leagues">
@@ -422,6 +458,8 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
+              <p className="hr" />
+
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/scottish-esports">
@@ -445,7 +483,6 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <p className="hr" />
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/howlfun">

@@ -37,7 +37,7 @@ const Halo_Rec_League = () => {
                         <h1 className='info-title'>Date:</h1>
                             {/* Keep above date and change the information below to whatever the current date is on the given page
                         Keep button the same */}
-                            <p>S7 - Spring 2023 (Estimated)</p>
+                            <p>S8 - Early-June</p>
                         </div>
                         <div className='col-2'id='league-info'>
                         <h1 className='info-title'>Details:</h1>
@@ -53,7 +53,7 @@ const Halo_Rec_League = () => {
                         <h1 className='info-title'>Entry Fee:</h1>
                             {/* Follow the same format as above, keep the Entry fee the same and change information below */}
                             <p>Free Entry - Solo/Duo Sign Ups</p>
-                            <p>$20 - Premade Teams</p>
+                            <p>$30 - Premade Teams</p>
                         </div>
                     </div>
                 </div>      
