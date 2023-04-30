@@ -66,7 +66,7 @@ const Comingsoon = () => {
                     <img
                       src="https://i.imgur.com/8ZFHAM6.png"
                       alt="RocketLeague Tournaments"
-                      className="blockimg"
+                      className="blockimg-coming-soon"
                       id="coming-soon-online-tournaments"
                     />
                   </div>
