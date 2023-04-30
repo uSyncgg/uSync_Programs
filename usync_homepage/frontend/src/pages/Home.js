@@ -34,7 +34,7 @@ const Home = () => {
 
           <div className="container">
             <div className="row justify-content-center home-games-img-row">
-              <div className="col-4">
+              <div className="col-3">
                 <a href="http://localhost:3000/games/halo">
                   <img
                     src="https://i.imgur.com/wqKJfEu.png"
@@ -43,7 +43,7 @@ const Home = () => {
                   />
                 </a>
               </div>
-              <div className="col-4">
+              <div className="col-3">
                 <a href="http://localhost:3000/games/call-of-duty">
                   <img
                     src="https://i.imgur.com/CsoQufa.png"
@@ -52,14 +52,14 @@ const Home = () => {
                   />
                 </a>
               </div>
-              <div className="col-4">
+              <div className="col-3">
                 <a href="http://localhost:3000/games/warzone">
                   <img src="https://i.imgur.com/BIs3u5h.png" alt="Warzone 2" className='home-games-images' />
                 </a>
               </div>
             </div>
             <div className="row justify-content-center home-games-img-row">
-              <div className="col-4">
+              <div className="col-3">
                 <a href="http://localhost:3000/games/LoL">
                   <img
                     src="https://i.imgur.com/5riYNow.png"
@@ -68,7 +68,7 @@ const Home = () => {
                   />
                 </a>
               </div>
-              <div className="col-4">
+              <div className="col-3">
                 <a href="http://localhost:3000/games/RocketLeague">
                   <img
                     src="https://i.imgur.com/GJO8JIZ.png"
@@ -77,7 +77,7 @@ const Home = () => {
                   />
                 </a>
               </div>
-              <div className="col-4">
+              <div className="col-3">
                 <a href="http://localhost:3000/games/Valorant">
                   <img src="https://i.imgur.com/Gsl3oIp.png" alt="Valorant" className='home-games-images' />
                 </a>
@@ -122,8 +122,6 @@ const Home = () => {
               <img
                 src="https://i.imgur.com/MUcaqmt.png"
                 alt="Apex Legends"
-                height="12.5rem"
-                width="12.5rem"
               />{" "}
             </a>
 
@@ -131,8 +129,6 @@ const Home = () => {
               <img
                 src="https://i.imgur.com/qpQDtRJ.png"
                 alt="Super Smash Brothers"
-                height="12.5rem"
-                width="12.5rem"
               />
             </a>
 
@@ -140,8 +136,6 @@ const Home = () => {
               <img
                 src="https://i.imgur.com/XxOYZiE.png"
                 alt="Overwatch 2"
-                height="12.5rem"
-                width="12.5rem"
               />
             </a>
           </div>

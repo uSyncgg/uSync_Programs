@@ -406,7 +406,6 @@ import EGFC_College_Val from './pages/game_pages/Valorant/Leagues/EGFC_College_V
 function App() {
   let component;
   let title;
-  console.log(window.location.pathname);
   switch (window.location.pathname) {
     // To create a custom path to implement in the navbar simply hit enter after the last break;
     // type case like all the other cases and create a custom path, for example case "/cxp_league":

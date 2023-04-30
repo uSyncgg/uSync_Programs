@@ -30,12 +30,13 @@
 }
 
 .verification-header-checks {
+    width: 100%;
 }
 
 .veri-checkmark {
     width: 15%; /* Increase the width */
     height: 15%; /* Make the height adjust to the width to prevent stretching */
-    padding: 1rem;
+    padding: 2rem;
 }
 
 @media only screen and (max-width: 768px) {

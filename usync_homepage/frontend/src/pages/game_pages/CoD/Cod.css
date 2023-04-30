@@ -11,7 +11,6 @@
 .league {
     border-style:hidden;
     width: 100%;
-    margin-left: 5rem;
 }
 
 .league-img {
@@ -45,8 +44,6 @@
 .Background-leagues {
   background-color: rgb(49, 49, 49);
   padding: 3.125rem;
-  padding-left: 0rem;
-  padding-right: 10%;
   position: relative;
   z-index: 1;
   text-align: center;

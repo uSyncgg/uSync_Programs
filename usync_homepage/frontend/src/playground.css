@@ -32,17 +32,27 @@ li .active {
 @media only screen and (min-width: 992px) {
     .navbar-total-container {
         position: absolute;
-        right: 5rem;
+        right: 2rem;
     }
 
     .dropdown-item {
         color: white;
         width: 100%;
+        padding: 1rem;
     }
 
     .dropdown-menu {
         border: none;
-        margin-top: -.5rem;
+        margin-top: .35rem;
+    }
+
+    .navbar-nav li {
+        padding: 0 .75rem;
+    }
+
+    .more-dropdown-container {
+        right: 0;
+        left: auto;
     }
 }
 
@@ -63,8 +73,10 @@ li .active {
     }
 
     .dropdown-menu {
-        margin-left: 7.5rem;
         border: none;
+        width: 10rem;
+        margin: 0 auto;
+        margin-right: 20%;
     }
 
     .dropdown-item {
