@@ -5,17 +5,17 @@ import Footer from '../../Footer';
 const Contactus = () => {
     return (
       <div>
+        <header>
+          <img src="https://i.imgur.com/0Wrn8wp.png" className="Header-Img" />
+          <div className="contact-us-find-us">
+            <h1 className="event-title-contactus">Find Us</h1>
+            <img
+              src="https://i.imgur.com/eNhKhTI.png"
+              className="Underline-h-verification-event"
+            />
+          </div>
+        </header>
         <div id="league-body1">
-          <header>
-            <img src="https://i.imgur.com/0Wrn8wp.png" className="Header-Img" />
-            <div className="contact-us-find-us">
-              <h1 className="event-title-contactus">Find Us</h1>
-              <img
-                src="https://i.imgur.com/eNhKhTI.png"
-                className="Underline-h-verification-event"
-              />
-            </div>
-          </header>
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-3">

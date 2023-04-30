@@ -8,7 +8,6 @@ const navbarLogo = new URL("./website_images/home-images/usync-navbar-logo.png",
 function Playground() {
 
   const location = window.location.pathname;
-  console.log(location)
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">

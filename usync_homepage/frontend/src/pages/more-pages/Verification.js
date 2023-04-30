@@ -5,7 +5,7 @@ import Footer from '../../Footer';
 const Verification = () => {
     return (
       <div>
-        <div id="league-body1">
+        <div>
           <div className="verification-header-img-container">
             <div className="verification-header-checks justify-content-center">
               <img
