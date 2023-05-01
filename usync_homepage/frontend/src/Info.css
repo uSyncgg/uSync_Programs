@@ -11,8 +11,8 @@ header {
   height: 20rem;
 }
 
-.total-playground {
-  margin-top: 5rem;
+#league-header {
+  height: 15rem;
 }
 
 .become-verified {
