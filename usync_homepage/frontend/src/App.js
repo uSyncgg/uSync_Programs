@@ -420,116 +420,151 @@ function App() {
       component = <Comingsoon />
       break;
     case "/more/verification":
+      title = "Verification";
       component = <Verification />
       break;
     case "/more/verification/becomeverified":
+      title = "Become Verified";
       component = <Becomeverified />
       break;
     case "/more/eventhost":
+      title = "Event Host";
       component = <Eventhost />
       break;
     case "/more/contactus":
+      title = "Contact Us";
       component = <Contactus />
       break;
     case"/reportproblem":
+    title = "Report Problem";
       component = <Report />
       break;
 
     case "/games":
+      title = "Games";
       component = <Games />
       break;
     case "/games/call-of-duty":
+      title = "Call of Duty";
       component = <Cod />
       break;
     case "/games/call-of-duty/leagues":
+      title = "Call of Duty Leagues";
       component = <Cod_Leagues />
       break;
     case "/games/call-of-duty/lans":
+      title = "Call of Duty LANs";
       component = <Cod_Lan />
       break;
     case "/games/call-of-duty/wagers":
+      title = "Call of Duty Wagers";
       component = <Cod_Wagers />
       break;
     case "/games/call-of-duty/head-to-head":
+      title = "Call of Duty Head to Head";
       component = <Cod_headtohead />
       break;
 
     case "/games/halo":
+      title = "Halo";
       component = <Halo />
       break;
     case "/games/halo/leagues":
+      title = "Halo Leagues";
       component = <Halo_Leagues />
       break;
     case "/games/halo/lans":
+      title = "Halo LANs";
       component = <Halo_Lan />
       break;
     case "/games/halo/wagers":
+      title = "Halo Wagers";
       component = <Halo_Wagers />
       break;
     case "/games/halo/head-to-head":
+      title = "Halo Head to Head";
       component = <Halo_headtohead />
       break;
 
     case "/games/LoL":
+      title = "League of Legends";
       component = <LoL />
       break;
     case "/games/LoL/leagues":
+      title = "League of Legends Leagues";
       component = <Lol_Leagues />
       break;
     case "/games/LoL/lans":
+      title = "League of Legends LANs";
       component = <Lol_Lan />
       break;
     case "/games/LoL/wagers":
+      title = "League of Legends Wagers";
       component = <LoL_Wagers />
       break;
     case "/games/LoL/head-to-head":
+      title = "League of Legends Head to Head";
       component = <Lol_headtohead />
       break;
 
     case "/games/RocketLeague":
+      title = "Rocket League";
       component = <Rl />
       break;
     case "/games/RocketLeague/leagues":
+      title = "Rocket League Leagues";
       component = <Rl_Leagues />
       break;
     case "/games/RocketLeague/wagers":
+      title = "Rocket League Wagers";
       component = <Rl_Wagers />
       break;
     case "/games/RocketLeague/head-to-head":
+      title = "Rocket League Head to Head";
       component = <Rl_headtohead />
       break;
 
     case "/games/Valorant":
+      title = "Valorant";
       component = <Val />
       break;
     case "/games/Valorant/leagues":
+      title = "Valorant Leagues";
       component = <Val_Leagues />
       break;
     case "/games/Valorant/wagers":
+      title = "Valorant Wagers";
       component = <Val_Wagers />
       break;
     case "/games/Valorant/head-to-head":
+      title = "Valorant Head to Head";
       component = <Val_headtohead />
       break;
 
     case "/games/warzone":
+      title = "Warzone";
       component = <Wz />
       break;
     case "/games/warzone/leagues":
+      title = "Warzone Leagues";
       component = <Wz_Leagues />
       break;
     case "/games/warzone/lans":
+      title = "Warzone LANs";
       component = <Wz_Lan />
       break;
     case "/games/warzone/wagers":
+      title = "Warzone Wagers";
       component = <Wz_Wagers />
       break;
     case "/games/warzone/head-to-head":
+      title = "Warzone Head to Head";
       component = <Wz_headtohead />
       break;
 
 
     case "/CoD/Tournaments":
+      title = "Call of Duty Tournaments";
       component = <CodTourneys />
       break;
     // case "/test":
@@ -539,825 +574,1073 @@ function App() {
 
     //COD LEAGUES
     case "/games/call-of-duty/leagues/snd-league":
+      title = "SND League";
       component = <Snd_league />
       break;
       case "/games/call-of-duty/leagues/cod-rec-league":
+        title = "Call of Duty Rec League";
       component = <COD_Rec_League />
       break;
     case "/games/call-of-duty/nacal-league":
+      title = "NACAL League";
       component = <NACAL_league />
       break;
     case "/games/call-of-duty/leagues/awl-league":
+      title = "Call of Duty Amateur World League";
       component = <AWL_League />
       break;
     case "/games/call-of-duty/leagues/House-of-esports-leagues":
+      title = "House of Esports Leagues";
       component = <HOE_Leagues />
       break;
     case "/games/call-of-duty/leagues/House-of-esports-leagues/hoe-amateur":
+      title = "House of Esports Amateur League";
       component = <HOE_Amateur />
       break;
     case "/games/call-of-duty/leagues/House-of-esports-leagues/hoe-challengers":
+      title = "House of Esports Challengers League";
       component = <HOE_Challengers />
       break;
     case "/games/call-of-duty/leagues/House-of-esports-leagues/hoe-masters":
+      title = "House of Esports Masters League";
       component = <HOE_Masters />
       break;
     case "/games/call-of-duty/leagues/ccl-league":
+      title = "College Call of Duty League";
       component = <CCL_League />
       break;
     case "/games/call-of-duty/leagues/k7-league":
+      title = "K7 League";
       component = <K7_League />
       break;
     case "/games/call-of-duty/leagues/cgn-league-cod":
+      title = "CGN League";
       component = <Cgn_league_cod />
       break;
     case "/games/call-of-duty/leagues/chicago-league-cod":
+      title = "Chicago Call of Duty League";
       component = <Chicago_COD_League />
       break;
     case "/games/call-of-duty/leagues/click-gaming-league":
+      title = "Click Gaming League";
       component = <Click_Gaming_LeagueCOD />
       break;
     case "/games/call-of-duty/leagues/cod-beer-league":
+      title = "Call of Duty Beer League";
       component = <COD_Beer_League />
       break;
     case "/games/call-of-duty/leagues/college-xp":
+      title = "College XP League";
       component = <College_XP />
       break;
     case "/games/call-of-duty/leagues/corporate-cod-league":
+      title = "Corporate Call of Duty League";
       component = <Corporate_COD_League />
       break;
     case "/games/call-of-duty/leagues/fpc-league":
+      title = "Female Pro Circuit League";
       component = <FPC_League />
       break;
     case "/games/call-of-duty/leagues/kanna-gaming-league":
+      title = "Kanna Gaming League";
       component = <Kanna_Gaming_League />
       break;
     case "/games/call-of-duty/leagues/lunar-league":
+      title = "Lunar League";
       component = <Lunar_League />
       break;
     case "/games/call-of-duty/leagues/nace-cod-league":
+      title = "NACE Call of Duty League";
       component = <NACE_COD_League />
       break;
     case "/games/call-of-duty/leagues/u18-league":
+      title = "U18 League";
       component = <U18_League />
       break;
     case "/games/call-of-duty/leagues/ung-league":
+      title = "UNG League";
       component = <UNG_League />
       break;
     case "/games/call-of-duty/leagues/xp-league-cod":
+      title = "XP Call of Duty League";
       component = <XP_League_Cod />
       break;
     // COD LEAGUES
 
     // COD HEAD TO HEAD
     case "/games/call-of-duty/head-to-head/arena":
+      title = "The Arena Call of Duty";
       component = <Arena />
       break;
     case "/games/call-of-duty/head-to-head/cmg":
+      title = "Checkmate Gaming Head to Head";
       component = <CMG_Xp />
       break;
     case "/games/call-of-duty/head-to-head/gb":
+      title = "Gamebattles Head to Head";
       component = <GB />
       break;
     case "/games/call-of-duty/head-to-head/umg":
+      title = "UMG Head to Head";
       component = <UMG />
       break;
     // COD HEAD TO HEAD
 
     // COD WAGERS
     case "/games/call-of-duty/wagers/1v1me":
+      title = "1v1me Call of Duty Wagers";
       component = <App_1v1ME />
       break;
     case "/games/call-of-duty/wagers/cmg":
+      title = "Checkmate Gaming Call of Duty Wagers";
       component = <CMG_Wagers />
       break;
     case "/games/call-of-duty/wagers/dropin":
+      title = "DropIn Gaming Call of Duty Wagers";
       component = <Dropin_Wagers />
       break;
     case "/games/call-of-duty/wagers/eagent":
+      title = "Esports Agent Call of Duty Wagers";
       component = <EAgent_Wagers />
       break;
     case "/games/call-of-duty/wagers/oneup":
+      title = "Oneup Call of Duty Wagers";
       component = <Oneup_Wagers />
       break;
     // COD WAGERS
 
     // HALO HEAD TO HEAD
     case "/games/halo/head-to-head/arena":
+      title = "The Arena Halo";
       component = <ArenaHalo />
       break;
     case "/games/halo/head-to-head/rec-xp":
+      title = "Halo Recreational Scrims";
       component = <RecXP />
       break;
     case "/games/halo/head-to-head/sauna":
+      title = "The Sauna Halo";
       component = <Sauana />
       break;
     case "/games/halo/head-to-head/ugc-scrim":
+      title = "Halo UGC Scrims";
       component = <UGC_Scrim />
       break;
     case "/games/halo/head-to-head/umg-scrim":
+      title = "UMG Halo Head to Head";
       component = <UMGScrim />
       break;
     // HALO HEAD TO HEAD
 
     // HALO WAGERS
     case "/games/halo/wagers/cmg":
+      title = "Checkmate Gaming Halo Wagers";
       component = <CMG_Halo />
       break;
     case "/games/halo/wagers/oneup":
+      title = "Oneup Halo Wagers";
       component = <OneupHalo />
       break;
     // HALO WAGERS
 
     // HALO LEAGUES
     case "/games/halo/leagues/college-halo":
+      title = "College Halo League";
       component = <College_Halo />
       break;
     case "/games/halo/leagues/corporate-halo":
+      title = "Corporate Halo League";
       component = <Corporate_Halo_League />
       break;
     case "/games/halo/leagues/ecac":
+      title = "ECAC Halo League";
       component = <ECAC_Halo_League />
       break;
     case "/games/halo/leagues/halo-agent":
+      title = "Halo Agent League";
       component = <Halo_Agent />
       break;
     case "/games/halo/leagues/halo-rec-league":
+      title = "Halo Rec League";
       component = <Halo_Rec_League />
       break;
     case "/games/halo/leagues/nacl":
+      title = "NACL Halo League";
       component = <NACL_Halo />
       break;
     case "/games/halo/leagues/necc":
+      title = "NECC Halo League";
       component = <NECC_Halo />
       break;
     case "/games/halo/leagues/ugc-halo":
+      title = "UGC Halo League";
       component = <UGC_Halo />
       break;
     // HALO LEAGUES
 
     // WARZONE HEAD TO HEAD
     case "/games/warzone/head-to-head/cmg":
+      title = "Checkmate Gaming Warzone Head to Head";
       component = <CMGWZXP />
       break;
     case "/games/warzone/head-to-head/gb":
+      title = "Gamebattles Warzone Head to Head";
       component = <GBWZ />
       break;
     case "/games/warzone/head-to-head/umg":
+      title = "UMG Warzone Head to Head";
       component = <UMGWZ />
       break;
     // WARZONE HEAD TO HEAD
 
     // WARZONE WAGERS
     case "/games/warzone/wagers/cmg":
+      title = "Checkmate Gaming Warzone Wagers";
       component = <CMG_WZ />
       break;
     case "/games/warzone/wagers/dropingaming":
+      title = "DropIn Gaming Warzone Wagers";
       component = <DropinWZ />
       break;
     case "/games/warzone/wagers/gamersaloon":
+      title = "GamerSaloon Warzone Wagers";
       component = <GamerSaloon />
       break;
     case "/games/warzone/wagers/oneup":
+      title = "Oneup Warzone Wagers";
       component = <OneUpWZ />
       break;
     case "/games/warzone/wagers/1v1me":
+      title = "1v1me Warzone Wagers";
       component = <Wager_1v1WZ />
       break;
     // WARZONE WAGERS
 
     // WARZONE LEAGUES
     case "/games/warzone/leagues/ccl":
+      title = "College Warzone League";
       component = <CCL_WZ_League />
       break;
     case "/games/warzone/leagues/cgn":
+      title = "CGN Warzone League";
       component = <CGN_WZ_League />
       break;
     case "/games/warzone/leagues/gg-gaming":
+      title = "GG Gaming Warzone League";
       component = <GG_Gaming_League />
       break;
     case "/games/warzone/leagues/ghml":
+      title = "GHML Warzone League";
       component = <GHML_Gaming_League />
       break;
     case "/games/warzone/leagues/njcaae":
+      title = "NJCAAE Warzone League";
       component = <NJCAAE_League />
       break;
     // WARZONE LEAGUES
 
     // LoL HEAD TO HEAD
     case "/games/LoL/head-to-head/esport-scrim":
+      title = "Esport Scrim League of Legends";
       component = <Esport_Scrim />
       break;
     case "/games/LoL/head-to-head/gankster":
+      title = "Gankster League of Legends";
       component = <Gankster />
       break;
     // LoL HEAD TO HEAD
 
     // LoL WAGERS
     case "/games/LoL/wagers/dropingaming":
+      title = "DropIn Gaming League of Legends Wagers";
       component = <DropinLoL />
       break;
     // LoL WAGERS
 
     // LoL LEAGUES
     case "/games/LoL/leagues/aegis-leagues":
+      title = "Aegis Leagues";
       component = <Frontpage_Aegis />
       break;
     case "/games/LoL/leagues/aegis-leagues/champ":
+      title = "Aegis Champion League";
       component = <Aegis_Champ />
       break;
     case "/games/LoL/leagues/aegis-leagues/guardians":
+      title = "Aegis Guardians League";
       component = <Aegis_Guardians />
       break;
     case "/games/LoL/leagues/aegis-leagues/marauder":
+      title = "Aegis Marauder League";
       component = <Aegis_Marauder />
       break;
     case "/games/LoL/leagues/aegis-leagues/protectors":
+      title = "Aegis Protectors League";
       component = <Aegis_Protectors />
       break;
     case "/games/LoL/leagues/aegis-leagues/squire":
+      title = "Aegis Squire League";
       component = <Aegis_Squire />
       break;
 
     case "/games/LoL/leagues/blue-otter-leagues":
+      title = "Blue Otter Leagues";
       component = <Frontpage_Otter />
       break;
     case "/games/LoL/leagues/blue-otter-leagues/diamond":
+      title = "Blue Otter Diamond League";
       component = <Blue_Otter_Diamond />
       break;
     case "/games/LoL/leagues/blue-otter-leagues/gold":
+      title = "Blue Otter Gold League";
       component = <Blue_Otter_Gold />
       break;
     case "/games/LoL/leagues/blue-otter-leagues/ibs":
+      title = "Blue Otter IBS League";
       component = <Blue_Otter_IBS />
       break;
     case "/games/LoL/leagues/blue-otter-leagues/plat":
+      title = "Blue Otter Platinum League";
       component = <Blue_Otter_Plat />
       break;
 
     case "/games/LoL/leagues/cobalt-winds-leagues":
+      title = "Cobalt Winds Leagues";
       component = <Frontpage_Cobalt />
       break;
     case "/games/LoL/leagues/cobalt-winds-leagues/division1":
+      title = "Cobalt Winds Division 1 League";
       component = <Division_1 />
       break;
     case "/games/LoL/leagues/cobalt-winds-leagues/division2":
+      title = "Cobalt Winds Division 2 League";
       component = <Division_2 />
       break;
     case "/games/LoL/leagues/cobalt-winds-leagues/division3":
+      title = "Cobalt Winds Division 3 League";
       component = <Division_3 />
       break;
 
     case "/games/LoL/leagues/duo-esports-league":
+      title = "Duo Esports Leagues";
       component = <Frontpage_DUO />
       break;
     case "/games/LoL/leagues/duo-esports-league/gpcs":
+      title = "Duo Esports GPCS League";
       component = <GPCS />
       break;
     case "/games/LoL/leagues/duo-esports-league/ibsgcs":
+      title = "Duo Esports IBSGCS League";
       component = <IBSGCS />
       break;
 
     case "/games/LoL/leagues/ffs-leagues":
+      title = "Friend or Foe Leagues";
       component = <Frontpage_FFS />
       break;
     case "/games/LoL/leagues/ffs-leagues/mythic":
+      title = "Friend or Foe Mythic League";
       component = <FFS_Mythic />
       break;
     case "/games/LoL/leagues/ffs-leagues/heroic":
+      title = "Friend or Foe Heroic League";
       component = <FFS_Heroic />
       break;
 
     case "/games/LoL/leagues/gg-leagues":
+      title = "GG League of Legends Leagues";
       component = <Frontpage_GG />
       break;
     case "/games/LoL/leagues/gg-leagues/division-a":
+      title = "GG League of Legends Division A League";
       component = <Division_A />
       break;
     case "/games/LoL/leagues/gg-leagues/division-b":
+      title = "GG League of Legends Division B League";
       component = <Division_B />
       break;
     case "/games/LoL/leagues/gg-leagues/division-c":
+      title = "GG League of Legends Division C League";
       component = <Division_C />
       break;
 
     case "/games/LoL/leagues/las-leagues":
+      title = "LAS Leagues";
       component = <Frontpage_LAS />
       break;
     case "/games/LoL/leagues/las-leagues/tier-1":
+      title = "LAS Tier 1 League";
       component = <Tier_1 />
       break;
     case "/games/LoL/leagues/las-leagues/tier-2":
+      title = "LAS Tier 2 League";
       component = <Tier_2 />
       break;
 
     case "/games/LoL/leagues/low-budget-leagues":
+      title = "Low Budget Leagues";
       component = <Frontpage_LCS />
       break;
     case "/games/LoL/leagues/low-budget-leagues/commercial":
+      title = "Low Budget Commerical League";
       component = <LCS_Commercial />
       break;
     case "/games/LoL/leagues/low-budget-leagues/economy":
+      title = "Low Budget Economy League";
       component = <LCS_Economy />
       break;
     case "/games/LoL/leagues/low-budget-leagues/executive":
+      title = "Low Budget Executive League";
       component = <LCS_Executive />
       break;
     case "/games/LoL/leagues/low-budget-leagues/financial":
+      title = "Low Budget Financial League";
       component = <LCS_Financial />
       break;
 
     case "/games/LoL/leagues/meta-shift-leagues":
+      title = "MetaShift Leagues";
       component = <Frontpage_MetaShift />
       break;
     case "/games/LoL/leagues/meta-shift-leagues/argon":
+      title = "MetaShift Argon League";
       component = <Argon />
       break;
     case "/games/LoL/leagues/meta-shift-leagues/helium":
+      title = "MetaShift Helium League";
       component = <Helium />
       break;
     case "/games/LoL/leagues/meta-shift-leagues/krypton":
+      title = "MetaShift Krypton League";
       component = <Krypton />
       break;
     case "/games/LoL/leagues/meta-shift-leagues/neon":
+      title = "MetaShift Neon League";
       component = <Neon />
       break;
     case "/games/LoL/leagues/meta-shift-leagues/radon":
+      title = "MetaShift Radon League";
       component = <Radon />
       break;
     case "/games/LoL/leagues/meta-shift-leagues/xenon":
+      title = "MetaShift Xenon League";
       component = <Xenon />
       break;
 
     case "/games/LoL/leagues/risen-leagues":
+      title = "Risen League of Legends Leagues";
       component = <Frontpage_Risen />
       break;
     case "/games/LoL/leagues/risen-leagues/champions":
+      title = "Risen Champions League";
       component = <Risen_Champions />
       break;
     case "/games/LoL/leagues/risen-leagues/divine":
+      title = "Risen Divine League";
       component = <Risen_Divine />
       break;
     case "/games/LoL/leagues/risen-leagues/dominate":
+      title = "Risen Dominate League";
       component = <Risen_Dominate />
       break;
     case "/games/LoL/leagues/risen-leagues/draft":
+      title = "Risen Draft League";
       component = <Risen_Draft />
       break;
     case "/games/LoL/leagues/risen-leagues/rampage":
+      title = "Risen Rampage League";
       component = <Risen_Rampage />
       break;
     case "/games/LoL/leagues/risen-leagues/unstoppable":
+      title = "Risen Unstoppable League";
       component = <Risen_Unstoppable />
       break;
 
     case "/games/LoL/leagues/titan-leagues":
+      title = "Titan League of Legends Leagues";
       component = <Frontpage_Titan />
       break;
     case "/games/LoL/leagues/titan-leagues/divinity":
+      title = "Titan Divinity League";
       component = <Divinity />
       break;
     case "/games/LoL/leagues/titan-leagues/conqueror":
+      title = "Titan Conqueror League";
       component = <Conqueror />
       break;
 
     case "/games/LoL/leagues/victoris-leagues":
+      title = "Victoris League of Legends Leagues";
       component = <Frontpage_Victoris />
       break;
     case "/games/LoL/leagues/victoris-leagues/amateur":
+      title = "Victoris League of Legends Amateur League";
       component = <Victoris_Amateur />
       break;
     case "/games/LoL/leagues/victoris-leagues/amateur-draft":
+      title = "Victoris League of Legends Amateur Draft League";
       component = <Victoris_Amateur_Draft />
       break;
     case "/games/LoL/leagues/victoris-leagues/rival":
+      title = "Victoris League of Legends Rival League";
       component = <Victoris_Rival />
       break;
     case "/games/LoL/leagues/victoris-leagues/rival-draft":
+      title = "Victoris League of Legends Rival Draft League";
       component = <Victoris_Rival_Draft />
       break;
     case "/games/LoL/leagues/victoris-leagues/triumph":
+      title = "Victoris League of Legends Triumph League";
       component = <Victoris_Triumph />
       break;
 
     case "/games/LoL/leagues/zerograv-leagues":
+      title = "Zero Gravity Leagues";
       component = <Frontpage_Zero />
       break;
     case "/games/LoL/leagues/zerograv-leagues/gold":
+      title = "Zero Gravity Gold League";
       component = <Zero_Gold />
       break;
     case "/games/LoL/leagues/zerograv-leagues/ibs":
+      title = "Zero Gravity IBS League";
       component = <Zero_IBS />
       break;
     case "/games/LoL/leagues/zerograv-leagues/platinum":
+      title = "Zero Gravity Platinum League";
       component = <Zero_Platinum />
       break;
 
     case "/games/LoL/leagues/black-twitch-league":
+      title = "Black Twitch League";
       component = <Black_Twitch_League />
       break;
     case "/games/LoL/leagues/clol":
+      title = "Collegiate League of Legends League";
       component = <CLOL />
       break;
     case "/games/LoL/leagues/corporate-league":
+      title = "Corporate League of Legends League";
       component = <Corporate_LoL_League />
       break;
     case "/games/LoL/leagues/emerald-draft":
+      title = "Emerald Draft League";
       component = <Emerald_Draft_League />
       break;
     case "/games/LoL/leagues/hsel":
+      title = "High School League of Legends League";
       component = <HSEL_LoL />
       break;
     case "/games/LoL/leagues/nace":
+      title = "NACE League of Legends League";
       component = <NACE_LoL />
       break;
     case "/games/LoL/leagues/necc":
+      title = "NECC League of Legends League";
       component = <NECC_LoL />
       break;
     case "/games/LoL/leagues/opse":
+      title = "OPSE League of Legends League";
       component = <OPSE_LoL />
       break;
     case "/games/LoL/leagues/playvs":
+      title = "PlayVS League of Legends League";
       component = <PlayVS_LoL />
       break;
     case "/games/LoL/leagues/scottish-esports":
+      title = "Scottish Esports League of Legends League";
       component = <Scottish_Esports_League />
       break;
     case "/games/LoL/leagues/sdc":
+      title = "SDC League";
       component = <SDC_League />
       break;
     case "/games/LoL/leagues/vantagg":
+      title = "VantaGG League of Legends League";
       component = <VantaGG_LoL />
       break;
     case "/games/LoL/leagues/howlfun":
+      title = "Howlfun League of Legends League";
       component = <Howlfun />
       break;
     // LoL LEAGUES
 
     // ROCKET LEAGUE HEAD TO HEAD
     case "/games/RocketLeague/head-to-head/gankster":
+      title = "Gankster Rocket League";
       component = <GanksterRL />
       break;
     // ROCKET LEAGUE HEAD TO HEAD
 
     // ROCKET LEAGUE LEAGUES
     case "/games/RocketLeague/leagues/frontier-doubles-leagues":
+      title = "Frontier Doubles Leagues";
       component = <Frontpage_Doubles />
       break;
       case "/games/RocketLeague/leagues/frontier-doubles-leagues/elite":
+        title = "Frontier Doubles Elite League";
       component = <Elite />
       break;
       case "/games/RocketLeague/leagues/frontier-doubles-leagues/expert":
+        title = "Frontier Doubles Expert League";
       component = <Expert />
       break;
       case "/games/RocketLeague/leagues/frontier-doubles-leagues/origin":
+        title = "Frontier Doubles Origin League";
       component = <Origin />
       break;
       case "/games/RocketLeague/leagues/frontier-doubles-leagues/star":
+        title = "Frontier Doubles Star League";
       component = <Star />
       break;
 
       case "/games/RocketLeague/leagues/frontline-leagues":
+        title = "Frontline Rocket League Leagues";
       component = <Frontpage_Frontline />
       break;
       case "/games/RocketLeague/leagues/frontline-leagues/challenger":
+        title = "Frontline Challenger League";
       component = <FDS_Challenger />
       break;
       case "/games/RocketLeague/leagues/frontline-leagues/champ":
+        title = "Frontline Champ League";
       component = <FDS_Champ />
       break;
       case "/games/RocketLeague/leagues/frontline-leagues/prospect":
+        title = "Frontline Prospect League";
       component = <FDS_Prospect />
       break;
       case "/games/RocketLeague/leagues/frontline-leagues/vanguard":
+        title = "Frontline Vanguard League";
       component = <FDS_Vanguard />
       break;
 
       case "/games/RocketLeague/leagues/italian-leagues":
+        title = "Italian Rocket League Leagues";
       component = <Frontpage_Italian />
       break;
       case "/games/RocketLeague/leagues/italian-leagues/serie-a":
+        title = "Italian Rocket League Serie A League";
       component = <Serie_A />
       break;
       case "/games/RocketLeague/leagues/italian-leagues/serie-b":
+        title = "Italian Rocket League Serie B League";
       component = <Serie_B />
       break;
 
       case "/games/RocketLeague/leagues/mle-leagues":
+        title = "Minor League Esports Rocket League Leagues";
       component = <Frontpage_MLE />
       break;
       case "/games/RocketLeague/leagues/mle-leagues/academy":
+        title = "Minor League Esports Academy League";
       component = <Academy />
       break;
       case "/games/RocketLeague/leagues/mle-leagues/champ":
+        title = "Minor League Esports Champ League";
       component = <Champ />
       break;
       case "/games/RocketLeague/leagues/mle-leagues/foundation":
+        title = "Minor League Esports Foundation League";
       component = <Foundation />
       break;
       case "/games/RocketLeague/leagues/mle-leagues/master":
+        title = "Minor League Esports Master League";
       component = <Master />
       break;
       case "/games/RocketLeague/leagues/mle-leagues/premier":
+        title = "Minor League Esports Premier League";
       component = <Premier />
       break;
 
       case "/games/RocketLeague/leagues/nemesis-leagues":
+        title = "Nemesis Rocket League Leagues";
       component = <Frontpage_Nemesis />
       break;
       case "/games/RocketLeague/leagues/nemesis-leagues/challenger":
+        title = "Nemesis Challenger League";
       component = <Challenger />
       break;
       case "/games/RocketLeague/leagues/nemesis-leagues/novice":
+        title = "Nemesis Novice League";
       component = <Novice />
       break;
       case "/games/RocketLeague/leagues/nemesis-leagues/prospect":
+        title = "Nemesis Prospect League";
       component = <Prospect />
       break;
       case "/games/RocketLeague/leagues/nemesis-leagues/rival":
+        title = "Nemesis Rival League";
       component = <Rival />
       break;
       case "/games/RocketLeague/leagues/nemesis-leagues/titan":
+        title = "Nemesis Titan League";
       component = <Titan />
       break;
 
       case "/games/RocketLeague/leagues/oce-leagues":
+        title = "Oceania Rocket League Draft Leagues";
       component = <Frontpage_OCE />
       break;
       case "/games/RocketLeague/leagues/oce-leagues/divisions":
+        title = "Oceania Draft League";
       component = <Divisions_OCE />
       break;
 
       case "/games/RocketLeague/leagues/rlpc-leagues":
+        title = "RLPC Rocket League Leagues";
       component = <Frontpage_RLPC />
       break;
       case "/games/RocketLeague/leagues/rlpc-leagues/a":
+        title = "RLPC A League";
       component = <A />
       break;
       case "/games/RocketLeague/leagues/rlpc-leagues/aa":
+        title = "RLPC Double A League";
       component = <AA />
       break;
       case "/games/RocketLeague/leagues/rlpc-leagues/aaa":
+        title = "RLPC Triple A League";
       component = <AAA />
       break;
       case "/games/RocketLeague/leagues/rlpc-leagues/independent":
+        title = "RLPC Independent League";
       component = <Independent />
       break;
       case "/games/RocketLeague/leagues/rlpc-leagues/major":
+        title = "RLPC Major League";
       component = <Major />
       break;
 
       case "/games/RocketLeague/leagues/rsc-leagues":
+        title = "Rocket Soccar Confederation Leagues";
       component = <Frontpage_RSC />
       break;
       case "/games/RocketLeague/leagues/rsc-leagues/2v2":
+        title = "RSC 2v2 League";
       component = <RSC_2v2 />
       break;
       case "/games/RocketLeague/leagues/rsc-leagues/3v3-eu":
+        title = "RSC 3v3 EU League";
       component = <RSC_3v3_EU />
       break;
       case "/games/RocketLeague/leagues/rsc-leagues/3v3-na":
+        title = "RSC 3v3 NA League";
       component = <RSC_3v3_NA />
       break;
 
       case "/games/RocketLeague/leagues/url-leagues":
+        title = "Ultimate Rocket League Leagues";
       component = <Frontpage_URL />
       break;
       case "/games/RocketLeague/leagues/url-leagues/2s":
+        title = "Ultimate Rocket League 2v2 League";
       component = <URL_2s />
       break;
       case "/games/RocketLeague/leagues/url-leagues/3s":
+        title = "Ultimate Rocket League 3v3 League";
       component = <URL_3s />
       break;
 
       case "/games/RocketLeague/leagues/blue-bird":
+        title = "Blue Bird League";
       component = <Blue_Bird />
       break;
       case "/games/RocketLeague/leagues/cca":
+        title = "College Carball Association League";
       component = <CCA />
       break;
       case "/games/RocketLeague/leagues/csmg":
+        title = "CSMG Rocket League League";
       component = <CSMG_RL />
       break;
       case "/games/RocketLeague/leagues/ecac":
+        title = "ECAC Rocket League League";
       component = <ECAC_RL />
       break;
       case "/games/RocketLeague/leagues/egfc":
+        title = "EGFC Rocket League League";
       component = <EGFC_RL />
       break;
       case "/games/RocketLeague/leagues/egfh":
+        title = "EGFH Rocket League League";
       component = <EGFH_HS_RL />
       break;
       case "/games/RocketLeague/leagues/elite-series":
+        title = "Elite Series Rocket League League";
       component = <Elite_Series />
       break;
       case "/games/RocketLeague/leagues/hbcu":
+        title = "HBCU Rocket League League";
       component = <HBCU_RL />
       break;
       case "/games/RocketLeague/leagues/hsel":
+        title = "High School Rocket League League";
       component = <HSEL_RL />
       break;
       case "/games/RocketLeague/leagues/master-cup":
+        title = "Master Cup Rocket League League";
       component = <Master_Cup />
       break;
       case "/games/RocketLeague/leagues/nace":
+        title = "NACE Rocket League League";
       component = <NACE_RL />
       break;
       case "/games/RocketLeague/leagues/nacl":
+        title = "NACL Rocket League League";
       component = <NACL_Rl />
       break;
       case "/games/RocketLeague/leagues/nasef":
+        title = "NASEF Rocket League League";
       component = <NASEF_RL />
       break;
       case "/games/RocketLeague/leagues/necc":
+        title = "NECC Rocket League League";
       component = <NECC_RL />
       break;
       case "/games/RocketLeague/leagues/necl":
+        title = "NECL Rocket League League";
       component = <NECL_HS_RL />
       break;
       case "/games/RocketLeague/leagues/nitro-league":
+        title = "Nitro Rocket League League";
       component = <Nitro_League />
       break;
       case "/games/RocketLeague/leagues/opse":
+        title = "OPSE Rocket League League";
       component = <OPSE_RL />
       break;
       case "/games/RocketLeague/leagues/playvs":
+        title = "PlayVS Rocket League League";
       component = <PlayVS_HS_RL />
       break;
       case "/games/RocketLeague/leagues/raket-ligaen":
+        title = "Raket Ligaen League";
       component = <Raket_Ligaen />
       break;
       case "/games/RocketLeague/leagues/scottish-esports":
+        title = "Scottish Esports Rocket League League";
       component = <Scottish_Esports_RL />
       break;
       case "/games/RocketLeague/leagues/tec":
+        title = "The Esports Company Rocket League League";
       component = <TEC_RL />
       break;
       case "/games/RocketLeague/leagues/ugc":
+        title = "UGC Rocket League League";
       component = <UGC_College />
       break;
       case "/games/RocketLeague/leagues/ugc-hs":
+        title = "UGC High School Rocket League League";
       component = <UGC_HS_RL />
       break;
       case "/games/RocketLeague/leagues/united-rogue":
+        title = "United Rogue Rocket League League";
       component = <United_Rogue />
       break;
       case "/games/RocketLeague/leagues/vantagg":
+        title = "VantaGG Rocket League League";
       component = <VantaGG_HS_RL />
       break;
     // ROCKET LEAGUE LEAGUES
 
     // ROCKET LEAGUE WAGERS
     case "/games/RocketLeague/wagers/cmg":
+      title = "Checkmate Gaming Rocket League Wagers";
       component = <CMGRL />
       break;
       case "/games/RocketLeague/wagers/dropingaming":
+        title = "DropIn Gaming Rocket League Wagers";
       component = <DropinRL />
       break;
       case "/games/RocketLeague/wagers/gamersaloon":
+        title = "GamerSaloon Rocket League Wagers";
       component = <SaloonRL />
       break;
     // ROCKET LEAGUE WAGERS
 
     // VALORANT HEAD TO HEAD
       case "/games/Valorant/head-to-head/college-hub":
+        title = "College Valorant Hub Scrims";
       component = <College_Hub />
       break;
       case "/games/Valorant/head-to-head/dropingaming":
+        title = "DropIn Gaming Valorant Head to Head";
       component = <Dropin_VAL_XP />
       break;
       case "/games/Valorant/head-to-head/esport-scrim":
+        title = "Esport Scrim Valorant";
       component = <EsportScrim />
       break;
       case "/games/Valorant/head-to-head/gankster":
+        title = "Gankster Valorant";
       component = <GanksterVAL />
       break;
       case "/games/Valorant/head-to-head/project-v":
+        title = "Project V Valorant";
       component = <ProjectV />
       break;
     // VALORANT HEAD TO HEAD
 
     // VALORANT WAGERS
       case "/games/Valorant/wagers/dropingaming":
+        title = "DropIn Gaming Valorant Wagers";
       component = <DropinVAL />
       break;
     // VALORANT WAGERS
 
     // VALORANT LEAGUES
       case "/games/Valorant/leagues/ecac-leagues":
+        title = "ECAC Valorant Leagues";
       component = <Frontpage_ECAC />
       break;
       case "/games/Valorant/leagues/ecac-leagues/division-a":
+        title = "ECAC Valorant Division A League";
       component = <DivisionA />
       break;
       case "/games/Valorant/leagues/ecac-leagues/division-b":
+        title = "ECAC Valorant Division B League";
       component = <DivisionB />
       break;
       case "/games/Valorant/leagues/ecac-leagues/division-c":
+        title = "ECAC Valorant Division C League";
       component = <DivisionC />
       break;
 
       case "/games/Valorant/leagues/frontline-leagues":
+        title = "Frontline Valorant Leagues";
       component = <Frontpage_Frontline_val />
       break;
       case "/games/Valorant/leagues/frontline-leagues/academy":
+        title = "Frontline Valorant Academy League";
       component = <Academy_val />
       break;
       case "/games/Valorant/leagues/frontline-leagues/prime":
+        title = "Frontline Valorant Prime League";
       component = <Prime />
       break;
 
       case "/games/Valorant/leagues/lpl-leagues":
+        title = "Lets Play Live Valorant Leagues";
       component = <Frontpage_LPL />
       break;
       case "/games/Valorant/leagues/lpl-leagues/amateur":
+        title = "Lets Play Live Amateur League";
       component = <Amateur />
       break;
       case "/games/Valorant/leagues/lpl-leagues/evolution":
+        title = "Lets Play Live Evolution League";
       component = <Evolution />
       break;
       case "/games/Valorant/leagues/lpl-leagues/open":
+        title = "Lets Play Live Open League";
       component = <Open />
       break;
 
       case "/games/Valorant/leagues/nace-leagues":
+        title = "NACE Valorant Leagues";
       component = <Frontpage_NACE />
       break;
       case "/games/Valorant/leagues/nace-leagues/open":
+        title = "NACE Valorant Open League";
       component = <NACE_Open />
       break;
       case "/games/Valorant/leagues/nace-leagues/varsity":
+        title = "NACE Valorant Varsity League";
       component = <NACE_VARSITY />
       break;
 
       case "/games/Valorant/leagues/victoris-leagues":
+        title = "Victoris Valorant Leagues";
       component = <Frontpage_Val_Victoris />
       break;
       case "/games/Valorant/leagues/victoris-leagues/vls":
+        title = "Victoris Legend League";
       component = <VLS />
       break;
       case "/games/Valorant/leagues/victoris-leagues/vrs":
+        title = "Victoris Rival League";
       component = <VRS />
       break;
 
       case "/games/Valorant/leagues/cgn-league":
+        title = "CGN Valorant League";
       component = <CGN_League_Val />
       break;
       case "/games/Valorant/leagues/csmg":
+        title = "CSMG Valorant League";
       component = <CSMG_VAL />
       break;
       case "/games/Valorant/leagues/riot":
+        title = "Collegiate Valorant League";
       component = <College_Val_Riot />
       break;
       case "/games/Valorant/leagues/egfc":
+        title = "EGFC Valorant League";
       component = <EGFC_College_VAL />
       break;
       case "/games/Valorant/leagues/egfh":
+        title = "EGFH Valorant League";
       component = <EGFH_VAL />
       break;
       case "/games/Valorant/leagues/hbcu":
+        title = "HBCU Valorant League";
       component = <HBCU_VAL />
       break;
       case "/games/Valorant/leagues/hsel":
+        title = "High School Esports Valorant League";
       component = <HSEL_VAL />
       break;
       case "/games/Valorant/leagues/nasef":
+        title = "NASEF Valorant League";
       component = <NASEF_VAL />
       break;
       case "/games/Valorant/leagues/necc":
+        title = "NECC Valorant League";
       component = <NECC_Val />
       break;
       case "/games/Valorant/leagues/necl":
+        title = "NECL Valorant League";
       component = <NECL_VAL />
       break;
       case "/games/Valorant/leagues/njcaae":
+        title = "NJCAAE Valorant League";
       component = <NJCAAE_Val />
       break;
       case "/games/Valorant/leagues/opse":
+        title = "OPSE Valorant League";
       component = <OPSE_VAL />
       break;
       case "/games/Valorant/leagues/scottish-esports":
+        title = "Scottish Esports Valorant League";
       component = <Scottish_Val />
       break;
       case "/games/Valorant/leagues/talent-league":
+        title = "Talent Valorant League";
       component = <Talent_League />
       break;
       case "/games/Valorant/leagues/tec":
+        title = "The Esports Company Valorant League";
       component = <TEC_VAL />
       break;
       case "/games/Valorant/leagues/ugc-college":
+        title = "UGC Collegiate Valorant League";
       component = <UGC_College_Val />
       break;
       case "/games/Valorant/leagues/unified":
+        title = "Unified Valorant League";
       component = <Unified_Val />
       break;
       case "/games/Valorant/leagues/vantagg":
+        title = "VantaGG Valorant League";
       component = <VantaGG_VAL />
       break;
       case "/games/Valorant/leagues/vct-game-changers":
+        title = "VCT Game Changers League";
       component = <VCT_Game />
       break;
       case "/games/Valorant/leagues/vmaster":
+        title = "VMaster Valorant League";
       component = <VMaster />
       break;
     // VALORANT LEAGUES
