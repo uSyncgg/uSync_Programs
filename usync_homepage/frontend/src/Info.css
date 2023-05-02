@@ -94,10 +94,6 @@ header {
   }
 }
 
-.back-button {
-  margin-top: 5rem;
-}
-
 .join-button:hover {
     background-color: rgb(141, 125, 181);
     color: rgb(49, 49, 49);
@@ -123,16 +119,21 @@ header {
   transform: translateY(-40%);
 }
 
+.league-back-button-container {
+  width: 10rem;
+  margin-left: 15%;
+  margin-top: 5rem;
+}
+
 .back-button {
     background-color: rgb(49, 49, 49);
     color: rgb(141, 125, 181);
     border: .125rem solid rgb(141, 125, 181);
-    width: 15%;
+    width: 100%;
     transition-duration: 0.4s;
     position: relative;
     font-weight: bold;
     font-family: 'Helvetica';
-    margin-right: 65%; /* Add a left margin of 10% */
     border-radius: .313rem;
 }
 
