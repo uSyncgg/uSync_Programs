@@ -11,7 +11,7 @@ const CMG_Wagers = () => {
   return (
     <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/capDfmV.png" className="Header-Img" />
+        <img src="https://i.imgur.com/e9CIHsR.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">
@@ -57,19 +57,20 @@ const CMG_Wagers = () => {
               <p>24/7 Live Support</p>
               <p>Consistent Rule Updates</p>
               <p>Large Number of Users and Matches Daily</p>
-              <p>Ranked Ladder</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Restrictions:</h2>
-              <p>Available Worldwide</p>
               <p>18+</p>
+              <p>Available Worldwide</p>
               <p>US State Restrictions: AZ, IA, MS, MT, NV, and SD</p>
             </div>
           </div>
         </div>
-        <a href="https://www.usync.gg/games/call-of-duty/wagers">
+        <div className="league-back-button-container">
+        <a href="https://www.usync.gg/games/call-of-duty/wagers" id='league-back-button-a'>
           <button className="back-button">Back</button>
         </a>
+        </div>
         <div className="become-verified">
           <h6>
             Become <a href="https://www.usync.gg/more/verification">Verified</a>
