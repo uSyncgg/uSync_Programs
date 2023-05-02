@@ -61,9 +61,11 @@ const Arena = () => {
             </div>
           </div>
         </div>
-        <a href="https://www.usync.gg/games/call-of-duty/head-to-head">
+        <div className="league-back-button-container">
+        <a href="https://www.usync.gg/games/call-of-duty/head-to-head" id='league-back-button-a'>
           <button className="back-button">Back</button>
         </a>
+        </div>
         <div className="become-verified">
           <h6>
             Become <a href="https://www.usync.gg/more/verification">Verified</a>

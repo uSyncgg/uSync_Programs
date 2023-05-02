@@ -12,7 +12,7 @@ const Snd_league = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/DztNIjY.png" className="Header-Img" />
+        <img src="https://i.imgur.com/l4H7TsU.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

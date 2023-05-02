@@ -61,9 +61,11 @@ const College_Hub = () => {
             </div>
           </div>
         </div>
+        <div className="league-back-button-container">
         <a href="https://www.usync.gg/games/Valorant/head-to-head">
           <button className="back-button">Back</button>
         </a>
+        </div>
         <div className="become-verified">
           <h6>
             Become <a href="https://www.usync.gg/more/verification">Verified</a>
