@@ -402,6 +402,7 @@ import './pages/Comingsoon.css';
 function App() {
   let component;
   let title;
+
   switch (window.location.pathname) {
     // To create a custom path to implement in the navbar simply hit enter after the last break;
     // type case like all the other cases and create a custom path, for example case "/cxp_league":
@@ -1643,6 +1644,7 @@ function App() {
       <Playground />
     */} <Helmet>
           <title>{title}</title>
+          <link rel="icon" type='image/png' href="https://i.imgur.com/CPvWCYw.png" sizes='32x32' />
         </Helmet>
         <Playground />
         <div>{component}</div>
