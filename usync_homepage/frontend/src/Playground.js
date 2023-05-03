@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import './playground.css';
-import { useLocation } from 'react-router-dom';
 
 const navbarLogo = new URL("./website_images/home-images/usync-navbar-logo.png", import.meta.url)
 

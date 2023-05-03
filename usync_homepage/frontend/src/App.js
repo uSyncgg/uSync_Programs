@@ -1644,7 +1644,6 @@ function App() {
       <Playground />
     */} <Helmet>
           <title>{title}</title>
-          <link rel="icon" type='image/png' href="https://i.imgur.com/CPvWCYw.png" sizes='32x32' />
         </Helmet>
         <Playground />
         <div>{component}</div>
