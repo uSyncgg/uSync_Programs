@@ -36,7 +36,7 @@ const Snd_league = () => {
             <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
           </a>
           <a
-            href="https://www.google.com/url?q=https%3A%2F%2Fcod.esrl.gg%2F&sa=D&sntz=1&usg=AOvVaw359r5MIeBPnIT5_Guhelh-"
+            href="https://twitter.com/TheSNDLeague?s=20&t=1wDVDxeYYzurroq3MWGBUQ"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"

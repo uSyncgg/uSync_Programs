@@ -64,9 +64,11 @@ const COD_Rec_League = () => {
             </div>
           </div>
         </div>
-        <a href="https://www.usync.gg/games/call-of-duty/leagues">
-          <button className="back-button">Back</button>
-        </a>
+        <div className="league-back-button-container">
+          <a href="https://www.usync.gg/games/call-of-duty/leagues" id='league-back-button-a'>
+            <button className="back-button">Back</button>
+          </a>
+        </div>
         <div className="become-verified">
           <h6>
             Become <a href="https://www.usync.gg/more/verification">Verified</a>

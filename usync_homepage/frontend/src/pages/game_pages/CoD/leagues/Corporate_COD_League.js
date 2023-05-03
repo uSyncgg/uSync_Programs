@@ -6,63 +6,78 @@ import '../../../../Info.css';
 // Import bootstrap like this on every single CoD League game page
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../Footer';
+
 // Make sure the name following const is the same as the file name
 const Corporate_COD_League = () => {
     return (
-        <div>
-            <body id='league-body'>
-            <header>
-                {/* Use this exact format to insert the header image, change the alt to the league name and
-              Change the name inside the {} to be whatever the imported image is but className is the same */}
-                <img src="https://i.imgur.com/DWyIbm3.png" className='Header-Img'/>
-            </header>
-            {/* ***Must have this div tage with the Background-mid class name on every file*** */}
-            <div className='Background-mid'>
-                <div>
-                    {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
-                along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed*/}
-                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/HaRfFh9.png" className='Checkmark-title' /></a>
-                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/0MPIBOK.png" className='Checkmark' /></a>
-                </div>
-                <a href='https://www.google.com/url?q=https%3A%2F%2Fcea.gg&sa=D&sntz=1&usg=AOvVaw3Su3Sn39NBgq_faxrk2Xy3'target='_blank' rel='noopener noreferrer'>
-                    <button className='join-button'>Join Now</button>
-                </a>
-                {/* ***You must have this container div*** */}
-                <div className='container'>
-                    {/* ***Must have the row div*** */}
-                    <div className='row'id='league-row'>
-                        {/* All div tags must be set up the same way for every single CoD League game page */}
-                        <div className='col-2 offset-3'id='league-info'>
-                        <h1 className='info-title'>Date:</h1>
-                            {/* Keep above date and change the information below to whatever the current date is on the given page
-                        Keep button the same */}
-                            <p>Spring 2023</p>
-                        </div>
-                        <div className='col-2'id='league-info'>
-                        <h1 className='info-title'>Details:</h1>
-                            {/* Keep details and Region/Type but change information below those h1 tags to whatever the given page says */}
-                            <p>$2000 in Charity Donations</p>
-                            <p>No Prize Pool</p>
-                            <p>Saturday Weekly Matches</p>
-                            <p>8 Week Regular Season with Playoffs</p>
-                            <h1 className='info-title2'>Region/Type:</h1>
-                            <p>4v4 - NA</p>
-                        </div>
-                        <div className='col-2'id='league-info'>
-                        <h1 className='info-title'>Entry Fee:</h1>
-                            {/* Follow the same format as above, keep the Entry fee the same and change information below */}
-                            <p>$200 Per Team</p>
-                        </div>
-                    </div>
-                </div>    
-                <a href='https://www.usync.gg/games/call-of-duty/leagues'>
-                    <button className='back-button'>Back</button>
-                </a>
-            </div>
-            </body>
-            <Footer/>
+        <div className="total-playground">
+      <header class="headerImg">
+        <img src="https://i.imgur.com/DWyIbm3.png" className="Header-Img" />
+      </header>
+      <div className="background-mid">
+        <div className="Background-mid-top">
+          {/* This will be the same for every single file just switch the checkmark to an x if it is not verified 
+                along with changing the uSync Verified to the Not verified image and change the alt to Not Verififed
+                
+                Add id="checkmark-title-link" className='mx-auto my-2' as attributes to the .Checkmark-title a tag
+                Add id="checkmark-link" to the .Checkmark a tag
+                Add id='join-button-link' to the .join-button a tag*/}
+          <a
+            href="https://www.usync.gg/more/verification"
+            id="checkmark-title-link"
+            className="mx-auto my-2"
+          >
+            <img
+              src="https://i.imgur.com/HaRfFh9.png"
+              className="Checkmark-title"
+            />
+          </a>
+          <a href="https://www.usync.gg/more/verification" id="checkmark-link">
+            <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
+          </a>
+          <a
+            href="https://www.google.com/url?q=https%3A%2F%2Fcea.gg&sa=D&sntz=1&usg=AOvVaw3Su3Sn39NBgq_faxrk2Xy3"
+            target="_blank"
+            rel="noopener noreferrer"
+            id="join-button-link"
+          >
+            <button className="join-button">Join Now</button>
+          </a>
         </div>
-
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 league-info">
+              <h2 className="info-title">Date:</h2>
+              <p>Summer 2023 (Estimated)</p>
+            </div>
+            <div class="col-md-4 league-info">
+              <h2 className="info-title">Details:</h2>
+              <p>$2000 in Charity Donations</p>
+              <p>No Prize Pool</p>
+              <p>Saturday Weekly Matches</p>
+              <p>8 Week Regular Season with Playoffs</p>
+              <h2 className="info-title">Region/Type:</h2>
+              <p>4v4 - NA</p>
+            </div>
+            <div class="col-md-4 league-info">
+              <h2 className="info-title">Entry Fee:</h2>
+              <p>$200 Per Team</p>
+            </div>
+          </div>
+        </div>
+        <div className="league-back-button-container">
+          <a href="https://www.usync.gg/games/call-of-duty/leagues" id='league-back-button-a'>
+            <button className="back-button">Back</button>
+          </a>
+        </div>
+        <div className="become-verified">
+          <h6>
+            Become <a href="https://www.usync.gg/more/verification">Verified</a>
+          </h6>
+        </div>
+      </div>
+      <Footer />
+    </div>
     );
 }
 
