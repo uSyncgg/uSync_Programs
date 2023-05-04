@@ -391,30 +391,6 @@ const Lol_Leagues = () => {
 
               <div className="col-lg-6">
                 <div className="league">
-                  <a href="http://localhost:3000/games/LoL/leagues/titan-leagues">
-                    <h1 className="Leagueh1">Titan Esports Leagues</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/LoL/leagues/titan-leagues">
-                      <img
-                        src="https://i.imgur.com/cB4ptXT.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/LoL/leagues/titan-leagues">
-                    <button type="submit" className="info-button">
-                      All Leagues
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <p className="hr" />
-
-              <div className="col-lg-6">
-                <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/corporate-league">
                     <h1 className="Leagueh1">Corporate LoL League</h1>
                   </a>
@@ -435,6 +411,7 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
+              <p className="hr" />
 
               <div className="col-lg-6">
                 <div className="league">
@@ -458,7 +435,6 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <p className="hr" />
 
               <div className="col-lg-6">
                 <div className="league">
@@ -482,7 +458,8 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
-
+              <p className="hr" />
+              
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/howlfun">
