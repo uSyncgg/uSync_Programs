@@ -38,7 +38,6 @@ import Snd_league from './pages/game_pages/CoD/leagues/Snd_league'
 import NACAL_league from './pages/game_pages/CoD/leagues/NACAL_league'
 import NACE_COD_League from './pages/game_pages/CoD/leagues/NACE_COD_League'
 import U18_League from './pages/game_pages/CoD/leagues/U18_League'
-import UNG_League from './pages/game_pages/CoD/leagues/UNG_League'
 import XP_League_Cod from './pages/game_pages/CoD/leagues/XP_League_Cod'
 import COD_Rec_League from './pages/game_pages/CoD/leagues/COD_Rec_League'
 //COD LEAGUES
@@ -413,7 +412,7 @@ function App() {
       component = <Home />;
       break;
     case "/Comingsoon":
-      title = "Coming Soon";
+      title = "Coming Soon | uSync";
       component = <Comingsoon />
       break;
     case "/more/verification":
@@ -653,10 +652,6 @@ function App() {
     case "/games/call-of-duty/leagues/u18-league":
       title = "U18 League | uSync";
       component = <U18_League />
-      break;
-    case "/games/call-of-duty/leagues/ung-league":
-      title = "UNG League | uSync";
-      component = <UNG_League />
       break;
     case "/games/call-of-duty/leagues/xp-league-cod":
       title = "XP Call of Duty League | uSync";

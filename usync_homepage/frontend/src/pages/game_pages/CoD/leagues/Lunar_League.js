@@ -54,7 +54,6 @@ const Lunar_League = () => {
               <h2 className="info-title">Details:</h2>
               <p>$70 Prize Pool</p>
               <p>Semi-Competitive</p>
-              <p>MUST be Younger Than 18</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title">Region/Type:</h2>
               <p>4v4 - All Regions</p>
