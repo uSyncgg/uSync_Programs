@@ -4,6 +4,8 @@
 
 .navbar {
     z-index: 99999999;
+    position: fixed;
+    width: 100%;
 }
 
 .navbar-brand {

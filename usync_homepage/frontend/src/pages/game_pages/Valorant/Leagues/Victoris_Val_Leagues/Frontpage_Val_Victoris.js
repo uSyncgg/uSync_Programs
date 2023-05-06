@@ -70,7 +70,7 @@ const Frontpage_Val_Victoris = () => {
                 </div>
               </div>
               <p className="hr" />
-            </div>
+            </div>m ""
             <div className="league-back-button-container">
               <a href="https://www.usync.gg/games/Valorant/leagues">
                 <button className="back-button">Back</button>
