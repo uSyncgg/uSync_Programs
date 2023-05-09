@@ -35,7 +35,7 @@ const CMGRL = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://www.checkmategaming.com/wager/cross-platform/halo-infinite#all"
+            href="https://www.checkmategaming.com/wager/cross-platform/rocket-league"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"

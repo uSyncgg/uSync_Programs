@@ -36,7 +36,7 @@ const SDC_League = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://discord.com/invite/3saAc3HsUb"
+            href="https://sdcleague.com/"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"

@@ -48,7 +48,7 @@ const Unified_Val = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Late-Spring 2023 (Estimated)</p>
+              <p>Fall 2023</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
@@ -62,7 +62,7 @@ const Unified_Val = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>$250 Per Team (Estimated)</p>
+              <p>$150 Per Team</p>
             </div>
           </div>
         </div>

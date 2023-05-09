@@ -36,7 +36,7 @@ const IBSGCS = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://discord.com/invite/yRPGtwdU6f"
+            href="https://twitter.com/duoesports?lang=en"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"

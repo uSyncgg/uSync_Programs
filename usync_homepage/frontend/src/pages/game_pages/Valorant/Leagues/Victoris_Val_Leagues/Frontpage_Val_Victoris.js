@@ -30,7 +30,7 @@ const Frontpage_Val_Victoris = () => {
                       />
                     </a>
                   </div>
-                  <p className="Leaguep">Platinum & Above</p>
+                  <p className="Leaguep">Uncapped</p>
                   {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/Valorant/leagues/victoris-leagues/vls">
                     <button type="submit" className="info-button">

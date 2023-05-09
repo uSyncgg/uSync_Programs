@@ -53,7 +53,7 @@ const VLS = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>$1000 Prize Pool</p>
-              <p>Platinum & Above</p>
+              <p>NO Rank Requirement</p>
               <p>5 Week Regular Season</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title">Region/Type:</h2>

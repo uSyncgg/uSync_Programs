@@ -57,7 +57,7 @@ const NACE_Open = () => {
               <p>Live Streamed Matches</p>
               <p>Live Support on Discord</p>
               <h2 className="info-title">Region/Type:</h2>
-              <p>5v5 - USA</p>
+              <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>

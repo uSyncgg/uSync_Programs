@@ -61,7 +61,7 @@ const Corporate_LoL_League = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Entry Fee:</h2>
-              <p>$200 Per Team</p>
+              <p>$250 Per Team</p>
             </div>
           </div>
         </div>
