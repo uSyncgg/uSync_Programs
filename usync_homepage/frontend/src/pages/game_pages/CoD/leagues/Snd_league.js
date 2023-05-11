@@ -56,7 +56,7 @@ const Snd_league = () => {
               <p>Highly Competitive</p>
               <p>Live Streamed games with High Profile Players</p>
               <p>24/7 Live Support and Admins</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>3v3/4v4 - All Regions</p>
             </div>
             <div class="col-md-4 league-info">

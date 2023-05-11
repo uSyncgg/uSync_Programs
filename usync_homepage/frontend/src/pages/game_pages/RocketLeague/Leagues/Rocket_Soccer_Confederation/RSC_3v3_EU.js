@@ -57,7 +57,7 @@ const RSC_3v3_NA = () => {
               <p>6 Competitive Skill Divisons</p>
               <p>Draft Based League</p>
               <p>Weekly Matches</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - EU</p>
             </div>
             <div class="col-md-4 league-info">

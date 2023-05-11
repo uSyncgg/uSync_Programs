@@ -57,7 +57,7 @@ const Divisions_OCE = () => {
               <p>3-5 Week Regular Season</p>
               <p>Draft Based League</p>
               <p>Live Streamed Matches</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - OCE</p>
             </div>
             <div class="col-md-4 league-info">

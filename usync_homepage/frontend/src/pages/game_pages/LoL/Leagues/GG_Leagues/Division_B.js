@@ -55,7 +55,7 @@ const Division_B = () => {
               <p>$575 Prize Pool</p>
               <p>Teams Assigned Division Based on Player Ranks</p>
               <p>5-7 Week Regular Season</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">

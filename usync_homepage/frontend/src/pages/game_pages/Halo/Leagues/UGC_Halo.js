@@ -56,7 +56,7 @@ const UGC_Halo = () => {
               <p>Highly Competitive</p>
               <p>No Live Streamed Matches</p>
               <p>Known for Delaying Payments / Unresponsiveness</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - NA</p>
             </div>
             <div class="col-md-4 league-info">

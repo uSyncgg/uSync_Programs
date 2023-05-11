@@ -56,7 +56,7 @@ const EGFH_HS_RL = () => {
               <p>Regional and National Championships</p>
               <p>Championship Held at Disney Orlando</p>
               <p>Live Streamed Matches</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - USA</p>
             </div>
             <div class="col-md-4 league-info">

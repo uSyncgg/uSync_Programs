@@ -55,7 +55,7 @@ const Tier_2 = () => {
               <p>$400 Prize Pool & Masters/Challengers Coach</p>
               <p>Bronze 4 - Gold 1</p>
               <p>Semi-Competitive</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">

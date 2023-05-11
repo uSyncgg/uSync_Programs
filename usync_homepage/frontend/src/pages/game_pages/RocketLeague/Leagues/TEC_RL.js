@@ -56,7 +56,7 @@ const TEC_RL = () => {
               <p>Championship on LAN</p>
               <p>2 Competitive Divisions</p>
               <p>Live Streamed Matches</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - USA</p>
             </div>
             <div class="col-md-4 league-info">

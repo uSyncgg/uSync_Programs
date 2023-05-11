@@ -56,7 +56,7 @@ const Prospect = () => {
               <p>1295 - 1469 MMR</p>
               <p>4 Different Divisions</p>
               <p>Draft Based League</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - NA</p>
             </div>
             <div class="col-md-4 league-info">

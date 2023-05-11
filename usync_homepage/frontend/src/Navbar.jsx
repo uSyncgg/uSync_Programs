@@ -1,8 +1,6 @@
 import './Navbar.css'
 import { useState } from 'react';
 
-const navbarLogo = new URL("./website_images/home-images/usync-navbar-logo.png", import.meta.url)
-
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
@@ -12,7 +10,7 @@ const Navbar = () => {
   return (
         <nav className="nav">
           <a href="/" className="site-title">
-              <img src={navbarLogo} alt="USYNC logo" />
+              <img src="https://i.imgur.com/gorLFnC.png" alt="uSYNC logo" />
           </a>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fa-regular fa-circle-xmark' : 'fa-solid fa-bars'}></i>

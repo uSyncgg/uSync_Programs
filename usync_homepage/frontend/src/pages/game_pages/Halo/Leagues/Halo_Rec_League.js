@@ -56,7 +56,7 @@ const Halo_Rec_League = () => {
               <p>Recreational</p>
               <p>Live Streamed Matches</p>
               <p>Wednesday or Thursday Match Days</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - NA</p>
             </div>
             <div class="col-md-4 league-info">

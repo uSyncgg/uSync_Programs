@@ -56,7 +56,7 @@ const Blue_Bird = () => {
               <p>25 AUD MVP Award</p>
               <p>Ages 13 and Older</p>
               <p>4 Invited / 4 Open Bracket Teams</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - OCE</p>
             </div>
             <div class="col-md-4 league-info">

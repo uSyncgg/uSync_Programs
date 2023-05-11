@@ -57,7 +57,7 @@ const College_Val_Riot = () => {
               <p>Support from Game Publisher Riot</p>
               <p>Live Streamed Matches</p>
               <p>Live Support on Discord</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">

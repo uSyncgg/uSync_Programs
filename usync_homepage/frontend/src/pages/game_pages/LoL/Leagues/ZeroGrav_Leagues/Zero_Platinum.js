@@ -55,7 +55,7 @@ const Zero_Platinum = () => {
               <p>$150 Prize Pool</p>
               <p>Platinum 1 100LP cap, One Diamond 4 99LP Per Team</p>
               <p>Live Support on Discord</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">

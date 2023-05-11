@@ -55,7 +55,7 @@ const Victoris_Triumph = () => {
               <p>$1500 Prize Pool</p>
               <p>Masters cap, 1 Grandmaster per Team</p>
               <p>Live Streamed Matches</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">

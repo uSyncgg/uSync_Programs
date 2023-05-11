@@ -55,7 +55,7 @@ const NACL_Rl = () => {
               <p>TBD Prize Pool</p>
               <p>Live Streamed Matches</p>
               <p>Support on Discord</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - NA</p>
             </div>
             <div class="col-md-4 league-info">

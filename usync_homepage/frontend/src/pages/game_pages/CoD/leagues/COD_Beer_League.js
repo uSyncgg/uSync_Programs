@@ -57,7 +57,7 @@ const COD_Beer_League = () => {
               <p>Drink Before / During / After Matches</p>
               <p>Playoffs for T32 Teams</p>
               <p>Must be 21+ to Enter</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - NA</p>
             </div>
             <div class="col-md-4 league-info">

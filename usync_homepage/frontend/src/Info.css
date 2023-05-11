@@ -25,6 +25,10 @@ header {
 .become-verified a {
   color: rgb(142, 106, 206);
 }
+.become-verified a:hover {
+  color: rgb(142, 106, 206);
+  filter: brightness(120%);
+}
 
 .Background-mid-top {
   /*position: absolute; 
@@ -38,7 +42,7 @@ header {
 
 #checkmark-link {
   width: 5%;
-  margin: 2rem auto;
+  margin: 1rem auto;
 }
 
 .Checkmark {
@@ -61,7 +65,7 @@ header {
   border: .125rem solid rgb(144, 125, 181);
   width: 100%;
   transition-duration: 0.4s;
-  border-radius: .313rem;
+  border-radius: .5rem;
   font-weight: bold;
   font-family: 'Helvetica';
   /*margin: 0 auto; *//* Add a margin property to center the button */
@@ -70,7 +74,7 @@ header {
 
 #join-button-link {
   width: 45%;
-  margin: 2rem auto;
+  margin: 1.5rem auto;
 }
 
 @media only screen and (max-width: 768px) {
@@ -134,7 +138,8 @@ header {
     position: relative;
     font-weight: bold;
     font-family: 'Helvetica';
-    border-radius: .313rem;
+    border-radius: .5rem;
+    height: 2rem;
 }
 
 .back-button:hover {
@@ -156,8 +161,16 @@ header {
   text-decoration-line: underline;
   position: relative;
   top: 7%;
+  margin-bottom: 1rem;
 }
-  
+.info-title3 {
+  color: white;
+  text-align: center;
+  text-decoration-line: underline;
+  position: relative;
+  top: 12%;
+  margin-bottom: 1.9rem;
+}
 .info-title2 {
   color: white;
   text-align: center;
@@ -198,7 +211,7 @@ header {
   /* Set a text shadow with a blur radius of 4px and an offset of 2px */
   text-shadow: 125rem .063rem 125rem rgba(0, 0, 0, 0.8);
   font-weight: bold;
-  margin-top: .313rem;
+  margin-top: .6rem;
 }
 
 #verif-img {

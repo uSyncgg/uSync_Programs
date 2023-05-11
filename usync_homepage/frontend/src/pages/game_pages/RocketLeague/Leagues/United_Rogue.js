@@ -58,7 +58,7 @@ const United_Rogue = () => {
               <p>Must Sign up Solo</p>
               <p>Must Sign 1-3 Season Contract</p>
               <p>Live Streamed Matches</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - NA</p>
             </div>
             <div class="col-md-4 league-info">

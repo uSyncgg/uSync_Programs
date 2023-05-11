@@ -56,7 +56,7 @@ const Scottish_Val = () => {
               <p>Majority of Players Must be From Scotland</p>
               <p>Pool Play Style Regular Season</p>
               <p>Live Streamed Matches</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - EU</p>
             </div>
             <div class="col-md-4 league-info">

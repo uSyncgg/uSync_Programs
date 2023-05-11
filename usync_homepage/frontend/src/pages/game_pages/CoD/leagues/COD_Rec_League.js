@@ -54,7 +54,7 @@ const COD_Rec_League = () => {
               <p>No Prize Pool</p>
               <p>Recreational</p>
               <p>Live Streamed Matches</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - All Regions</p>
             </div>
             <div class="col-md-4 league-info">

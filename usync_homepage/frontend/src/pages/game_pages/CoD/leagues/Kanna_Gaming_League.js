@@ -55,7 +55,7 @@ const Kanna_Gaming_League = () => {
               <p>NO Prize Pool</p>
               <p>Recreational</p>
               <p>3 Splits of 6 Weeks of Gameplay</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - All Regions</p>
             </div>
             <div class="col-md-4 league-info">

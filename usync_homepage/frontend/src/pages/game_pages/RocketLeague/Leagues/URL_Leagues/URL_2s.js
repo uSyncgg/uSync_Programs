@@ -57,7 +57,7 @@ const URL_2s = () => {
               <p>Draft Based League</p>
               <p>Support on Discord</p>
               <p>Live Streamed Matches</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>2v2 - NA</p>
             </div>
             <div class="col-md-4 league-info">

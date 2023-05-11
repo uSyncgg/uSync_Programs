@@ -55,7 +55,7 @@ const NJCAAE_League = () => {
               <p>2 Qualifier Tournaments</p>
               <p>9 Week Round Robin Regular Season</p>
               <p>No Live Streamed Matches</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>2v2 - USA</p>
             </div>
             <div class="col-md-4 league-info">

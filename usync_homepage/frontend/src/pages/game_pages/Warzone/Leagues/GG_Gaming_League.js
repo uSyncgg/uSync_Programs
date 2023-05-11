@@ -57,7 +57,7 @@ const GG_Gaming_League = () => {
               <p>5 Week Regular Season & 2 Week Playoffs</p>
               <p>Live Streamed Matches</p>
               <p>Highly Competitive</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>2v2 - All Regions</p>
             </div>
             <div class="col-md-4 league-info">

@@ -55,7 +55,7 @@ const Radon = () => {
               <p>$800 Prize Pool</p>
               <p>Diamond 2 Average, Master 200LP cap</p>
               <p>10 Teams Max</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">

@@ -55,7 +55,7 @@ const SDC_League = () => {
               <p>Prize Pool Funded by Community & Winner Card</p>
               <p>Semi-Competitive</p>
               <p>NO Rank Requirements</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">

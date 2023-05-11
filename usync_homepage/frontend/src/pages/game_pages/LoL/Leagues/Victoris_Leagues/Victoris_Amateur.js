@@ -55,7 +55,7 @@ const Victoris_Amateur = () => {
               <p>$1000+ Prize Pool</p>
               <p>Gold 1 cap, One Platinum 4 per Team</p>
               <p>Live Streamed Matches</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">

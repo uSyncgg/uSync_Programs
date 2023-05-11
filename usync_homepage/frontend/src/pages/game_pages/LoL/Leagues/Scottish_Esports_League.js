@@ -59,7 +59,7 @@ const Scottish_Esports_League = () => {
               <p>16 Teams MAX</p>
               <p>Majority of Players Must be From Scotland</p>
               <p>Ages 16 and Older</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - EU</p>
             </div>
             <div class="col-md-4 league-info">

@@ -56,7 +56,7 @@ const UGC_College = () => {
               <p>4 Divisions</p>
               <p>Non-RLCS Teams Only</p>
               <p>Known for Delaying Payments / Unresponsiveness</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - USA</p>
             </div>
             <div class="col-md-4 league-info">

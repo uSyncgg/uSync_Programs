@@ -56,7 +56,7 @@ const Corporate_COD_League = () => {
               <p>No Prize Pool</p>
               <p>Saturday Weekly Matches</p>
               <p>8 Week Regular Season with Playoffs</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - NA</p>
             </div>
             <div class="col-md-4 league-info">

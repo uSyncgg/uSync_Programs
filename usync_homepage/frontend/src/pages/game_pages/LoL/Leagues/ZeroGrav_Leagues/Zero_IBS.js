@@ -55,7 +55,7 @@ const Zero_IBS = () => {
               <p>$150 Prize Pool</p>
               <p>Silver 1 100LP cap</p>
               <p>Live Support on Discord</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">

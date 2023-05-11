@@ -55,7 +55,7 @@ const Tier_1 = () => {
               <p>$400 Prize Pool</p>
               <p>Silver 4 - Platinum 1</p>
               <p>Semi-Competitive</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">

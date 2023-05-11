@@ -57,7 +57,7 @@ const VantaGG_HS_RL = () => {
               <p>No Skill Requirements</p>
               <p>Access to Private Coaching</p>
               <p>Live Streamed Matches</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - USA</p>
             </div>
             <div class="col-md-4 league-info">

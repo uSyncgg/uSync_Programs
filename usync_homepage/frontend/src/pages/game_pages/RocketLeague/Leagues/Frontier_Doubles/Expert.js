@@ -57,7 +57,7 @@ const Expert = () => {
               <p>10 Week Season</p>
               <p>Hosted on NA East, Open to Any Region</p>
               <p>Not a Draft League</p>
-              <h2 className="info-title">Region/Type:</h2>
+              <h2 className="info-title3">Region/Type:</h2>
               <p>2v2 - NA</p>
             </div>
             <div class="col-md-4 league-info">
