@@ -1,12 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import './playground.css';
+import { useEffect } from 'react';
+import $ from 'jquery';
 
 const navbarLogo = new URL("./website_images/home-images/usync-navbar-logo.png", import.meta.url)
 
 
 function Playground() {
 
-  const location = window.location.pathname;
+  const location = window.location.pathname;  
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -16,9 +18,9 @@ function Playground() {
       </button>
       <div className="collapse navbar-collapse navbar-total-container" id="navbarNav">
         <ul className="navbar-nav">
-          <li className={`nav-item ${location === '/' ? 'active' : ''}`}>
+          {/* <li className={`nav-item ${location === '/' ? 'active' : ''}`}>
             <a className="nav-link" href="/">Home</a>
-          </li>
+          </li> */}
           <li className={`nav-item dropdown ${(location.startsWith('/games') && !location.includes('/leagues') && !location.includes('/Tournaments') && !location.includes('/lans'))? 'active' : ''}`}>
             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Games
