@@ -135,8 +135,8 @@ body {
   color: rgb(142, 106, 206);
   text-decoration: underline !important;
   font-weight: 600;
-  padding: 5rem;
 }
+
 .reportProblem:hover{
   color: rgb(142, 106, 206) !important;
   filter: brightness(120%);
