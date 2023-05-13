@@ -29,7 +29,7 @@ const Lol = () => {
               <div className="col-lg-4" id="bubble">
                 <a href="http://localhost:3000/Comingsoon">
                   <img
-                    src="https://i.imgur.com/P6GL2lx.png"
+                    src="https://i.imgur.com/K6PQmyu.png"
                     alt="LoL Tournaments"
                     className="blockimg"
                   />

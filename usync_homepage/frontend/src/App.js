@@ -40,6 +40,7 @@ import NACE_COD_League from './pages/game_pages/CoD/leagues/NACE_COD_League'
 import U18_League from './pages/game_pages/CoD/leagues/U18_League'
 import XP_League_Cod from './pages/game_pages/CoD/leagues/XP_League_Cod'
 import COD_Rec_League from './pages/game_pages/CoD/leagues/COD_Rec_League'
+import Sin_City from './pages/game_pages/CoD/leagues/Sin_City';
 //COD LEAGUES
 
 //COD HEAD TO HEAD
@@ -657,6 +658,10 @@ function App() {
       title = "XP Call of Duty League | uSync";
       component = <XP_League_Cod />
       break;
+    case "/games/call-of-duty/leagues/sin-city-league":
+      title = "Sin City co-ed Call of Duty League | uSync";
+      component = <Sin_City />
+      break;  
     // COD LEAGUES
 
     // COD HEAD TO HEAD

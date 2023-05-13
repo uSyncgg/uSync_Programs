@@ -28,7 +28,7 @@ const Wz = () => {
               <div className="col-lg-4" id="bubble">
                 <a href="http://localhost:3000/Comingsoon">
                   <img
-                    src="https://i.imgur.com/Q5kApQ8.png"
+                    src="https://i.imgur.com/a7K4MUH.png"
                     alt="warzone Tournaments"
                     className="blockimg"
                   />

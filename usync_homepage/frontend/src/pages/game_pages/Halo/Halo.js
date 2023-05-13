@@ -30,7 +30,7 @@ const Halo = () => {
               <div className="col-lg-4" id="bubble">
                 <a href="http://localhost:3000/Comingsoon">
                   <img
-                    src="https://i.imgur.com/paDX2YO.png"
+                    src="https://i.imgur.com/XcbF4hG.png"
                     alt="Halo Tournaments"
                     className="blockimg"
                   />
