@@ -22,7 +22,10 @@ function Playground() {
             <a className="nav-link" href="/">Home</a>
           </li> */}
           <li className={`nav-item dropdown ${(location.startsWith('/games') && !location.includes('/leagues') && !location.includes('/Tournaments') && !location.includes('/lans'))? 'active' : ''}`}>
-            <a className="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {/* <a className="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Games
+            </a> */}
+            <a href="/games" className="nav-link">
               Games
             </a>
             <div className="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
