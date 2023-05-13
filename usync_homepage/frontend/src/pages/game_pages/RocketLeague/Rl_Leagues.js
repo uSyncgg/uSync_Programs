@@ -48,7 +48,7 @@ const Rl_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/nitro-league">
                     <h1 className="Leagueh1">Nitro League</h1>
@@ -111,7 +111,7 @@ const Rl_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/frontline-leagues">
                     <h1 className="Leagueh1">Team Frontline Leagues</h1>
@@ -158,7 +158,7 @@ const Rl_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/mle-leagues">
                     <h1 className="Leagueh1">Minor League Esports</h1>
@@ -204,7 +204,7 @@ const Rl_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/united-rogue">
                     <h1 className="Leagueh1">United Rogue League</h1>
@@ -250,7 +250,7 @@ const Rl_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/nemesis-leagues">
                     <h1 className="Leagueh1">Nemesis League</h1>
@@ -296,7 +296,7 @@ const Rl_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/scottish-esports">
                     <h1 className="Leagueh1">Scottish Esports League</h1>
@@ -342,7 +342,7 @@ const Rl_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/master-cup">
                     <h1 className="Leagueh1">Master Cup XP League</h1>
@@ -388,7 +388,7 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/oce-leagues">
                     <h1 className="Leagueh1">OCE Draft League</h1>
@@ -451,7 +451,7 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/nace">
                     <h1 className="Leagueh1">NACE Starleague</h1>
@@ -496,7 +496,7 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/ugc">
                     <h1 className="Leagueh1">UGC Battle Academy</h1>
@@ -541,7 +541,7 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/opse">
                     <h1 className="Leagueh1">OPSE</h1>
@@ -586,7 +586,7 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/egfc">
                     <h1 className="Leagueh1">EGFC League</h1>
@@ -632,7 +632,7 @@ const Rl_Leagues = () => {
                 </div>
               </div>
               
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/nacl">
                     <h1 className="Leagueh1">NACL</h1>
@@ -697,7 +697,7 @@ const Rl_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/playvs">
                     <h1 className="Leagueh1">PlayVS</h1>
@@ -744,7 +744,7 @@ const Rl_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/vantagg">
                     <h1 className="Leagueh1">VantaGG</h1>
@@ -791,7 +791,7 @@ const Rl_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/necl">
                     <h1 className="Leagueh1">NECL League</h1>
@@ -838,7 +838,7 @@ const Rl_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/egfh">
                     <h1 className="Leagueh1">EGFH League</h1>

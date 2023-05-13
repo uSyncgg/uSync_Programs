@@ -30,7 +30,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/call-of-duty/leagues/cgn-league-cod'>
                                     <h1 className='Leagueh1'>Contender Gaming Network</h1>
@@ -65,7 +65,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/call-of-duty/leagues/cod-rec-league'>
                                     <h1 className='Leagueh1'>COD Rec League</h1>
@@ -100,7 +100,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/call-of-duty/nacal-league'>
                                     <h1 className='Leagueh1'>NACAL League</h1>
@@ -133,7 +133,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/call-of-duty/leagues/lunar-league'>
                                     <h1 className='Leagueh1'>Lunar COD League</h1>
@@ -166,7 +166,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/call-of-duty/leagues/awl-league'>
                                     <h1 className='Leagueh1'>Amateur World League</h1>
@@ -199,7 +199,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/call-of-duty/leagues/chicago-league-cod'>
                                     <h1 className='Leagueh1'>Chicago COD League</h1>
@@ -233,7 +233,7 @@ const Cod_Leagues = () => {
                         </div>
 
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/call-of-duty/leagues/corporate-cod-league'>
                                     <h1 className='Leagueh1'>Corporate COD League</h1>
@@ -266,7 +266,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
                         
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/call-of-duty/leagues/cod-beer-league'>
                                     <h1 className='Leagueh1'>COD Beer League (21+)</h1>
@@ -309,7 +309,7 @@ const Cod_Leagues = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 bottom-card'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/call-of-duty/leagues/nace-cod-league'>
                                     <h1 className='Leagueh1'>NACE Starleague</h1>

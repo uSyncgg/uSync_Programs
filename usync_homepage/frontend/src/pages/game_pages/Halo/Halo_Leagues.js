@@ -47,7 +47,7 @@ const Halo_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/halo/leagues/halo-rec-league">
                     <h1 className="Leagueh1">Halo Rec League</h1>
@@ -142,7 +142,7 @@ const Halo_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/halo/leagues/ecac">
                     <h1 className="Leagueh1">ECAC Esports</h1>
@@ -189,7 +189,7 @@ const Halo_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/halo/leagues/necc">
                     <h1 className="Leagueh1">NECC</h1>

@@ -340,6 +340,12 @@ header {
   }
 } 
 
+@media only screen and (max-width: 992px) {
+  .bottom-card {
+    margin-top: 3rem;
+  }
+}
+
 .eventhost-button:hover {
   background-color: rgb(141, 125, 181);
   color: rgb(49, 49, 49);

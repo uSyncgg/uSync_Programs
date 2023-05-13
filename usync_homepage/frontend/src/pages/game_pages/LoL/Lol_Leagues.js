@@ -47,7 +47,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/risen-leagues">
                     <h1 className="Leagueh1">Risen Leagues</h1>
@@ -108,7 +108,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/victoris-leagues">
                     <h1 className="Leagueh1">Victoris Leagues</h1>
@@ -154,7 +154,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/emerald-draft">
                     <h1 className="Leagueh1">Emerald Draft League</h1>
@@ -201,7 +201,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/ffs-leagues">
                     <h1 className="Leagueh1">Friend or Foe Leagues</h1>
@@ -248,7 +248,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/low-budget-leagues">
                     <h1 className="Leagueh1">Low Budget LCS Leagues</h1>
@@ -295,7 +295,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/zerograv-leagues">
                     <h1 className="Leagueh1">Zero Gravity Leagues</h1>
@@ -342,7 +342,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/cobalt-winds-leagues">
                     <h1 className="Leagueh1">Cobalt Winds Leagues</h1>
@@ -389,7 +389,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/corporate-league">
                     <h1 className="Leagueh1">Corporate LoL League</h1>
@@ -436,7 +436,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/scottish-esports">
                     <h1 className="Leagueh1">Scottish Esports League</h1>
@@ -524,7 +524,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/nace">
                     <h1 className="Leagueh1">NACE Starleague</h1>
@@ -578,7 +578,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/opse">
                     <h1 className="Leagueh1">OPSE</h1>
@@ -642,7 +642,7 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/vantagg">
                     <h1 className="Leagueh1">VantaGG</h1>

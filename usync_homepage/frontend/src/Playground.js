@@ -22,7 +22,7 @@ function Playground() {
             <a className="nav-link" href="/">Home</a>
           </li> */}
           <li className={`nav-item dropdown ${(location.startsWith('/games') && !location.includes('/leagues') && !location.includes('/Tournaments') && !location.includes('/lans'))? 'active' : ''}`}>
-            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a className="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Games
             </a>
             <div className="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
@@ -35,7 +35,7 @@ function Playground() {
             </div>
           </li>
           <li className={`nav-item dropdown ${location.includes('/lans') ? 'active' : ''}`}>
-            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a className="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               LANs
             </a>
             <div className="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
@@ -48,7 +48,7 @@ function Playground() {
             </div>
           </li>
           <li className={`nav-item dropdown ${location.includes('/leagues') ? 'active' : ''}`}>
-            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a className="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Leagues
             </a>
             <div className="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
@@ -61,7 +61,7 @@ function Playground() {
             </div>
           </li>
           <li className={`nav-item dropdown ${location.includes('/Tournaments') ? 'active' : ''}`}>
-            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a className="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Tournaments
             </a>
             <div className="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
@@ -77,7 +77,7 @@ function Playground() {
             <a className="nav-link" href="/Comingsoon">Coming Soon</a>
           </li>
           <li className={`nav-item dropdown ${location.startsWith('/more') ? 'active' : ''}`}>
-            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a className="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               More
             </a>
             <div className="dropdown-menu bg-dark more-dropdown-container" aria-labelledby="navbarDropdownMenuLink">

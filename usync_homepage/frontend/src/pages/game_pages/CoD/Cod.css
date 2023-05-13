@@ -8,6 +8,12 @@
   position: relative;
 }
 
+@media only screen and (max-width: 992px) {
+  .bottom-card {
+    margin-top: 3rem;
+  }
+}
+
 .league {
     border-style:hidden;
     width: 100%;

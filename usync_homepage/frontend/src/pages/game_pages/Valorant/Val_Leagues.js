@@ -48,7 +48,7 @@ const Val_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/Valorant/leagues/lpl-leagues">
                     <h1 className="Leagueh1">LPL Leagues</h1>
@@ -102,7 +102,7 @@ const Val_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/Valorant/leagues/scottish-esports">
                     <h1 className="Leagueh1">Scottish Esports League</h1>
@@ -149,7 +149,7 @@ const Val_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/Valorant/leagues/vct-game-changers">
                     <h1 className="Leagueh1">VCT Game Changers</h1>
@@ -195,7 +195,7 @@ const Val_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/Valorant/leagues/vmaster">
                     <h1 className="Leagueh1">VMaster League</h1>
@@ -282,7 +282,7 @@ const Val_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/Valorant/leagues/ugc-college">
                     <h1 className="Leagueh1">UGC Battle Academy</h1>
@@ -329,7 +329,7 @@ const Val_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/Valorant/leagues/njcaae">
                     <h1 className="Leagueh1">NJCAAE</h1>
@@ -376,7 +376,7 @@ const Val_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/Valorant/leagues/opse">
                     <h1 className="Leagueh1">OPSE</h1>
@@ -423,7 +423,7 @@ const Val_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/Valorant/leagues/hbcu">
                     <h1 className="Leagueh1">HBCU Esports League</h1>
@@ -470,7 +470,7 @@ const Val_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/Valorant/leagues/csmg">
                     <h1 className="Leagueh1">CSMG League</h1>
@@ -534,7 +534,7 @@ const Val_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/Valorant/leagues/tec">
                     <h1 className="Leagueh1">The Esports Company League</h1>
@@ -581,7 +581,7 @@ const Val_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/Valorant/leagues/nasef">
                     <h1 className="Leagueh1">NASEF League</h1>
@@ -628,7 +628,7 @@ const Val_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/Valorant/leagues/egfh">
                     <h1 className="Leagueh1">EGFH League</h1>

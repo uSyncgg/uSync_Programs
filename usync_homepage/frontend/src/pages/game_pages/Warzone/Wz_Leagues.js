@@ -48,7 +48,7 @@ const Wz_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/warzone/leagues/gg-gaming">
                     <h1 className="Leagueh1">GG Gaming League</h1>
@@ -135,7 +135,7 @@ const Wz_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6">
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/warzone/leagues/njcaae">
                     <h1 className="Leagueh1">NJCAAE</h1>
