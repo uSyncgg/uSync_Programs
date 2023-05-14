@@ -8,6 +8,14 @@ function Playground() {
 
   const location = window.location.pathname;  
 
+  const handleGamesButtonClick = () => {
+    window.location.href = "/games";
+  }
+
+  const handleComingSoonButtonClick = () => {
+    window.location.href = "/Comingsoon";
+  }
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <a className="navbar-brand" href="/"><img src={navbarLogo} alt="uSync Logo" id="usync-nav-logo" /></a>
@@ -23,9 +31,9 @@ function Playground() {
             {/* <a className="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Games
             </a> */}
-            <a href="/games" className="nav-link">
+            <button id='games-button' className="nav-button" onClick={handleGamesButtonClick}>
               Games
-            </a>
+            </button>
             <div className="dropdown-menu bg-dark">
               <a className={`dropdown-item ${location === '/games/call-of-duty' ? 'item-active' : ''}`} href="/games/call-of-duty">Call of Duty</a>
               <a className={`dropdown-item ${location === '/games/warzone' ? 'item-active' : ''}`} href="/games/warzone">Warzone 2.0</a>
@@ -36,9 +44,9 @@ function Playground() {
             </div>
           </li>
           <li className={`nav-item dropdown ${location.includes('/lans') ? 'title-active' : ''}`}>
-            <a className="nav-link" href="#" id="navbarDropdownMenuLink">
+            <button className="nav-button">
               LANs
-            </a>
+            </button>
             <div className="dropdown-menu bg-dark">
               <a className={`dropdown-item ${location === '/games/call-of-duty/lans' ? 'item-active' : ''}`} href="/games/call-of-duty/lans">Call of Duty</a>
               <a className={`dropdown-item ${location === '/games/warzone/lans' ? 'item-active' : ''}`} href="/games/warzone/lans">Warzone 2.0</a>
@@ -49,9 +57,9 @@ function Playground() {
             </div>
           </li>
           <li className={`nav-item dropdown ${location.includes('/leagues') ? 'title-active' : ''}`}>
-            <a className="nav-link" href="#" id="navbarDropdownMenuLink">
+            <button className="nav-button">
               Leagues
-            </a>
+            </button>
             <div className="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
               <a className={`dropdown-item ${location === '/games/call-of-duty/leagues' ? 'item-active' : ''}`} href="/games/call-of-duty/leagues">Call of Duty</a>
               <a className={`dropdown-item ${location === '/games/warzone/leagues' ? 'item-active' : ''}`} href="/games/warzone/leagues">Warzone 2.0</a>
@@ -62,9 +70,9 @@ function Playground() {
             </div>
           </li>
           <li className={`nav-item dropdown ${location.includes('/Tournaments') ? 'title-active' : ''}`}>
-            <a className="nav-link" href="#" id="navbarDropdownMenuLink">
+            <button className="nav-button">
               Tournaments
-            </a>
+            </button>
             <div className="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
               <a className={`dropdown-item ${location === '/CoD/Tournaments' ? 'item-active' : ''}`} href="/CoD/Tournaments">Call of Duty</a>
               {/*<a className={`dropdown-item ${location === '/games/warzone' ? 'item-active' : ''}`} href="/games/warzone">Warzone 2.0</a>
@@ -75,12 +83,12 @@ function Playground() {
             </div>
           </li>
           <li className={`nav-item ${location === '/Comingsoon' ? 'title-active' : ''}`}>
-            <a className="nav-link" href="/Comingsoon">Coming Soon</a>
+            <button className="nav-button" id='coming-soon-button' onClick={handleComingSoonButtonClick}>Coming Soon</button>
           </li>
           <li className={`nav-item dropdown ${location.startsWith('/more') ? 'title-active' : ''}`}>
-            <a className="nav-link" href="#" id="navbarDropdownMenuLink">
+            <button className="nav-button" href="#" id="navbarDropdownMenuLink">
               More
-            </a>
+            </button>
             <div className="dropdown-menu bg-dark more-dropdown-container" aria-labelledby="navbarDropdownMenuLink">
               <a className={`dropdown-item ${location === '/more/verification' ? 'item-active' : ''}`} href="/more/verification">Verification</a>
               <a className={`dropdown-item ${location === '/more/eventhost' ? 'item-active' : ''}`} href="/more/eventhost">Event Host</a>

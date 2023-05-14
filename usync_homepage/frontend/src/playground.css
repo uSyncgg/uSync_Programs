@@ -21,26 +21,44 @@
 }
 
 .dropdown .dropdown-menu {
-    display: none;
+    display: block;
+    opacity: 0;
+    transition: opacity .5s ease;
 }
 
 .dropdown:hover .dropdown-menu {
     display: block;
+    opacity: 100%;
 }
 
 li .item-active {
-    color: rgb(142, 106, 206);
-    font-weight: 400;
+    background-color: rgb(142, 106, 206) !important;
+    color: white !important;
 }
 
-.title-active .nav-link {
+.title-active .nav-button {
     color: rgb(142, 106, 206);
 }
+
+.nav-button {
+    color: #848f94;
+    background-color: #212529;
+    transition: color .3s ease;
+}
+
+.nav-button:hover{
+    color: white;
+}
+
 
 @media only screen and (min-width: 992px) {
     .navbar-total-container {
         position: absolute;
         right: 2rem;
+    }
+
+    .nav-button {
+        padding: .5rem;
     }
 
     .dropdown-item {
@@ -70,7 +88,7 @@ li .item-active {
         height: 100%;
     }
 
-    a.nav-link {
+    .nav-button {
         margin-top: .881rem;
         margin-bottom: .881rem;
     }
@@ -86,6 +104,10 @@ li .item-active {
         left: 1rem;
         border: none;
         top: 1rem;
+    }
+
+    .dropdown .dropdown-menu {
+        display: none;
     }
 
     .navbar-brand {
@@ -107,5 +129,9 @@ li .item-active {
     .dropdown-item {
         color: white;
         width: 100%;
+    }
+
+    .nav-button {
+        padding: .5rem 0;
     }
 }
