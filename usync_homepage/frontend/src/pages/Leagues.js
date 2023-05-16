@@ -2,7 +2,7 @@ import styles from '../Home.module.css';
 import './game_pages/CoD/Cod.css';
 import Footer from '../Footer';
 
-const Games = () => {
+const Leagues = () => {
     return (
       <div>
         <div>
@@ -12,7 +12,7 @@ const Games = () => {
               className="Header-Img-l"
             />
             <div className="games-leagues-header-title">
-            <h2 id="league-title">Games</h2>
+            <h2 id="league-title">Leagues</h2>
             <img
               src="https://i.imgur.com/eNhKhTI.png"
               alt="underline"
@@ -83,4 +83,4 @@ const Games = () => {
       </div>
     );
 }
-export default Games;
+export default Leagues;

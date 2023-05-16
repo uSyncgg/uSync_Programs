@@ -2,7 +2,7 @@ import styles from '../Home.module.css';
 import './game_pages/CoD/Cod.css';
 import Footer from '../Footer';
 
-const Games = () => {
+const Lans = () => {
     return (
       <div>
         <div>
@@ -12,7 +12,7 @@ const Games = () => {
               className="Header-Img-l"
             />
             <div className="games-leagues-header-title">
-            <h2 id="league-title">Games</h2>
+            <h2 id="league-title">Lans</h2>
             <img
               src="https://i.imgur.com/eNhKhTI.png"
               alt="underline"
@@ -56,24 +56,6 @@ const Games = () => {
                     width="12.5rem"
                   />
                 </a>
-                <br />
-                <br />
-                <a href="http://localhost:3000/games/RocketLeague">
-                  <img
-                    src="https://i.imgur.com/GJO8JIZ.png"
-                    alt="Rocket League"
-                    height="12.5rem"
-                    width="12.5rem"
-                  />
-                </a>
-                <a href="http://localhost:3000/games/Valorant">
-                  <img
-                    src="https://i.imgur.com/Gsl3oIp.png"
-                    alt="Valorant"
-                    height="12.5rem"
-                    width="12.5rem"
-                  />
-                </a>
                 <hr />
               </div>
             </div>
@@ -83,4 +65,4 @@ const Games = () => {
       </div>
     );
 }
-export default Games;
+export default Lans;

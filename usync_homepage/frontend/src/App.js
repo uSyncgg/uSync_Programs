@@ -4,6 +4,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Comingsoon from './pages/Comingsoon';
 import Games from './pages/Games';
+import Lans from './pages/Lans';
+import Leagues from './pages/Leagues';
+import Tournaments from './pages/Tournaments';
 import './App.css';
 import Navbar from './Navbar';
 import Playground from './Playground';
@@ -436,7 +439,18 @@ function App() {
     title = "Report Problem | uSync";
       component = <Report />
       break;
-
+    case "/lans":
+      title = "Lans | uSync";
+      component = <Lans />
+      break;
+    case "/leagues":
+      title = "Leagues | uSync";
+      component = <Leagues />
+      break;
+    case "/tournaments":
+      title = "Tournaments | uSync";
+      component = <Tournaments />
+      break;
     case "/games":
       title = "Games | uSync";
       component = <Games />

@@ -12,6 +12,18 @@ function Playground() {
     window.location.href = "/games";
   }
 
+  const handleLansButtonClick = () => {
+    window.location.href = "/lans";
+  }
+  
+  const handleLeaguesButtonClick = () => {
+    window.location.href = "/leagues";
+  }
+
+  const handleTournamentsButtonClick = () => {
+    window.location.href = "/tournaments";
+  }
+
   const handleComingSoonButtonClick = () => {
     window.location.href = "/Comingsoon";
   }
@@ -44,7 +56,7 @@ function Playground() {
             </div>
           </li>
           <li className={`nav-item dropdown ${location.includes('/lans') ? 'title-active' : ''}`}>
-            <button className="nav-button">
+            <button className="nav-button" onClick={handleLansButtonClick}>
               LANs
             </button>
             <div className="dropdown-menu bg-dark">
@@ -57,7 +69,7 @@ function Playground() {
             </div>
           </li>
           <li className={`nav-item dropdown ${location.includes('/leagues') ? 'title-active' : ''}`}>
-            <button className="nav-button">
+            <button className="nav-button" onClick={handleLeaguesButtonClick}>
               Leagues
             </button>
             <div className="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
@@ -70,7 +82,7 @@ function Playground() {
             </div>
           </li>
           <li className={`nav-item dropdown ${location.includes('/Tournaments') ? 'title-active' : ''}`}>
-            <button className="nav-button">
+            <button className="nav-button" onClick={handleTournamentsButtonClick}>
               Tournaments
             </button>
             <div className="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">

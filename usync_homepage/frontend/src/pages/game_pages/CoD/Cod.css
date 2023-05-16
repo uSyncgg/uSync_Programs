@@ -160,6 +160,22 @@ transition {
     font-size: 5rem; 
     text-align: center;
   }
+
+@media only screen and (max-width: 768px) {
+  #league-title, #league-title1 {
+    font-size: 3rem !important;
+  }
+
+  .games-leagues-header-title {
+    margin-top: -11rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #league-title, #league-title1 {
+    font-size: 2rem !important;
+  }
+}
   
 #league-title-lol {
   color: white;
