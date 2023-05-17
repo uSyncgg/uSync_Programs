@@ -345,6 +345,23 @@ header {
   color: rgb(49, 49, 49);
 }
 
+#eventhost-p {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.report-container {
+  background-color: rgb(49, 49, 49);
+}
+
+.google-form {
+  width: 100%;
+}
+
+.report-link {
+  margin-bottom: 8rem;
+}
 
 .hr-border {
   border-top: .1rem solid white;

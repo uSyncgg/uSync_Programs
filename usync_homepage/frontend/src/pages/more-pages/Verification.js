@@ -69,7 +69,7 @@ const Verification = () => {
             <div className="hr-border"></div>
             <p id="verification-post-event">
               Looking to post event? Send{" "}
-              <a href="/" id="verification-post-event-a">
+              <a href="/more/eventhost/eventhostrequest" id="verification-post-event-a">
                 Event Submission
               </a>
             </p>

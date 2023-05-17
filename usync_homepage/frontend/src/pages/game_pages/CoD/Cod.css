@@ -54,6 +54,7 @@
   position: relative;
   z-index: 1;
   text-align: center;
+  height: auto;
 }
 
 .Background-game {
@@ -148,7 +149,13 @@ transition {
     height: 6.25rem;
     border-bottom: .063rem solid rgb(255, 252, 252);
     margin-bottom: 3.75rem;
-    
+}
+
+.hr-report {
+  display: block;
+  height: .063rem;
+  border-bottom: .063rem solid rgb(255, 255, 255);
+  margin: 0 3rem 1rem;
 }
 
 .games-leagues-header-title {

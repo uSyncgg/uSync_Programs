@@ -382,6 +382,7 @@ import Rl_Wagers from './pages/game_pages/RocketLeague/Rl_Wagers';
 import Verification from './pages/more-pages/Verification';
 import Becomeverified from './pages/more-pages/Becomeverified';
 import Eventhost from './pages/more-pages/Eventhost';
+import Eventhostrequest from './pages/more-pages/Eventhostrequest';
 import Contactus from './pages/more-pages/Contactus';
 // All CoD league pages will be imported the same way Snd_league was imported
 // All that needs to be changed is the information after the last /
@@ -430,6 +431,10 @@ function App() {
     case "/more/eventhost":
       title = "Event Host | uSync";
       component = <Eventhost />
+      break;
+    case "/more/eventhost/eventhostrequest":
+      title = "Event Host Request| uSync";
+      component = <Eventhostrequest />
       break;
     case "/more/contactus":
       title = "Contact Us | uSync";
