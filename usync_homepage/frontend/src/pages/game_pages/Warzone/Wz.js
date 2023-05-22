@@ -5,10 +5,12 @@ const Wz = () => {
     return (
       <div>
         <header id="League-header">
-          <img
-            src="https://i.imgur.com/hRxTBgv.png"
-            className="Header-Img-l-wz"
-          />
+          <div className="header-img-container">
+            <img
+              src="https://i.imgur.com/hRxTBgv.png"
+              className="Header-Img-l-wz header-img-zoom"
+            />
+          </div>
         </header>
 
         <div className="Background-game">

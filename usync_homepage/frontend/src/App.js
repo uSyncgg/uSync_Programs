@@ -578,8 +578,7 @@ function App() {
       component = <Wz_headtohead />
       break;
 
-
-    case "/CoD/Tournaments":
+    case "/games/call-of-duty/tournaments":
       title = "Call of Duty Tournaments | uSync";
       component = <CodTourneys />
       break;

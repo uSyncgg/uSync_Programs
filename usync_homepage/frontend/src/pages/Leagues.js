@@ -24,7 +24,7 @@ const Leagues = () => {
           <div className="Background-leagues">
             <div class={styles.backgroundMid}>
               <div className={styles.backgroundImages}>
-                <a href="http://localhost:3000/games/halo">
+                <a href="/games/halo/leagues">
                   <img
                     src="https://i.imgur.com/wqKJfEu.png"
                     alt="Halo Infinite"
@@ -32,7 +32,7 @@ const Leagues = () => {
                     width="12.5rem"
                   />
                 </a>
-                <a href="http://localhost:3000/games/call-of-duty">
+                <a href="/games/call-of-duty/leagues">
                   <img
                     src="https://i.imgur.com/CsoQufa.png"
                     alt="Modern Warfare 2"
@@ -40,7 +40,7 @@ const Leagues = () => {
                     width="12.5rem"
                   />
                 </a>
-                <a href="http://localhost:3000/games/warzone">
+                <a href="/games/warzone/leagues">
                   <img
                     src="https://i.imgur.com/BIs3u5h.png"
                     alt="Warzone 2"
@@ -48,7 +48,7 @@ const Leagues = () => {
                     width="12.5rem"
                   />
                 </a>
-                <a href="http://localhost:3000/games/LoL">
+                <a href="/games/LoL/leagues">
                   <img
                     src="https://i.imgur.com/5riYNow.png"
                     alt="League of Legends"
@@ -58,7 +58,7 @@ const Leagues = () => {
                 </a>
                 <br />
                 <br />
-                <a href="http://localhost:3000/games/RocketLeague">
+                <a href="/games/RocketLeague/leagues">
                   <img
                     src="https://i.imgur.com/GJO8JIZ.png"
                     alt="Rocket League"
@@ -66,7 +66,7 @@ const Leagues = () => {
                     width="12.5rem"
                   />
                 </a>
-                <a href="http://localhost:3000/games/Valorant">
+                <a href="/games/Valorant/leagues">
                   <img
                     src="https://i.imgur.com/Gsl3oIp.png"
                     alt="Valorant"

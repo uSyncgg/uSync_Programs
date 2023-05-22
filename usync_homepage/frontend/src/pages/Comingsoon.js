@@ -8,10 +8,19 @@ const Comingsoon = () => {
       <div className="total-coming-soon-container">
         <div id="league-body2">
           <header>
-            <img src="https://i.imgur.com/0Wrn8wp.png" className="Header-Img" />
+            <div className="header-img-container">
+              <img
+                src="https://i.imgur.com/0Wrn8wp.png"
+                className="Header-Img header-img-zoom"
+              />
+            </div>
             <div className="games-leagues-header-title">
               <h2 id="league-title">Coming Soon</h2>
-              <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />
+              <img
+                src="https://i.imgur.com/eNhKhTI.png"
+                alt="underline"
+                className="Underline-h"
+              />
             </div>
           </header>
           <div className="Background-mid-contact">
