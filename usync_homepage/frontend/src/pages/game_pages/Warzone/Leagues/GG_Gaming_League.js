@@ -61,7 +61,7 @@ const GG_Gaming_League = () => {
               <p>2v2 - All Regions</p>
             </div>
             <div class="col-md-4 league-info">
-              <h2 className="info-title">Entry Fee:</h2>
+            <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>$250 Per Team (Estimated)</p>
               <p>$300 Late Entry Per Team (Estimated)</p>
             </div>

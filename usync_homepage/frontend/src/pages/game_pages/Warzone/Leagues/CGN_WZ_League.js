@@ -60,7 +60,7 @@ const CGN_WZ_League = () => {
               <p>2v2/4v4 - All Regions</p>
             </div>
             <div class="col-md-4 league-info">
-              <h2 className="info-title">Entry Fee:</h2>
+            <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>$25 Per Team (Estimated)</p>
             </div>
           </div>

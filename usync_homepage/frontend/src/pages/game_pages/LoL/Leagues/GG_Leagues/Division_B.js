@@ -59,7 +59,7 @@ const Division_B = () => {
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">
-              <h2 className="info-title">Entry Fee:</h2>
+            <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>$100 Per Team</p>
             </div>
           </div>

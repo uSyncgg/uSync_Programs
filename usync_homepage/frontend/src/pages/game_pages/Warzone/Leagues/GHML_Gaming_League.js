@@ -60,7 +60,7 @@ const GHML_Gaming_League = () => {
               <p>2v2 - NA</p>
             </div>
             <div class="col-md-4 league-info">
-              <h2 className="info-title">Entry Fee:</h2>
+            <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>$100 Per Team (Estimated)</p>
               <p>$50 Solo Entry (Estimated)</p>
             </div>

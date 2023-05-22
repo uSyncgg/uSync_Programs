@@ -62,7 +62,7 @@ const Nitro_League = () => {
               <p>3v3 - DACH</p>
             </div>
             <div class="col-md-4 league-info">
-              <h2 className="info-title">Entry Fee:</h2>
+            <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>Free Entry</p>
             </div>
           </div>

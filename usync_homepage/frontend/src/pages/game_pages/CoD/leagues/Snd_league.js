@@ -60,7 +60,7 @@ const Snd_league = () => {
               <p>3v3/4v4 - All Regions</p>
             </div>
             <div class="col-md-4 league-info">
-              <h2 className="info-title">Entry Fee:</h2>
+            <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>Must place high in a CODAgent SND League Qualifier Tournament</p>
               <p>Must have Prestige ($6.99/month - $99.99/month)</p>
             </div>

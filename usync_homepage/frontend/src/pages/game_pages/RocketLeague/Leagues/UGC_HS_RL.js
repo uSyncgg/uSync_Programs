@@ -60,7 +60,7 @@ const UGC_HS_RL = () => {
               <p>3v3 - USA</p>
             </div>
             <div class="col-md-4 league-info">
-              <h2 className="info-title">Entry Fee:</h2>
+            <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>Premium UGC Membership - Must be a High School Student</p>
             </div>
           </div>

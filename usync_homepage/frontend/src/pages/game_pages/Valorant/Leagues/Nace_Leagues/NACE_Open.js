@@ -60,7 +60,7 @@ const NACE_Open = () => {
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">
-              <h2 className="info-title">Entry Fee:</h2>
+            <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>NACE Affiliation $2500/yr- Must be FULL TIME College Student</p>
             </div>
           </div>

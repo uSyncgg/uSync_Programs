@@ -59,7 +59,7 @@ const ECAC_Halo_League = () => {
               <p>4v4 - NA</p>
             </div>
             <div class="col-md-4 league-info">
-              <h2 className="info-title">Entry Fee:</h2>
+            <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>$1600/yr ECAC Membership - Must be a FULL TIME College Student</p>
             </div>
           </div>

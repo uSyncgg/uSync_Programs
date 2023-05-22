@@ -59,7 +59,7 @@ const NASEF_VAL = () => {
               <p>5v5 - USA</p>
             </div>
             <div class="col-md-4 league-info">
-              <h2 className="info-title">Entry Fee:</h2>
+            <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>Free Entry - Must be a High School Student</p>
             </div>
           </div>

@@ -61,7 +61,7 @@ const College_XP = () => {
               <p>4v4 - NA</p>
             </div>
             <div class="col-md-4 league-info">
-              <h2 className="info-title">Entry Fee:</h2>
+            <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>$120 Per Team</p>
               <p>$160 Late Entry Per Team</p>
             </div>

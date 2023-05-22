@@ -59,7 +59,7 @@ const NJCAAE_League = () => {
               <p>2v2 - USA</p>
             </div>
             <div class="col-md-4 league-info">
-              <h2 className="info-title">Entry Fee:</h2>
+            <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>$2000/yr NJCAAE Membership - Must be Attending a 2 Year College</p>
             </div>
           </div>

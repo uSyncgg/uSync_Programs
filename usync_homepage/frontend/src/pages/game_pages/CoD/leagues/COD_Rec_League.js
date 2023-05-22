@@ -58,7 +58,7 @@ const COD_Rec_League = () => {
               <p>4v4 - All Regions</p>
             </div>
             <div class="col-md-4 league-info">
-              <h2 className="info-title">Entry Fee:</h2>
+            <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>$30 Premade Team</p>
               <p>Free Entry for Solo/Duo Sign Ups</p>
             </div>

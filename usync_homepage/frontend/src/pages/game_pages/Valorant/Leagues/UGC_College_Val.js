@@ -61,7 +61,7 @@ const UGC_College_Val = () => {
               <p>5v5 - USA</p>
             </div>
             <div class="col-md-4 league-info">
-              <h2 className="info-title">Entry Fee:</h2>
+            <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>Premium UGC Membership</p>
             </div>
           </div>

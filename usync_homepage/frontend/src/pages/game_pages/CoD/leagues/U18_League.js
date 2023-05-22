@@ -61,7 +61,7 @@ const U18_League = () => {
               <p>4v4 - All Regions</p>
             </div>
             <div class="col-md-4 league-info">
-              <h2 className="info-title">Entry Fee:</h2>
+            <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>$35 Per Org</p>
               <p>Free Entry for Players</p>
             </div>
