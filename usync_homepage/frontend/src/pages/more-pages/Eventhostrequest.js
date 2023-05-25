@@ -21,10 +21,9 @@ const Eventhostrequest = () => {
 
         <div className="Background-leagues">
           <iframe
-            className='google-form'
-            src="https://docs.google.com/forms/d/e/1FAIpQLScQS0BmGcMtiv4WXLCJcfFJx_uF7Ks1K28-29o-upGAUhQAEA/viewform?embedded=true"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSf8UhB2bn7wDN9mHTpEfFvlLN9ZkDA47uWfUaAInWujsuez2g/viewform?embedded=true"
             width="640"
-            height="697"
+            height="1561"
             frameborder="0"
             marginheight="0"
             marginwidth="0"

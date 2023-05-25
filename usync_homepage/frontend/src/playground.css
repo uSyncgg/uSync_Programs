@@ -20,6 +20,10 @@
     width: auto;
 }
 
+.nav-item .nav-button {
+   color: #d9d9d9;
+}
+
 .dropdown .dropdown-menu {
     display: none;
     opacity: 0;

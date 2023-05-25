@@ -78,9 +78,7 @@ const Home = () => {
               </a>
             </div>
 
-            <div className={styles.centerline}>
-              <hr />
-            </div>
+            <div className={styles.hr}></div>
 
           <h2 className={styles.hometitles}>LAN Events</h2>
           <img
