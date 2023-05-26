@@ -25,7 +25,7 @@ const Becomeverified = () => {
             className="google-form"
             src="https://docs.google.com/forms/d/e/1FAIpQLSeWOlTuVQqnd7x-MVrm2ljwgUwxIyRhmKyy722eS6Aas-mU8g/viewform?embedded=true"
             width="640"
-            height="1405"
+            height="1700"
             frameborder="0"
             marginheight="0"
             marginwidth="0"

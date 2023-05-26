@@ -24,7 +24,7 @@ const Report = () => {
             className='google-form'
             src="https://docs.google.com/forms/d/e/1FAIpQLScQS0BmGcMtiv4WXLCJcfFJx_uF7Ks1K28-29o-upGAUhQAEA/viewform?embedded=true"
             width="640"
-            height="697"
+            height="800"
             frameborder="0"
             marginheight="0"
             marginwidth="0"

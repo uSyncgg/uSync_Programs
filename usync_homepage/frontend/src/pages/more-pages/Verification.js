@@ -62,7 +62,7 @@ const Verification = () => {
               <li className="info-title-veri">Social media promotions</li>
               <li className="info-title-veri">Ability to sell event passes</li>
             </ul>
-            <a href="https://www.usync.gg/games/call-of-duty/leagues">
+            <a href="/more/verification/becomeverified">
               <button className="verified-button">Become Verified</button>
             </a>
             <p id="verification-premium">*Must Pay a Small Premium*</p>
