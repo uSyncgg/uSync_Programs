@@ -231,9 +231,12 @@ a {
   display: block;
   width: 100%;
   height: 100%;
+  transform: scale(1.75);
   margin-left: auto;
   margin-right: auto;
-  z-index: 0; 
+  z-index: 0;
+  position: relative;
+  top: 4.5rem;
 }
 
 .Header-Img-l-lol {
