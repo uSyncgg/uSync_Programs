@@ -11,7 +11,7 @@ const UGC_Scrim = () => {
   return (
     <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/9O8QkRH.png" className="Header-Img" />
+        <img src="https://i.imgur.com/1kt4STg.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

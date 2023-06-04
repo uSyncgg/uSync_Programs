@@ -4,7 +4,7 @@ const Rl_Leagues = () => {
     return (
       <div>
         <header id="League-header">
-          <img src="https://i.imgur.com/fp6OvWK.png" className="Header-Img-l" />
+          <img src="https://i.imgur.com/7mjxr12.png" className="Header-Img-l" />
           <div className="games-leagues-header-title">
             <h2 id="league-title-lol">Rocket League Leagues</h2>
             <img

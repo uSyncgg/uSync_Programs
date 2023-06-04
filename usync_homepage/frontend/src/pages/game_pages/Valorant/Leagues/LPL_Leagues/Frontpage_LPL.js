@@ -4,7 +4,7 @@ const Frontpage_LPL = () => {
     return (
         <div>
             <header id='League-header'>
-                <img src="https://i.imgur.com/qHQ7VK3.png" className='Header-Img-l' />
+                <img src="https://i.imgur.com/PGxAVgC.png" className='Header-Img-l' />
             </header>
 
             <div className='Background-leagues'>

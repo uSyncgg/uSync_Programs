@@ -4,7 +4,7 @@ const Cod_headtohead = () => {
     return (
         <div>
             <header id='League-header'>
-                <img src="https://i.imgur.com/tjCM1xM.png" className='Header-Img-l' />
+                <img src="https://i.imgur.com/8Psf9G6.png" className='Header-Img-l' />
                 <div className="games-leagues-header-title">
                     <h2 id="league-title">Head-to-Head</h2>
                     <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h' />

@@ -12,7 +12,7 @@ const CGN_WZ_League = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/RW5TClU.png" className="Header-Img" />
+        <img src="https://i.imgur.com/KJ7gdQ9.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

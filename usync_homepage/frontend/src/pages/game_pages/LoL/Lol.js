@@ -7,7 +7,7 @@ const Lol = () => {
       <div>
         <header id="League-header">
           <img
-            src="https://i.imgur.com/de3poHJ.png"
+            src="https://i.imgur.com/W9afnxj.png"
             className="Header-Img-l-lol"
           />
         </header>

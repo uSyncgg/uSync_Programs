@@ -3,16 +3,13 @@ import Footer from '../../../Footer';
 
 const Wz = () => {
     return (
-      <div>
+      <div className="total-container">
         <header id="League-header">
-          <div className="header-img-container">
-            <img
-              src="https://i.imgur.com/hRxTBgv.png"
-              className="Header-Img-l-wz header-img-zoom"
-            />
-          </div>
+          <img
+            src="https://i.imgur.com/BdD5G0Y.png"
+            className="Header-Img-l"
+          />
         </header>
-
         <div className="Background-game">
           <div className="container">
             <div className="row justify-content-center games-row-1">

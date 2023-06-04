@@ -12,7 +12,7 @@ const CLOL = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/CmE2IQN.png" className="Header-Img" />
+        <img src="https://i.imgur.com/cNf7oB0.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

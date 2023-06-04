@@ -11,7 +11,7 @@ const Click_Gaming_LeagueCOD = () => {
   return (
     <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/fXrtdTY.png" className="Header-Img" />
+        <img src="https://i.imgur.com/rHcunnH.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

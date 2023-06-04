@@ -12,7 +12,7 @@ const CCA = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/sdS7nZH.png" className="Header-Img" />
+        <img src="https://i.imgur.com/wCKAcqK.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

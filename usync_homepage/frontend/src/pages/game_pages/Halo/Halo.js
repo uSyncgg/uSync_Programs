@@ -8,7 +8,7 @@ const Halo = () => {
       <div>
         <header id="League-header">
           <img
-            src="https://i.imgur.com/9WnDZwj.png"
+            src="https://i.imgur.com/0aE94AJ.png"
             className="Header-Img-l-halo"
           />
         </header>

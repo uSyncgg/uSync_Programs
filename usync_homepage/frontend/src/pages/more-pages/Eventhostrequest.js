@@ -8,7 +8,7 @@ const Eventhostrequest = () => {
     return (
       <div className="report-container">
         <header id="League-header">
-          <img src="https://i.imgur.com/HDFldS8.png" className="Header-Img-l" />
+          <img src="https://i.imgur.com/S9U4H7T.png" className="Header-Img-l" />
           <div className="games-leagues-header-title">
             <h2 id="league-title">Feature Your Event</h2>
             <img

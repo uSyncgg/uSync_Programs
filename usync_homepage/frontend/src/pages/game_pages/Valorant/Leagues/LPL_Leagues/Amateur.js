@@ -12,7 +12,7 @@ const Amateur = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/qHQ7VK3.png" className="Header-Img" />
+        <img src="https://i.imgur.com/PGxAVgC.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

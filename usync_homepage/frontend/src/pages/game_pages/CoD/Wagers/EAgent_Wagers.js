@@ -11,7 +11,7 @@ const EAgent_Wagers = () => {
   return (
     <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/XQtN0sp.png" className="Header-Img" />
+        <img src="https://i.imgur.com/oNFYoiV.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

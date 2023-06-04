@@ -8,7 +8,7 @@ const Tournaments = () => {
         <div>
           <header id="League-header">
             <img
-              src="https://i.imgur.com/HDFldS8.png"
+              src="https://i.imgur.com/6nqLPyu.png"
               className="Header-Img-l"
             />
             <div className="games-leagues-header-title">

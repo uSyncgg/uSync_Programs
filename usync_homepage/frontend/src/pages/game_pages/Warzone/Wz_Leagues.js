@@ -4,7 +4,7 @@ const Wz_Leagues = () => {
     return (
       <div>
         <header id="League-header">
-          <img src="https://i.imgur.com/eEbGfFG.png" className="Header-Img-l" />
+          <img src="https://i.imgur.com/5uwlggv.png" className="Header-Img-l" />
           <div className="games-leagues-header-title">
             <h2 id="league-title">Warzone Leagues</h2>
             <img

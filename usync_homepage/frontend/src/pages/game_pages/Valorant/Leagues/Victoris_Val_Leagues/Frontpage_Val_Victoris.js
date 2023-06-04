@@ -4,7 +4,7 @@ const Frontpage_Val_Victoris = () => {
     return (
       <div>
         <header id="League-header">
-          <img src="https://i.imgur.com/vl8DuBO.png" className="Header-Img-l" />
+          <img src="https://i.imgur.com/6Lipdq0.png" className="Header-Img-l" />
         </header>
 
         <div className="Background-leagues">

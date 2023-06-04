@@ -12,7 +12,7 @@ const XP_League_Cod = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/JIRNB0A.png" className="Header-Img" />
+        <img src="https://i.imgur.com/4mWXiTM.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

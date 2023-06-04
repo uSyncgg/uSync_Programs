@@ -7,7 +7,7 @@ const Val = () => {
       <div>
         <header id="League-header">
           <img
-            src="https://i.imgur.com/5KhNJfg.png"
+            src="https://i.imgur.com/HqldA9u.png"
             className="Header-Img-l-val"
           />
         </header>

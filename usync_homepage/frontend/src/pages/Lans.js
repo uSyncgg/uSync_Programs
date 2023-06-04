@@ -8,11 +8,11 @@ const Lans = () => {
         <div>
           <header id="League-header">
             <img
-              src="https://i.imgur.com/HDFldS8.png"
+              src="https://i.imgur.com/YeUPAmO.png"
               className="Header-Img-l"
             />
             <div className="games-leagues-header-title">
-            <h2 id="league-title">Lans</h2>
+            <h2 id="league-title">LANs</h2>
             <img
               src="https://i.imgur.com/eNhKhTI.png"
               alt="underline"

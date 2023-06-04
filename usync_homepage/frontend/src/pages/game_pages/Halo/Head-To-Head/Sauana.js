@@ -11,7 +11,7 @@ const RecXP = () => {
   return (
     <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/DWyIbm3.png" className="Header-Img" />
+        <img src="https://i.imgur.com/UDHxFWg.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

@@ -4,7 +4,7 @@ const Frontpage_Otter = () => {
     return (
         <div>
             <header id='League-header'>
-                <img src="https://i.imgur.com/DWyIbm3.png" className='Header-Img-l' />
+                <img src="https://i.imgur.com/UDHxFWg.png" className='Header-Img-l' />
             </header>
 
             <div className='Background-leagues'>

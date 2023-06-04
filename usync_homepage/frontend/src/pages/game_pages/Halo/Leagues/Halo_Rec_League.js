@@ -12,7 +12,7 @@ const Halo_Rec_League = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/QAfwBlA.png" className="Header-Img" />
+        <img src="https://i.imgur.com/tMgYKvY.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

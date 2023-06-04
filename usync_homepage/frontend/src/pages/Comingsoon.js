@@ -10,8 +10,8 @@ const Comingsoon = () => {
           <header>
             <div className="header-img-container">
               <img
-                src="https://i.imgur.com/0Wrn8wp.png"
-                className="Header-Img header-img-zoom"
+                src="https://i.imgur.com/gbB3YxJ.png"
+                className="Header-Img-l"
               />
             </div>
             <div className="games-leagues-header-title">

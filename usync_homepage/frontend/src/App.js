@@ -445,7 +445,7 @@ function App() {
       component = <Report />
       break;
     case "/lans":
-      title = "Lans | uSync";
+      title = "LANs | uSync";
       component = <Lans />
       break;
     case "/leagues":

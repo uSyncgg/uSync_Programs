@@ -12,7 +12,7 @@ const Halo_Agent = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/eyaTwtH.png" className="Header-Img" />
+        <img src="https://i.imgur.com/z4qdS6h.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

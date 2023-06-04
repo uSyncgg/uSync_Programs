@@ -4,7 +4,7 @@ const Val_Leagues = () => {
     return (
       <div>
         <header id="League-header">
-          <img src="https://i.imgur.com/B7IhozX.png" className="Header-Img-l" />
+          <img src="https://i.imgur.com/4Hsf0iz.png" className="Header-Img-l" />
           <div className="games-leagues-header-title">
             <h2 id="league-title">Valorant Leagues</h2>
             <img

@@ -12,7 +12,7 @@ const VLS = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/vl8DuBO.png" className="Header-Img" />
+        <img src="https://i.imgur.com/6Lipdq0.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

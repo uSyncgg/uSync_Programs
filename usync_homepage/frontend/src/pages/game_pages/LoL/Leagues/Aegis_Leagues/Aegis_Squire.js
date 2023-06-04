@@ -12,7 +12,7 @@ const Aegis_Squire = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/Nkbas5Z.png" className="Header-Img" />
+        <img src="https://i.imgur.com/Ic2JpQO.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

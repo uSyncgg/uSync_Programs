@@ -11,7 +11,7 @@ const GB = () => {
   return (
     <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/zUKsYKl.png" className="Header-Img" />
+        <img src="https://i.imgur.com/zauU7tc.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

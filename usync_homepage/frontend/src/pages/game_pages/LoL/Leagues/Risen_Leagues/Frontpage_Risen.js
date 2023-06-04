@@ -4,7 +4,7 @@ const Frontpage_Risen = () => {
     return (
         <div>
             <header id='League-header'>
-                <img src="https://i.imgur.com/Rpkj9TA.png" className='Header-Img-l' />
+                <img src="https://i.imgur.com/wL0VUZr.png" className='Header-Img-l' />
             </header>
 
             <div className='Background-leagues'>

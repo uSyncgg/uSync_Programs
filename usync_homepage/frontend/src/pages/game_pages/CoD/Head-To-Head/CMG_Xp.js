@@ -11,7 +11,7 @@ const CMG_Xp = () => {
   return (
     <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/capDfmV.png" className="Header-Img" />
+        <img src="https://i.imgur.com/9SwZ1Zv.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

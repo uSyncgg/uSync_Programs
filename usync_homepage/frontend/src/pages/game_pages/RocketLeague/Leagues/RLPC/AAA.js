@@ -12,7 +12,7 @@ const AAA = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/S3G558E.png" className="Header-Img" />
+        <img src="https://i.imgur.com/TFi8yMS.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

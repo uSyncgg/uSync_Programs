@@ -6,22 +6,22 @@ function Footer() {
             <a href="/reportproblem" className={styles.reportProblem}>Report a problem</a>
             <div className={styles.footerImages}>
                 <a href='https://www.youtube.com/@usyncGG' target='_blank' rel='noopener noreferrer'>
-                    <img src="https://i.imgur.com/zlUggwt.png" alt="Youtube" /></a>
+                    <img src="https://i.imgur.com/BgGzaKS.png" alt="Youtube" /></a>
 
                 <a href='https://www.instagram.com/usyncgg/?next=%2F'target='_blank' rel='noopener noreferrer'>
-                    <img src="https://i.imgur.com/9VJzdPs.png" alt="Instagram" /></a>
+                    <img src="https://i.imgur.com/YOav7r1.png" alt="Instagram" /></a>
 
                 <a href='https://twitter.com/uSyncGG'target='_blank' rel='noopener noreferrer'>
-                    <img src="https://i.imgur.com/oS43wb8.png" alt="Twitter" /></a>
+                    <img src="https://i.imgur.com/YhpeqKK.png" alt="Twitter" /></a>
 
                 <a href='https://www.gofundme.com/f/uSync-the-hub-for-esport-events'target='_blank' rel='noopener noreferrer'>
-                    <img src="https://i.imgur.com/KAhoC36.png" alt="Go Fund Me" /></a>
+                    <img src="https://i.imgur.com/td1tEmS.png" alt="Go Fund Me" /></a>
 
                 <a href='https://www.twitch.tv/usyncgg'target='_blank' rel='noopener noreferrer'>
-                    <img src="https://i.imgur.com/xATJ11Q.png" alt="Twitch" /></a>
+                    <img src="https://i.imgur.com/ds8ZvJJ.png" alt="Twitch" /></a>
 
                 <a href='mailto:usyncgg@gmail.com'>
-                    <img src="https://i.imgur.com/wSrk5b3.png" alt="Gmail" /></a>
+                    <img src="https://i.imgur.com/EzZRrgd.png" alt="Gmail" /></a>
 
             </div>
 

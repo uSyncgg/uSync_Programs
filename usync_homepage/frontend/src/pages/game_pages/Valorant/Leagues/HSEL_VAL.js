@@ -12,7 +12,7 @@ const College_Val_Riot = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/uxNYVrP.png" className="Header-Img" />
+        <img src="https://i.imgur.com/cyBSNQB.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

@@ -12,7 +12,7 @@ const Risen_Champions = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/Rpkj9TA.png" className="Header-Img" />
+        <img src="https://i.imgur.com/wL0VUZr.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

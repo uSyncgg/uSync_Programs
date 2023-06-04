@@ -4,7 +4,7 @@ const Halo_Leagues = () => {
     return (
       <div>
         <header id="League-header">
-          <img src="https://i.imgur.com/aWT4Lye.png" className="Header-Img-l" />
+          <img src="https://i.imgur.com/Jsdvjf3.png" className="Header-Img-l" />
           <div className="games-leagues-header-title">
             <h2 id="league-title">Halo Leagues</h2>
             <img

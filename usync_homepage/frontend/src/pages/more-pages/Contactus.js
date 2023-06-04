@@ -6,7 +6,7 @@ const Contactus = () => {
     return (
       <div>
         <header>
-          <img src="https://i.imgur.com/0Wrn8wp.png" className="Header-Img" />
+          <img src="https://i.imgur.com/YeUPAmO.png" className="Header-Img" />
           <div className="contact-us-find-us">
             <h1 className="event-title-contactus">Find Us</h1>
             <img

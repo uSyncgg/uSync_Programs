@@ -12,7 +12,7 @@ const CCL_League = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/9ZfNoIr.png" className="Header-Img" />
+        <img src="https://i.imgur.com/8eyvlSp.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

@@ -12,7 +12,7 @@ const RSC_3v3_NA = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/H4lC3Rk.png" className="Header-Img" />
+        <img src="https://i.imgur.com/dUlCKyg.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">

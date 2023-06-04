@@ -12,7 +12,7 @@ const Nitro_League = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/z1fvltS.png" className="Header-Img" />
+        <img src="https://i.imgur.com/DiveXkP.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">
