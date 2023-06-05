@@ -86,7 +86,7 @@ function Playground() {
               Tournaments
             </button>
             <div className="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-              <a className={`dropdown-item ${location === '/CoD/Tournaments' ? 'item-active' : ''}`} href="/CoD/Tournaments">Call of Duty</a>
+              <a className={`dropdown-item ${location === '/games/call-of-duty/tournaments' ? 'item-active' : ''}`} href="/games/call-of-duty/tournaments">Call of Duty</a>
               {/*<a className={`dropdown-item ${location === '/games/warzone' ? 'item-active' : ''}`} href="/games/warzone">Warzone 2.0</a>
               <a className={`dropdown-item ${location === '/games/LoL' ? 'item-active' : ''}`} href="/games/LoL">League of Legends</a>
               <a className={`dropdown-item ${location === '/games/halo' ? 'item-active' : ''}`} href="/games/halo">Halo</a>

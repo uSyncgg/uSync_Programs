@@ -25,7 +25,7 @@ const Contactus = () => {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="https://i.imgur.com/oS43wb8.png"
+                    src="https://i.imgur.com/YhpeqKK.png"
                     className="contact-socials"
                   />
                 </a>
@@ -37,7 +37,7 @@ const Contactus = () => {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="https://i.imgur.com/9VJzdPs.png"
+                    src="https://i.imgur.com/YOav7r1.png"
                     className="contact-socials"
                   />
                 </a>
@@ -49,7 +49,7 @@ const Contactus = () => {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="https://i.imgur.com/zlUggwt.png"
+                    src="https://i.imgur.com/BgGzaKS.png"
                     className="contact-socials"
                   />
                 </a>
@@ -61,7 +61,7 @@ const Contactus = () => {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="https://i.imgur.com/xATJ11Q.png"
+                    src="https://i.imgur.com/ds8ZvJJ.png"
                     className="contact-socials"
                   />
                 </a>
