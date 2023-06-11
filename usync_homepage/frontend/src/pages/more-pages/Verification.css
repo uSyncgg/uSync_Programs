@@ -7,6 +7,10 @@
     background-size: auto 20rem;
 }
 
+.verification-container {
+    min-width: 266px;
+}
+
 .verified-checks-row {
     height: 100%;
     padding: 5rem 0;
@@ -32,6 +36,7 @@
 
 .verification-header-checks {
     width: 100%;
+    margin-top: -3.5rem;
 }
 
 .veri-checkmark {

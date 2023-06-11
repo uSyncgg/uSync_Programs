@@ -4,7 +4,7 @@ import Footer from '../../Footer';
 
 const Verification = () => {
     return (
-      <div>
+      <div className='verification-container'>
         <div>
           <div className="verification-header-img-container">
             <div className="verification-header-checks justify-content-center">
