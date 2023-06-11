@@ -105,6 +105,7 @@ function Playground() {
               <a className={`dropdown-item ${location === '/more/verification' ? 'item-active' : ''}`} href="/more/verification">Verification</a>
               <a className={`dropdown-item ${location === '/more/eventhost' ? 'item-active' : ''}`} href="/more/eventhost">Event Host</a>
               <a className={`dropdown-item ${location === '/more/contactus' ? 'item-active' : ''}`} href="/more/contactus">Contact Us</a>
+              <a className={`dropdown-item ${location === '/more/FAQ' ? 'item-active' : ''}`} href="/more/FAQ">FAQs</a>
             </div>
           </li>
         </ul>

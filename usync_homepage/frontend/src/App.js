@@ -7,6 +7,7 @@ import Games from './pages/Games';
 import Lans from './pages/Lans';
 import Leagues from './pages/Leagues';
 import Tournaments from './pages/Tournaments';
+import FAQ from './pages/more-pages/FAQ';
 import './App.css';
 import Navbar from './Navbar';
 import Playground from './Playground';
@@ -399,6 +400,7 @@ import './pages/more-pages/Eventhost.css';
 import './pages/more-pages/Contactus.css';
 import Report from './pages/game_pages/Report';
 import './pages/Comingsoon.css';
+import './pages/more-pages/FAQ.css';
 
 // Different components needed for homepage: Nav bar, on click events for each image + button currently just take to a random page, css (A LOT)
 
@@ -1652,6 +1654,10 @@ function App() {
       break;
       case "/more/playground-two":
       component = <PlaygroundTwo />
+      break;
+      case "/more/FAQ":
+          title = "FAQ | uSync";
+      component = <FAQ />
       break;
   } 
 
