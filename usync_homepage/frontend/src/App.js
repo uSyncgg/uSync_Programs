@@ -290,6 +290,7 @@ import UGC_College from './pages/game_pages/RocketLeague/Leagues/UGC_College'
 import UGC_HS_RL from './pages/game_pages/RocketLeague/Leagues/UGC_HS_RL'
 import United_Rogue from './pages/game_pages/RocketLeague/Leagues/United_Rogue'
 import VantaGG_HS_RL from './pages/game_pages/RocketLeague/Leagues/VantaGG_HS_RL'
+import Finality_League from './pages/game_pages/RocketLeague/Leagues/Finality_League';
 //ROCKET LEAGUE LEAGUES
 
 //VALORANT HEAD TO HEAD
@@ -1447,6 +1448,11 @@ function App() {
         title = "VantaGG Rocket League League | uSync";
       component = <VantaGG_HS_RL />
       break;
+      case "/games/RocketLeague/leagues/finality":
+        title = "Finality Rocket League League | uSync";
+      component = <Finality_League />
+      break;
+
     // ROCKET LEAGUE LEAGUES
 
     // ROCKET LEAGUE WAGERS
