@@ -9,29 +9,34 @@ const FAQ = () => {
                 <div className="col-sm-4">
                     <h4 className='FAQ-header-text'>Articles</h4>
                     <div className="container-border">
-                    <div className="images-container">
-                       <img className='FAQ-img' src="https://i.imgur.com/5riYNow.png" alt="img" />
-                       <img className='FAQ-img' src="https://i.imgur.com/5riYNow.png" alt="img" />
-                       <img className='FAQ-img' src="https://i.imgur.com/5riYNow.png" alt="img" />
-                    </div>
+                        <div className="images-container">
+                            <img className='FAQ-img' src="https://i.imgur.com/5riYNow.png" alt="img" />
+                            <img className='FAQ-img' src="https://i.imgur.com/5riYNow.png" alt="img" />
+                            <img className='FAQ-img' src="https://i.imgur.com/5riYNow.png" alt="img" />
+                        </div>
                     </div>
                     <h4 className="FAQ-header-text">Games</h4>
                     <div className="container-border">
-                    <div className="images-container">
-                       <img className='FAQ-img' src="https://i.imgur.com/5riYNow.png" alt="img" />
-                       <img className='FAQ-img' src="https://i.imgur.com/5riYNow.png" alt="img" />
-                       <img className='FAQ-img' src="https://i.imgur.com/5riYNow.png" alt="img" />
-                    </div>
+                        <div className="images-container">
+                            <img className='FAQ-img' src="https://i.imgur.com/CsoQufa.png" alt="img" />
+                            <img className='FAQ-img' src="https://i.imgur.com/wqKJfEu.png" alt="img" />
+                            <img className='FAQ-img' src="https://i.imgur.com/BIs3u5h.png" alt="img" />
+                        </div>
+                        <div className="images-container">
+                            <img className='FAQ-img' src="https://i.imgur.com/5riYNow.png" alt="img" />
+                            <img className='FAQ-img' src="https://i.imgur.com/GJO8JIZ.png" alt="img" />
+                            <img className='FAQ-img' src="https://i.imgur.com/Gsl3oIp.png" alt="img" />
+                        </div>
                     </div>
                     
 
                     <h4 className="FAQ-header-text">Socials</h4>
                     <div className="container-border">
-                    <div className="images-container">
-                       <img className='FAQ-img' src="https://i.imgur.com/5riYNow.png" alt="img" />
-                       <img className='FAQ-img' src="https://i.imgur.com/5riYNow.png" alt="img" />
-                       <img className='FAQ-img' src="https://i.imgur.com/5riYNow.png" alt="img" />
-                    </div>
+                        <div className="images-container">
+                            <img className='FAQ-img' src="https://i.imgur.com/YhpeqKK.png" alt="img" />
+                            <img className='FAQ-img' src="https://i.imgur.com/YOav7r1.png" alt="img" />
+                            <img className='FAQ-img' src="https://i.imgur.com/BgGzaKS.png" alt="img" />
+                        </div>
                     </div>
                     
                 </div>
