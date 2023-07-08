@@ -8,35 +8,6 @@ const FAQ = () => {
         <div className="container-fluid">
           <div className="row FAQ-container">
             <div className="col-md-4">
-              <h4 className="FAQ-header-text">Articles</h4>
-              <div className="container-border">
-                <div className="images-container">
-                <a href="/">
-                <img
-                    className="FAQ-img"
-                    src="https://i.imgur.com/alnQaRb.png"
-                    alt="img"
-                  />
-                </a>
-                <a href="/">
-                <img
-                    className="FAQ-img"
-                    src="https://i.imgur.com/SoG2YYm.png"
-                    alt="img"
-                  />
-                </a>
-                <a href="/">
-                <img
-                    className="FAQ-img"
-                    src="https://i.imgur.com/bS208ZD.png"
-                    alt="img"
-                  />
-                </a>
-                  
-                  
-                  
-                </div>
-              </div>
               <h4 className="FAQ-header-text">Games</h4>
               <div className="container-border">
                 <div className="images-container">
@@ -220,6 +191,37 @@ const FAQ = () => {
                 </p>
               </div>
             </div>
+          </div>
+          <div className="container-fluid">
+          <h4 className="FAQ-header-text">Articles</h4>
+              <div className="container-border">
+                <div className="images-container">
+                <a href="/">
+                <img
+                    className="FAQ-img"
+                    src="https://i.imgur.com/alnQaRb.png"
+                    alt="img"
+                  />
+                </a>
+                <a href="/">
+                <img
+                    className="FAQ-img"
+                    src="https://i.imgur.com/SoG2YYm.png"
+                    alt="img"
+                  />
+                </a>
+                <a href="/">
+                <img
+                    className="FAQ-img"
+                    src="https://i.imgur.com/bS208ZD.png"
+                    alt="img"
+                  />
+                </a>
+                  
+                  
+                  
+                </div>
+              </div>
           </div>
         </div>
       </div>
