@@ -1,34 +1,27 @@
 .total-container-FAQ {
-    position: relative;
-    top: 4.262rem;
     background-color: rgb(49, 49, 49);
     padding: 2rem;
 }
 
 .FAQ-header-text {
     color: white;
-    margin-top: .5rem;
-}
-
-.FAQ-header-text-article {
-    color: white;
-    margin-top: 1.1rem;
+    margin: 2rem 0;
 }
 
 .FAQ-container{
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 
 .FAQ-text-container {
     border: .19rem solid rgb(141, 125, 181);
-    border-radius: 1rem;    
+    border-radius: .33rem;    
     height: auto;
     margin-top: 1rem;
 }
 
 .FAQ-text-container-top {
     border: .19rem solid rgb(141, 125, 181);
-    border-radius: 1rem;    
+    border-radius: .33rem;    
     height: auto;
 }
 
@@ -54,9 +47,13 @@
     border-radius: .33rem;
 }
 
+.images-container a {
+    flex-grow: 1;
+}
+
 .images-container img{
     height: auto;
-    flex: 1;
+    /*flex: 1 1;*/
     width: 100%;
     max-width: 100%;
     padding: .2rem;
@@ -64,7 +61,7 @@
 
 .images-container {
     display: flex;
-    width: 33%;  
+    width: 100%;  
 }
 
 .socials-images-container {
