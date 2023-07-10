@@ -8,6 +8,10 @@
     margin: 2rem 0;
 }
 
+.FAQ-img-articles {
+    border-radius: 1rem;
+}
+
 .FAQ-container{
     padding-top: 3rem;
 }

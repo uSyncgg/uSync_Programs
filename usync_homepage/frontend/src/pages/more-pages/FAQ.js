@@ -193,35 +193,32 @@ const FAQ = () => {
             </div>
           </div>
           <div className="container-fluid">
-          <h4 className="FAQ-header-text">Articles</h4>
-              <div className="container-border">
-                <div className="images-container">
+            <h4 className="FAQ-header-text">Articles</h4>
+            <div className="container-border">
+              <div className="images-container">
                 <a href="/">
-                <img
-                    className="FAQ-img"
-                    src="https://i.imgur.com/alnQaRb.png"
+                  <img
+                    className="FAQ-img-articles"
+                    src="https://i.imgur.com/NeuvzkG.png"
                     alt="img"
                   />
                 </a>
                 <a href="/">
-                <img
-                    className="FAQ-img"
-                    src="https://i.imgur.com/SoG2YYm.png"
+                  <img
+                    className="FAQ-img-articles"
+                    src="https://i.imgur.com/lLIHnnI.png"
                     alt="img"
                   />
                 </a>
                 <a href="/">
-                <img
-                    className="FAQ-img"
-                    src="https://i.imgur.com/bS208ZD.png"
+                  <img
+                    className="FAQ-img-articles"
+                    src="https://i.imgur.com/0KG2Yd4.png"
                     alt="img"
                   />
                 </a>
-                  
-                  
-                  
-                </div>
               </div>
+            </div>
           </div>
         </div>
       </div>
