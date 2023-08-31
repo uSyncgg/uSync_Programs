@@ -51,7 +51,7 @@ const Verification = () => {
               </li>
               <li className="info-title-veri">Choose the header image </li>
               <li className="info-title-veri">
-                Custom and up to date information
+                Custom information
               </li>
               <li className="info-title-veri">
                 Dynamic link to participate in events
