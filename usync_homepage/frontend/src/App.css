@@ -17,12 +17,12 @@
 
 /* For Chrome */
 ::-webkit-scrollbar {
-  width: 10px !important;
-  background-color: transparent !important;
+  width: 11px !important;
+  background-color: rgb(49, 49, 49);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.2) !important;
+  background-color: rgba(255, 255, 255, 0.3) !important;
   border-radius: 4px !important;
 }
 
@@ -33,4 +33,5 @@
 /* For all browsers */
 body {
   overflow: overlay;
+  background-color: transparent;
 }

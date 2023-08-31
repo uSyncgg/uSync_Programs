@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../Footer';
 
 // Make sure the name following const is the same as the file name
-const AWL_League = () => {
+const Last_hurrah = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
@@ -36,7 +36,7 @@ const AWL_League = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://www.google.com/url?q=https%3A%2F%2Ftwitter.com%2FAmateurWL&sa=D&sntz=1&usg=AOvVaw3s2s3PJNm539VurxANCKA6"
+            href="https://twitter.com/LastHurrahGG"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,20 +48,20 @@ const AWL_League = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall 2023 (Estimated)</p>
+              <p>Fall 2023</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$1000 Prize Pool</p>
-              <p>Highly Competitive</p>
-              <p>4 Majors with Prize Pools</p>
-              <p>Live Streamed Matches</p>
+              <p>$500+ Prize Pool</p>
+              <p>12 Teams</p>
+              <p>Teams and Prize Pool May Increase</p>
+              <p>DM Them to get Access Last Hurrah Discord Server</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - NA</p>
             </div>
             <div class="col-md-4 league-info">
-              <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$300 Per Team (Estimated)</p>
+            <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
+              <p>$50 Per Team</p>
             </div>
           </div>
         </div>
@@ -82,4 +82,4 @@ const AWL_League = () => {
 }
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default AWL_League;
+export default Last_hurrah;

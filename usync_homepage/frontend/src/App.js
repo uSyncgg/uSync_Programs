@@ -45,6 +45,8 @@ import U18_League from './pages/game_pages/CoD/leagues/U18_League'
 import XP_League_Cod from './pages/game_pages/CoD/leagues/XP_League_Cod'
 import COD_Rec_League from './pages/game_pages/CoD/leagues/COD_Rec_League'
 import Sin_City from './pages/game_pages/CoD/leagues/Sin_City';
+import United_rogue_league from './pages/game_pages/CoD/leagues/United_rogue_league';
+import Last_hurrah from './pages/game_pages/CoD/leagues/Last_hurrah';
 //COD LEAGUES
 
 //COD HEAD TO HEAD
@@ -682,8 +684,16 @@ function App() {
     case "/games/call-of-duty/leagues/sin-city-league":
       title = "Sin City co-ed Call of Duty League | uSync";
       component = <Sin_City />
+      break;
+    case "/games/call-of-duty/leagues/united-rogue-league":
+      title = "United Rogue Call of Duty League | uSync";
+      component = <United_rogue_league />
       break;  
-    // COD LEAGUES
+    case "/games/call-of-duty/leagues/last-hurrah":
+      title = "Last Hurrah Call of Duty League | uSync";
+      component = <Last_hurrah />
+      break;  
+      // COD LEAGUES
 
     // COD HEAD TO HEAD
     case "/games/call-of-duty/head-to-head/arena":
