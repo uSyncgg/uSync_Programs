@@ -58,44 +58,6 @@ const FAQ = () => {
                 </div>
               </div>
 
-              <h4 className="FAQ-header-text">Socials</h4>
-              <div className="container-border">
-                <div className="images-container">
-                  <a
-                    href="https://twitter.com/uSyncGG"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="FAQ-img"
-                      src="https://i.imgur.com/YhpeqKK.png"
-                      alt="Twitter"
-                    />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/usyncgg/?next=%2F"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="FAQ-img"
-                      src="https://i.imgur.com/YOav7r1.png"
-                      alt="Instagram"
-                    />
-                  </a>
-                  <a
-                    href="https://www.youtube.com/@usyncGG"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="FAQ-img"
-                      src="https://i.imgur.com/BgGzaKS.png"
-                      alt="Youtube"
-                    />
-                  </a>
-                </div>
-              </div>
             </div>
             <div className="col-md-8">
               <h4 className="FAQ-header-text">FAQ</h4>
