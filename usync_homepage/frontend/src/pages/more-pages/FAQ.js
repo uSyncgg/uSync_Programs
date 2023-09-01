@@ -115,7 +115,7 @@ const FAQ = () => {
                   variation. Here is an{" "}
                   <a
                     className="FAQ-link"
-                    href="https://www.checkmategaming.com/ladder/cross-platform/call-of-duty-modern-warfare-ii/rules"
+                    href="https://docs.google.com/document/d/1CBPOMtFHdqhIawL7YOoIgrLhW6SPsShTXSqTsez5T50/edit"
                     target="_blank"
                   >
                     Example
@@ -147,6 +147,7 @@ const FAQ = () => {
                   <a
                     className="FAQ-link"
                     href="http://localhost:3000/more/verification"
+                    target="_blank"
                   >
                     Learn More
                   </a>

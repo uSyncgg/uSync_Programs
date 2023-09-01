@@ -299,3 +299,17 @@ a {
 .Underline-h1 {
   width: 100%;
 }
+
+#verification-post-event-a {
+  margin-top: 1.25rem;
+  color: rgb(142, 106, 206);
+  text-decoration: underline !important;
+  font-weight: 700;
+  filter: brightness(120%);
+
+}
+
+#verification-post-event-a:hover{
+  color: rgb(142, 106, 206) !important;
+  filter: brightness(140%);
+}

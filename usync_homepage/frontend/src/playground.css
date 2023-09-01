@@ -7,10 +7,16 @@
     position: fixed;
     width: 100%;
 }
-
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    background-image: url('https://i.imgur.com/asV4tf0.png');
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+    
 .navbar-brand {
-    width: 10rem;
-    margin-left: 2rem;
+    width: 12rem;
+    margin-left: 1.5rem;
 }
 
 
@@ -46,12 +52,13 @@ li .item-active {
 
 .nav-button {
     color: #848f94;
-    background-color: #212529;
+    background-color: transparent;
     transition: color .3s ease;
+    font-size: 1.25rem;
 }
 
 .nav-button:hover{
-    color: white;
+    color: rgb(142, 106, 206);
 }
 
 
