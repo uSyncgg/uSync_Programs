@@ -8,11 +8,10 @@ const Home = () => {
         <div className={styles.homeContainer}>
           <div className={styles.backgroundTop}>
             <div>
-              <img src="https://i.imgur.com/NzC8oX2.png" alt="uSync" />
+              <img src="https://i.imgur.com/l6mclM4.png" alt="uSync" />
               <h2 className={styles.Intro}>
-                Finding <u>esports</u> competitions is challenging. We <br />
-                make finding competition for each game not only <br />
-                <u>simple</u>, but <u>all in one place</u>.
+                World's <u>largest</u> selection of <u>esports</u> LANs, Leagues, and Tournaments<br />
+                Find Your Next Event Today<br />
               </h2>
             </div>
             <div>

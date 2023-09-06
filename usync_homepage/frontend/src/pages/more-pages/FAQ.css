@@ -5,7 +5,7 @@
 
 .FAQ-header-text {
     color: white;
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .FAQ-img-articles {
@@ -33,12 +33,16 @@
     padding-left: .25rem;
     text-align: left;
     color: white;
+    font-weight: bolder;
+    font-size: 1.3rem;
 }
 
 .FAQ-a {
     padding-left: .33rem;
     text-align: left;
     color: rgb(141, 125, 181);
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .FAQ-link {
@@ -66,13 +70,4 @@
 .images-container {
     display: flex;
     width: 100%;  
-}
-
-.socials-images-container {
-    border: .1rem solid rgb(141, 125, 181);
-    border-radius: 1rem;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    height: 6.5rem;
 }

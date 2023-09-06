@@ -298,6 +298,39 @@ const Cod_Leagues = () => {
                                 </a>
                             </div>
                         </div>
+                       
+                        <div className='col-lg-6'>
+                            <div className='league'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/united-rogue-league'>
+                                    <h1 className='Leagueh1'>United Rogue League</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/united-rogue-league"><img src="https://i.imgur.com/jZK2DCe.png" className='league-img' /></a>
+                                </div>
+                                <p className='Leaguep'>NA</p>
+                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/united-rogue-league'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <p className='hr' />
+                        <div className='col-lg-6'>
+                            <div className='league'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/last-hurrah'>
+                                    <h1 className='Leagueh1'>Last Hurrah League</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/last-hurrah"><img src="https://i.imgur.com/fKFo31v.png" className='league-img' /></a>
+                                </div>
+                                <p className='Leaguep'>NA</p>
+                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/last-hurrah'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
 
                         <div>
                         <p className='hr' />

@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
         <nav className="nav">
           <a href="/" className="site-title">
-              <img src="https://i.imgur.com/gorLFnC.png" alt="uSYNC logo" />
+              <img src="https://i.imgur.com/F5lNU1H.png" alt="uSync logo" />
           </a>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fa-regular fa-circle-xmark' : 'fa-solid fa-bars'}></i>
