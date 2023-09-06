@@ -85,7 +85,7 @@ const FAQ = () => {
                   A: There are 5 types of competitions for each game:
                   Tournaments, Wagers, LANs, Head-to-head, and Leagues. To learn
                   more about each type, check out our video explaining them{" "}
-                  <a className="FAQ-link" href="/" target="_blank">
+                  <a className="FAQ-link" href="https://www.youtube.com/watch?v=2EebBr4dd2c" target="_blank">
                     Here
                   </a>
                 </p>
@@ -115,7 +115,7 @@ const FAQ = () => {
                   variation. Here is an{" "}
                   <a
                     className="FAQ-link"
-                    href="https://docs.google.com/document/d/1CBPOMtFHdqhIawL7YOoIgrLhW6SPsShTXSqTsez5T50/edit"
+                    href="https://docs.google.com/document/d/1X0wywI5JhINTL4RqaUXS8fPj1TaVcsAHJjks9KfeEQU/edit"
                     target="_blank"
                   >
                     Example
