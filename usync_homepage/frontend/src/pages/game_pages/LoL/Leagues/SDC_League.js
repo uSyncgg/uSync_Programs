@@ -48,19 +48,20 @@ const SDC_League = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual Summer & Winter Seasons</p>
+              <p>Annual Spring, Summer, Fall, and Winter Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>Prize Pool Funded by Community & Winner Card</p>
               <p>Semi-Competitive</p>
-              <p>NO Rank Requirements</p>
+              <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>Free Entry</p>
+              <p>NO Rank Requirements</p>
             </div>
           </div>
         </div>

@@ -48,11 +48,12 @@ const Aegis_Champ = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Summer 2023 (Estimated)</p>
+              <p>Annual Spring, Summer, and Winter Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$1750 - $3500 Prize Pool</p>
+              <p>$3840 - $7680 Prize Pool</p>
+              <p>16-32 Teams</p>
               <p>Live Streamed Matches</p>
               <p>Support on Discord</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -60,8 +61,7 @@ const Aegis_Champ = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$175 Per Team</p>
-              <p>$25 Forfeit Deposit</p>
+              <p>$300 Per Team</p>
             </div>
           </div>
         </div>

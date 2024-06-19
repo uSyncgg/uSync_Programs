@@ -54,7 +54,7 @@ const Frontpage_Aegis = () => {
                                     <a href="http://localhost:3000/games/LoL/leagues/aegis-leagues/protectors"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Diamond 4 cap</p>
+                                <p className='Leaguep'>Emerald 4 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/LoL/leagues/aegis-leagues/protectors'>
                                     <button type="submit" className='info-button'>More Info</button>

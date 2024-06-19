@@ -52,8 +52,9 @@ const NACE_LoL = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$5k - 10k Prize Pool</p>
+              <p>$280k Prize Pool Split Across All Titles and Divisions</p>
               <p>Highly-Competitive</p>
+              <p>Multiple Tiers for Each Division</p>
               <p>Live Streamed Matches</p>
               <p>Live Support on Discord</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -62,6 +63,7 @@ const NACE_LoL = () => {
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>NACE Affiliation $2500/yr - Must be a FULL TIME College Student</p>
+              <p>Free Entry - Open Division</p>
             </div>
           </div>
         </div>

@@ -34,7 +34,7 @@ const Frontpage_Otter = () => {
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/blue-otter-leagues/plat"><img src="https://i.imgur.com/RaTizzw.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Platinum 1 cap / One Diamond 4</p>
+                                <p className='Leaguep'>Platinum 1 cap / One Emerald 4</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/LoL/leagues/blue-otter-leagues/plat'>
                                     <button type="submit" className='info-button'>More Info</button>

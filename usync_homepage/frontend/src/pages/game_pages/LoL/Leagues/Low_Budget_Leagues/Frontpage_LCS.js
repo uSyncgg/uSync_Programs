@@ -18,7 +18,7 @@ const Frontpage_LCS = () => {
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/low-budget-leagues/executive"><img src="https://i.imgur.com/lPFfJL9.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Diamond 3 AVG / Two GM+</p>
+                                <p className='Leaguep'>Diamond AVG / Two GM+</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/LoL/leagues/low-budget-leagues/executive'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -34,7 +34,7 @@ const Frontpage_LCS = () => {
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/low-budget-leagues/financial"><img src="https://i.imgur.com/lPFfJL9.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Platinum 3 AVG / One Diamond 3</p>
+                                <p className='Leaguep'>Emerald AVG / 2 Diamond 3</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/LoL/leagues/low-budget-leagues/financial'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -51,7 +51,7 @@ const Frontpage_LCS = () => {
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/low-budget-leagues/commercial"><img src="https://i.imgur.com/lPFfJL9.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Gold 1 AVG</p>
+                                <p className='Leaguep'>Platinum AVG / 1 Emerald 3</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/LoL/leagues/low-budget-leagues/commercial'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -67,7 +67,7 @@ const Frontpage_LCS = () => {
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/low-budget-leagues/economy"><img src="https://i.imgur.com/lPFfJL9.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Silver 1 AVG</p>
+                                <p className='Leaguep'>Gold AVG / 1 Platinum 3</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/LoL/leagues/low-budget-leagues/economy'>
                                     <button type="submit" className='info-button'>More Info</button>

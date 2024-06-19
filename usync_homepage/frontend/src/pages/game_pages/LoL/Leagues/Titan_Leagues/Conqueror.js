@@ -36,7 +36,7 @@ const Conqueror = () => {
             <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
           </a>
           <a
-            href="https://twitter.com/titanesportz"
+            href="https://lol.titanesports.org/"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,22 +48,23 @@ const Conqueror = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Summer 2023 (Estimated)</p>
+              <p>Annual Summer, Fall, and Winter Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$720 Prize Pool (Estimated)</p>
-              <p>Diamond 4 cap</p>
-              <p>Best of 3 Regular Season</p>
-              <p>Best of 5 Single Elim Playoffs</p>
+              <p>$940 Prize Pool</p>
+              <p>Two 3 Week Round Robin Group Stages</p>
+              <p>Top 16 Teams Advance to Playoffs</p>
+              <p>Support on Discord</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$60 Per Team</p>
-              <p>$30 Forfeit Deposit</p>
+              <p>$75 Per Team</p>
+              <p>$25 Forfeit Deposit</p>
+              <p>Diamond 4 Cap</p>
             </div>
           </div>
         </div>

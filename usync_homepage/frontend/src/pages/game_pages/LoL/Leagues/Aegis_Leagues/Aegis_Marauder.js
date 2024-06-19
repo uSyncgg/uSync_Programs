@@ -48,12 +48,11 @@ const Aegis_Marauder = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Summer 2023 (Estimated)</p>
+              <p>Annual Spring, Summer, and Winter Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$1000 - $2000 Prize Pool</p>
-              <p>Master 200LP cap</p>
+              <p>$1680 - $3360 Prize Pool</p>
               <p>Live Streamed Matches</p>
               <p>Support on Discord</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -61,8 +60,9 @@ const Aegis_Marauder = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$100 Per Team</p>
-              <p>$25 Forfeit Deposit</p>
+              <p>$150 Per Team</p>
+              <p>$50 Forfeit Deposit</p>
+              <p>Master 200LP cap</p>
             </div>
           </div>
         </div>

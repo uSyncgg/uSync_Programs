@@ -36,7 +36,7 @@ const Tier_2 = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://discord.com/invite/j3GydrFgaR"
+            href="https://x.com/lasleagueS7"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,19 +48,21 @@ const Tier_2 = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall 2023 (Estimated)</p>
+              <p>Annual Summer and Winter Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$400 Prize Pool & Masters/Challengers Coach</p>
-              <p>Bronze 4 - Gold 1</p>
-              <p>Semi-Competitive</p>
+              <p>$500 Prize Pool</p>
+              <p>Live Streamed Matches</p>
+              <p>Competitive</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>Free Entry</p>
+            <p>$500 per Team</p>
+            <p>$25 Forfeit Deposit</p>
+            <p>Platinum 1 Cap</p>
             </div>
           </div>
         </div>

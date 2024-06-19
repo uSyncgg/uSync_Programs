@@ -48,13 +48,11 @@ const Risen_Draft = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Summer 2023 (Estimated)</p>
+              <p>Annual Spring, Summer and Winter Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>NO Prize Pool</p>
-              <p>Must Be Level 100</p>
-              <p>Solo Only Sign Ups</p>
               <p>Live Streamed Matches</p>
               <p>Support on Discord</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -63,6 +61,8 @@ const Risen_Draft = () => {
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>Free Entry</p>
+              <p>Must Be Level 100</p>
+              <p>Solo Only Sign Ups</p>
             </div>
           </div>
         </div>

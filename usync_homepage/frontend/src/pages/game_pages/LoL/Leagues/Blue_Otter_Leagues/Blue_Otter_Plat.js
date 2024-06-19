@@ -36,7 +36,7 @@ const Blue_Otter_Plat = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://discord.com/invite/BK5b2BHxdQ"
+            href="https://discord.com/invite/gVGSxRT"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,12 +48,11 @@ const Blue_Otter_Plat = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall 2023 (Estimated)</p>
+              <p>Annual Spring, Summer, and Winter Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$800+ Prize Pool</p>
-              <p>Platinum 1 99LP cap, One Diamond 4 per Team</p>
+              <p>1st Place - 50% Entry Fees (Estimated)</p>
               <p>Support on Discord</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -61,8 +60,9 @@ const Blue_Otter_Plat = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$50 Per Team</p>
-              <p>$25 Forfeit Deposit</p>
+              <p>$60 Per Team</p>
+              <p>$15 Forfeit Deposit</p>
+              <p>Platinum 1 99LP cap, One Emerald 4 per Team</p>
             </div>
           </div>
         </div>

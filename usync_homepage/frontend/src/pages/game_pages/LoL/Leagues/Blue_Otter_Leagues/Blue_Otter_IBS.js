@@ -36,7 +36,7 @@ const Blue_Otter_IBS = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://discord.com/invite/BK5b2BHxdQ"
+            href="https://discord.com/invite/gVGSxRT"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"

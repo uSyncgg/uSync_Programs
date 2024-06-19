@@ -53,7 +53,6 @@ const Division_2 = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>Prize Pool Based on Entrants</p>
-              <p>Diamond 4 - Platinum 4</p>
               <p>Community Contests + Events</p>
               <p>10-12 Week Season</p>
               <p>Flexible Rules for EUNE Players</p>
@@ -64,6 +63,7 @@ const Division_2 = () => {
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>€15 Per Team</p>
+              <p>Diamond 1 - Emerald 1</p>
             </div>
           </div>
         </div>

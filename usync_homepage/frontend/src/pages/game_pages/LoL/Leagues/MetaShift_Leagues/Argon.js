@@ -48,20 +48,21 @@ const Argon = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Winter 2023 (Estimated)</p>
+              <p>Annual Spring, Summer, and Fall Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$400 Prize Pool</p>
-              <p>Platinum 3 Average, Platinum 1 cap</p>
+              <p>$550 Prize Pool</p>
               <p>10 Teams Max</p>
+              <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$50 Per Team</p>
-              <p>$25 Forfeit Deposit</p>
+            <p>$100 Per Team</p>
+            <p>Tier 4</p>
+            <p>See Website for Tier Check</p>
             </div>
           </div>
         </div>

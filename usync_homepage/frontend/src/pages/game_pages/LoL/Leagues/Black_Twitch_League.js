@@ -48,13 +48,12 @@ const Black_Twitch_League = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall 2023 (Estimated)</p>
+              <p>Annual Spring, Summer, and Winter Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>$250 Prize Pool</p>
               <p>Semi-Competitive</p>
-              <p>Grandmaster cap</p>
               <p>Live Streamed Matches</p>
               <p>Live Support on Discord</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -64,6 +63,7 @@ const Black_Twitch_League = () => {
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>Free Entry</p>
               <p>$25 Forfeit Deposit</p>
+              <p>Grandmaster cap</p>
             </div>
           </div>
         </div>

@@ -48,12 +48,11 @@ const Aegis_Protectors = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Summer 2023 (Estimated)</p>
+              <p>Annual Spring, Summer, and Winter Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$500 - $1000 Prize Pool</p>
-              <p>Diamond 4 cap</p>
+              <p>Winners Receive 1350RP Skins</p>
               <p>Live Streamed Matches</p>
               <p>Support on Discord</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -61,8 +60,9 @@ const Aegis_Protectors = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$50 Per Team</p>
+              <p>$25 Per Team</p>
               <p>$25 Forfeit Deposit</p>
+              <p>Emerald 4 cap</p>
             </div>
           </div>
         </div>

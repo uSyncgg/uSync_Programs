@@ -48,11 +48,10 @@ const LCS_Financial = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Early-Fall 2023 (Estimated)</p>
+              <p>Annual Spring, Fall and Winter Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Platinum 3 Average, One Diamond 3 Per Team</p>
               <p>16 Teams Max</p>
               <p>Support on Discord</p>
               <p>Live Streamed Matches</p>
@@ -62,6 +61,8 @@ const LCS_Financial = () => {
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>Free Entry</p>
+              <p>Emerald Average, 2 Diamond 3 Max</p>
+              <p>See Rank Points for Team Eligibility</p>
             </div>
           </div>
         </div>

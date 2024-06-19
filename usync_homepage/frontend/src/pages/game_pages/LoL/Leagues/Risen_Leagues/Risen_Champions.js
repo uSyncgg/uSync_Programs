@@ -48,19 +48,20 @@ const Risen_Champions = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Summer 2023 (Estimated)</p>
+              <p>Annual Spring, Summer and Winter Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$3000+ Prize Pool</p>
-              <p>Must Qualify To Enter</p>
+              <p>$2040 Prize Pool</p>
+              <p>Highly Competitive</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$250 Per Team (Estimated)</p>
+              <p>$200 Per Team</p>
+              <p>Must be highly Competitive or Qualify</p>
             </div>
           </div>
         </div>

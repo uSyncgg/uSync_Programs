@@ -13,12 +13,12 @@ const Frontpage_LAS = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/LoL/leagues/las-leagues/tier-1'>
-                                    <h1 className='Leagueh1'>Tier 1 League</h1>
+                                    <h1 className='Leagueh1'>LAS Diamond</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/las-leagues/tier-1"><img src="https://i.imgur.com/0xe76Iu.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Platinum 1 cap</p>
+                                <p className='Leaguep'>Diamond 1 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/LoL/leagues/las-leagues/tier-1'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -29,12 +29,12 @@ const Frontpage_LAS = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/LoL/leagues/las-leagues/tier-2'>
-                                    <h1 className='Leagueh1'>Tier 2 League</h1>
+                                    <h1 className='Leagueh1'>LAS Plat</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/LoL/leagues/las-leagues/tier-2"><img src="https://i.imgur.com/0xe76Iu.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Gold 1 cap</p>
+                                <p className='Leaguep'>Plat 1 cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/LoL/leagues/las-leagues/tier-2'>
                                     <button type="submit" className='info-button'>More Info</button>

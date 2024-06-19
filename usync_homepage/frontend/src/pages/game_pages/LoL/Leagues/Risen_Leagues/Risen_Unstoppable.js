@@ -48,12 +48,12 @@ const Risen_Unstoppable = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Summer 2023 (Estimated)</p>
+              <p>Annual Spring, Summer and Winter Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$120 Prize Pool</p>
-              <p>Rank Peak Platinum 1</p>
+              <p>$280 Prize Pool for Every 8 Teams</p>
+              <p>Join With Your Own Team</p>
               <p>Live Streamed Matches</p>
               <p>Support on Discord</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -61,8 +61,9 @@ const Risen_Unstoppable = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$15 Per Team</p>
-              <p>$10 Forfeit Deposit</p>
+              <p>$55 Per Team</p>
+              <p>Emerald 1 Cap</p>
+              <p>1 Diamond 4 Allowed</p>
             </div>
           </div>
         </div>

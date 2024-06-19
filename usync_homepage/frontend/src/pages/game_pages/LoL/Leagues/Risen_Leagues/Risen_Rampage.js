@@ -48,12 +48,12 @@ const Risen_Rampage = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Summer 2023 (Estimated)</p>
+              <p>Annual Spring, Summer and Winter Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>NO Prize Pool</p>
-              <p>Rank Peak Gold 1</p>
+              <p>Mystery Skin to 5 Winning Starters</p>
               <p>Live Streamed Matches</p>
               <p>Support on Discord</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -61,8 +61,8 @@ const Risen_Rampage = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>Free Entry</p>
-              <p>$10 Forfeit Deposit</p>
+              <p>$10 per Team</p>
+              <p>Emerald 4 Cap</p>
             </div>
           </div>
         </div>

@@ -52,7 +52,7 @@ const NECC_LoL = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$5k Prize Pool</p>
+              <p>$6k Prize Pool</p>
               <p>Highly-Competitive</p>
               <p>Live Streamed Matches</p>
               <p>Support on Discord</p>
@@ -61,7 +61,9 @@ const NECC_LoL = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$1000/yr - Must be a FULL TIME College Student</p>
+              <p>$1300/yr - Unlimited Game Title Participation</p>
+              <p>$650/yr - One Game Title Participation</p>
+              <p>Must be enrolled as a FULL-TIME Student, and be ACADEMICALLY ELLIGABLE</p>
             </div>
           </div>
         </div>
