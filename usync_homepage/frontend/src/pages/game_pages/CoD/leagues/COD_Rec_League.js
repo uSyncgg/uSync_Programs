@@ -47,13 +47,15 @@ const COD_Rec_League = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Late Spring 2023</p>
+              <p>Annual Spring, Summer and Fall Leagues</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>No Prize Pool</p>
               <p>Recreational</p>
               <p>Live Streamed Matches</p>
+              <p>Premade or Mixed Leagues</p>
+              <p>Multiple Skill Divisions</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - All Regions</p>
             </div>

@@ -48,12 +48,13 @@ const NACE_COD_League = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual Fall and Spring Seasons</p>
+              <p>Annual Spring and Fall Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$5k - $10k Prize Pool</p>
+              <p>$280k Prize Pool Split Across All Titles and Divisions</p>
               <p>Highly Competitive</p>
+              <p>Multiple Tiers for Each Division</p>
               <p>Live Streamed Matches</p>
               <p>Live Support Admins on Discord</p>
               <p>Scholarship Players Allowed</p>
@@ -63,6 +64,7 @@ const NACE_COD_League = () => {
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>NACE Affiliation $2500/yr - Must be FULL TIME College Student</p>
+              <p>Free Entry - Open Division</p>
             </div>
           </div>
         </div>

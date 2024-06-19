@@ -48,7 +48,7 @@ const Corporate_COD_League = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Summer 2023 (Estimated)</p>
+              <p>Annual Spring and Fall Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>

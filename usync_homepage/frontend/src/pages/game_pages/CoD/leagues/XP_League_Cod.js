@@ -48,12 +48,12 @@ const XP_League_Cod = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Spring & Winter 2023 (Estimated)</p>
+              <p>Annual Spring, Summer and Fall Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$600 - $975 Prize Pool</p>
-              <p>Immediate Payouts</p>
+              <p>EU and NA Leagues</p>
+              <p>£/$500+ Prize Pool with Immediate Payouts</p>
               <p>Quick Responses / Reliable Format</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -61,7 +61,7 @@ const XP_League_Cod = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$35 Per Team</p>
+              <p>$25-40 Per Team</p>
             </div>
           </div>
         </div>

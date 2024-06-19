@@ -48,12 +48,12 @@ const Sin_City = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Early-June 2023</p>
+              <p>Not Confirmed</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$500 Prize Pool</p>
-              <p>2 Boys and 2 Girls Per Team</p>
+              <p>$1000 Prize Pool</p>
+              <p>Female Only</p>
               <p>4v4 CDL Variant</p>
               <p>2 Subs Allowed</p>
               <p>Schedule Matches on Own Time</p>
@@ -62,7 +62,7 @@ const Sin_City = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$50 Per Team</p>
+              <p>$100 Per Team</p>
             </div>
           </div>
         </div>

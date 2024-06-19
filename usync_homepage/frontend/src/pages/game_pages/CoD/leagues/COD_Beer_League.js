@@ -48,14 +48,15 @@ const COD_Beer_League = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>S3 - Summer 2023 (Estimated)</p>
+              <p>Annual Spring and Fall Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
+              <p>No Prizepool</p>
               <p>4v4 Variant CDL Ruleset</p>
               <p>Sign up as a Duo</p>
               <p>Drink Before / During / After Matches</p>
-              <p>Playoffs for T32 Teams</p>
+              <p>Playoffs for T48 Players</p>
               <p>Must be 21+ to Enter</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - NA</p>

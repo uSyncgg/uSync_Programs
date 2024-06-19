@@ -36,7 +36,7 @@ const FPC_League = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://twitter.com/FPCOfficial"
+            href="https://x.com/FemaleC0DLeague"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -52,16 +52,16 @@ const FPC_League = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$2000 Prize Pool</p>
+              <p>$1050 Prize Pool</p>
               <p>Female ONLY</p>
-              <p>Organized Structure/Format</p>
+              <p>Regular Season and Playoffs</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - NA</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$150 Per Team</p>
+              <p>$100 Per Team</p>
             </div>
           </div>
         </div>

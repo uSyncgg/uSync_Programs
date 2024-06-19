@@ -48,7 +48,7 @@ const HOE_Challengers = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Summer 2023 (Estimated)</p>
+              <p>Spring 2024</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
@@ -61,7 +61,7 @@ const HOE_Challengers = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>Free Entry</p>
+              <p>R100 Per Team</p>
             </div>
           </div>
         </div>

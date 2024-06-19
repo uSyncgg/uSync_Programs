@@ -48,14 +48,14 @@ const Last_hurrah = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall 2023</p>
+              <p>Not Confirmed</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>$500+ Prize Pool</p>
               <p>12 Teams</p>
               <p>Teams and Prize Pool May Increase</p>
-              <p>DM Them to get Access Last Hurrah Discord Server</p>
+              <p>DM to get Access Last Hurrah Discord Server</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - NA</p>
             </div>

@@ -48,7 +48,7 @@ const U18_League = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Summer 2023 (Estimated)</p>
+              <p>Annual Spring and Fall Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
@@ -62,8 +62,8 @@ const U18_League = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$35 Per Org</p>
-              <p>Free Entry for Players</p>
+              <p>$100 per Team</p>
+              <p>$8 for Solo Players</p>
             </div>
           </div>
         </div>

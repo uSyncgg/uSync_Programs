@@ -48,7 +48,7 @@ const Cgn_league_cod = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Spring 2023 (Estimated)</p>
+              <p>Not Confirmed</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>

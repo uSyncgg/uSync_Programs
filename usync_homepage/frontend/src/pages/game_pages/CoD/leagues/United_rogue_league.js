@@ -48,17 +48,17 @@ const United_rogue_league = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall 2023</p>
+              <p>Annual Spring and Fall Seasons (Estimated)</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>4v4 CDL Format in Casual but Competitive Setting</p>
-              <p>Salary Based System</p>
-              <p>Various Prizes From Time to Time</p>
+              <p>No Prize Pool</p>
+              <p>Draft League</p>
               <p>Streamed Matches</p>
               <p>Follow All GAs</p>
               <p>Live Support in Discord</p>
-              <p>8 Man Lobbies</p>
+              <p>Franchises</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - NA</p>
             </div>
