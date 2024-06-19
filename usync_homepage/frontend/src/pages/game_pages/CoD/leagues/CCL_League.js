@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../Footer';
 
 // Make sure the name following const is the same as the file name
-const CCL_League = () => {
+const CCL_League = () => { // Hello
     return (
         <div className="total-playground">
       <header class="headerImg">
