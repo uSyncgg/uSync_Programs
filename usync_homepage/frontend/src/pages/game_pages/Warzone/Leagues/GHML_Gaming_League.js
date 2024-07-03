@@ -36,7 +36,7 @@ const GHML_Gaming_League = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://www.ghmlgaming.com/"
+            href="https://twitter.com/GHMLgaming"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,12 +48,11 @@ const GHML_Gaming_League = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Spring/Summer 2023 (Estimated)</p>
+              <p>Not Confirmed</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>Randomly Hosted Leagues</p>
-              <p>$3000 Prize Pool (Estimated)</p>
               <p>Live Streamed Matches</p>
               <p>Highly Competitive</p>
               <h2 className="info-title3">Region/Type:</h2>

@@ -36,7 +36,7 @@ const NJCAAE_League = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://app.generationesports.com/tournament/42e8df89-eb86-43eb-8476-b7f304267fb8"
+            href="https://www.njcaaesports.org/gametitles/cod%3A-warzone-3"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,13 +48,15 @@ const NJCAAE_League = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Spring/Summer 2023 (Estimated)</p>
+              <p>Annual Spring and Fall Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>2 Qualifier Tournaments</p>
-              <p>9 Week Round Robin Regular Season</p>
+              <p>3 Skill Tiers (Premier, Contender, or Open)</p>
+              <p>7 Week Round Robin Regular Season</p>
+              <p>Single Elimination Playoffs</p>
               <p>No Live Streamed Matches</p>
+              <p>Annually in Fall and Spring</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>2v2 - USA</p>
             </div>
