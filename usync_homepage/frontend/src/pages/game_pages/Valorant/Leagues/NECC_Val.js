@@ -52,16 +52,18 @@ const NECC_Val = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$4500 Prize Pool (Estimated)</p>
+              <p>$7000 Prize Pool</p>
               <p>Multiple Skill Divisions</p>
-              <p>8 Week Regular Season</p>
+              <p>6 Week Regular Season and Playoffs After</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$1000/yr - Must be a FULL TIME College Student</p>
+              <p>$1,300/yr - Unlimited Game Title Participation</p>
+              <p>$650/yr - One Game Title Participation</p>
+              <p>Must be a FULL TIME College Student and ACADEMICALLY ELIGABLE</p>
             </div>
           </div>
         </div>

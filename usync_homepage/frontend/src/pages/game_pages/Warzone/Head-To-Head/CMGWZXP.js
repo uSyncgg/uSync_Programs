@@ -55,6 +55,7 @@ const CMGWZXP = () => {
               <p>Consistent Rule Updates</p>
               <p>Large Number of Users and Matches Daily</p>
               <p>Ranked Ladder by Wins</p>
+              <p>Various Prizes Based on Record</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Restrictions:</h2>

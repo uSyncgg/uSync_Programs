@@ -48,15 +48,16 @@ const Major = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Late-Spring 2023 (Estimated)</p>
+              <p>Annual Spring, Summer, and Winter Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>Prize Pool Based on Donations</p>
-              <p>1752+ MMR</p>
+              <p>1715+ MMR</p>
               <p>Must Sign up Solo</p>
               <p>Draft Based League</p>
               <p>Live Streamed Matches</p>
+              <p>Must Sign 1-3 Season Contract</p>
               <p>Support on Discord</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - NA</p>

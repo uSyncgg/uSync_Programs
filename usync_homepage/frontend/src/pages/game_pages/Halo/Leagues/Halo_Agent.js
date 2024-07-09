@@ -48,7 +48,7 @@ const Halo_Agent = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Spring 2024 (Estimated)</p>
+              <p>Randomly Hosted Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>

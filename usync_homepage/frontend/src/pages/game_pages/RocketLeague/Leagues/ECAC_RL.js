@@ -52,7 +52,7 @@ const ECAC_RL = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>TBD Prize Pool</p>
+              <p>NO Prize Pool</p>
               <p>Multiple Divisions Based on Rank</p>
               <p>Two Matches Weekly</p>
               <p>8 Week Regular Season with Playoffs</p>

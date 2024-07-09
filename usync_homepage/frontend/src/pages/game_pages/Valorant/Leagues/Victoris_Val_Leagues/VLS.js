@@ -48,12 +48,12 @@ const VLS = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall 2023 (Estimated)</p>
+              <p>Annual Fall Season (Estimated)</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$1000 Prize Pool</p>
-              <p>NO Rank Requirement</p>
+              <p>$1000 Prize Pool (Estimated)</p>
+              <p>Platinum & Above</p>
               <p>5 Week Regular Season</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -61,7 +61,7 @@ const VLS = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$75 Per Team</p>
+              <p>$75 Per Team (Estimated)</p>
               <p>$25 Forfeit Deposit</p>
             </div>
           </div>

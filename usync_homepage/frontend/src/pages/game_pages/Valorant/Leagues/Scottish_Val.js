@@ -48,11 +48,11 @@ const Scottish_Val = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall 2023 (Estimated)</p>
+              <p>Randomly Hosted Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>£3000 Prize Pool</p>
+              <p>£3000 Prize Pool (Estimated)</p>
               <p>Majority of Players Must be From Scotland</p>
               <p>Pool Play Style Regular Season</p>
               <p>Live Streamed Matches</p>

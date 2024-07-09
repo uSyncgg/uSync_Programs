@@ -48,13 +48,13 @@ const Evolution = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Summer 2023 (Estimated)</p>
+              <p>Annual Spring, Summer, and Fall Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$800 Prize Pool</p>
-              <p>Division Based on Rank</p>
-              <p>3 Week Regular Season</p>
+              <p>3 Week Regular Season With Playoffs to Finish</p>
+              <p>Qualifiers For Division Selection</p>
+              <p>Placing In Division Determines Next Season</p>
               <p>8 Teams Required</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -62,7 +62,7 @@ const Evolution = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>Subscription Required</p>
+            <p>Subscription Required (Estimated)</p>
             </div>
           </div>
         </div>

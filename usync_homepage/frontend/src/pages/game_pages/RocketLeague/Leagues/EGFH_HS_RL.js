@@ -48,13 +48,13 @@ const EGFH_HS_RL = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall - Spring Season</p>
+              <p>Annual Spring and Fall Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>Two 8 Week Seasonal Splits</p>
               <p>Regional and National Championships</p>
-              <p>Championship Held at Disney Orlando</p>
+              <p>National Championship Held on LAN</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - USA</p>

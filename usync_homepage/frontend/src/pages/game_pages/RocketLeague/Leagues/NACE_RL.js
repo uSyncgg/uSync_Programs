@@ -52,10 +52,11 @@ const NACE_RL = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>6k Prize Pool (Estimated)</p>
+              <p>$280k Prize Pool Split Across All Titles and Divisions</p>
               <p>Scholarship Players Allowed</p>
               <p>Live Streamed Matches</p>
-              <p>Support on Discord</p>
+              <p>Live Support on Discord</p>
+              <p>Multiple Tiers for Each Division</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - NA</p>
             </div>

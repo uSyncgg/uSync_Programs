@@ -54,6 +54,8 @@ const Serie_B = () => {
               <h2 className="info-title">Details:</h2>
               <p>NO Prize Pool</p>
               <p>Top Team Promoted to Serie A</p>
+              <p>Earn Points in Regular Season to Determine Rank</p>
+              <p>Top Team Promoted to Serie A</p>
               <p>2 Players Must Have Italian Citizenship</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>

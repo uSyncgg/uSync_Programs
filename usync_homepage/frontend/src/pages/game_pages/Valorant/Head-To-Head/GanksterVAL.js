@@ -52,8 +52,8 @@ const GanksterVAL = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>Find Most Competitive Scrims</p>
-              <p>Analyze Matches</p>
               <p>Large Number of Users and Scrims Daily</p>
+              <p>Analyze Matches</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Restrictions:</h2>

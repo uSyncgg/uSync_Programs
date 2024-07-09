@@ -54,6 +54,7 @@ const ProjectV = () => {
               <p>€5000 Prize Pool</p>
               <p>Form a Team and Join a Ladder</p>
               <p>Challenge Ladder Teams for Points</p>
+              <p>Top Teams on the Ladder Qualify for Finals</p>
               <p>12 Teams MAX</p>
             </div>
             <div class="col-md-4 league-info">

@@ -48,12 +48,12 @@ const FDS_Vanguard = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall 2023 (Estimated)</p>
+              <p>Annual Fall Season (Estimated)</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$300 Prize Pool</p>
-              <p>1349 MMR cap</p>
+              <p>$200 Prize Pool (Estimated)</p>
+              <p>1399 MMR cap</p>
               <p>Must Sign up Solo</p>
               <p>Draft Based League</p>
               <p>Support on Discord</p>

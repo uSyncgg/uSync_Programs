@@ -51,8 +51,11 @@ const UGC_Scrim = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
+              <p>Collegiate Teams/Students ONLY</p>
               <p>Schedule Matches & Times Manually</p>
               <p>Large Number of Users and Matches Daily</p>
+              <p>Can Schedule a Time</p>
+              <p>Must Schedule Manually</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Restrictions:</h2>

@@ -48,13 +48,13 @@ const RSC_3v3_NA = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual April, August, and December Seasons</p>
+              <p>Annual Spring and Fall Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>€1400 - 1480 Prize Pool</p>
-              <p>Sign up as Individual</p>
-              <p>6 Competitive Skill Divisons</p>
+              <p>Prize Pools for Eeach Division</p>
+              <p>Sign up as an Individual</p>
+              <p>6 Skill Divisons</p>
               <p>Draft Based League</p>
               <p>Weekly Matches</p>
               <h2 className="info-title3">Region/Type:</h2>

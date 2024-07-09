@@ -52,8 +52,8 @@ const NACE_Open = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>TBD Prize Pool</p>
-              <p>Gold and Lower</p>
+              <p>$280k Prize Pool Split Across All Titles and Divisions</p>
+              <p>Gold & Lower</p>
               <p>Live Streamed Matches</p>
               <p>Live Support on Discord</p>
               <h2 className="info-title3">Region/Type:</h2>

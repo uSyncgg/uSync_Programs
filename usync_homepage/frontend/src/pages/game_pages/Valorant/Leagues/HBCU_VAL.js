@@ -53,7 +53,7 @@ const EGFC_College_VAL = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>$25k Prize Pool for Fall Season</p>
-              <p>First Competitive League for HBCU's</p>
+              <p>First and Only Competitive League for HBCU's</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - USA</p>

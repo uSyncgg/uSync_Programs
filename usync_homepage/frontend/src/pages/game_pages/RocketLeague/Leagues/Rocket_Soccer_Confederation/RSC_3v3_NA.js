@@ -48,7 +48,7 @@ const RSC_3v3_NA = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual February, May, and October Seasons</p>
+              <p>Annual April, August, and Deecember Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
@@ -56,6 +56,7 @@ const RSC_3v3_NA = () => {
               <p>Sign up as a Free Agent</p>
               <p>9 Competitive Skill Divisons</p>
               <p>Draft Based League</p>
+              <p>Weekly Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - NA</p>
             </div>

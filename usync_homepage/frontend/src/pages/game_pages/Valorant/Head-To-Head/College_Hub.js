@@ -51,7 +51,7 @@ const College_Hub = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Collegiate Scrim Finder</p>
+              <p>Collegiate School Scrim Finder</p>
               <p>Manually Schedule Matches & Times</p>
               <p>Semi-Large Number of Users</p>
             </div>

@@ -49,7 +49,8 @@ const CMG_WZ = () => {
               <h2 className="info-title">Fees:</h2>
               <p>Regular Member: 7.5%</p>
               <p>Elite Member: 3.75%</p>
-              <p>Live Support Fee: 2.5%</p>
+              <p>Live Support Fees:</p>
+              <p>Live Support Fee: 2.5% - 5%</p>
               <p>Deposit/Withdraw Fees through Paypal</p>
             </div>
             <div class="col-md-4 league-info">

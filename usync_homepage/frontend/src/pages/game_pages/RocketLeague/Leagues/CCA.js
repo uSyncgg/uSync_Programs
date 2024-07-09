@@ -52,11 +52,10 @@ const CCA = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$30k Prize Pool</p>
               <p>5 Week Regular Season with Playoffs</p>
               <p>World Championship includes NA and EU</p>
               <p>Live Streamed Matches</p>
-              <p>Support on Discord</p>
+              <p>24/7 Support and Admins on Discord</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - NA/EU</p>
             </div>

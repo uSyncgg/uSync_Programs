@@ -48,7 +48,7 @@ const United_Rogue = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall 2023 (Estimated)</p>
+              <p>Multiple Seasons Annually</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
@@ -56,7 +56,7 @@ const United_Rogue = () => {
               <p>Ages 16 and Older</p>
               <p>10 Week Regular Season, 3 Week Playoffs</p>
               <p>Must Sign up Solo</p>
-              <p>Must Sign 1-3 Season Contract</p>
+              <p>Enforced Salary Caps for Competitiveness</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - NA</p>

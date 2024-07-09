@@ -19,7 +19,7 @@ const Frontpage_LPL = () => {
                                     <a href="http://localhost:3000/games/Valorant/leagues/lpl-leagues/open"><img src="https://i.imgur.com/rlmiEc2.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Any Rank</p>
+                                <p className='Leaguep'>Open</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/Valorant/leagues/lpl-leagues/open'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -30,13 +30,13 @@ const Frontpage_LPL = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/Valorant/leagues/lpl-leagues/amateur'>
-                                    <h1 className='Leagueh1'>Amateur Division League</h1>
+                                    <h1 className='Leagueh1'>Gold Division League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/lpl-leagues/amateur"><img src="https://i.imgur.com/rlmiEc2.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>By Rank</p>
+                                <p className='Leaguep'>Invite-Only</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/Valorant/leagues/lpl-leagues/amateur'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -48,13 +48,13 @@ const Frontpage_LPL = () => {
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/Valorant/leagues/lpl-leagues/evolution'>
-                                    <h1 className='Leagueh1'>Evolution Division League</h1>
+                                    <h1 className='Leagueh1'>Silver Division League</h1>
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/Valorant/leagues/lpl-leagues/evolution"><img src="https://i.imgur.com/rlmiEc2.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>By Rank</p>
+                                <p className='Leaguep'>Invite-Only</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/Valorant/leagues/lpl-leagues/evolution'>
                                     <button type="submit" className='info-button'>More Info</button>

@@ -48,12 +48,12 @@ const FDS_Champ = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall 2023 (Estimated)</p>
+              <p>Annual Fall Season (Estimated)</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$400 Prize Pool</p>
-              <p>1875+ MMR</p>
+              <p>$500 Prize Pool (Estimated)</p>
+              <p>1800+ MMR</p>
               <p>Must Sign up Solo</p>
               <p>Draft Based League</p>
               <p>Support on Discord</p>

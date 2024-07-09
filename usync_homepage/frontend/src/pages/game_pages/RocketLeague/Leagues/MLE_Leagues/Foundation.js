@@ -48,12 +48,12 @@ const Foundation = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Late-Fall 2023 (Estimated)</p>
+              <p>Annual Season</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>Case of Bawls Guarana Prize</p>
-              <p>0 - 1000 MMR</p>
+              <p>0 - 1050 MMR</p>
               <p>Salary Based on MMR</p>
               <p>Must Sign up Solo</p>
               <p>Draft Based League</p>

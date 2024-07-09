@@ -54,6 +54,7 @@ const HBCU_RL = () => {
               <h2 className="info-title">Details:</h2>
               <p>First Competitive League for HBCU's</p>
               <p>Live Streamed Matches</p>
+              <p>Schedule Released Early January</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - USA</p>
             </div>

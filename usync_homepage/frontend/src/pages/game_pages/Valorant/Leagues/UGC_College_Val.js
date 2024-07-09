@@ -48,13 +48,13 @@ const UGC_College_Val = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual Spring and Fall Seasons</p>
+              <p>Annual Spring and Fall Seasons (Estimated)</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$7500 Prize Pool</p>
+              <p>$7500 Prize Pool (Estimated)</p>
               <p>6 Week Regular Season with Playoffs</p>
-              <p>Non-Pro Teams Allowed</p>
+              <p>Non-Pro Teams ONLY</p>
               <p>No Live Streamed Matches</p>
               <p>Known for Delaying Payment / Unresponsiveness</p>
               <h2 className="info-title3">Region/Type:</h2>

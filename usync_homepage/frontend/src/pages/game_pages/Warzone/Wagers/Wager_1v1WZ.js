@@ -48,7 +48,7 @@ const Wager_1v1WZ = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Fees:</h2>
               <p>Match Fee: 0%</p>
-              <p>Consistent Fee with Deposits/Withdrawals</p>
+              <p>Varying Fee with Deposits/Withdrawals</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
@@ -60,7 +60,7 @@ const Wager_1v1WZ = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Restrictions:</h2>
               <p>18+</p>
-              <p>Available Regions: USA, CA, IE, UK, FR, MX, DE</p>
+              <p>Available Regions: USA, CA, IE, UK, FR, MX, and DE</p>
             </div>
           </div>
         </div>

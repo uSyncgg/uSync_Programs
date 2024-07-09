@@ -56,7 +56,7 @@ const CMGRL = () => {
               <h2 className="info-title">Details:</h2>
               <p>24/7 Live Support</p>
               <p>No Rule Updates</p>
-              <p>RARELY Any Matches Posted</p>
+              <p>Rarely Any Matches Posted</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Restrictions:</h2>

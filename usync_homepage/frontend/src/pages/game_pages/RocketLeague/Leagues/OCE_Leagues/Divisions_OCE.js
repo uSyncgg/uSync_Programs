@@ -48,11 +48,11 @@ const Divisions_OCE = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall 2023 (Estimated)</p>
+              <p>Multiple Seasons Annually</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$2000 Prize Pool</p>
+              <p>$2500 Prize Pool (Estimated)</p>
               <p>Salary Based on MMR</p>
               <p>3-5 Week Regular Season</p>
               <p>Draft Based League</p>
@@ -62,7 +62,7 @@ const Divisions_OCE = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>Free Entry</p>
+              <p>Free Entry (Estimated)</p>
             </div>
           </div>
         </div>

@@ -51,6 +51,7 @@ const Arena = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
+              <p>Scrim Finder for Competitive Players</p>
               <p>Live Staff Support</p>
               <p>Queue Into Premade 8s Lobbies</p>
               <p>Large Number of Users</p>

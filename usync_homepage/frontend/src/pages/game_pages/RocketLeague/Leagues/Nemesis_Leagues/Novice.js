@@ -48,12 +48,12 @@ const Novice = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Early-Fall 2023 (Estimated)</p>
+              <p>Annual Spring Season</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>$1000+ Prize Pool</p>
-              <p>1000 - 1294 MMR</p>
+              <p>1050 - 1329 MMR</p>
               <p>4 Different Divisions</p>
               <p>Draft Based League</p>
               <h2 className="info-title3">Region/Type:</h2>

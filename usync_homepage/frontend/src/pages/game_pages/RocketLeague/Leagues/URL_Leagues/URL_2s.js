@@ -48,11 +48,11 @@ const URL_2s = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall 2023 (Estimated)</p>
+              <p>Mutliple Seasons Annually (Estimated)</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>4 MMR Divisions</p>
+              <p>5 MMR Divisions</p>
               <p>Must Sign up Solo</p>
               <p>Draft Based League</p>
               <p>Support on Discord</p>

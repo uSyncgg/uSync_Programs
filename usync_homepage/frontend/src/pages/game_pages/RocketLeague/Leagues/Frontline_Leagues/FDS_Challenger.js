@@ -48,12 +48,12 @@ const FDS_Challenger = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall 2023 (Estimated)</p>
+              <p>Annual Fall Season (Estimated)</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$200 Prize Pool</p>
-              <p>1350 - 1574 MMR</p>
+              <p>$300 Prize Pool (Estimated)</p>
+              <p>1400 - 1599 MMR</p>
               <p>Must Sign up Solo</p>
               <p>Draft Based League</p>
               <p>Support on Discord</p>

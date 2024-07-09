@@ -48,10 +48,11 @@ const UGC_HS_RL = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Year Round Seasons</p>
+              <p>Annual Spring and Fall Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
+              <p>NO Prize Pool (Estimated)</p>
               <p>East and West Regional Divisions</p>
               <p>Qualifier Tournaments to Determine Playoff Seed</p>
               <p>Known for Delayed Payments / Unresponsiveness</p>

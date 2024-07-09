@@ -52,7 +52,8 @@ const Serie_A = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>€8000 Prize Pool (Split)</p>
+              <p>Varying Prize Pool</p>
+              <p>Earn Points in Regular Season to Determine Playoff Eligibility</p>
               <p>Playoffs on LAN</p>
               <p>2 Players Must Have Italian Citizenship</p>
               <p>Live Streamed Matches</p>

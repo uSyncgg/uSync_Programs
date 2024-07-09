@@ -48,13 +48,14 @@ const College_Val_Riot = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual Spring and Fall Seasons</p>
+              <p>Annual Fall Season</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>Scholarship Prizes to Top Teams</p>
               <p>4 Regional Divisions</p>
               <p>Support from Game Publisher Riot</p>
+              <p>Top Teams From Each Phase Qualify for Championship</p>
               <p>Live Streamed Matches</p>
               <p>Live Support on Discord</p>
               <h2 className="info-title3">Region/Type:</h2>

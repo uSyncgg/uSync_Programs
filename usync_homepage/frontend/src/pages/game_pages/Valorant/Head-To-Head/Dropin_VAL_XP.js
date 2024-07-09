@@ -52,7 +52,8 @@ const Dropin_VAL_XP = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>Support on Twitter</p>
-              <p>Small Number of Users and Set Wager Amounts by Site</p>
+              <p>Small Number of Users</p>
+              <p>Set Wager Amounts by Site</p>
               <p>Regular Daily Matches</p>
             </div>
             <div class="col-md-4 league-info">

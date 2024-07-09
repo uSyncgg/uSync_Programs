@@ -48,11 +48,11 @@ const NECC_Halo = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual Fall Season</p>
+              <p>Annual Spring and Fall Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>TBD Prize Pool</p>
+              <p>$2500 Prize Pool</p>
               <p>Highly Competitive</p>
               <p>Live Support on Discord</p>
               <p>Live Streamed Matches</p>

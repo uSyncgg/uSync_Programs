@@ -48,11 +48,13 @@ const NJCAAE_Val = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall 2023 (Estimated)</p>
+              <p>Annual Spring and Fall Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>NO Prize Pool</p>
+              <p>2 Qualifier Tournaments</p>
+              <p>Single Elimination Playoffs</p>
               <p>9 Week Round Robin Regular Season</p>
               <p>No Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>

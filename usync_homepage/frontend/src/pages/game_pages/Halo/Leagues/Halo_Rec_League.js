@@ -48,14 +48,14 @@ const Halo_Rec_League = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>S9 - Early-Summer (Estimated)</p>
+              <p>Annual Spring, Summer and Fall Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>NO Prize Pool</p>
               <p>Recreational</p>
               <p>Live Streamed Matches</p>
-              <p>Wednesday or Thursday Match Days</p>
+              <p>Wednesdays (Mixed) and Thursdays (Premade) for Gamedays</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - NA</p>
             </div>

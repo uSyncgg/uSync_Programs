@@ -48,13 +48,13 @@ const RSC_2v2 = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual February, May, and October Seasons</p>
+              <p>Annual Spring and Fall Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>NO Prize Pool</p>
               <p>Sign up as a Free Agent</p>
-              <p>9 Competitive Skill Divisons</p>
+              <p>Multiple Competitive Skill Divisons</p>
               <p>Draft Based League</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>2v2 - NA</p>

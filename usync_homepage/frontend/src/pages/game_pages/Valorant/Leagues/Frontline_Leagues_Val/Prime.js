@@ -48,11 +48,11 @@ const Prime = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall 2023 (Estimated)</p>
+              <p>Annual Fall Season (Estimated)</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$300 Prize Pool</p>
+              <p>$300 Prize Pool (Estimated)</p>
               <p>Platinum and Above</p>
               <p>5 Week Regular Season, 2 Week Playoffs</p>
               <p>Live Streamed Matches</p>
