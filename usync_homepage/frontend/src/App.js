@@ -360,7 +360,7 @@ import Halo from './pages/game_pages/Halo/Halo'
 import Halo_Lan from './pages/game_pages/Halo/Halo_Lan';
 
 import Lol_Lan from './pages/game_pages/LoL/Lol_Lan';
-import LoL from './pages/game_pages/LoL/LoL'
+import LoL from './pages/game_pages/LoL/Lol'
 import Lol_headtohead from './pages/game_pages/LoL/Lol_headtohead'
 import LoL_Wagers from './pages/game_pages/LoL/LoL_Wagers'
 import Lol_Leagues from './pages/game_pages/LoL/Lol_Leagues'
