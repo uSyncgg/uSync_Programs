@@ -10,7 +10,7 @@ const Home = () => {
             <div>
               <img src="https://i.imgur.com/l6mclM4.png" alt="uSync" />
               <h2 className={styles.Intro}>
-                World's <u>largest</u> selection of <u>esports</u> LANs, Leagues, and Tournaments<br />
+                World's <u>Largest</u> Selection of <u>Esports</u> LANs, Leagues, and Tournaments<br />
                 Find Your Next Event Today<br />
               </h2>
             </div>
@@ -32,24 +32,24 @@ const Home = () => {
               alt="underline"
             />
             <div className={styles.backgroundImages}>
-              <a href="http://localhost:3000/games/halo">
+            <a href="http://localhost:3000/games/call-of-duty">
                 <img
-                  src="https://i.imgur.com/wqKJfEu.png"
-                  alt="Halo Infinite"
-                  className="home-games-images"
-                />
-              </a>
-              <a href="http://localhost:3000/games/call-of-duty">
-                <img
-                  src="https://i.imgur.com/CsoQufa.png"
-                  alt="Modern Warfare 2"
+                  src="https://i.imgur.com/lt94bkC.png"
+                  alt="Call of Duty"
                   className="home-games-images"
                 />
               </a>
               <a href="http://localhost:3000/games/warzone">
                 <img
-                  src="https://i.imgur.com/BIs3u5h.png"
-                  alt="Warzone 2"
+                  src="https://i.imgur.com/IBGIbY2.png"
+                  alt="Warzone"
+                  className="home-games-images"
+                />
+              </a>
+              <a href="http://localhost:3000/games/halo">
+                <img
+                  src="https://i.imgur.com/wqKJfEu.png"
+                  alt="Halo Infinite"
                   className="home-games-images"
                 />
               </a>
@@ -72,6 +72,14 @@ const Home = () => {
                 <img
                   src="https://i.imgur.com/Gsl3oIp.png"
                   alt="Valorant"
+                  className="home-games-images"
+                />
+              </a>
+
+              <a href="http://localhost:3000/games/CS2">
+                <img
+                  src="https://i.imgur.com/60FwDKN.png"
+                  alt="Counter-Strike 2"
                   className="home-games-images"
                 />
               </a>
@@ -108,19 +116,21 @@ const Home = () => {
             />
 
             <div className={styles.backgroundImages}>
+            <a href="http://localhost:3000/Comingsoon">
+                <img src="https://i.imgur.com/ybSqQK4.png" alt="Fortnite" />{" "}
+              </a>
+
               <a href="http://localhost:3000/Comingsoon">
                 <img src="https://i.imgur.com/MUcaqmt.png" alt="Apex Legends" />{" "}
               </a>
 
               <a href="http://localhost:3000/Comingsoon">
                 <img
-                  src="https://i.imgur.com/qpQDtRJ.png"
-                  alt="Super Smash Brothers"
-                />
+                  src="https://i.imgur.com/qpQDtRJ.png" alt="Super Smash Brothers" />{" "}
               </a>
 
               <a href="http://localhost:3000/Comingsoon">
-                <img src="https://i.imgur.com/XxOYZiE.png" alt="Overwatch 2" />
+                <img src="https://i.imgur.com/XxOYZiE.png" alt="Overwatch 2" />{" "}
               </a>
             </div>
             <br />

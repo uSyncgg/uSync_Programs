@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../Footer';
 
 // Make sure the name following const is the same as the file name
-const NACE_RL = () => {
+const United_TwentyOne = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
@@ -36,7 +36,7 @@ const NACE_RL = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://nacesports.org/"
+            href="https://x.com/OfUnited21"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,26 +48,27 @@ const NACE_RL = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual Spring and Fall Seasons</p>
+              <p>Bi - Monthly Leagues</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$280k Prize Pool Split Across All Titles and Divisions</p>
-              <p>Scholarship Players Allowed</p>
+              <p>Main and Second Divisions</p>
+              <p>$10,000 Prize Pool (Main Division)</p>
+              <p>$2,000 Prize Pool (Second Division)</p>
+              <p>Winners of Second Division Move to Main</p>
               <p>Live Streamed Matches</p>
-              <p>Live Support on Discord</p>
-              <p>Multiple Tiers for Each Division</p>
+              <p>Highly Competitive</p>
               <h2 className="info-title3">Region/Type:</h2>
-              <p>3v3 - NA</p>
+              <p>5v5 - Worldwide</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>NACE Affiliation $2500/yr - Must Be a FULL TIME College Student</p>
+              <p>Entry Fee TBA</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-          <a href="https://www.usync.gg/games/RocketLeague/leagues" id='league-back-button-a'>
+          <a href="https://www.usync.gg/games/CS2/leagues" id='league-back-button-a'>
             <button className="back-button">Back</button>
           </a>
         </div>
@@ -83,4 +84,4 @@ const NACE_RL = () => {
 }
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default NACE_RL;
+export default United_TwentyOne;

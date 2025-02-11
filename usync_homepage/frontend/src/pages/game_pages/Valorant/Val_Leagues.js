@@ -449,20 +449,20 @@ const Val_Leagues = () => {
 
               <div className="col-lg-6">
                 <div className="league">
-                  <a href="http://localhost:3000/games/Valorant/leagues/nace-leagues">
-                    <h1 className="Leagueh1">NACE Starleague</h1>
+                  <a href="http://localhost:3000/games/Valorant/leagues/playfly-leagues">
+                    <h1 className="Leagueh1">Playfly College</h1>
                   </a>
                   <div className="parent">
-                    <a href="http://localhost:3000/games/Valorant/leagues/nace-leagues">
+                    <a href="http://localhost:3000/games/Valorant/leagues/playfly-leagues">
                       <img
-                        src="https://i.imgur.com/QYYAzjq.png"
+                        src="https://i.imgur.com/XHCsRTv.png"
                         className="league-img"
                       />
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
                   {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/Valorant/leagues/nace-leagues">
+                  <a href="http://localhost:3000/games/Valorant/leagues/playfly-leagues">
                     <button type="submit" className="info-button">
                       All Leagues
                     </button>

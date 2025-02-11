@@ -12,7 +12,7 @@ const Leagues = () => {
               className="Header-Img-l"
             />
             <div className="games-leagues-header-title">
-            <h2 id="league-title">Leagues</h2>
+            <h2 id="league-title">League Titles</h2>
             <img
               src="https://i.imgur.com/eNhKhTI.png"
               alt="underline"
@@ -24,26 +24,27 @@ const Leagues = () => {
           <div className="Background-leagues">
             <div class={styles.backgroundMid}>
               <div className={styles.backgroundImages}>
-                <a href="/games/halo/leagues">
+              <a href="/games/call-of-duty/leagues">
                   <img
-                    src="https://i.imgur.com/wqKJfEu.png"
-                    alt="Halo Infinite"
-                    height="12.5rem"
-                    width="12.5rem"
-                  />
-                </a>
-                <a href="/games/call-of-duty/leagues">
-                  <img
-                    src="https://i.imgur.com/CsoQufa.png"
-                    alt="Modern Warfare 2"
+                    src="https://i.imgur.com/lt94bkC.png"
+                    alt="Call of Duty"
                     height="12.5rem"
                     width="12.5rem"
                   />
                 </a>
                 <a href="/games/warzone/leagues">
                   <img
-                    src="https://i.imgur.com/BIs3u5h.png"
-                    alt="Warzone 2"
+                    src="https://i.imgur.com/IBGIbY2.png"
+                    alt="Warzone"
+                    height="12.5rem"
+                    width="12.5rem"
+                  />
+                </a>
+
+                <a href="/games/halo/leagues">
+                  <img
+                    src="https://i.imgur.com/wqKJfEu.png"
+                    alt="Halo Infinite"
                     height="12.5rem"
                     width="12.5rem"
                   />
@@ -70,6 +71,14 @@ const Leagues = () => {
                   <img
                     src="https://i.imgur.com/Gsl3oIp.png"
                     alt="Valorant"
+                    height="12.5rem"
+                    width="12.5rem"
+                  />
+                </a>
+                <a href="/games/CS2/leagues">
+                  <img
+                    src="https://i.imgur.com/60FwDKN.png"
+                    alt="Counter-Strike 2"
                     height="12.5rem"
                     width="12.5rem"
                   />

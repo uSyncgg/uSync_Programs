@@ -61,7 +61,8 @@ const NECC_Halo = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$1000/yr - Must be a FULL TIME College Student</p>
+              <p>$1000/yr</p>
+              <p>Must be a FULL TIME College Student and ACADEMICALLY ELIGIBLE</p>
             </div>
           </div>
         </div>

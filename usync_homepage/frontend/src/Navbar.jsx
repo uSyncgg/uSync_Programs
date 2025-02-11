@@ -25,6 +25,7 @@ const Navbar = () => {
                     <CustomDropLink className='cLinkText-mobile' href="/games/RocketLeague">Rocket League</CustomDropLink>
                     <CustomDropLink className='cLinkText-mobile' href="/games/Valorant">Valorant</CustomDropLink>
                     <CustomDropLink className='cLinkText-mobile' href="/games/warzone">Warzone</CustomDropLink>
+                    <CustomDropLink className='cLinkText-mobile' href="/games/CS2">Counter-Strike 2</CustomDropLink>
                 </MobileCustomLinkDropdown>
                 <CustomLink className="cLink-mobile" href="/Comingsoon">Coming Soon</CustomLink>
                 <MobileCustomLinkDropdown className="cLinkDropdown-mobile" title="More">
@@ -43,6 +44,7 @@ const Navbar = () => {
                   <CustomDropLink className='cLinkText' href="/games/RocketLeague">Rocket League</CustomDropLink>
                   <CustomDropLink className='cLinkText' href="/games/Valorant">Valorant</CustomDropLink>
                   <CustomDropLink className='cLinkText' href="/games/warzone">Warzone</CustomDropLink>
+                  <CustomDropLink className='cLinkText' href="/games/CS2">Counter-Strike 2</CustomDropLink>
               </CustomLinkGameDropdown>
               <CustomLink className="cLink" href="/Comingsoon">Coming Soon</CustomLink>
               <CustomLinkMoreDropdown className="cLinkDropdown" title="More">

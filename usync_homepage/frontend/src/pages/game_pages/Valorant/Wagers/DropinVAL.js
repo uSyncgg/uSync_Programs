@@ -53,7 +53,7 @@ const DropinVAL = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>Support on Twitter</p>
-              <p>Small Number of UsersSet Wager Amounts</p>
+              <p>Small Number of Users</p>
               <p>Set Wager Amounts</p>
             </div>
             <div class="col-md-4 league-info">

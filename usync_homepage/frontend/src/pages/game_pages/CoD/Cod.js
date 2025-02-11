@@ -49,7 +49,7 @@ const Cod = () => {
                 <a href="http://localhost:3000/games/call-of-duty/wagers">
                   <img
                     src="https://i.imgur.com/EgBRBVS.png"
-                    alt="Cod Tourneys"
+                    alt="Cod Wagers"
                     className="blockimg"
                   />
                 </a>
@@ -58,7 +58,7 @@ const Cod = () => {
                 <a href="http://localhost:3000/games/call-of-duty/head-to-head">
                   <img
                     src="https://i.imgur.com/CiO5ViA.png"
-                    alt="Cod Wagers"
+                    alt="Cod head-to-head"
                     className="blockimg"
                   />
                 </a>

@@ -63,7 +63,7 @@ const NECC_LoL = () => {
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>$1300/yr - Unlimited Game Title Participation</p>
               <p>$650/yr - One Game Title Participation</p>
-              <p>Must be enrolled as a FULL-TIME Student, and be ACADEMICALLY ELLIGABLE</p>
+              <p>Must be a FULL TIME College Student and ACADEMICALLY ELIGIBLE</p>
             </div>
           </div>
         </div>

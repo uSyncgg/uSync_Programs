@@ -2,15 +2,14 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
-import '../../../../../Info.css';
+import "../../../../Info.css";
 // Import bootstrap like this on every single CoD League game page
-import 'bootstrap/dist/css/bootstrap.css';
-import Footer from '../../../../../Footer';
-
+import "bootstrap/dist/css/bootstrap.css";
+import Footer from "../../../../Footer";
 // Make sure the name following const is the same as the file name
-const NACE_VARSITY = () => {
-    return (
-        <div className="total-playground">
+const CKRAS = () => {
+  return (
+    <div className="total-playground">
       <header class="headerImg">
       <img src="https://i.imgur.com/UDHxFWg.png" className="Header-Img" />
       </header>
@@ -36,7 +35,7 @@ const NACE_VARSITY = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://nacesports.org/"
+            href="https://www.ckras.com/en"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -47,28 +46,29 @@ const NACE_VARSITY = () => {
         <div class="container">
           <div class="row">
             <div class="col-md-4 league-info">
-              <h2 className="info-title">Date:</h2>
-              <p>Annual Spring and Fall Seasons</p>
+              <h2 className="info-title">Fees:</h2>
+              <p>Voice Server: 1.50€/month</p>
+              <p>EPS Entry: 14.99€/month</p>
+              <p>EPS Extreme Server: 20.99€/month</p>
+              <p>EPS Extreme Plus: 59.99€/month</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$280k Prize Pool Split Across All Titles and Divisions</p>
-              <p>Platinum & Above</p>
-              <p>Live Streamed Matches</p>
-              <p>Live Support on Discord</p>
-              <h2 className="info-title3">Region/Type:</h2>
-              <p>5v5 - NA</p>
+              <p>Purchase Gamer Server to Be Used in Scrims</p>
+              <p>Can Connect with Pracc Account</p>
+              <p>ESL Ready & Certified</p>
+              <p>Live Website Support</p>
             </div>
             <div class="col-md-4 league-info">
-            <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>NACE Affiliation $2500/yr- Must be FULL TIME College Student</p>
+              <h2 className="info-title">Restrictions:</h2>
+              <p>Available Worldwide</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-          <a href="https://www.usync.gg/games/Valorant/leagues/nace-leagues" id='league-back-button-a'>
-            <button className="back-button">Back</button>
-          </a>
+        <a href="https://www.usync.gg/games/CS2/head-to-head">
+          <button className="back-button">Back</button>
+        </a>
         </div>
         <div className="become-verified">
           <h6>
@@ -78,8 +78,8 @@ const NACE_VARSITY = () => {
       </div>
       <Footer />
     </div>
-    );
-}
+  );
+};
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default NACE_VARSITY;
+export default CKRAS;

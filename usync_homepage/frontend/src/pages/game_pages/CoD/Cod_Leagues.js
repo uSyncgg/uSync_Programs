@@ -360,16 +360,16 @@ const Cod_Leagues = () => {
 
                         <div className='col-lg-6 bottom-card'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/nace-cod-league'>
-                                    <h1 className='Leagueh1'>NACE Starleague</h1>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/playfly-cod-league'>
+                                    <h1 className='Leagueh1'>Playfly College</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/nace-cod-league"><img src="https://i.imgur.com/QYYAzjq.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/playfly-cod-league"><img src="https://i.imgur.com/XHCsRTv.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/nace-cod-league'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/playfly-cod-league'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>

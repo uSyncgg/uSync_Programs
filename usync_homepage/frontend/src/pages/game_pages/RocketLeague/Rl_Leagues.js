@@ -480,20 +480,20 @@ const Rl_Leagues = () => {
               </div>
               <div className="col-lg-6 bottom-card">
                 <div className="league">
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/nace">
-                    <h1 className="Leagueh1">NACE Starleague</h1>
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/playfly">
+                    <h1 className="Leagueh1">Playfly College</h1>
                   </a>
                   <div className="parent">
-                    <a href="http://localhost:3000/games/RocketLeague/leagues/nace">
+                    <a href="http://localhost:3000/games/RocketLeague/leagues/playfly">
                       <img
-                        src="https://i.imgur.com/QYYAzjq.png"
+                        src="https://i.imgur.com/XHCsRTv.png"
                         className="league-img"
                       />
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
                   {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/nace">
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/playfly">
                     <button type="submit" className="info-button">
                       More Info
                     </button>

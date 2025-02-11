@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../../Footer';
 
 // Make sure the name following const is the same as the file name
-const NACE_Open = () => {
+const Playfly_Open = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
@@ -36,7 +36,7 @@ const NACE_Open = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://nacesports.org/"
+            href="https://playflycollege.gg/pages/playfly-college-esports"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -61,12 +61,12 @@ const NACE_Open = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>NACE Affiliation $2500/yr- Must be FULL TIME College Student</p>
+              <p>$,2500/yr- Must be FULL TIME College Student</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-          <a href="https://www.usync.gg/games/Valorant/leagues/nace-leagues" id='league-back-button-a'>
+          <a href="https://www.usync.gg/games/Valorant/leagues/playfly-leagues" id='league-back-button-a'>
             <button className="back-button">Back</button>
           </a>
         </div>
@@ -82,4 +82,4 @@ const NACE_Open = () => {
 }
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default NACE_Open;
+export default Playfly_Open;

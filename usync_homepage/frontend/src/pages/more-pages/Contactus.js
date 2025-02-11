@@ -80,6 +80,28 @@ const Contactus = () => {
               competitive titles across all of esports!
             </h1>
             <div className="hr-border"></div>
+            
+            <div className="contact-us-about-us">
+              <h1 className="event-title-contactus2">Hosting Events?</h1>
+              <img
+                src="https://i.imgur.com/eNhKhTI.png"
+                className="Underline-h-verification-event2"
+              />
+            </div>
+            <h1 className="info-title-contactus">
+            <p className="hr-report" />
+            <p className="report-link" id="verification-post-event">
+              We support plenty of different events/websites but may miss a few from time to time in our search to support all games. 
+              If you are interested in working with us, click {" "}
+              <a id="verification-post-event-a" href="/more/eventhost">
+            HERE
+          </a>
+        </p>
+
+            </h1>
+
+            <div className="hr-border"></div>
+
             <div className="contact-us-about-us">
               <h1 className="event-title-contactus2">About Us</h1>
               <img
@@ -88,18 +110,15 @@ const Contactus = () => {
               />
             </div>
             <h1 className="info-title-contactus2">
-              Our founders played competitive esports in both the amateur and
-              collegiate level. uSync was founded after noticing that esports is
-              extremely disorganized and in some circumstances impossible to
-              find information without knowing the right people. Our vision is
-              to solve this by allowing all events to be shown in one place, so
-              everyone can participate in as many events as they desire.
+            Our team has played competitive esports in both the amateur and collegiate level for years. uSync was founded after noticing that esports is 
+            extremely disorganized and in some circumstances impossible to find information without knowing the right people. Our vision is to solve this by 
+            allowing all events to be shown in one place, so everyone can participate in as many events as they desire!
             </h1>
             <div className="container-fluid">
               <div className="row justify-content-center">
                 <div className="col-4">
                   <img
-                    src="https://i.imgur.com/47yLm7t.png"
+                    src="https://i.imgur.com/Q22mI5e.png"
                     className="about-us-image"
                   />
                   <h1 className="cofounder-title">Jake Bruscino</h1>
@@ -121,6 +140,15 @@ const Contactus = () => {
                   <h1 className="cofounder-title">Mason Wiley</h1>
                   <h1 className="cofounder-subtitle">Co-Founder</h1>
                 </div>
+                <div className="col-4">
+                  <img
+                    src="https://i.imgur.com/ECcvMfl.png"
+                    className="about-us-image"
+                  />
+                  <h1 className="cofounder-title">Tony Gomez</h1>
+                  <h1 className="cofounder-subtitle">Head of Marketing</h1>
+                </div>
+
               </div>
             </div>
             <div className="hr-border"></div>

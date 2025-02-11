@@ -8,11 +8,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../../../../Footer';
 
 // Make sure the name following const is the same as the file name
-const NACE_LoL = () => {
+const FACEITESEA = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/Jp2NG4l.png" className="Header-Img" />
+        <img src="https://i.imgur.com/w9CfHeY.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">
@@ -36,7 +36,7 @@ const NACE_LoL = () => {
             <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
           </a>
           <a
-            href="https://nacesports.org/"
+            href="https://www.faceit.com/en/cs2/league/ESEA%20League/a14b8616-45b9-4581-8637-4dfd0b5f6af8"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,27 +48,27 @@ const NACE_LoL = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual Spring and Fall Seasons</p>
+              <p>Year Round Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$280k Prize Pool Split Across All Titles and Divisions</p>
-              <p>Highly-Competitive</p>
-              <p>Multiple Tiers for Each Division</p>
-              <p>Live Streamed Matches</p>
-              <p>Live Support on Discord</p>
+              <p>$200k+ Prize Pools</p>
+              <p>Over 4 Week Regular Season</p>
+              <p>2-3 Week Playoffs</p>
+              <p>Different Divisions Based on Placement</p>
+              <p>Road to The Professional ESL Pro League</p>
+              <p>Start in Open Division</p>
               <h2 className="info-title3">Region/Type:</h2>
-              <p>5v5 - NA</p>
+              <p>5v5 - Available Worldwide</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>NACE Affiliation $2500/yr - Must be a FULL TIME College Student</p>
-              <p>Free Entry - Open Division</p>
+              <p>ESEA League Pass: $81.59/yr</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-          <a href="https://www.usync.gg/games/LoL/leagues" id='league-back-button-a'>
+          <a href="https://www.usync.gg/games/CS2/leagues" id='league-back-button-a'>
             <button className="back-button">Back</button>
           </a>
         </div>
@@ -84,4 +84,4 @@ const NACE_LoL = () => {
 }
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default NACE_LoL;
+export default FACEITESEA;

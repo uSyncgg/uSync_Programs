@@ -8,7 +8,7 @@ const FAQ = () => {
         <div className="container-fluid">
           <div className="row FAQ-container">
             <div className="col-md-4">
-              <h4 className="FAQ-header-text">Games</h4>
+              <h4 className="FAQ-header-text">Featured Games</h4>
               <div className="container-border">
                 <div className="images-container">
                   <a href="http://localhost:3000/games/halo">
@@ -20,15 +20,15 @@ const FAQ = () => {
                   </a>
                   <a href="http://localhost:3000/games/call-of-duty">
                     <img
-                      src="https://i.imgur.com/CsoQufa.png"
-                      alt="Modern Warfare 2"
+                      src="https://i.imgur.com/lt94bkC.png"
+                      alt="Call of Duty"
                       className="FAQ-img"
                     />
                   </a>
                   <a href="http://localhost:3000/games/warzone">
                     <img
-                      src="https://i.imgur.com/BIs3u5h.png"
-                      alt="Warzone 2"
+                      src="https://i.imgur.com/IBGIbY2.png"
+                      alt="Warzone"
                       className="FAQ-img"
                     />
                   </a>
@@ -60,7 +60,7 @@ const FAQ = () => {
 
             </div>
             <div className="col-md-8">
-              <h4 className="FAQ-header-text">FAQ</h4>
+              <h4 className="FAQ-header-text">Frequently Asked Questions</h4>
               <div className="FAQ-text-container-top">
                 <p className="FAQ-q">Q: How do I sign up for competitions?</p>
                 <p className="FAQ-a">

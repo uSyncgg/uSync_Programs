@@ -40,7 +40,7 @@ import Kanna_Gaming_League from './pages/game_pages/CoD/leagues/Kanna_Gaming_Lea
 import Lunar_League from './pages/game_pages/CoD/leagues/Lunar_League'
 import Snd_league from './pages/game_pages/CoD/leagues/Snd_league'
 import NACAL_league from './pages/game_pages/CoD/leagues/NACAL_league'
-import NACE_COD_League from './pages/game_pages/CoD/leagues/NACE_COD_League'
+import Playfly_COD_League from './pages/game_pages/CoD/leagues/Playfly_COD_League'
 import U18_League from './pages/game_pages/CoD/leagues/U18_League'
 import XP_League_Cod from './pages/game_pages/CoD/leagues/XP_League_Cod'
 import COD_Rec_League from './pages/game_pages/CoD/leagues/COD_Rec_League'
@@ -197,7 +197,7 @@ import CLOL from './pages/game_pages/LoL/Leagues/CLOL'
 import Corporate_LoL_League from './pages/game_pages/LoL/Leagues/Corporate_LoL_League'
 import Emerald_Draft_League from './pages/game_pages/LoL/Leagues/Emerald_Draft_League'
 import HSEL_LoL from './pages/game_pages/LoL/Leagues/HSEL_LoL'
-import NACE_LoL from './pages/game_pages/LoL/Leagues/NACE_LoL'
+import Playfly_LoL from './pages/game_pages/LoL/Leagues/Playfly_LoL'
 import NECC_LoL from './pages/game_pages/LoL/Leagues/NECC_LoL'
 import OPSE_LoL from './pages/game_pages/LoL/Leagues/OPSE_LoL'
 import PlayVS_LoL from './pages/game_pages/LoL/Leagues/PlayVS_LoL'
@@ -277,7 +277,7 @@ import Elite_Series from './pages/game_pages/RocketLeague/Leagues/Elite_Series'
 import HBCU_RL from './pages/game_pages/RocketLeague/Leagues/HBCU_RL'
 import HSEL_RL from './pages/game_pages/RocketLeague/Leagues/HSEL_RL'
 import Master_Cup from './pages/game_pages/RocketLeague/Leagues/Master_Cup'
-import NACE_RL from './pages/game_pages/RocketLeague/Leagues/NACE_RL'
+import Playfly_RL from './pages/game_pages/RocketLeague/Leagues/Playfly_RL'
 import NACL_Rl from './pages/game_pages/RocketLeague/Leagues/NACL_Rl'
 import NASEF_RL from './pages/game_pages/RocketLeague/Leagues/NASEF_RL'
 import NECC_RL from './pages/game_pages/RocketLeague/Leagues/NECC_RL'
@@ -322,9 +322,9 @@ import Evolution from './pages/game_pages/Valorant/Leagues/LPL_Leagues/Evolution
 import Frontpage_LPL from './pages/game_pages/Valorant/Leagues/LPL_Leagues/Frontpage_LPL'
 import Open from './pages/game_pages/Valorant/Leagues/LPL_Leagues/Open'
 
-import Frontpage_NACE from './pages/game_pages/Valorant/Leagues/Nace_Leagues/Frontpage_NACE'
-import NACE_Open from './pages/game_pages/Valorant/Leagues/Nace_Leagues/NACE_Open'
-import NACE_VARSITY from './pages/game_pages/Valorant/Leagues/Nace_Leagues/NACE_VARSITY'
+import Frontpage_Playfly from './pages/game_pages/Valorant/Leagues/Playfly_Leagues/Frontpage_Playfly'
+import Playfly_Open from './pages/game_pages/Valorant/Leagues/Playfly_Leagues/Playfly_Open'
+import Playfly_VARSITY from './pages/game_pages/Valorant/Leagues/Playfly_Leagues/Playfly_VARSITY'
 
 import Frontpage_Val_Victoris from './pages/game_pages/Valorant/Leagues/Victoris_Val_Leagues/Frontpage_Val_Victoris'
 import VLS from './pages/game_pages/Valorant/Leagues/Victoris_Val_Leagues/VLS'
@@ -351,6 +351,49 @@ import VantaGG_VAL from './pages/game_pages/Valorant/Leagues/VantaGG_VAL'
 import VCT_Game from './pages/game_pages/Valorant/Leagues/VCT_Game'
 import VMaster from './pages/game_pages/Valorant/Leagues/VMaster'
 //VALORANT LEAGUES
+
+//COUNTERSTIKE 2 HEAD TO HEAD
+import EsportScrimCS2 from './pages/game_pages/Counter-Strike2/Head-To-Head/EsportScrimCS2'
+import FACEITCS2 from './pages/game_pages/Counter-Strike2/Head-To-Head/FACEITCS2'
+import Pracc from './pages/game_pages/Counter-Strike2/Head-To-Head/Pracc'
+import CKRAS from './pages/game_pages/Counter-Strike2/Head-To-Head/CKRAS'
+//COUNTERSTIKE 2 HEAD TO HEAD
+
+//COUNTERSTIKE 2 WAGERS
+import DubbzCS2 from './pages/game_pages/Counter-Strike2/Wagers/DubbzCS2'
+import ShowdownGaming_CS2 from './pages/game_pages/Counter-Strike2/Wagers/ShowdownGaming_CS2'
+import GamerSaloon_CS2 from './pages/game_pages/Counter-Strike2/Wagers/GamerSaloon_CS2'
+//COUNTERSTIKE 2 WAGERS
+
+//COUNTERSTIKE 2 LEAGUES
+import AEL_CS2 from './pages/game_pages/Counter-Strike2/Leagues/AEL_CS2'
+import Corporate_CS2 from './pages/game_pages/Counter-Strike2/Leagues/Corporate_CS2'
+import ECAC_CS2 from './pages/game_pages/Counter-Strike2/Leagues/ECAC_CS2'
+import EGFC_CS2 from './pages/game_pages/Counter-Strike2/Leagues/EGFC_CS2'
+import FACEITCollege_CS2 from './pages/game_pages/Counter-Strike2/Leagues/FACEITCollege_CS2'
+import FACEITESEA from './pages/game_pages/Counter-Strike2/Leagues/FACEITESEA'
+import Fast_Cup_CS2 from './pages/game_pages/Counter-Strike2/Leagues/Fast_Cup_CS2'
+import FiReLEAGUE from './pages/game_pages/Counter-Strike2/Leagues/FiReLEAGUE'
+import HSEL_CS2 from './pages/game_pages/Counter-Strike2/Leagues/HSEL_CS2'
+import Playfly_CS2 from './pages/game_pages/Counter-Strike2/Leagues/Playfly_CS2'
+import NECC_CS2 from './pages/game_pages/Counter-Strike2/Leagues/NECC_CS2'
+import NJCAAE_CS2 from './pages/game_pages/Counter-Strike2/Leagues/NJCAAE_CS2'
+import NSE_CS2 from './pages/game_pages/Counter-Strike2/Leagues/NSE_CS2'
+import United_TwentyOne from './pages/game_pages/Counter-Strike2/Leagues/United_TwentyOne'
+import Frontpage_LPLCS from './pages/game_pages/Counter-Strike2/Leagues/LPL_Leagues/Frontpage_LPLCS'
+import LPL_Bronze from './pages/game_pages/Counter-Strike2/Leagues/LPL_Leagues/LPL_Bronze'
+import LPL_Gold from './pages/game_pages/Counter-Strike2/Leagues/LPL_Leagues/LPL_Gold'
+import LPL_Open from './pages/game_pages/Counter-Strike2/Leagues/LPL_Leagues/LPL_Open'
+import LPL_Silver from './pages/game_pages/Counter-Strike2/Leagues/LPL_Leagues/LPL_Silver'
+import Frontpage_hyper from './pages/game_pages/Counter-Strike2/Leagues/Hyperfibre_Leagues/Frontpage_hyper'
+import Elite_hyper from './pages/game_pages/Counter-Strike2/Leagues/Hyperfibre_Leagues/Elite_hyper'
+import Social_hyper from './pages/game_pages/Counter-Strike2/Leagues/Hyperfibre_Leagues/Social_hyper'
+import Frontpage_scl from './pages/game_pages/Counter-Strike2/Leagues/SCL_Leagues/Frontpage_scl'
+import Challenger_SCL from './pages/game_pages/Counter-Strike2/Leagues/SCL_Leagues/Challenger_SCL'
+import Intermediate_SCL from './pages/game_pages/Counter-Strike2/Leagues/SCL_Leagues/Intermediate_SCL'
+import Masters_SCL from './pages/game_pages/Counter-Strike2/Leagues/SCL_Leagues/Masters_SCL'
+import Public_SCL from './pages/game_pages/Counter-Strike2/Leagues/SCL_Leagues/Public_SCL'
+//COUNTERSTIKE 2 LEAGUES
 
 
 import Halo_headtohead from './pages/game_pages/Halo/Halo_headtohead'
@@ -382,6 +425,10 @@ import Rl_headtohead from './pages/game_pages/RocketLeague/Rl_headtohead';
 import Rl_Leagues from './pages/game_pages/RocketLeague/Rl_Leagues';
 import Rl_Wagers from './pages/game_pages/RocketLeague/Rl_Wagers';
 
+import CS2 from './pages/game_pages/Counter-Strike2/CS2';
+import CS2_headtohead from './pages/game_pages/Counter-Strike2/CS2_headtohead';
+import CS2_Leagues from './pages/game_pages/Counter-Strike2/CS2_Leagues';
+import CS2_Wagers from './pages/game_pages/Counter-Strike2/CS2_Wagers';
 
 import Verification from './pages/more-pages/Verification';
 import Becomeverified from './pages/more-pages/Becomeverified';
@@ -404,6 +451,7 @@ import './pages/more-pages/Contactus.css';
 import Report from './pages/game_pages/Report';
 import './pages/Comingsoon.css';
 import './pages/more-pages/FAQ.css';
+import VantaGG_CS2 from './pages/game_pages/Counter-Strike2/Leagues/VantaGG_CS2';
 
 // Different components needed for homepage: Nav bar, on click events for each image + button currently just take to a random page, css (A LOT)
 
@@ -583,6 +631,24 @@ function App() {
       component = <Wz_headtohead />
       break;
 
+      case "/games/CS2":
+        title = "Counter-Strike 2 | uSync";
+        component = <CS2 />
+        break;
+      case "/games/CS2/leagues":
+        title = "Counter-Strike 2 Leagues | uSync";
+        component = <CS2_Leagues />
+        break;
+      case "/games/CS2/wagers":
+        title = "Counter-Strike 2 Wagers | uSync";
+        component = <CS2_Wagers />
+        break;
+      case "/games/CS2/head-to-head":
+        title = "Counter-Strike 2 Head to Head | uSync";
+        component = <CS2_headtohead />
+        break;
+  
+
     case "/games/call-of-duty/tournaments":
       title = "Call of Duty Tournaments | uSync";
       component = <CodTourneys />
@@ -669,9 +735,9 @@ function App() {
       title = "Lunar League | uSync";
       component = <Lunar_League />
       break;
-    case "/games/call-of-duty/leagues/nace-cod-league":
-      title = "NACE Call of Duty League | uSync";
-      component = <NACE_COD_League />
+    case "/games/call-of-duty/leagues/playfly-cod-league":
+      title = "Playfly Call of Duty League | uSync";
+      component = <Playfly_COD_League />
       break;
     case "/games/call-of-duty/leagues/u18-league":
       title = "U18 League | uSync";
@@ -1147,9 +1213,9 @@ function App() {
       title = "High School League of Legends League | uSync";
       component = <HSEL_LoL />
       break;
-    case "/games/LoL/leagues/nace":
-      title = "NACE League of Legends League | uSync";
-      component = <NACE_LoL />
+    case "/games/LoL/leagues/playfly":
+      title = "Playfly League of Legends League | uSync";
+      component = <Playfly_LoL />
       break;
     case "/games/LoL/leagues/necc":
       title = "NECC League of Legends League | uSync";
@@ -1398,9 +1464,9 @@ function App() {
         title = "Master Cup Rocket League League | uSync";
       component = <Master_Cup />
       break;
-      case "/games/RocketLeague/leagues/nace":
-        title = "NACE Rocket League League | uSync";
-      component = <NACE_RL />
+      case "/games/RocketLeague/leagues/playfly":
+        title = "Playfly Rocket League League | uSync";
+      component = <Playfly_RL />
       break;
       case "/games/RocketLeague/leagues/nacl":
         title = "NACL Rocket League League | uSync";
@@ -1558,17 +1624,17 @@ function App() {
       component = <Open />
       break;
 
-      case "/games/Valorant/leagues/nace-leagues":
-        title = "NACE Valorant Leagues | uSync";
-      component = <Frontpage_NACE />
+      case "/games/Valorant/leagues/playfly-leagues":
+        title = "Playfly Valorant Leagues | uSync";
+      component = <Frontpage_Playfly />
       break;
-      case "/games/Valorant/leagues/nace-leagues/open":
-        title = "NACE Valorant Open League | uSync";
-      component = <NACE_Open />
+      case "/games/Valorant/leagues/playfly-leagues/open":
+        title = "Playfly Valorant Open League | uSync";
+      component = <Playfly_Open />
       break;
-      case "/games/Valorant/leagues/nace-leagues/varsity":
-        title = "NACE Valorant Varsity League | uSync";
-      component = <NACE_VARSITY />
+      case "/games/Valorant/leagues/playfly-leagues/varsity":
+        title = "Playfly Valorant Varsity League | uSync";
+      component = <Playfly_VARSITY />
       break;
 
       case "/games/Valorant/leagues/victoris-leagues":
@@ -1665,6 +1731,156 @@ function App() {
       component = <VMaster />
       break;
     // VALORANT LEAGUES
+
+    // COUNTERSTRIKE 2 HEAD TO HEAD
+    case "/games/CS2/head-to-head/esport-scrim":
+      title = "Esport Scrim CS2 | uSync";
+    component = <EsportScrimCS2 />
+    break;
+    case "/games/CS2/head-to-head/faceit":
+      title = "FACEIT CS2 | uSync";
+    component = <FACEITCS2 />
+    break;
+    case "/games/CS2/head-to-head/pracc":
+      title = "Pracc CS2 | uSync";
+    component = <Pracc />
+    break;
+    case "/games/CS2/head-to-head/ckras":
+      title = "CKRAS CS2 | uSync";
+    component = <CKRAS />
+    break;
+    // COUNTERSTRIKE 2 HEAD TO HEAD
+
+    // COUNTERSTRIKE 2 WAGERS
+    case "/games/CS2/wagers/dubbzcs2":
+      title = "Dubbz CS2 Wagers | uSync";
+    component = <DubbzCS2 />
+    break;
+    case "/games/CS2/wagers/showdowngaming_cs2":
+      title = "Showdown Gaming CS2 Wagers | uSync";
+    component = <ShowdownGaming_CS2 />
+    break;
+    case "/games/CS2/wagers/gamersaloon_cs2":
+      title = "GamerSaloon CS2 Wagers | uSync";
+    component = <GamerSaloon_CS2 />
+    break;
+    // COUNTERSTRIKE 2 WAGERS
+
+    // COUNTERSTRIKE 2 LEAGUES
+    case "/games/CS2/leagues/ael":
+      title = "AEL CS2 League | uSync";
+    component = <AEL_CS2 />
+    break;
+    case "/games/CS2/leagues/corporate":
+      title = "Corporate CS2 League | uSync";
+    component = <Corporate_CS2 />
+    break;
+    case "/games/CS2/leagues/ecac":
+      title = "ECAC CS2 League | uSync";
+    component = <ECAC_CS2 />
+    break;
+    case "/games/CS2/leagues/egfc":
+      title = "EGFC CS2 League | uSync";
+    component = <EGFC_CS2 />
+    break;
+    case "/games/CS2/leagues/faceitcollegiate":
+      title = "FACEIT Collegiate CS2 League | uSync";
+    component = <FACEITCollege_CS2 />
+    break;
+    case "/games/CS2/leagues/faceitesea":
+      title = "FACEIT ESEA CS2 League | uSync";
+    component = <FACEITESEA />
+    break;
+    case "/games/CS2/leagues/fastcup":
+      title = "Fast Cup CS2 League | uSync";
+    component = <Fast_Cup_CS2 />
+    break;
+    case "/games/CS2/leagues/fireleague":
+      title = "FiReLEAGUE CS2 League | uSync";
+    component = <FiReLEAGUE />
+    break;
+    case "/games/CS2/leagues/hsel":
+      title = "HSEL CS2 League | uSync";
+    component = <HSEL_CS2 />
+    break;
+    case "/games/CS2/leagues/playfly":
+      title = "Playfly CS2 League | uSync";
+    component = <Playfly_CS2 />
+    break;
+    case "/games/CS2/leagues/necc":
+      title = "NECC CS2 League | uSync";
+    component = <NECC_CS2 />
+    break;
+    case "/games/CS2/leagues/njcaae":
+      title = "NJCAAE CS2 League | uSync";
+    component = <NJCAAE_CS2 />
+    break;
+    case "/games/CS2/leagues/nse":
+      title = "NSE CS2 League | uSync";
+    component = <NSE_CS2 />
+    break;
+    case "/games/CS2/leagues/unitedtwentyone":
+      title = "United TwentyOne CS2 League | uSync";
+    component = <United_TwentyOne />
+    break;
+    case "/games/CS2/leagues/vantagg":
+      title = "VantaGG CS2 League | uSync";
+    component = <VantaGG_CS2 />
+    break;
+    case "/games/CS2/leagues/lpl-leagues":
+      title = "LPL CS2 Leagues | uSync";
+    component = <Frontpage_LPLCS />
+    break;
+    case "/games/CS2/leagues/lpl-leagues/lpl-gold":
+      title = "LPL Gold CS2 League | uSync";
+    component = <LPL_Gold />
+    break;
+    case "/games/CS2/leagues/lpl-leagues/lpl-silver":
+      title = "LPL Silver CS2 League | uSync";
+    component = <LPL_Silver />
+    break;
+    case "/games/CS2/leagues/lpl-leagues/lpl-bronze":
+      title = "LPL Bronze CS2 League | uSync";
+    component = <LPL_Bronze />
+    break;
+    case "/games/CS2/leagues/lpl-leagues/lpl-Open":
+      title = "LPL Open CS2 League | uSync";
+    component = <LPL_Open />
+    break;
+    case "/games/CS2/leagues/hyperfibre-leagues":
+      title = "Hyperfibre CS2 Leagues | uSync";
+    component = <Frontpage_hyper />
+    break;
+    case "/games/CS2/leagues/hyperfibre-leagues/elite":
+      title = "Hyperfibre Elite CS2 League | uSync";
+    component = <Elite_hyper />
+    break;
+    case "/games/CS2/leagues/hyperfibre-leagues/social":
+      title = "Hyperfibre Social CS2 League | uSync";
+    component = <Social_hyper />
+    break;
+    case "/games/CS2/leagues/scl-leagues":
+      title = "SCL CS2 Leagues | uSync";
+    component = <Frontpage_scl />
+    break;
+    case "/games/CS2/leagues/scl-leagues/challenger":
+      title = "SCL Challenger CS2 League | uSync";
+    component = <Challenger_SCL />
+    break;
+    case "/games/CS2/leagues/scl-leagues/intermediate":
+      title = "SCL Intermediate CS2 League | uSync";
+    component = <Intermediate_SCL />
+    break;
+    case "/games/CS2/leagues/scl-leagues/masters":
+      title = "SCL Masters CS2 League | uSync";
+    component = <Masters_SCL />
+    break;
+    case "/games/CS2/leagues/scl-leagues/public":
+      title = "SCL Public CS2 League | uSync";
+    component = <Public_SCL />
+    break;
+  // COUNTERSTRIKE 2 LEAGUES
+
       case "/playground":
       component = <Playground />
       break;

@@ -526,13 +526,13 @@ const Lol_Leagues = () => {
 
               <div className="col-lg-6 bottom-card">
                 <div className="league">
-                  <a href="http://localhost:3000/games/LoL/leagues/nace">
-                    <h1 className="Leagueh1">NACE Starleague</h1>
+                  <a href="http://localhost:3000/games/LoL/leagues/playfly">
+                    <h1 className="Leagueh1">Playfly College</h1>
                   </a>
                   <div className="parent">
-                    <a href="http://localhost:3000/games/LoL/leagues/nace">
+                    <a href="http://localhost:3000/games/LoL/leagues/playfly">
                       <img
-                        src="https://i.imgur.com/QYYAzjq.png"
+                        src="https://i.imgur.com/XHCsRTv.png"
                         className="league-img"
                       />
                     </a>
@@ -546,7 +546,7 @@ const Lol_Leagues = () => {
                   </div>
                   <p className="Leaguep">NA</p>
                   {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/LoL/leagues/nace">
+                  <a href="http://localhost:3000/games/LoL/leagues/playfly">
                     <button type="submit" className="info-button">
                       More Info
                     </button>

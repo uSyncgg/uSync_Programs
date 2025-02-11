@@ -2,17 +2,16 @@
 // ***Navbar.jsx and App.js must be edited to put the added page on the navbar so it can be viewed
 // Follow formatting instructions on those pages***
 // All CoD League game pages must have Info.css imported this way
-import '../../../../Info.css';
+import "../../../../Info.css";
 // Import bootstrap like this on every single CoD League game page
-import 'bootstrap/dist/css/bootstrap.css';
-import Footer from '../../../../Footer';
-
+import "bootstrap/dist/css/bootstrap.css";
+import Footer from "../../../../Footer";
 // Make sure the name following const is the same as the file name
-const NACE_COD_League = () => {
-    return (
-        <div className="total-playground">
+const EsportScrimCS2 = () => {
+  return (
+    <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/Jp2NG4l.png" className="Header-Img" />
+      <img src="https://i.imgur.com/UDHxFWg.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">
@@ -28,15 +27,15 @@ const NACE_COD_League = () => {
             className="mx-auto my-2"
           >
             <img
-              src="https://i.imgur.com/OSMYolc.png"
+              src="https://i.imgur.com/HaRfFh9.png"
               className="Checkmark-title"
             />
           </a>
           <a href="https://www.usync.gg/more/verification" id="checkmark-link">
-            <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
+            <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://nacesports.org/what-is-e-sports/games/"
+            href="https://esportscrim.com/"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -47,31 +46,26 @@ const NACE_COD_League = () => {
         <div class="container">
           <div class="row">
             <div class="col-md-4 league-info">
-              <h2 className="info-title">Date:</h2>
-              <p>Annual Spring and Fall Seasons</p>
+              <h2 className="info-title">Fees:</h2>
+              <p>Free Scrim Finder</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$280k Prize Pool Split Across All Titles and Divisions</p>
-              <p>Highly Competitive</p>
-              <p>Multiple Tiers for Each Division</p>
-              <p>Live Streamed Matches</p>
-              <p>Live Support Admins on Discord</p>
-              <p>Scholarship Players Allowed</p>
-              <h2 className="info-title3">Region/Type:</h2>
-              <p>4v4 - NA</p>
+              <p>All Levels of Competition</p>
+              <p>NO Game Server Provided</p>
+              <p>Small Number of Users Searching for Scrims</p>
+              <p>Live Discord Support</p>
             </div>
             <div class="col-md-4 league-info">
-            <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>NACE Affiliation $2500/yr - Must be FULL TIME College Student</p>
-              <p>Free Entry - Open Division</p>
+              <h2 className="info-title">Restrictions:</h2>
+              <p>Available Regions: NA / EUW / EUNE</p>
             </div>
           </div>
         </div>
         <div className="league-back-button-container">
-          <a href="https://www.usync.gg/games/call-of-duty/leagues" id='league-back-button-a'>
-            <button className="back-button">Back</button>
-          </a>
+        <a href="https://www.usync.gg/games/CS2/head-to-head">
+          <button className="back-button">Back</button>
+        </a>
         </div>
         <div className="become-verified">
           <h6>
@@ -81,8 +75,8 @@ const NACE_COD_League = () => {
       </div>
       <Footer />
     </div>
-    );
-}
+  );
+};
 
 // Must export default filename otherwise nothing will show up on the web page!
-export default NACE_COD_League;
+export default EsportScrimCS2;
