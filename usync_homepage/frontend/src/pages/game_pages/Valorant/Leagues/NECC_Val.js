@@ -52,7 +52,7 @@ const NECC_Val = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$7000 Prize Pool</p>
+              <p>$7,000 Prize Pool (EStimated)</p>
               <p>Multiple Skill Divisions</p>
               <p>6 Week Regular Season and Playoffs After</p>
               <p>Live Streamed Matches</p>

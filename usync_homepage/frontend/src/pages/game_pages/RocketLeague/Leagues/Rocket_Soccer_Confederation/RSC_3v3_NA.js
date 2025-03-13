@@ -12,7 +12,7 @@ const RSC_3v3_NA = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/8Gq4nYp.png" className="Header-Img" />
+        <img src="https://i.imgur.com/UDHxFWg.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">
@@ -28,12 +28,12 @@ const RSC_3v3_NA = () => {
             className="mx-auto my-2"
           >
             <img
-              src="https://i.imgur.com/OSMYolc.png"
+              src="https://i.imgur.com/HaRfFh9.png"
               className="Checkmark-title"
             />
           </a>
           <a href="https://www.usync.gg/more/verification" id="checkmark-link">
-            <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
+            <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
             href="https://discord.com/invite/rsc"
@@ -48,7 +48,7 @@ const RSC_3v3_NA = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual April, August, and Deecember Seasons</p>
+              <p>Annual April, August, and December Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>

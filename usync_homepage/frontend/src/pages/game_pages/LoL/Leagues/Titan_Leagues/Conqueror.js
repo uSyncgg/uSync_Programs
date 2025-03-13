@@ -52,7 +52,7 @@ const Conqueror = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$940 Prize Pool</p>
+              <p>1st place = 35% - 2nd place = 15% - 3rd/4th place = 5% - Operations = 40%</p>
               <p>Two 3 Week Round Robin Group Stages</p>
               <p>Top 16 Teams Advance to Playoffs</p>
               <p>Support on Discord</p>

@@ -52,16 +52,17 @@ const TEC_RL = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Tuesday and Thursday Weekly Matches</p>
+              <p>Pennsylvania High Schools Only</p>
               <p>Championship on LAN</p>
               <p>2 Competitive Divisions</p>
+              <p>School Manager Must Sign Up Team</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - USA</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$3500/yr - Must be a High School Student</p>
+              <p>Contact For Quote - Must be a High School Student</p>
             </div>
           </div>
         </div>

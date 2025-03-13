@@ -55,6 +55,7 @@ const Risen_Champions = () => {
               <p>$2040 Prize Pool</p>
               <p>Highly Competitive</p>
               <p>Live Streamed Matches</p>
+              <p>Live Support on Discord</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>

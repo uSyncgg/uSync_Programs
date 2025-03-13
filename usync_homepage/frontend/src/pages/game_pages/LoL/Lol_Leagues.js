@@ -108,29 +108,6 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/LoL/leagues/victoris-leagues">
-                    <h1 className="Leagueh1">Victoris Leagues</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/LoL/leagues/victoris-leagues">
-                      <img
-                        src="https://i.imgur.com/34aS7tl.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/LoL/leagues/victoris-leagues">
-                    <button type="submit" className="info-button">
-                      All Leagues
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <p className="hr" />
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/blue-otter-leagues">
@@ -154,77 +131,8 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/LoL/leagues/emerald-draft">
-                    <h1 className="Leagueh1">Emerald Draft League</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/LoL/leagues/emerald-draft">
-                      <img
-                        src="https://i.imgur.com/kt1YQFk.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/LoL/leagues/emerald-draft">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
               <p className="hr" />
-
-              <div className="col-lg-6">
-                <div className="league">
-                  <a href="http://localhost:3000/games/LoL/leagues/duo-esports-league">
-                    <h1 className="Leagueh1">DUO Esports Leagues</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/LoL/leagues/duo-esports-league">
-                      <img
-                        src="https://i.imgur.com/zIngCsR.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/LoL/leagues/duo-esports-league">
-                    <button type="submit" className="info-button">
-                      All Leagues
-                    </button>
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/LoL/leagues/ffs-leagues">
-                    <h1 className="Leagueh1">Friend or Foe Leagues</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/LoL/leagues/ffs-leagues">
-                      <img
-                        src="https://i.imgur.com/P3TkWWd.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/LoL/leagues/ffs-leagues">
-                    <button type="submit" className="info-button">
-                      All Leagues
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <p className="hr" />
-
+              
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/black-twitch-league">
@@ -270,6 +178,7 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
+
               <p className="hr" />
 
               <div className="col-lg-6">
@@ -295,30 +204,6 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/LoL/leagues/zerograv-leagues">
-                    <h1 className="Leagueh1">Zero Gravity Leagues</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/LoL/leagues/zerograv-leagues">
-                      <img
-                        src="https://i.imgur.com/dVTPZlO.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/LoL/leagues/zerograv-leagues">
-                    <button type="submit" className="info-button">
-                      All Leagues
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <p className="hr" />
-
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/sdc">
@@ -342,6 +227,8 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
+              <p className="hr" />
+
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/cobalt-winds-leagues">
@@ -358,30 +245,6 @@ const Lol_Leagues = () => {
                   <p className="Leaguep">EUW</p>
                   {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/LoL/leagues/cobalt-winds-leagues">
-                    <button type="submit" className="info-button">
-                      All Leagues
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <p className="hr" />
-
-              <div className="col-lg-6">
-                <div className="league">
-                  <a href="http://localhost:3000/games/LoL/leagues/las-leagues">
-                    <h1 className="Leagueh1">LAS Leagues</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/LoL/leagues/las-leagues">
-                      <img
-                        src="https://i.imgur.com/0xe76Iu.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/LoL/leagues/las-leagues">
                     <button type="submit" className="info-button">
                       All Leagues
                     </button>
@@ -405,77 +268,6 @@ const Lol_Leagues = () => {
                   <p className="Leaguep">NA</p>
                   {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/LoL/leagues/corporate-league">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <p className="hr" />
-
-              <div className="col-lg-6">
-                <div className="league">
-                  <a href="http://localhost:3000/games/LoL/leagues/gg-leagues">
-                    <h1 className="Leagueh1">GG Leagues</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/LoL/leagues/gg-leagues">
-                      <img
-                        src="https://i.imgur.com/hs7swgq.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/LoL/leagues/gg-leagues">
-                    <button type="submit" className="info-button">
-                      All Leagues
-                    </button>
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/LoL/leagues/scottish-esports">
-                    <h1 className="Leagueh1">Scottish Esports League</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/LoL/leagues/scottish-esports">
-                      <img
-                        src="https://i.imgur.com/VAurqdv.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">EU</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/LoL/leagues/scottish-esports">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <p className="hr" />
-              
-              <div className="col-lg-6">
-                <div className="league">
-                  <a href="http://localhost:3000/games/LoL/leagues/howlfun">
-                    <h1 className="Leagueh1">Howlfun League</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/LoL/leagues/howlfun">
-                      <img
-                        src="https://i.imgur.com/nNy46KP.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/LoL/leagues/howlfun">
                     <button type="submit" className="info-button">
                       More Info
                     </button>
@@ -578,22 +370,47 @@ const Lol_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
+              <div className="col-lg-6">
                 <div className="league">
-                  <a href="http://localhost:3000/games/LoL/leagues/opse">
-                    <h1 className="Leagueh1">OPSE</h1>
+                  <a href="http://localhost:3000/games/LoL/leagues/ecac">
+                    <h1 className="Leagueh1">ECAC Esports</h1>
                   </a>
                   <div className="parent">
-                    <a href="http://localhost:3000/games/LoL/leagues/opse">
+                    <a href="http://localhost:3000/games/LoL/leagues/ecac">
                       <img
-                        src="https://i.imgur.com/vk4JMG4.png"
+                        src="https://i.imgur.com/hsLZywE.png"
                         className="league-img"
                       />
                     </a>
                   </div>
-                  <p className="Leaguep">Ontario</p>
+                  <p className="Leaguep">USA</p>
                   {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/LoL/leagues/opse">
+                  <a href="http://localhost:3000/games/LoL/leagues/ecac">
+                    <button type="submit" className="info-button">
+                      More Info
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <p className="hr" />
+
+              <div className="col-lg-6">
+                <div className="league">
+                  <a href="http://localhost:3000/games/LoL/leagues/nse">
+                    <h1 className="Leagueh1">National Student Esports</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="http://localhost:3000/games/LoL/leagues/nse">
+                      <img
+                        src="https://i.imgur.com/mJJJD6e.png"
+                        className="league-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">UK</p>
+                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
+                  <a href="http://localhost:3000/games/LoL/leagues/nse">
                     <button type="submit" className="info-button">
                       More Info
                     </button>
@@ -610,36 +427,6 @@ const Lol_Leagues = () => {
                   className="Underline-h1"
                 />
                 <p className="hr" />
-              </div>
-
-              <div className="col-lg-6">
-                <div className="league">
-                  <a href="http://localhost:3000/games/LoL/leagues/hsel">
-                    <h1 className="Leagueh1">High School Esports League</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/LoL/leagues/hsel">
-                      <img
-                        src="https://i.imgur.com/fYpPNR1.png"
-                        className="league-img"
-                      />
-                    </a>
-                    <a href="https://www.usync.gg/more/verification">
-                      <img
-                        src="https://i.imgur.com/PCHIHQB.png"
-                        title="uSync Verified"
-                        className="over-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/LoL/leagues/hsel">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
               </div>
 
               <div className="col-lg-6 bottom-card">
@@ -664,7 +451,7 @@ const Lol_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <p className="hr" />
+              
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/LoL/leagues/playvs">
@@ -678,7 +465,7 @@ const Lol_Leagues = () => {
                       />
                     </a>
                   </div>
-                  <p className="Leaguep">NA</p>
+                  <p className="Leaguep">USA</p>
                   {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/LoL/leagues/playvs">
                     <button type="submit" className="info-button">

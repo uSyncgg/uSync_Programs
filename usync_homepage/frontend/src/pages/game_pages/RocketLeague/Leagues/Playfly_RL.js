@@ -63,6 +63,7 @@ const Playfly_RL = () => {
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>$2,500/yr - Must Be a FULL TIME College Student</p>
+              <p>Free Entry - Open Division</p>
             </div>
           </div>
         </div>

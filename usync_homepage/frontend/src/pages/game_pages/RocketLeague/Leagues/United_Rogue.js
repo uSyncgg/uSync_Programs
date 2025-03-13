@@ -53,9 +53,8 @@ const United_Rogue = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>32 Franchises over 5 League System</p>
-              <p>Ages 16 and Older</p>
               <p>10 Week Regular Season, 3 Week Playoffs</p>
-              <p>Must Sign up Solo</p>
+              <p>2 Conferences with 4 Divisions in Each League</p>
               <p>Enforced Salary Caps for Competitiveness</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -64,6 +63,7 @@ const United_Rogue = () => {
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>Free Entry</p>
+              <p>Ages 16 and Older</p>
             </div>
           </div>
         </div>

@@ -52,11 +52,12 @@ const College_Val_Riot = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>4 Regional Divisions</p>
-              <p>2 Week Preseason, 8 Week Regular Season</p>
+              <p>Regional Divisions</p>
+              <p>4 States with State Titles</p>
+              <p>2 Week Preseason, 6 Week Regular Season</p>
               <p>Single Elimination Playoffs</p>
-              <p>NO Live Streamed Matches</p>
               <p>Free Scrim Fridays</p>
+              <p>NO Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>

@@ -11,7 +11,7 @@ const COD_Rec_League = () => {
   return (
     <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/7ZKhqMS.png" className="Header-Img" />
+        <img src="https://i.imgur.com/UDHxFWg.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">
@@ -27,12 +27,12 @@ const COD_Rec_League = () => {
             className="mx-auto my-2"
           >
             <img
-              src="https://i.imgur.com/OSMYolc.png"
+              src="https://i.imgur.com/HaRfFh9.png"
               className="Checkmark-title"
             />
           </a>
           <a href="https://www.usync.gg/more/verification" id="checkmark-link">
-            <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
+          <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
             href="https://www.google.com/url?q=https%3A%2F%2Fcod.esrl.gg%2F&sa=D&sntz=1&usg=AOvVaw359r5MIeBPnIT5_Guhelh-"
@@ -57,7 +57,7 @@ const COD_Rec_League = () => {
               <p>Premade or Mixed Leagues</p>
               <p>Multiple Skill Divisions</p>
               <h2 className="info-title3">Region/Type:</h2>
-              <p>4v4 - All Regions</p>
+              <p>4v4 - NA</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>

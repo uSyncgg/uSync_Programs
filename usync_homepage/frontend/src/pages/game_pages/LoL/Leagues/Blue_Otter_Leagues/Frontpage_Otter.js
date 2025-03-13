@@ -10,6 +10,23 @@ const Frontpage_Otter = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
+
+                    <div className='col-lg-6'>
+                            <div className='league'>
+                                <a href='http://localhost:3000/games/LoL/leagues/blue-otter-leagues/masters'>
+                                    <h1 className='Leagueh1'>Masters League</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="http://localhost:3000/games/LoL/leagues/blue-otter-leagues/masters"><img src="https://i.imgur.com/RaTizzw.png" className='league-img' /></a>
+                                </div>
+                                <p className='Leaguep'>600LP+</p>
+                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
+                                <a href='http://localhost:3000/games/LoL/leagues/blue-otter-leagues/masters'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/LoL/leagues/blue-otter-leagues/diamond'>
@@ -21,6 +38,24 @@ const Frontpage_Otter = () => {
                                 <p className='Leaguep'>Diamond 1 cap / One Masters</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/LoL/leagues/blue-otter-leagues/diamond'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <p className='hr' />
+
+                        <div className='col-lg-6'>
+                            <div className='league'>
+                                <a href='http://localhost:3000/games/LoL/leagues/blue-otter-leagues/emerald'>
+                                    <h1 className='Leagueh1'>Emerald League</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="http://localhost:3000/games/LoL/leagues/blue-otter-leagues/emerald"><img src="https://i.imgur.com/RaTizzw.png" className='league-img' /></a>
+                                </div>
+                                <p className='Leaguep'>Emerald 1 cap / One Diamond 4</p>
+                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
+                                <a href='http://localhost:3000/games/LoL/leagues/blue-otter-leagues/emerald'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -41,6 +76,7 @@ const Frontpage_Otter = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
 
                         <div className='col-lg-6'>
@@ -61,15 +97,15 @@ const Frontpage_Otter = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/LoL/leagues/blue-otter-leagues/ibs'>
-                                    <h1 className='Leagueh1'>IBS League</h1>
+                                <a href='http://localhost:3000/games/LoL/leagues/blue-otter-leagues/draft'>
+                                    <h1 className='Leagueh1'>Draft League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/LoL/leagues/blue-otter-leagues/ibs"><img src="https://i.imgur.com/RaTizzw.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/LoL/leagues/blue-otter-leagues/draft"><img src="https://i.imgur.com/RaTizzw.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Silver 1 cap / One Gold 4</p>
+                                <p className='Leaguep'>Platinum 4 - Diamond 1</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/LoL/leagues/blue-otter-leagues/ibs'>
+                                <a href='http://localhost:3000/games/LoL/leagues/blue-otter-leagues/draft'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>

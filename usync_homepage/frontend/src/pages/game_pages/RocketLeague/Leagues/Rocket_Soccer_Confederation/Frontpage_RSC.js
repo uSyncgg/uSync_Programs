@@ -17,7 +17,6 @@ const Frontpage_RSC = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/rsc-leagues/3v3-na"><img src="https://i.imgur.com/QiNSeyE.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Draft Format</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -34,7 +33,6 @@ const Frontpage_RSC = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/rsc-leagues/3v3-eu"><img src="https://i.imgur.com/uQgW3Kj.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Draft Format</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -52,7 +50,6 @@ const Frontpage_RSC = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/rsc-leagues/2v2"><img src="https://i.imgur.com/QiNSeyE.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>Draft Format</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}

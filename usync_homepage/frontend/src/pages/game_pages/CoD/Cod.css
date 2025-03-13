@@ -23,6 +23,7 @@
     width: 90%;
     height: auto;
     border-radius: 1.813rem;
+    transition: filter 0.7s;
 }
 
 .check {
@@ -93,7 +94,6 @@
 
 .league-img:hover {
   filter: brightness(135%);
-  transition: filter 0.7s;
 }
 
 .parent {
@@ -110,11 +110,11 @@
     transform-origin: center;
     transition: transform 0.3s;
     display: block;
+    transition: filter 0.7s;
 
 }
 .over-img:hover {
-  transition: filter 0.7s;
-  filter: contrast(200%);               
+  filter: contrast(150%);               
   }
   
 

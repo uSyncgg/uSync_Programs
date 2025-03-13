@@ -74,7 +74,25 @@ const Frontpage_MetaShift = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
+
+                        <div className='col-lg-6'>
+                            <div className='league'>
+                                <a href='http://localhost:3000/games/LoL/leagues/meta-shift-leagues/nitrogen'>
+                                    <h1 className='Leagueh1'>Nitrogen League</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="http://localhost:3000/games/LoL/leagues/meta-shift-leagues/nitrogen"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
+                                </div>
+                                <p className='Leaguep'>Tier 5</p>
+                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
+                                <a href='http://localhost:3000/games/LoL/leagues/meta-shift-leagues/nitrogen'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
+                        
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/LoL/leagues/meta-shift-leagues/neon'>
@@ -91,22 +109,9 @@ const Frontpage_MetaShift = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
-                                <a href='http://localhost:3000/games/LoL/leagues/meta-shift-leagues/helium'>
-                                    <h1 className='Leagueh1'>Helium League</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="http://localhost:3000/games/LoL/leagues/meta-shift-leagues/helium"><img src="https://i.imgur.com/XiFomA7.png" className='league-img' /></a>
-                                </div>
-                                <p className='Leaguep'>Tier 7</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/LoL/leagues/meta-shift-leagues/helium'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
+
                         <p className='hr' />
+
                     </div>
                     <div className="league-back-button-container">
               <a href="https://www.usync.gg/games/LoL/leagues">

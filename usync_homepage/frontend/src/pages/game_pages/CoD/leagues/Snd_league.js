@@ -12,7 +12,7 @@ const Snd_league = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/ahnF3ID.png" className="Header-Img" />
+        <img src="https://i.imgur.com/UDHxFWg.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">
@@ -28,12 +28,12 @@ const Snd_league = () => {
             className="mx-auto my-2"
           >
             <img
-              src="https://i.imgur.com/OSMYolc.png"
+              src="https://i.imgur.com/HaRfFh9.png"
               className="Checkmark-title"
             />
           </a>
           <a href="https://www.usync.gg/more/verification" id="checkmark-link">
-            <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
+            <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
             href="https://twitter.com/TheSNDLeague?s=20&t=1wDVDxeYYzurroq3MWGBUQ"
@@ -48,17 +48,17 @@ const Snd_league = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Spring 2024 (Estimated)</p>
-              <p>Starts When Full</p>
+              <p>Annual Season Randomly</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>$1000 Prize Pool (Estimated)</p>
               <p>Highly Competitive</p>
               <p>Live Streamed games with High Profile Players</p>
+              <p>Pool Play Matches then Playoffs</p>
               <p>24/7 Live Support and Admins</p>
               <h2 className="info-title3">Region/Type:</h2>
-              <p>3v3/4v4 - All Regions</p>
+              <p>3v3 - All Regions</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>

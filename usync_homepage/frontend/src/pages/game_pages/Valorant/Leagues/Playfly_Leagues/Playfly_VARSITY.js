@@ -53,7 +53,6 @@ const Playfly_VARSITY = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>$280k Prize Pool Split Across All Titles and Divisions</p>
-              <p>Platinum & Above</p>
               <p>Live Streamed Matches</p>
               <p>Live Support on Discord</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -61,7 +60,8 @@ const Playfly_VARSITY = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$2,500/yr- Must be FULL TIME College Student</p>
+              <p>$2,500/yr - Must be FULL TIME College Student</p>
+              <p>Platinum & Above</p>
             </div>
           </div>
         </div>

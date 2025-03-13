@@ -52,7 +52,7 @@ const Divinity = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$490 Prize Pool (Estimated)</p>
+              <p>1st place = 35% - 2nd place = 15% - 3rd/4th place = 5% - Operations = 40%</p>
               <p>7 Week Single Round Robin Group Stage</p>
               <p>Top 4 From Each Group Advance to Playoffs</p>
               <p>Support on Discord</p>

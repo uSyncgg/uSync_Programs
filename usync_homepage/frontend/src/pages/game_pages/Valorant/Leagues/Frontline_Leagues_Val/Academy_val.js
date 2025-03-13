@@ -53,17 +53,16 @@ const Academy_val = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>$300 Prize Pool (Estimated)</p>
-              <p>Gold and Below</p>
               <p>5 Week Regular Season, 2 Week Playoffs</p>
               <p>Live Streamed Matches</p>
               <p>Must Sign up Solo</p>
-              <p>Teams Drafted by Captains</p>
+              <p>Free Agents Drafted by Captains on Stream</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>Free Entry</p>
+              <p>Free Entry - Gold & Below (Estimated)</p>
             </div>
           </div>
         </div>

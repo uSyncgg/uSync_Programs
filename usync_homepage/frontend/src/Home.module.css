@@ -126,13 +126,11 @@ body {
 .footer img {
   position: relative;
   z-index: 9999 !important;
-  margin: 2%;
-  width: 6%;
-  height: 6%;
+  margin: 1%;
+  width: 3%;
 }
 
 .reportProblem {
-  margin-top: 1.25rem;
   color: rgb(142, 106, 206);
   text-decoration: underline !important;
   font-weight: 600;
@@ -146,9 +144,9 @@ body {
 .footer {
   background-color: rgb(67, 67, 67);
   text-align: center;
-  padding-bottom: .3%;
+  padding-bottom: .03%;
   z-index: 99999 !important;
-  padding-top: 1rem;
+  padding-top: .05rem;
 }
 
 .contactus{

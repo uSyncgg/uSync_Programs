@@ -48,20 +48,21 @@ const HOE_Amateur = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Spring 2024</p>
+              <p>Spring Season (Estimated)</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>R 1000+ Prize Pool</p>
-              <p>MNK Allowed</p>
+              <p>R 1000+ Prize Pool (Estimated)</p>
+              <p>Mouse and Keyboard Allowed</p>
               <p>South African Servers</p>
               <p>Competitive</p>
+              <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - All Regions</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>R100 Per Team</p>
+              <p>R 100 Per Team</p>
             </div>
           </div>
         </div>

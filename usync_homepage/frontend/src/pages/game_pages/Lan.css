@@ -10,7 +10,7 @@
   
   .info-button-lans {
     position: absolute;
-    bottom: 1rem; /* Adjust as needed */
+    bottom: .5rem; /* Adjust as needed */
     transform: translateX(-50%); /* Center the button horizontally */
     background-color: rgba(49, 49, 49, 0.9);
     color: rgb(141, 125, 181);

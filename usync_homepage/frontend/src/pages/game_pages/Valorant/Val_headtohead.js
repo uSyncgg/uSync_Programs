@@ -20,7 +20,7 @@ const Val_headtohead = () => {
                                     <h1 className='Leagueh1'>Gankster GG</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/Valorant/head-to-head/gankster"><img src="https://i.imgur.com/jDiKD74.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/Valorant/head-to-head/gankster"><img src="https://i.imgur.com/ljDANVi.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
@@ -37,7 +37,7 @@ const Val_headtohead = () => {
                                     <h1 className='Leagueh1'>Esport Scrim</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/Valorant/head-to-head/esport-scrim"><img src="https://i.imgur.com/T2IA9mL.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/Valorant/head-to-head/esport-scrim"><img src="https://i.imgur.com/irkzmva.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
@@ -54,10 +54,9 @@ const Val_headtohead = () => {
                                     <h1 className='Leagueh1'>Drop-In Gaming</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/Valorant/head-to-head/dropingaming"><img src="https://i.imgur.com/78DWiv0.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/Valorant/head-to-head/dropingaming"><img src="https://i.imgur.com/Onot7tG.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'></p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/Valorant/head-to-head/dropingaming'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
@@ -70,32 +69,32 @@ const Val_headtohead = () => {
                                     <h1 className='Leagueh1'>Collegiate Valorant Hub Scrims</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/Valorant/head-to-head/college-hub"><img src="https://i.imgur.com/wAHYH2Q.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/Valorant/head-to-head/college-hub"><img src="https://i.imgur.com/InYxRbE.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'></p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/Valorant/head-to-head/college-hub'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/Valorant/head-to-head/project-v'>
-                                    <h1 className='Leagueh1'>Project V League</h1>
+                                <a href='http://localhost:3000/games/Valorant/head-to-head/pracc'>
+                                    <h1 className='Leagueh1'>Pracc</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/Valorant/head-to-head/project-v"><img src="https://i.imgur.com/lDPgnzb.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/Valorant/head-to-head/pracc"><img src="https://i.imgur.com/jqe9CCc.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'></p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/Valorant/head-to-head/project-v'>
+                                <a href='http://localhost:3000/games/Valorant/head-to-head/pracc'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
 
                     </div>

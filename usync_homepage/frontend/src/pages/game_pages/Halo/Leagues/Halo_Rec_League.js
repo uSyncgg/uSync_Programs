@@ -52,16 +52,16 @@ const Halo_Rec_League = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>NO Prize Pool</p>
+              <p>Wednesdays (Mixed) and Thursdays (Premade) for Gamedays</p>
+              <p>9PM EST (Mixed) and 10:30PM (Premade) for Gametimes</p>
               <p>Recreational</p>
               <p>Live Streamed Matches</p>
-              <p>Wednesdays (Mixed) and Thursdays (Premade) for Gamedays</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - NA</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>Free Entry - Solo/Duo Sign Ups</p>
+              <p>Solo/Duo Mixed - Free Entry</p>
               <p>$30 - Premade Teams</p>
             </div>
           </div>

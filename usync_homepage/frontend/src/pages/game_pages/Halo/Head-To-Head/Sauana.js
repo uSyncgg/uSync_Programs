@@ -53,7 +53,7 @@ const RecXP = () => {
               <h2 className="info-title">Details:</h2>
               <p>Scrim Finder for Casual - Competitive Players</p>
               <p>Schedule Matches & Times Manually</p>
-              <p>Semi-Large Number of Users</p>
+              <p>Smaller User Base with Few Matches</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Restrictions:</h2>

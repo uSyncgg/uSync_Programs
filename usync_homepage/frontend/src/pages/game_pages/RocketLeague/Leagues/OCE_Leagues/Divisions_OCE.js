@@ -52,7 +52,7 @@ const Divisions_OCE = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$2500 Prize Pool (Estimated)</p>
+              <p>$12,000 AUS Prize Pool (Estimated)</p>
               <p>Salary Based on MMR</p>
               <p>3-5 Week Regular Season</p>
               <p>Draft Based League</p>

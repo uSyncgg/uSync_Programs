@@ -48,15 +48,14 @@ const Serie_B = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual Spring and Fall Seasons</p>
+              <p>Two Annual Seasons (Estimated)</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>NO Prize Pool</p>
+              <p>Prize Based on Teams Performance</p>
+              <p>2 Players Must Have Italian Citizenship</p>
               <p>Top Team Promoted to Serie A</p>
               <p>Earn Points in Regular Season to Determine Rank</p>
-              <p>Top Team Promoted to Serie A</p>
-              <p>2 Players Must Have Italian Citizenship</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - ITL</p>

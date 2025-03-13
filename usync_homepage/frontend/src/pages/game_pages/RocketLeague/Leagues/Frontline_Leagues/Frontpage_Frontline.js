@@ -18,7 +18,7 @@ const Frontpage_Frontline = () => {
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/frontline-leagues/champ"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1800+ MMR</p>
+                                <p className='Leaguep'>1700+ MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/frontline-leagues/champ'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -34,7 +34,7 @@ const Frontpage_Frontline = () => {
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/frontline-leagues/vanguard"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1600 - 1799 MMR</p>
+                                <p className='Leaguep'>1500-1699 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/frontline-leagues/vanguard'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -51,7 +51,7 @@ const Frontpage_Frontline = () => {
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/frontline-leagues/challenger"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1400 - 1599 MMR</p>
+                                <p className='Leaguep'>1300 - 1499 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/frontline-leagues/challenger'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -67,7 +67,7 @@ const Frontpage_Frontline = () => {
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/frontline-leagues/prospect"><img src="https://i.imgur.com/pjxLzXe.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1399 MMR and Lower</p>
+                                <p className='Leaguep'>1299 MMR and Lower</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/frontline-leagues/prospect'>
                                     <button type="submit" className='info-button'>More Info</button>

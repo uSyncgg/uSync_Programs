@@ -53,18 +53,17 @@ const Major = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>Prize Pool Based on Donations</p>
-              <p>1715+ MMR</p>
-              <p>Must Sign up Solo</p>
-              <p>Draft Based League</p>
-              <p>Live Streamed Matches</p>
               <p>Must Sign 1-3 Season Contract</p>
-              <p>Support on Discord</p>
+              <p>Build Your Own Team</p>
+              <p>Live Streamed Matches</p>
+              <p>Live Support on Discord</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - NA</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>Free Entry</p>
+              <p>1800+ MMR</p>
             </div>
           </div>
         </div>

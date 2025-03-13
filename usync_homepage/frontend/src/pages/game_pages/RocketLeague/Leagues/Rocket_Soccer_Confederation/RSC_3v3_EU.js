@@ -12,7 +12,7 @@ const RSC_3v3_NA = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/dUlCKyg.png" className="Header-Img" />
+        <img src="https://i.imgur.com/UDHxFWg.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">
@@ -28,12 +28,12 @@ const RSC_3v3_NA = () => {
             className="mx-auto my-2"
           >
             <img
-              src="https://i.imgur.com/OSMYolc.png"
+              src="https://i.imgur.com/HaRfFh9.png"
               className="Checkmark-title"
             />
           </a>
           <a href="https://www.usync.gg/more/verification" id="checkmark-link">
-            <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
+            <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
             href="https://discord.com/invite/Bw4rvpG"
@@ -54,8 +54,8 @@ const RSC_3v3_NA = () => {
               <h2 className="info-title">Details:</h2>
               <p>Prize Pools for Eeach Division</p>
               <p>Sign up as an Individual</p>
-              <p>6 Skill Divisons</p>
-              <p>Draft Based League</p>
+              <p>Multiple Skill Divisons</p>
+              <p>5 Skill Tiers</p>
               <p>Weekly Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - EU</p>

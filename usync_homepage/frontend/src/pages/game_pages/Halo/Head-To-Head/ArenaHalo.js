@@ -54,7 +54,8 @@ const Arena = () => {
               <p>Scrim Finder for Competitive Players</p>
               <p>Live Staff Support</p>
               <p>Queue Into Premade 8s Lobbies</p>
-              <p>Large Number of Users</p>
+              <p>Small Number of Users</p>
+              <p>AI Scheduled Scrims</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Restrictions:</h2>

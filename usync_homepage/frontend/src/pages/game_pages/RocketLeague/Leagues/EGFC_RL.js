@@ -52,8 +52,7 @@ const EGFC_RL = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Two 8 Week Seasonal Splits</p>
-              <p>Online Playoffs</p>
+              <p>In-Person or Online Playoffs</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - USA</p>

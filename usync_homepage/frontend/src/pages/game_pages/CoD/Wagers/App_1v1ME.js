@@ -55,6 +55,7 @@ const Oneup_Wagers = () => {
               <p>Live Support on App</p>
               <p>1v1 Matches ONLY</p>
               <p>Large Number of Users</p>
+              <p>Staking on Tournaments (Betting on Winner)</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Restrictions:</h2>

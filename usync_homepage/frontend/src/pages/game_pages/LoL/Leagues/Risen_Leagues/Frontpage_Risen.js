@@ -29,24 +29,6 @@ const Frontpage_Risen = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/LoL/leagues/risen-leagues/divine'>
-                                    <h1 className='Leagueh1'>Divine League</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="http://localhost:3000/games/LoL/leagues/risen-leagues/divine"><img src="https://i.imgur.com/s5LrZoC.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
-                                </div>
-                                <p className='Leaguep'>800LP Hard cap</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/LoL/leagues/risen-leagues/divine'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
-                        <p className='hr' />
-
-                        <div className='col-lg-6'>
-                            <div className='league'>
                                 <a href='http://localhost:3000/games/LoL/leagues/risen-leagues/dominate'>
                                     <h1 className='Leagueh1'>Dominate League</h1>
                                 </a>
@@ -61,6 +43,8 @@ const Frontpage_Risen = () => {
                                 </a>
                             </div>
                         </div>
+
+                        <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -78,7 +62,7 @@ const Frontpage_Risen = () => {
                                 </a>
                             </div>
                         </div>
-                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/LoL/leagues/risen-leagues/rampage'>
@@ -96,6 +80,8 @@ const Frontpage_Risen = () => {
                             </div>
                         </div>
 
+                        <p className='hr' />
+
                         <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/LoL/leagues/risen-leagues/draft'>
@@ -112,7 +98,9 @@ const Frontpage_Risen = () => {
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
+                        
                     </div>
                     <div className="league-back-button-container">
               <a href="https://www.usync.gg/games/LoL/leagues">

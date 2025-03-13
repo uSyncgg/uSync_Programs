@@ -6,6 +6,7 @@
     z-index: 99999999;
     position: fixed;
     width: 100%;
+    height: 10.12%;
 }
 .navbar.navbar-expand-lg.navbar-dark.bg-dark {
     background-repeat: no-repeat;
@@ -15,6 +16,7 @@
 .navbar-brand {
     width: 12rem;
     margin-left: 1.5rem;
+    margin-bottom: .2rem;
 }
 
 
@@ -37,6 +39,7 @@
 .dropdown:hover .dropdown-menu {
     display: block;
     opacity: 100%;
+    margin-top: -.51rem;
 }
 
 li .item-active {
@@ -53,10 +56,12 @@ li .item-active {
     background-color: transparent;
     transition: color .3s ease;
     font-size: 1.25rem;
+    transform: translateY(-.35rem);
 }
 
 .nav-button:hover{
     color: rgb(142, 106, 206);
+    transition: color .3s ease;
 }
 
 

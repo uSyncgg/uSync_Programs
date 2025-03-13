@@ -18,7 +18,7 @@ const Frontpage_Nemesis = () => {
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/nemesis-leagues/titan"><img src="https://i.imgur.com/PcmcLLk.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1710+ MMR</p>
+                                <p className='Leaguep'>1780+ MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/nemesis-leagues/titan'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -34,7 +34,7 @@ const Frontpage_Nemesis = () => {
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/nemesis-leagues/rival"><img src="https://i.imgur.com/PcmcLLk.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1582-1709 MMR</p>
+                                <p className='Leaguep'>1612 - 1779 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/nemesis-leagues/rival'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -51,7 +51,7 @@ const Frontpage_Nemesis = () => {
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/nemesis-leagues/challenger"><img src="https://i.imgur.com/PcmcLLk.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1469-1581 MMR</p>
+                                <p className='Leaguep'>1453 - 1609 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/nemesis-leagues/challenger'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -67,7 +67,7 @@ const Frontpage_Nemesis = () => {
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/nemesis-leagues/prospect"><img src="https://i.imgur.com/PcmcLLk.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1330-1468 MMR</p>
+                                <p className='Leaguep'>1270 - 1452 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/nemesis-leagues/prospect'>
                                     <button type="submit" className='info-button'>More Info</button>
@@ -83,7 +83,7 @@ const Frontpage_Nemesis = () => {
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/RocketLeague/leagues/nemesis-leagues/novice"><img src="https://i.imgur.com/PcmcLLk.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>1050-1329 MMR</p>
+                                <p className='Leaguep'>1050 - 1269 MMR</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/RocketLeague/leagues/nemesis-leagues/novice'>
                                     <button type="submit" className='info-button'>More Info</button>

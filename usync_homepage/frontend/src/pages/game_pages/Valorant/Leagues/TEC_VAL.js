@@ -52,9 +52,9 @@ const TEC_VAL = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Monday Weekly Matches</p>
-              <p>8 Team Playoffs</p>
-              <p>LAN Finals</p>
+              <p>Pennsylvania High Schools Only</p>
+              <p>Championship on LAN</p>
+              <p>School Manager Must Sign Team Up</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - USA</p>

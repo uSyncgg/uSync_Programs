@@ -52,8 +52,9 @@ const DivisionA = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
+              <p>Compete for Team Trophies</p>
+              <p>8 Week Regular Season then Playoffs</p>
               <p>NO Prize Pool</p>
-              <p>Diamond - Radiant Rank Requirement</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - USA</p>
@@ -61,6 +62,7 @@ const DivisionA = () => {
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>$1600/yr ECAC Membership - Must be FULL TIME College Student</p>
+              <p>Diamond - Radiant Rank Requirement</p>
             </div>
           </div>
         </div>

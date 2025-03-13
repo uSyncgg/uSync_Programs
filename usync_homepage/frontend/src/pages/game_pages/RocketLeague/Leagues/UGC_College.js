@@ -52,8 +52,8 @@ const UGC_College = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$7500 Prize Pool (Estimated)</p>
-              <p>4 Divisions</p>
+              <p>$7,500 Prize Pool (Estimated)</p>
+              <p>4 Divisions with 8 Schools Each</p>
               <p>Non-RLCS Teams Only</p>
               <p>Known for Delaying Payments / Unresponsiveness</p>
               <h2 className="info-title3">Region/Type:</h2>

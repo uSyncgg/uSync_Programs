@@ -13,77 +13,7 @@ const Cod_Leagues = () => {
             <div className='Background-leagues'>
                 <div className='container-fluid'>
                     <div className='row'>
-                        <div className='col-lg-6'>
-                            <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/snd-league'>
-                                    <h1 className='Leagueh1'>The SND League</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/snd-league"><img src="https://i.imgur.com/eXZFLGH.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
-                                </div>
-                                <p className='Leaguep'>All Regions</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/snd-league'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div className='col-lg-6 bottom-card'>
-                            <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/cgn-league-cod'>
-                                    <h1 className='Leagueh1'>Contender Gaming Network</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/cgn-league-cod"><img src="https://i.imgur.com/j8aBZUK.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
-                                </div>
-                                <p className='Leaguep'>All Regions</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/cgn-league-cod'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
-                        <p className='hr' />
-
-                        <div className='col-lg-6'>
-                            <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/click-gaming-league'>
-                                    <h1 className='Leagueh1'>Click Gaming League</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/click-gaming-league"><img src="https://i.imgur.com/UjvfmKp.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
-                                </div>
-                                <p className='Leaguep'>NA</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/click-gaming-league'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div className='col-lg-6 bottom-card'>
-                            <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/cod-rec-league'>
-                                    <h1 className='Leagueh1'>COD Rec League</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/cod-rec-league"><img src="https://i.imgur.com/qbmhh4T.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
-                                </div>
-                                <p className='Leaguep'>All Regions</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/cod-rec-league'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
-                        <p className='hr' />
-
-                        <div className='col-lg-6'>
+                    <div className='col-lg-6'>
                             <div className='league'>
                                 <a href='http://localhost:3000/games/call-of-duty/leagues/xp-league-cod'>
                                     <h1 className='Leagueh1'>XP League</h1>
@@ -93,29 +23,40 @@ const Cod_Leagues = () => {
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA/EU</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/call-of-duty/leagues/xp-league-cod'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
-
                         <div className='col-lg-6 bottom-card'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/nacal-league'>
-                                    <h1 className='Leagueh1'>NACAL League</h1>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/cod-rec-league'>
+                                    <h1 className='Leagueh1'>COD Rec League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/nacal-league"><img src="https://i.imgur.com/nLcU5OE.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/cod-rec-league"><img src="https://i.imgur.com/qbmhh4T.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/nacal-league'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/cod-rec-league'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
                         <p className='hr' />
+                        <div className='col-lg-6 bottom-card'>
+                            <div className='league'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/cod-beer-league'>
+                                    <h1 className='Leagueh1'>COD Beer League (21+)</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/cod-beer-league"><img src="https://i.imgur.com/GKRvsAM.png" className='league-img' /></a>
+                                </div>
+                                <p className='Leaguep'>NA</p>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/cod-beer-league'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -123,115 +64,95 @@ const Cod_Leagues = () => {
                                     <h1 className='Leagueh1'>U18 COD League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/u18-league"><img src="https://i.imgur.com/T2icU3w.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/u18-league"><img src="https://i.imgur.com/AMzISPh.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>All Regions</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/call-of-duty/leagues/u18-league'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
 
-                        <div className='col-lg-6 bottom-card'>
-                            <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/lunar-league'>
-                                    <h1 className='Leagueh1'>Lunar COD League</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/lunar-league"><img src="https://i.imgur.com/3mziej8.png" className='league-img' /></a>
-                                </div>
-                                <p className='Leaguep'>All Regions</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/lunar-league'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
                         <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/kanna-gaming-league'>
-                                    <h1 className='Leagueh1'>Kanna Gaming League</h1>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/united-rogue-league'>
+                                    <h1 className='Leagueh1'>United Rogue</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/kanna-gaming-league"><img src="https://i.imgur.com/VeqeOhG.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/united-rogue-league"><img src="https://i.imgur.com/jZK2DCe.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>All Regions</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/kanna-gaming-league'>
+                                <p className='Leaguep'>NA</p>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/united-rogue-league'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
 
-                        <div className='col-lg-6 bottom-card'>
+                        <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/awl-league'>
-                                    <h1 className='Leagueh1'>Amateur World League</h1>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/tpc-womens-cod'>
+                                    <h1 className='Leagueh1'>TPC Womens COD</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/awl-league"><img src="https://i.imgur.com/CEuUI5f.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/tpc-womens-cod"><img src="https://i.imgur.com/u9cCMVa.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/awl-league'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/tpc-womens-cod'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/k7-league'>
-                                    <h1 className='Leagueh1'>K7 League</h1>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/fcl'>
+                                    <h1 className='Leagueh1'>Female COD League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/k7-league"><img src="https://i.imgur.com/wuO0Mzu.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/fcl"><img src="https://i.imgur.com/SBSXD2X.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/k7-league'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/fcl'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
 
-                        <div className='col-lg-6 bottom-card'>
+                        <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/chicago-league-cod'>
-                                    <h1 className='Leagueh1'>Chicago COD League</h1>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/zoned-out'>
+                                    <h1 className='Leagueh1'>Zoned Out Gaming League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/chicago-league-cod"><img src="https://i.imgur.com/BnyV0we.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/zoned-out"><img src="https://i.imgur.com/qiN8RKF.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/chicago-league-cod'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/zoned-out'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/fpc-league'>
-                                    <h1 className='Leagueh1'>Female Pro Circuit</h1>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/airforce-league'>
+                                    <h1 className='Leagueh1'>Air Force Gaming League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/fpc-league"><img src="https://i.imgur.com/XXfdzEw.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/airforce-league"><img src="https://i.imgur.com/4o2rJWS.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>NA</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/fpc-league'>
+                                <p className='Leaguep'>NA/EU/APAC</p>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/airforce-league'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
-
 
                         <div className='col-lg-6 bottom-card'>
                             <div className='league'>
@@ -242,13 +163,28 @@ const Cod_Leagues = () => {
                                     <a href="http://localhost:3000/games/call-of-duty/leagues/corporate-cod-league"><img src="https://i.imgur.com/k63mdno.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/call-of-duty/leagues/corporate-cod-league'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
+
+                        <div className='col-lg-6'>
+                            <div className='league'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/kinetic-league'>
+                                    <h1 className='Leagueh1'>Kinetic League</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/kinetic-league"><img src="https://i.imgur.com/zRAMO6t.png" className='league-img' /></a>
+                                </div>
+                                <p className='Leaguep'>NA</p>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/kinetic-league'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
 
                         <div className='col-lg-6'>
                             <div className='league'>
@@ -259,80 +195,45 @@ const Cod_Leagues = () => {
                                     <a href="http://localhost:3000/games/call-of-duty/leagues/House-of-esports-leagues"><img src="https://i.imgur.com/47wczZC.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>All Regions</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/call-of-duty/leagues/House-of-esports-leagues'>
                                     <button type="submit" className='info-button'>All Leagues</button>
                                 </a>
                             </div>
                         </div>
-                        
-                        <div className='col-lg-6 bottom-card'>
-                            <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/cod-beer-league'>
-                                    <h1 className='Leagueh1'>COD Beer League (21+)</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/cod-beer-league"><img src="https://i.imgur.com/W0b3qHY.png" className='league-img' /></a>
-                                </div>
-                                <p className='Leaguep'>NA</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/cod-beer-league'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
+
                         <p className='hr' />
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/sin-city-league'>
-                                    <h1 className='Leagueh1'>Sin City Co-Ed League</h1>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/snd-league'>
+                                    <h1 className='Leagueh1'>The SND League</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/sin-city-league"><img src="https://i.imgur.com/bGCOqXj.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/snd-league"><img src="https://i.imgur.com/eXZFLGH.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>All Regions</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/sin-city-league'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/snd-league'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className='col-lg-6'>
+                            <div className='league'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/ixi-esports'>
+                                    <h1 className='Leagueh1'>IXI Esports</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/ixi-esports"><img src="https://i.imgur.com/mVoGJG4.png" className='league-img' /></a>
+                                </div>
+                                <p className='Leaguep'>NA</p>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/ixi-esports'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
                        
-                        <div className='col-lg-6'>
-                            <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/united-rogue-league'>
-                                    <h1 className='Leagueh1'>United Rogue League</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/united-rogue-league"><img src="https://i.imgur.com/jZK2DCe.png" className='league-img' /></a>
-                                </div>
-                                <p className='Leaguep'>NA</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/united-rogue-league'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
-
-                        <p className='hr' />
-                        <div className='col-lg-6'>
-                            <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/last-hurrah'>
-                                    <h1 className='Leagueh1'>Last Hurrah League</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/last-hurrah"><img src="https://i.imgur.com/fKFo31v.png" className='league-img' /></a>
-                                </div>
-                                <p className='Leaguep'>NA</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/last-hurrah'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div>
+                       <div>
                         <p className='hr' />
                         <h2 id="league-title1">Collegiate Leagues</h2>                        
                         <img src="https://i.imgur.com/eNhKhTI.png" alt="underline" className='Underline-h1'/>
@@ -340,19 +241,16 @@ const Cod_Leagues = () => {
                         </div>
 
 
-
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/ccl-league'>
-                                    <h1 className='Leagueh1'>College COD</h1>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/cxp-leagues/cxp-leagues'>
+                                    <h1 className='Leagueh1'>College XP</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/ccl-league"><img src="https://i.imgur.com/71EePEn.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/cxp-leagues/cxp-leagues"><img src="https://i.imgur.com/jGdqqOZ.png" className='league-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/ccl-league'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/cxp-leagues/cxp-leagues'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -365,11 +263,41 @@ const Cod_Leagues = () => {
                                 </a>
                                 <div className='parent'>
                                     <a href="http://localhost:3000/games/call-of-duty/leagues/playfly-cod-league"><img src="https://i.imgur.com/XHCsRTv.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
                                 <p className='Leaguep'>NA</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/call-of-duty/leagues/playfly-cod-league'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <p className='hr' />
+                        
+                        <div className='col-lg-6'>
+                            <div className='league'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/ccl-league'>
+                                    <h1 className='Leagueh1'>College COD</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/ccl-league"><img src="https://i.imgur.com/71EePEn.png" className='league-img' /></a>
+                                </div>
+                                <p className='Leaguep'>NA</p>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/ccl-league'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className='col-lg-6'>
+                            <div className='league'>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/ecac'>
+                                    <h1 className='Leagueh1'>ECAC Esports</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/ecac"><img src="https://i.imgur.com/VCXkcNL.png" className='league-img' /></a>
+                                </div>
+                                <p className='Leaguep'>USA</p>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/ecac'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
@@ -378,19 +306,19 @@ const Cod_Leagues = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/college-xp'>
-                                    <h1 className='Leagueh1'>College XP</h1>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/njcaae'>
+                                    <h1 className='Leagueh1'>NJCAAE</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/call-of-duty/leagues/college-xp"><img src="https://i.imgur.com/nBqPEAH.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/call-of-duty/leagues/njcaae"><img src="https://i.imgur.com/Yer31Qr.png" className='league-img' /></a>
                                 </div>
-                                <p className='Leaguep'>NA</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/call-of-duty/leagues/college-xp'>
+                                <p className='Leaguep'>USA</p>
+                                <a href='http://localhost:3000/games/call-of-duty/leagues/njcaae'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
                     </div>
                 </div>

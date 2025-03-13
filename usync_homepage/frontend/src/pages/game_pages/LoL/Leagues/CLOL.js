@@ -48,12 +48,12 @@ const CLOL = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual Spring and Fall Seasons</p>
+              <p>Annual Fall Season</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>$22k Player Scholarship & $11k Sub/Staff Prize Pool</p>
-              <p>Highly-Competitive</p>
+              <p>Top 1-4 depending on Conference play for Prize Pool</p>
               <p>Live Streamed Matches</p>
               <p>Live Support on Discord</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -61,7 +61,7 @@ const CLOL = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>Free Entry - Must be a FULL TIME College Student</p>
+              <p>Free Entry - Must be a FULL-TIME College Student</p>
             </div>
           </div>
         </div>

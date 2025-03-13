@@ -48,22 +48,23 @@ const Division_2 = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>3 Annual Seasons</p>
+              <p>Annual Spring, Summer, and Fall Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>Prize Pool Based on Entrants</p>
-              <p>Community Contests + Events</p>
-              <p>10-12 Week Season</p>
+              <p>2 Consecutive 4-Week Tournaments</p>
+              <p>Community Contests and Events During Season and Offseason</p>
               <p>Flexible Rules for EUNE Players</p>
               <p>Support on Discord</p>
+              <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - EUW</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>€15 Per Team</p>
-              <p>Diamond 1 - Emerald 1</p>
+              <p>€25 Per Team</p>
+              <p>Diamond 1 - Emerald 1 Average</p>
             </div>
           </div>
         </div>

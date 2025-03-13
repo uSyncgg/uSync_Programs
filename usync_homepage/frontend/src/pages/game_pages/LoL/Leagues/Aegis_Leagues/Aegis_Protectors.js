@@ -52,7 +52,7 @@ const Aegis_Protectors = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Winners Receive 1350RP Skins</p>
+              <p>$280 - $560 Prize Pool</p>
               <p>Live Streamed Matches</p>
               <p>Support on Discord</p>
               <h2 className="info-title3">Region/Type:</h2>
