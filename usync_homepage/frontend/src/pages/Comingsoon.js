@@ -86,6 +86,12 @@ const Comingsoon = () => {
               We are looking to provide a list of daily tournaments from all of the varying sites so that players don't have to move 
               from site to site to find what they are looking for!
               </h1>
+
+              <h1 className="info-title-coming2">
+                Unfortunately, implementing this feature is costly and our services are free which places a heavy burden on us. However, in the meantime keep up to date with what we are working on with our Twitter!
+              </h1>
+
+              
             </div>
           </div>
         </div>

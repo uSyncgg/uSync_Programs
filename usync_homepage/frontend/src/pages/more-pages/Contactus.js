@@ -88,17 +88,42 @@ const Contactus = () => {
                 className="Underline-h-verification-event2"
               />
             </div>
-            <h1 className="info-title-contactus">
-            <p className="hr-report" />
-            <p className="report-link" id="verification-post-event">
-              We support plenty of different events/websites but may miss a few from time to time in our search to support all games. 
-              If you are interested in working with us, click {" "}
-              <a id="verification-post-event-a" href="/more/eventhost">
-            HERE
-          </a>
-        </p>
 
-            </h1>
+            <p class="hr-border" />
+
+            <div className='container info-title-contactus'>
+              <div className='row'>
+                <div className='col-lg-4'>
+                  <a
+                    href="mailto:usyncgg@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://imgur.com/za685rg.png"
+                      className="img-fluid"
+                    />
+                  </a>
+                </div>
+                <div className='col-lg-8'>
+                      {/* <h1 className="info-title-contactus"> */}
+                        <p className="report-link" id="verification-post-event">
+                          We support plenty of different events/websites but may miss a few from time to time in our search to support all games. 
+                          If you are interested in working with us, click {" "}
+                          <a id="verification-post-event-a" href="/more/eventhost">
+                            HERE
+                          </a>
+                        </p>
+                      {/* </h1> */}
+                </div>
+              </div>
+
+              <div className='row email-us'>
+                <div className='col-lg-4'>
+                  <h4>Email us!</h4>
+                </div>
+              </div>
+            </div>
 
             <div className="hr-border"></div>
 

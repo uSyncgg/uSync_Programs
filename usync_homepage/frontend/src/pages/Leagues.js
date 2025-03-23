@@ -1,7 +1,7 @@
 import styles from '../Home.module.css';
 import './game_pages/CoD/Cod.css';
 import Footer from '../Footer';
-
+ 
 const Leagues = () => {
     return (
       <div>

@@ -15,9 +15,10 @@ body {
 }
 
 .backgroundTop {
-  height: auto; 
+  background-size: cover;
+  height: auto;
   width: 100%;
-  background-image: url("./website_images/home-images/home_background.png");
+  background-image: url("./website_images/home-images/home_background.png"); /* Needs to be changed to imgur */
   background-position: center;
   background-attachment: scroll;
 }
@@ -25,7 +26,6 @@ body {
   text-decoration: none;
   border-bottom: .15rem solid rgb(142, 106, 206);
 }
-
 
 .backgroundTop img{
   width: 33%;
@@ -40,13 +40,12 @@ body {
   background-color: rgb(49, 49, 49);
 }
 
-
 .Intro {
   color: white;
   white-space: pre-line;
   margin: 0;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .hometitles {
@@ -57,6 +56,14 @@ body {
   padding-top: .9rem;
   padding-bottom: .6rem;
 }
+
+.nameLogo {
+  height: auto;
+  width: 100%;
+  /* display: inline-block;
+  vertical-align: baseline; */
+}
+
 @media screen and (max-width: 960px) {
   .hometitles {
     font-size: 2rem;
@@ -105,7 +112,7 @@ body {
   height: 16rem;
   border-radius: 1.563rem;
   transition: box-shadow 0.3s ease-in-out;
-  margin-bottom: 2rem;
+  margin-bottom: 2rem; 
 }
 
 .backgroundImages img:hover {
@@ -146,7 +153,7 @@ body {
   text-align: center;
   padding-bottom: .03%;
   z-index: 99999 !important;
-  padding-top: .05rem;
+  padding-top: 0.1rem;
 }
 
 .contactus{

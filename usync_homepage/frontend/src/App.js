@@ -8,6 +8,11 @@ import Lans from './pages/Lans';
 import Leagues from './pages/Leagues';
 import Tournaments from './pages/Tournaments';
 import FAQ from './pages/more-pages/FAQ';
+import Fix from './pages/more-pages/FAQ/How_We_Fix_It';
+import Better from './pages/more-pages/FAQ/How_Esports_Can_Be_Better';
+import Problem from './pages/more-pages/FAQ/Problem_With_Esports';
+import Provide from './pages/more-pages/FAQ/What_We_Provide';
+import Join from './pages/more-pages/FAQ/How_To_Join_Esports_League';
 import './App.css';
 import Navbar from './Navbar';
 import Playground from './Playground';
@@ -20,7 +25,7 @@ import Cod_Leagues from './pages/game_pages/CoD/Cod_Leagues';
 import Cod from './pages/game_pages/CoD/Cod';
 import Cod_Lan from './pages/game_pages/CoD/Cod_Lan';
 import CodTourneys from './pages/game_pages/CoD/CodTourneys';
-
+import Experiement_Tourney from './pages/game_pages/CoD/Experiement_Tourney';
 
 //COD LEAGUES
 import HOE_Amateur from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Amateur'
@@ -621,9 +626,10 @@ function App() {
       title = "Call of Duty Tournaments | uSync";
       component = <CodTourneys />
       break;
-    // case "/test":
-    //   component = <Test />
-    //   break;       
+    case "/games/call-of-duty/tournaments/experiment":
+      title = "Experiement Tourneys"
+      component = <Experiement_Tourney />
+      break;       
 
 
     //COD LEAGUES
@@ -1756,6 +1762,26 @@ function App() {
           title = "FAQ | uSync";
       component = <FAQ />
       break;
+      case "/more/FAQ/How-We-Fix-It":
+        title = "How We Fix It | uSync";
+        component = <Fix />
+        break;
+      case "/more/FAQ/How-Esports-Can-Be-Better":
+        title = "How Esports Can Be Better | uSync";
+        component = <Better />
+        break;
+      case "/more/FAQ/The-Problem-With-Esports":
+        title = "The Problem With Esports | uSync";
+        component = <Problem />
+        break;
+      case "/more/FAQ/What-We-Provide":
+        title = "What We Provide | uSync";
+        component = <Provide />
+        break;
+      case "/more/FAQ/How-to-Join-an-Esports-League":
+        title = "How to Join an Esports League | uSync";
+        component = <Join />
+        break;
   } 
 
   return (

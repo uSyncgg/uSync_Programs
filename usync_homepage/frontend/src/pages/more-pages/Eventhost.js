@@ -24,14 +24,14 @@ const Eventhost = () => {
         </header>
         <button className="verified-button" onClick={handleFeatureEventClick}>Post Your Event</button>
 
-        <div className="Background-leagues">
+        <div className="Background-leagues col-lg-8 offset-2">
           <p id="eventhost-p">
           All of our posted events are taken through a certification process that ensures that the event is legitimate and in good standing with payouts (if applicable). 
           At uSync you can trust the events you are entering without having to do extensive research, we take care of it all for you in one place!
           </p>
           <br />
           <p id="eventhost-p">
-          We strive to bring as many events as possible to the community and create a hub of competitive esports. However, in our search for 
+          We strive to bring as many events as possible to th e community and create a hub of competitive esports. However, in our search for 
           competitive events we may miss some. That's why we allow anyone to feature any event of their choosing on the form below! Submit your application today!
           </p>
         </div>

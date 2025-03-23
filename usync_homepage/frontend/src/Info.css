@@ -386,8 +386,13 @@ header {
 .contact-socials {
   width: 100%;
   height: auto;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
+
+/* .contact-email {
+  width: 100%,
+  height auto;
+} */
 
 .event-title-contactus {
   color: white;
