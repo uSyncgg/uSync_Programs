@@ -48,7 +48,7 @@ const NASEF_VAL = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual Fall Season</p>
+              <p>Annual Fall Season (Estimated)</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
