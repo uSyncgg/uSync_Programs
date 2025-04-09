@@ -1,4 +1,4 @@
-from pymongo_get_database import get_database
+from .pymongo_get_database import get_database
 import pymongo
 
 def drop_all_tourneys():

@@ -3,9 +3,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from scraper import TEAMS, PLATFORM, GAMEMODE, REQUIREMENT
-import traceback
+import traceback 
+import re
 
-driver = webdriver.Chrome()
+# driver = webdriver.Chrome()
 
 URL = 'https://esportsagent.gg/tournament'
 
@@ -23,9 +24,29 @@ entry_fees = []
 regions = []
 prize_pools = []
 titles = []
-games = []
 requirements = []
 urls = []
+skills = []
+company = []
+
+nov_bool = []
+am_bool = []
+expert_bool = []
+agent_bool = []
+master_bool = []
+challenger_bool = []
+one_player_bool = []
+two_player_bool = []
+three_player_bool = []
+four_player_bool = []
+platforms_for_filter = []
+entry_for_filter = []
+skill_for_filter = []
+free_bool = []
+na_bool = []
+eu_bool = []
+latam_bool = []
+usa_bool = []
 
 return_dict = {
     'Title': [],
@@ -38,9 +59,28 @@ return_dict = {
     'Entry Fee': [],
     'Region': [],
     'Prize': [],
-    'Game': [],
     'Requirements': [],
-    'URLs': []
+    'URLs': [],
+    'Skill': [],
+    'Company': [],
+    'isEco': [],
+    '1v1': [],
+    '2v2': [],
+    '3v3': [],
+    '4v4': [],
+    'Platforms_for_filter': [],
+    'Novice': [],
+    'Amateur': [],
+    'Expert': [],
+    'Agent': [],
+    'Master': [],
+    'Challenger': [],
+    'isFree': [],
+    'isNa': [],
+    'isEu': [],
+    'isLatam': [],
+    'isUSA': [],
+    'Skills_for_filter': []
 }
 
 def extend_page(wait):
@@ -106,12 +146,14 @@ def get_active_tournaments_and_platforms(wait):
 def get_urls(wait):
     global urls
 
-    tourney_card = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'bg-dark-500.w-full.border.border-[#2A2A2D]')))
+    tourney_card = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".grid.md\\:grid-cols-2.lg\\:grid-cols-3.gap-4")))
+    urls_located = tourney_card[0].find_elements(By.TAG_NAME, 'a')
 
-    for card in tourney_card:
-        url_tag = card.find_elements(By.TAG_NAME, 'a')
-        url = url_tag[0].get_attribute('href')
-        urls.append(url)
+    for card in urls_located:
+        url = card.get_attribute('href')
+        
+        if 'tournament' in url:
+            urls.append(url)
 
     return None
 
@@ -124,36 +166,61 @@ def extract_tourney_info():
     global regions
     global team_sizes
     global series
-    global games
+    global skills
 
     for index, tourney in enumerate(tourney_info):
         info = tourney.split('\n')
 
         date_time.append(info[0])
         
-        titles.append(info[1])
 
         for team in TEAMS:
             if team in info[1]:
                 team_sizes.append(team)
+                pattern = re.escape(team)
+                info[1] = re.sub(pattern, "", info[1], flags=re.IGNORECASE)
                 break
-
+        
+        skill = ''
         for req in REQUIREMENT:
             if req in info[1].lower():
-                requirements.append(req)
-            
+                skill += f'{req}/'
+
+                temp_list = info[1].split(' ')
+                skill_idxs = []
+                for i in range(len(temp_list)):
+                    if req in temp_list[i].lower():
+                        skill_idxs.append(i)
+                
+                temp_list = [item for i, item in enumerate(temp_list) if i not in skill_idxs]
+                info[1] = ' '.join(w for w in temp_list)
+        
+        if skill != '':
+            skill = skill[0].upper() + skill[1:]
+            skills.append(skill)
+        else:
+            skills.append('All')
+
+        titles.append(info[1])
+
+        # if len(skills) - 1 != index:
+        #     skills.append('all')
+
         if len(requirements) - 1 != index:
-            requirements.append('none')
+            requirements.append('None')
 
         prize_pools.append(info[3])
 
-        entry_fees.append(info[5])
+        if 'free' in info[5].lower():
+            entry_fees.append('Free Entry')
+        else:
+            entry_fees.append(info[5])
 
         regions.append(info[7])
 
         series.append(info[10])
 
-        games.append(info[12])
+        company.append('codagent')
 
     return None
 
@@ -172,15 +239,201 @@ def derive_gamemode():
     global titles
     global gamemodes
 
-    for title in titles:
+    for index, title in enumerate(titles):
         for game in GAMEMODE:
             if game in title.lower():
                 gamemodes.append(game)
                 break
 
-if __name__ == '__main__':
+        if len(gamemodes) - 1 != index:
+            gamemodes.append('variant')
+
+def combine_requirements():
+    global skills
+    global requirements
+    global platforms
+
+    for index, skill in enumerate(skills):
+        new_entry = ''
+
+        if platforms[index] == 'console only':
+            new_entry = 'Console/'
+        
+        if skill != 'All':
+            new_entry += f'{skill}/'
+
+        if requirements[index] != 'None':
+            new_entry += f'{requirements[index]}'
+
+        if new_entry != '':
+            if new_entry[-1] == '/':
+                new_entry = new_entry[:-2]
+
+            requirements[index] = new_entry
+
+def set_bools():
+    global nov_bool
+    global am_bool
+    global expert_bool
+    global one_player_bool 
+    global two_player_bool
+    global three_player_bool
+    global four_player_bool
+    global platforms_for_filter
+    global entry_for_filter
+    global agent_bool
+    global master_bool
+    global challenger_bool
+    global free_bool
+    global na_bool
+    global eu_bool
+    global latam_bool
+    global usa_bool
+    global skill_for_filter
+
+    global skills
+    global team_sizes
+    global platforms
+    global entry_fees
+    global regions
+    global series
+
+    for i in range(len(skills)):
+        if 'nov' in skills[i]:
+            nov_bool.append(True)
+        else:
+            nov_bool.append(False)
+
+        if 'am' in skills[i]:
+            am_bool.append(True)
+        else:
+            am_bool.append(False)
+
+        if 'agent' in skills[i]:
+            agent_bool.append(True)
+        else:
+            agent_bool.append(False)
+
+        if 'master' in skills[i]:
+            master_bool.append(True)
+        else:
+            master_bool.append(False)
+
+        if 'challenger' in skills[i]:
+            challenger_bool.append(True)
+        else:
+            challenger_bool.append(False)
+
+        if 'nov' in skills[i].lower():
+            if len(skill_for_filter) - 1 < i:
+                skill_for_filter.append('Novice')
+            else:
+                skill_for_filter[i] += ' Novice'
+
+        if 'am' in skills[i].lower():
+            if len(skill_for_filter) - 1 < i:
+                skill_for_filter.append('Amateur')
+            else:
+                skill_for_filter[i] += ' Amateur'
+
+        if 'agent' in skills[i].lower():
+            if len(skill_for_filter) - 1 < i:
+                skill_for_filter.append('Agent')
+            else:
+                skill_for_filter[i] += ' Agent'
+
+        if 'master' in skills[i].lower():
+            if len(skill_for_filter) - 1 < i:
+                skill_for_filter.append('Master')
+            else:
+                skill_for_filter[i] += ' Master'
+
+        if 'challenger' in skills[i].lower():
+            if len(skill_for_filter) - 1 < i:
+                skill_for_filter.append('Challenger')
+            else:
+                skill_for_filter[i] += ' Challenger'
+
+        if len(skill_for_filter) - 1 < i:
+            skill_for_filter.append('All')
+
+        if '1v1' == team_sizes[i].replace(' ', '') or '1vs1' == team_sizes[i].replace(' ', ''):
+            one_player_bool.append(True)
+        else:
+            one_player_bool.append(False)
+
+        if '2v2' == team_sizes[i].replace(' ', '') or '2vs2' == team_sizes[i].replace(' ', ''):
+            two_player_bool.append(True)
+        else:
+            two_player_bool.append(False)
+        
+        if '3v3' == team_sizes[i].replace(' ', '') or '3vs3' == team_sizes[i].replace(' ', ''):
+            three_player_bool.append(True)
+        else:
+            three_player_bool.append(False)
+        
+        if '4v4' == team_sizes[i].replace(' ', '') or '4vs4' == team_sizes[i].replace(' ', ''):
+            four_player_bool.append(True)
+        else:
+            four_player_bool.append(False)
+        
+        if 'pc only' in platforms[i].lower():
+            platforms_for_filter.append('PC')
+        elif 'console' in platforms[i].lower():
+            platforms_for_filter.append('Console')
+        else:
+            platforms_for_filter.append('All')
+        
+        if 'free' in entry_fees[i].lower() and entry_fees[i] == '$1':
+            entry_for_filter.append('Free Entry ECO')
+        elif 'free' in entry_fees[i].lower():
+            entry_for_filter.append('Free Entry')
+        elif entry_fees[i] == '$1':
+            entry_for_filter.append('ECO')
+        else:
+            entry_for_filter.append('')
+
+        if 'free' in entry_fees[i].lower():
+            free_bool.append(True)
+        else:
+            free_bool.append(False)
+        
+        if 'worldwide' in regions[i].lower():
+            regions[i] = 'All'
+
+        if 'na' in regions[i].lower():
+            na_bool.append(True)
+        else:
+            na_bool.append(False)
+
+        if 'eu' in regions[i].lower():
+            eu_bool.append(True)
+        else:
+            eu_bool.append(False)
+
+        if 'latam' in regions[i].lower():
+            latam_bool.append(True)
+        else:
+            latam_bool.append(False)
+
+        if 'united states' in regions[i].lower() or 'usa' in regions[i].lower():
+            usa_bool.append(True)
+            na_bool.append(True)
+        else:
+            usa_bool.append(False)
+
+        if 'bo' in series[i].lower():
+            series[i] = 'Best of ' + series[i][-1]
+        elif 'best' in series[i].lower():
+            series[i] = series[i][0].upper() + series[i][1:]
+        
+        expert_bool.append(False)
+
+def build_codagent_return_dict(driver):
+    global return_dict
+
     driver.get(URL)
-    wait = WebDriverWait(driver, 1)
+    wait = WebDriverWait(driver, 10)
     
     extend_page(wait)
 
@@ -194,6 +447,10 @@ if __name__ == '__main__':
 
     derive_gamemode()
 
+    combine_requirements()
+
+    set_bools()
+
     return_dict['Title'] = titles
     return_dict['Time'] = times
     return_dict['Date'] = dates
@@ -204,9 +461,28 @@ if __name__ == '__main__':
     return_dict['Entry Fee'] = entry_fees
     return_dict['Region'] = regions
     return_dict['Prize'] = prize_pools
-    return_dict['Game'] = games
     return_dict['Requirements'] = requirements
     return_dict['URLs'] = urls
+    return_dict['Company'] = company
+    return_dict['Skill'] = skills
 
-    print(return_dict)
-    
+    return_dict['isEco'] = entry_for_filter
+    return_dict['1v1'] = one_player_bool
+    return_dict['2v2'] = two_player_bool
+    return_dict['3v3'] = three_player_bool
+    return_dict['4v4'] = four_player_bool
+    return_dict['Platforms_for_filter'] = platforms_for_filter
+    return_dict['Novice'] = nov_bool
+    return_dict['Amateur'] = am_bool
+    return_dict['Expert'] = expert_bool
+    return_dict['Agent'] = agent_bool
+    return_dict['Master'] = master_bool
+    return_dict['Challenger'] = challenger_bool
+    return_dict['isFree'] = free_bool
+    return_dict['isNa'] = na_bool
+    return_dict['isEu'] = eu_bool
+    return_dict['isLatam'] = latam_bool
+    return_dict['isUSA'] = usa_bool
+    return_dict['Skills_for_filter'] = skill_for_filter
+
+    return return_dict

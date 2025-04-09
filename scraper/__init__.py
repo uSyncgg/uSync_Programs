@@ -20,6 +20,7 @@ REGIONS = [
     'north america',
     'europe',
     'latain america',
+    'worldwide',
     'all',
     'any'
 ]
@@ -49,17 +50,17 @@ GAMEMODE = [
     'snd',
     'search and destroy',
     'hardpoint',
-    'gunfight'
+    'gunfight',
+    'switcharoo'
 ]
 
 REQUIREMENT = [
-    'nov/am',
-    'am/expert',
-    'novice/amateur',
-    'amateur/expert',
-    'novice',
-    'amateur',
-    'expert'
+    'nov',
+    'am',
+    'exp',
+    'agenet',
+    'master',
+    'challenger'
 ]
 
 SERIES_WORDING = [
