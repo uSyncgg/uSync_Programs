@@ -143,7 +143,7 @@ const Contactus = () => {
               <div className="row justify-content-center">
                 <div className="col-4">
                   <img
-                    src="https://i.imgur.com/Q22mI5e.png"
+                    src="https://i.imgur.com/zSMGECZ.png"
                     className="about-us-image"
                   />
                   <h1 className="cofounder-title">Jake Bruscino</h1>
@@ -155,15 +155,15 @@ const Contactus = () => {
                     className="about-us-image"
                   />
                   <h1 className="cofounder-title">Matthew O'Connor</h1>
-                  <h1 className="cofounder-subtitle">Co-Founder</h1>
+                  <h1 className="cofounder-subtitle">CTO / Co-Founder</h1>
                 </div>
                 <div className="col-4">
                   <img
-                    src="https://i.imgur.com/MHnmk8V.png"
+                    src="https://i.imgur.com/UGKviRZ.png"
                     className="about-us-image"
                   />
                   <h1 className="cofounder-title">Mason Wiley</h1>
-                  <h1 className="cofounder-subtitle">Co-Founder</h1>
+                  <h1 className="cofounder-subtitle">CSO / Co-Founder</h1>
                 </div>
                 <div className="col-4">
                   <img
