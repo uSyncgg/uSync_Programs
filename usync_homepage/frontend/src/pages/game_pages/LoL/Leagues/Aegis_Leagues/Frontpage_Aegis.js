@@ -36,13 +36,50 @@ const Frontpage_Aegis = () => {
                                     <a href="http://localhost:3000/games/LoL/leagues/aegis-leagues/marauder"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                 </div>
-                                <p className='Leaguep'>Master 200LP cap</p>
+                                <p className='Leaguep'>Master 600LP cap</p>
                                 {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/LoL/leagues/aegis-leagues/marauder'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
+
+                        <p className='hr' />
+
+                        <div className='col-lg-6'>
+                            <div className='league'>
+                                <a href='http://localhost:3000/games/LoL/leagues/aegis-leagues/defenders'>
+                                    <h1 className='Leagueh1'>Defenders League</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="http://localhost:3000/games/LoL/leagues/aegis-leagues/defenders"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
+                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                </div>
+                                <p className='Leaguep'>100LP cap</p>
+                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
+                                <a href='http://localhost:3000/games/LoL/leagues/aegis-leagues/defenders'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className='col-lg-6'>
+                            <div className='league'>
+                                <a href='http://localhost:3000/games/LoL/leagues/aegis-leagues/executioners'>
+                                    <h1 className='Leagueh1'>Executioners League</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="http://localhost:3000/games/LoL/leagues/aegis-leagues/executioners"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
+                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                </div>
+                                <p className='Leaguep'>Diamond 4 cap</p>
+                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
+                                <a href='http://localhost:3000/games/LoL/leagues/aegis-leagues/executioners'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
+
                         <p className='hr' />
 
                         <div className='col-lg-6'>
@@ -62,40 +99,6 @@ const Frontpage_Aegis = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-6'>
-                            <div className='league'>
-                                <a href='http://localhost:3000/games/LoL/leagues/aegis-leagues/guardians'>
-                                    <h1 className='Leagueh1'>Guardians League</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="http://localhost:3000/games/LoL/leagues/aegis-leagues/guardians"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
-                                </div>
-                                <p className='Leaguep'>Platinum 4 cap</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/LoL/leagues/aegis-leagues/guardians'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
-                        <p className='hr' />
-
-                        <div className='col-lg-6'>
-                            <div className='league'>
-                                <a href='http://localhost:3000/games/LoL/leagues/aegis-leagues/squire'>
-                                    <h1 className='Leagueh1'>Squire League</h1>
-                                </a>
-                                <div className='parent'>
-                                    <a href="http://localhost:3000/games/LoL/leagues/aegis-leagues/squire"><img src="https://i.imgur.com/iy67hgo.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
-                                </div>
-                                <p className='Leaguep'>Gold 4 cap</p>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/LoL/leagues/aegis-leagues/squire'>
-                                    <button type="submit" className='info-button'>More Info</button>
-                                </a>
-                            </div>
-                        </div>
                         <p className='hr' />
                     </div>
                     <div className="league-back-button-container">

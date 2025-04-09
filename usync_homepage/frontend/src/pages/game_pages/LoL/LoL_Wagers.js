@@ -20,16 +20,49 @@ const LoL_Wagers = () => {
                                     <h1 className='Leagueh1'>Drop-In Gaming</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/LoL/wagers/dropingaming"><img src="https://i.imgur.com/78DWiv0.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/LoL/wagers/dropingaming"><img src="https://i.imgur.com/Onot7tG.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/LoL/wagers/dropingaming'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
+
+                        <div className='col-lg-6'>
+                            <div className='league'>
+                                <a href='http://localhost:3000/games/LoL/wagers/dubbz'>
+                                    <h1 className='Leagueh1'>Dubbz</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="http://localhost:3000/games/LoL/wagers/dubbz"><img src="https://i.imgur.com/cgPHyyf.png" className='league-img' /></a>
+                                    <p className='Leaguep'></p>
+                                </div>
+                                <a href='http://localhost:3000/games/LoL/wagers/dubbz'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
+
                         <p className='hr' />
+                        
+                        <div className='col-lg-6'>
+                            <div className='league'>
+                                <a href='http://localhost:3000/games/LoL/wagers/ewagers'>
+                                    <h1 className='Leagueh1'>Ewagers</h1>
+                                </a>
+                                <div className='parent'>
+                                    <a href="http://localhost:3000/games/LoL/wagers/ewagers"><img src="https://i.imgur.com/FAg32lR.png" className='league-img' /></a>
+                                    <p className='Leaguep'></p>
+                                </div>
+                                <a href='http://localhost:3000/games/LoL/wagers/ewagers'>
+                                    <button type="submit" className='info-button'>More Info</button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <p className='hr' />
+                        
                     </div>
                 </div>
             </div>

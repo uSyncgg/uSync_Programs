@@ -53,7 +53,6 @@ const Elite = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>Salary Determined by MMR</p>
-              <p>1600 - 1799 MMR</p>
               <p>10 Week Season</p>
               <p>Hosted on NA East, Open to Any Region</p>
               <p>Not a Draft League</p>
@@ -63,6 +62,7 @@ const Elite = () => {
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>Free Entry</p>
+              <p>1600 - 1799 MMR</p>
             </div>
           </div>
         </div>

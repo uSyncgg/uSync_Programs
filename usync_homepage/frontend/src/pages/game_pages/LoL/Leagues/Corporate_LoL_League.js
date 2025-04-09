@@ -36,7 +36,7 @@ const Corporate_LoL_League = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://cea.gg/collections/spring-2023-charity-championship"
+            href="https://cea.gg/"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,7 +48,7 @@ const Corporate_LoL_League = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual Fall and Spring Seasons</p>
+              <p>Annual Spring and Fall Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>

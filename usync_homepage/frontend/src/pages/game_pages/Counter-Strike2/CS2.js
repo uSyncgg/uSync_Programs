@@ -18,7 +18,7 @@ const CS2 = () => {
               <div className="col-lg-4" id="bubblel">
               <a href="http://localhost:3000/Comingsoon">
               <img
-                    src="https://i.imgur.com/5ETdmF8.png"
+                    src="https://i.imgur.com/ciqy3Bd.png"
                     alt="CS2 LANs"
                     className="blockimg"
                   />{" "}
@@ -27,7 +27,7 @@ const CS2 = () => {
               <div className="col-lg-4" id="bubble">
               <a href="http://localhost:3000/Comingsoon">
               <img
-                    src="https://i.imgur.com/8ZFHAM6.png"
+                    src="https://i.imgur.com/ugKIhLq.png"
                     alt="CS2 Tournaments"
                     className="blockimg"
                   />
@@ -36,7 +36,7 @@ const CS2 = () => {
               <div className="col-lg-4" id="bubbler">
                 <a href="http://localhost:3000/games/CS2/leagues">
                   <img
-                    src="https://i.imgur.com/C2VoFOV.png"
+                    src="https://i.imgur.com/gE6ZfqX.png"
                     alt="CS2 Leagues"
                     className="blockimg"
                   />
@@ -47,7 +47,7 @@ const CS2 = () => {
               <div className="col-lg-4" id="bubblelb">
                 <a href="http://localhost:3000/games/CS2/wagers">
                   <img
-                    src="https://i.imgur.com/ylkoL6L.png"
+                    src="https://i.imgur.com/SzMtvPy.png"
                     alt="CS2 Wagers"
                     className="blockimg"
                   />
@@ -56,7 +56,7 @@ const CS2 = () => {
               <div className="col-lg-4" id="bubblerb">
                 <a href="http://localhost:3000/games/CS2/head-to-head">
                   <img
-                    src="https://i.imgur.com/vC5N7DW.png"
+                    src="https://i.imgur.com/b9B93ig.png"
                     alt="CS2 head-to-head"
                     className="blockimg"
                   />

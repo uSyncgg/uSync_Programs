@@ -36,7 +36,7 @@ const Unified_Val = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://uea.gg/g/Valorant"
+            href="https://uea.gg/"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -48,21 +48,20 @@ const Unified_Val = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Fall 2023</p>
+              <p>Annual Spring and Fall Seasons (Estimated)</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$1000 Prize Pool</p>
+              <p>$1000 Prize Pool (Estimated)</p>
               <p>Weekly Regular Season with Playoffs</p>
-              <p>8 Teams MAX</p>
-              <p>Randomly Hosted</p>
+              <p>Collegiate and High School Events</p>
               <p>No Skill cap</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$150 Per Team</p>
+              <p>Entry Fee TBD</p>
             </div>
           </div>
         </div>

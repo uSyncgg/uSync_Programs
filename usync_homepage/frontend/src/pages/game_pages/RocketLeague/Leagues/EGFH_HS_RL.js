@@ -61,7 +61,7 @@ const EGFH_HS_RL = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>Free Entry - Must be a High School Student</p>
+              <p>Entry Fee TBA - Must be a High School Student</p>
             </div>
           </div>
         </div>

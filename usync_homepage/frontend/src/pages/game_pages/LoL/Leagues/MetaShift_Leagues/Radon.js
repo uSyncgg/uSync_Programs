@@ -52,15 +52,15 @@ const Radon = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$1100 Prize Pool</p>
-              <p>10 Teams Max</p>
+              <p>$620 Prize Pool (Estimated)</p>
+              <p>5 Teams Max</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$175 Per Team</p>
+              <p>$120 Per Team (Estimated)</p>
               <p>Tier 1</p>
               <p>See Website for Tier Check</p>
             </div>

@@ -53,7 +53,6 @@ const A = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>NO Prize Pool</p>
-              <p>1337 - 1467 MMR</p>
               <p>Must Sign up Solo</p>
               <p>Draft Based League</p>
               <p>Live Streamed Matches</p>
@@ -65,6 +64,7 @@ const A = () => {
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>Free Entry</p>
+              <p>1021 - 1349 MMR</p>
             </div>
           </div>
         </div>

@@ -8,6 +8,11 @@ import Lans from './pages/Lans';
 import Leagues from './pages/Leagues';
 import Tournaments from './pages/Tournaments';
 import FAQ from './pages/more-pages/FAQ';
+import Fix from './pages/more-pages/FAQ/How_We_Fix_It';
+import Better from './pages/more-pages/FAQ/How_Esports_Can_Be_Better';
+import Problem from './pages/more-pages/FAQ/Problem_With_Esports';
+import Provide from './pages/more-pages/FAQ/What_We_Provide';
+import Join from './pages/more-pages/FAQ/How_To_Join_Esports_League';
 import './App.css';
 import Navbar from './Navbar';
 import Playground from './Playground';
@@ -20,39 +25,39 @@ import Cod_Leagues from './pages/game_pages/CoD/Cod_Leagues';
 import Cod from './pages/game_pages/CoD/Cod';
 import Cod_Lan from './pages/game_pages/CoD/Cod_Lan';
 import CodTourneys from './pages/game_pages/CoD/CodTourneys';
-
+import Experiement_Tourney from './pages/game_pages/CoD/Experiement_Tourney';
 
 //COD LEAGUES
 import HOE_Amateur from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Amateur'
 import HOE_Challengers from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Challengers'
-import HOE_Masters from './pages/game_pages/CoD/leagues/House_Of_Esports/HOE_Masters'
-import AWL_League from './pages/game_pages/CoD/leagues/AWL_League'
 import CCL_League from './pages/game_pages/CoD/leagues/CCL_League'
-import K7_League from './pages/game_pages/CoD/leagues/K7_League'
-import Cgn_league_cod from './pages/game_pages/CoD/leagues/Cgn_league_cod'
-import Chicago_COD_League from './pages/game_pages/CoD/leagues/Chicago_COD_League'
-import Click_Gaming_LeagueCOD from './pages/game_pages/CoD/leagues/Click_Gaming_LeagueCOD'
 import COD_Beer_League from './pages/game_pages/CoD/leagues/COD_Beer_League'
-import College_XP from './pages/game_pages/CoD/leagues/College_XP'
 import Corporate_COD_League from './pages/game_pages/CoD/leagues/Corporate_COD_League'
-import FPC_League from './pages/game_pages/CoD/leagues/FPC_League'
-import Kanna_Gaming_League from './pages/game_pages/CoD/leagues/Kanna_Gaming_League'
-import Lunar_League from './pages/game_pages/CoD/leagues/Lunar_League'
 import Snd_league from './pages/game_pages/CoD/leagues/Snd_league'
-import NACAL_league from './pages/game_pages/CoD/leagues/NACAL_league'
 import Playfly_COD_League from './pages/game_pages/CoD/leagues/Playfly_COD_League'
 import U18_League from './pages/game_pages/CoD/leagues/U18_League'
 import XP_League_Cod from './pages/game_pages/CoD/leagues/XP_League_Cod'
 import COD_Rec_League from './pages/game_pages/CoD/leagues/COD_Rec_League'
-import Sin_City from './pages/game_pages/CoD/leagues/Sin_City';
 import United_rogue_league from './pages/game_pages/CoD/leagues/United_rogue_league';
-import Last_hurrah from './pages/game_pages/CoD/leagues/Last_hurrah';
+import TPCWomens from './pages/game_pages/CoD/leagues/TPCWomens';
+import FCL from './pages/game_pages/CoD/leagues/FCL';
+import ZonedoutCOD from './pages/game_pages/CoD/leagues/ZonedoutCOD';
+import AFGL from './pages/game_pages/CoD/leagues/AFGL';
+import Kinetic_league from './pages/game_pages/CoD/leagues/Kinetic_league';
+import ECAC from './pages/game_pages/CoD/leagues/ECAC';
+import NJCAAE from './pages/game_pages/CoD/leagues/NJCAAE';
+import Ixi_Esports from './pages/game_pages/CoD/leagues/Ixi_Esports';
+import CXP_Leagues from './pages/game_pages/CoD/leagues/CXP_Leagues/CXP_Leagues';
+import CXP_Varsity from './pages/game_pages/CoD/leagues/CXP_Leagues/CXP_Varsity';
+import CXP_Club from './pages/game_pages/CoD/leagues/CXP_Leagues/CXP_Club';
+import CXP_Open from './pages/game_pages/CoD/leagues/CXP_Leagues/CXP_Open';
 //COD LEAGUES
 
 //COD HEAD TO HEAD
 import Arena from './pages/game_pages/CoD/Head-To-Head/Arena'
+import Eagent from './pages/game_pages/CoD/Head-To-Head/Eagent'
+import Erivals from './pages/game_pages/CoD/Head-To-Head/Erivals'
 import CMG_Xp from './pages/game_pages/CoD/Head-To-Head/CMG_Xp'
-import GB from './pages/game_pages/CoD/Head-To-Head/GB'
 //COD HEAD TO HEAD
 
 //COD WAGERS
@@ -61,6 +66,9 @@ import CMG_Wagers from './pages/game_pages/CoD/Wagers/CMG_Wagers'
 import Dropin_Wagers from './pages/game_pages/CoD/Wagers/Dropin_Wagers'
 import EAgent_Wagers from './pages/game_pages/CoD/Wagers/EAgent_Wagers'
 import Oneup_Wagers from './pages/game_pages/CoD/Wagers/Oneup_Wagers'
+import Dubbz from './pages/game_pages/CoD/Wagers/Dubbz'
+import EsportsHub from './pages/game_pages/CoD/Wagers/EsportsHub'
+import Ewagers from './pages/game_pages/CoD/Wagers/Ewagers'
 //COD WAGERS
 
 //HALO HEAD TO HEAD
@@ -73,23 +81,20 @@ import UGC_Scrim from './pages/game_pages/Halo/Head-To-Head/UGC_Scrim'
 //HALO WAGERS
 import CMG_Halo from './pages/game_pages/Halo/Wagers/CMG_Halo'
 import OneupHalo from './pages/game_pages/Halo/Wagers/OneupHalo'
+import EsportWagHalo from './pages/game_pages/Halo/Wagers/EsportWagHalo'
 //HALO WAGERS
 
 
 //HALO LEAGUES
-import College_Halo from './pages/game_pages/Halo/Leagues/College_Halo'
-import Corporate_Halo_League from './pages/game_pages/Halo/Leagues/Corporate_Halo_League'
-import ECAC_Halo_League from './pages/game_pages/Halo/Leagues/ECAC_Halo_League'
 import Halo_Agent from './pages/game_pages/Halo/Leagues/Halo_Agent'
 import Halo_Rec_League from './pages/game_pages/Halo/Leagues/Halo_Rec_League'
-import NACL_Halo from './pages/game_pages/Halo/Leagues/NACL_Halo'
-import NECC_Halo from './pages/game_pages/Halo/Leagues/NECC_Halo'
 import UGC_Halo from './pages/game_pages/Halo/Leagues/UGC_Halo'
+import HSELHalo from './pages/game_pages/Halo/Leagues/HSELHalo'
 //HALO LEAGUES
 
 //WARZONE HEAD TO HEAD
 import CMGWZXP from './pages/game_pages/Warzone/Head-To-Head/CMGWZXP'
-import GBWZ from './pages/game_pages/Warzone/Head-To-Head/GBWZ'
+import EsportRivals from './pages/game_pages/Warzone/Head-To-Head/EsportRivals'
 //WARZONE HEAD TO HEAD
 
 //WARZONE WAGERS
@@ -98,61 +103,48 @@ import DropinWZ from './pages/game_pages/Warzone/Wagers/DropinWZ'
 import GamerSaloon from './pages/game_pages/Warzone/Wagers/GamerSaloon'
 import OneUpWZ from './pages/game_pages/Warzone/Wagers/OneUpWZ'
 import Wager_1v1WZ from './pages/game_pages/Warzone/Wagers/Wager_1v1WZ'
+import Dubbzwz from './pages/game_pages/Warzone/Wagers/Dubbzwz'
+import EwagersWZ from './pages/game_pages/Warzone/Wagers/EwagersWZ'
 //WARZONE WAGERS
 
 //WARZONE LEAGUES
-import CCL_WZ_League from './pages/game_pages/Warzone/Leagues/CCL_WZ_League'
-import CGN_WZ_League from './pages/game_pages/Warzone/Leagues/CGN_WZ_League'
-import GG_Gaming_League from './pages/game_pages/Warzone/Leagues/GG_Gaming_League'
+import Airforce from './pages/game_pages/Warzone/Leagues/Airforce'
 import GHML_Gaming_League from './pages/game_pages/Warzone/Leagues/GHML_Gaming_League'
 import NJCAAE_League from './pages/game_pages/Warzone/Leagues/NJCAAE_League'
 //WARZONE LEAGUES
 
 //LoL HEAD TO HEAD
 import Esport_Scrim from './pages/game_pages/LoL/Head-To-Head/Esport_Scrim'
+import PraccLol from './pages/game_pages/LoL/Head-To-Head/PraccLol'
 import Gankster from './pages/game_pages/LoL/Head-To-Head/Gankster'
 //LoL HEAD TO HEAD
 
 //LoL WAGERS
 import DropinLoL from './pages/game_pages/LoL/Wagers/DropinLoL'
+import DubbzLol from './pages/game_pages/LoL/Wagers/DubbzLol'
+import EwagersLol from './pages/game_pages/LoL/Wagers/EwagersLol'
 //LoL WAGERS
 
 //LoL LEAGUES
 import Aegis_Champ from './pages/game_pages/LoL/Leagues/Aegis_Leagues/Aegis_Champ'
-import Aegis_Guardians from './pages/game_pages/LoL/Leagues/Aegis_Leagues/Aegis_Guardians'
+import Aegis_Defenders from './pages/game_pages/LoL/Leagues/Aegis_Leagues/Aegis_Defenders'
 import Aegis_Marauder from './pages/game_pages/LoL/Leagues/Aegis_Leagues/Aegis_Marauder'
 import Aegis_Protectors from './pages/game_pages/LoL/Leagues/Aegis_Leagues/Aegis_Protectors'
-import Aegis_Squire from './pages/game_pages/LoL/Leagues/Aegis_Leagues/Aegis_Squire'
+import Aegis_Executioners from './pages/game_pages/LoL/Leagues/Aegis_Leagues/Aegis_Executioners'
 import Frontpage_Aegis from './pages/game_pages/LoL/Leagues/Aegis_Leagues/Frontpage_Aegis'
 
 import Blue_Otter_Diamond from './pages/game_pages/LoL/Leagues/Blue_Otter_Leagues/Blue_Otter_Diamond'
 import Blue_Otter_Gold from './pages/game_pages/LoL/Leagues/Blue_Otter_Leagues/Blue_Otter_Gold'
-import Blue_Otter_IBS from './pages/game_pages/LoL/Leagues/Blue_Otter_Leagues/Blue_Otter_IBS'
+import Blue_Otter_Draft from './pages/game_pages/LoL/Leagues/Blue_Otter_Leagues/Blue_Otter_Draft'
 import Blue_Otter_Plat from './pages/game_pages/LoL/Leagues/Blue_Otter_Leagues/Blue_Otter_Plat'
+import Blue_Otter_Masters from './pages/game_pages/LoL/Leagues/Blue_Otter_Leagues/Blue_Otter_Masters'
+import Blue_Otter_Emerald from './pages/game_pages/LoL/Leagues/Blue_Otter_Leagues/Blue_Otter_Emerald'
 import Frontpage_Otter from './pages/game_pages/LoL/Leagues/Blue_Otter_Leagues/Frontpage_Otter'
-
 
 import Division_1 from './pages/game_pages/LoL/Leagues/Cobalt_Winds_Leagues/Division_1'
 import Division_2 from './pages/game_pages/LoL/Leagues/Cobalt_Winds_Leagues/Division_2'
 import Division_3 from './pages/game_pages/LoL/Leagues/Cobalt_Winds_Leagues/Division_3'
 import Frontpage_Cobalt from './pages/game_pages/LoL/Leagues/Cobalt_Winds_Leagues/Frontpage_Cobalt'
-
-import Frontpage_DUO from './pages/game_pages/LoL/Leagues/Duo_Esports_Leagues/Frontpage_DUO'
-import GPCS from './pages/game_pages/LoL/Leagues/Duo_Esports_Leagues/GPCS'
-import IBSGCS from './pages/game_pages/LoL/Leagues/Duo_Esports_Leagues/IBSGCS'
-
-import FFS_Heroic from './pages/game_pages/LoL/Leagues/Friend_or_Foe_Leagues/FFS_Heroic'
-import FFS_Mythic from './pages/game_pages/LoL/Leagues/Friend_or_Foe_Leagues/FFS_Mythic'
-import Frontpage_FFS from './pages/game_pages/LoL/Leagues/Friend_or_Foe_Leagues/Frontpage_FFS'
-
-import Division_A from './pages/game_pages/LoL/Leagues/GG_Leagues/Division_A'
-import Division_B from './pages/game_pages/LoL/Leagues/GG_Leagues/Division_B'
-import Division_C from './pages/game_pages/LoL/Leagues/GG_Leagues/Division_C'
-import Frontpage_GG from './pages/game_pages/LoL/Leagues/GG_Leagues/Frontpage_GG'
-
-import Frontpage_LAS from './pages/game_pages/LoL/Leagues/LAS_Leagues/Frontpage_LAS'
-import Tier_1 from './pages/game_pages/LoL/Leagues/LAS_Leagues/Tier_1'
-import Tier_2 from './pages/game_pages/LoL/Leagues/LAS_Leagues/Tier_2'
 
 import Frontpage_LCS from './pages/game_pages/LoL/Leagues/Low_Budget_Leagues/Frontpage_LCS'
 import LCS_Commercial from './pages/game_pages/LoL/Leagues/Low_Budget_Leagues/LCS_Commercial'
@@ -162,7 +154,7 @@ import LCS_Financial from './pages/game_pages/LoL/Leagues/Low_Budget_Leagues/LCS
 
 import Argon from './pages/game_pages/LoL/Leagues/MetaShift_Leagues/Argon'
 import Frontpage_MetaShift from './pages/game_pages/LoL/Leagues/MetaShift_Leagues/Frontpage_MetaShift'
-import Helium from './pages/game_pages/LoL/Leagues/MetaShift_Leagues/Helium'
+import Nitrogen from './pages/game_pages/LoL/Leagues/MetaShift_Leagues/Nitrogen'
 import Krypton from './pages/game_pages/LoL/Leagues/MetaShift_Leagues/Krypton'
 import Neon from './pages/game_pages/LoL/Leagues/MetaShift_Leagues/Neon'
 import Radon from './pages/game_pages/LoL/Leagues/MetaShift_Leagues/Radon'
@@ -170,7 +162,6 @@ import Xenon from './pages/game_pages/LoL/Leagues/MetaShift_Leagues/Xenon'
 
 import Frontpage_Risen from './pages/game_pages/LoL/Leagues/Risen_Leagues/Frontpage_Risen'
 import Risen_Champions from './pages/game_pages/LoL/Leagues/Risen_Leagues/Risen_Champions'
-import Risen_Divine from './pages/game_pages/LoL/Leagues/Risen_Leagues/Risen_Divine'
 import Risen_Dominate from './pages/game_pages/LoL/Leagues/Risen_Leagues/Risen_Dominate'
 import Risen_Draft from './pages/game_pages/LoL/Leagues/Risen_Leagues/Risen_Draft'
 import Risen_Rampage from './pages/game_pages/LoL/Leagues/Risen_Leagues/Risen_Rampage'
@@ -178,43 +169,35 @@ import Risen_Unstoppable from './pages/game_pages/LoL/Leagues/Risen_Leagues/Rise
 
 import Conqueror from './pages/game_pages/LoL/Leagues/Titan_Leagues/Conqueror'
 import Divinity from './pages/game_pages/LoL/Leagues/Titan_Leagues/Divinity'
+import Immortal_T from './pages/game_pages/LoL/Leagues/Titan_Leagues/Immortal_T'
+import Vanquisher_T from './pages/game_pages/LoL/Leagues/Titan_Leagues/Vanquisher_T'
+import Eternal_T from './pages/game_pages/LoL/Leagues/Titan_Leagues/Eternal_T'
+import Gladiator_T from './pages/game_pages/LoL/Leagues/Titan_Leagues/Gladiator_T'
 import Frontpage_Titan from './pages/game_pages/LoL/Leagues/Titan_Leagues/Frontpage_Titan'
-
-import Frontpage_Victoris from './pages/game_pages/LoL/Leagues/Victoris_Leagues/Frontpage_Victoris'
-import Victoris_Amateur from './pages/game_pages/LoL/Leagues/Victoris_Leagues/Victoris_Amateur'
-import Victoris_Amateur_Draft from './pages/game_pages/LoL/Leagues/Victoris_Leagues/Victoris_Amateur_Draft'
-import Victoris_Rival from './pages/game_pages/LoL/Leagues/Victoris_Leagues/Victoris_Rival'
-import Victoris_Rival_Draft from './pages/game_pages/LoL/Leagues/Victoris_Leagues/Victoris_Rival_Draft'
-import Victoris_Triumph from './pages/game_pages/LoL/Leagues/Victoris_Leagues/Victoris_Triumph'
-
-import Frontpage_Zero from './pages/game_pages/LoL/Leagues/ZeroGrav_Leagues/Frontpage_Zero'
-import Zero_Gold from './pages/game_pages/LoL/Leagues/ZeroGrav_Leagues/Zero_Gold'
-import Zero_IBS from './pages/game_pages/LoL/Leagues/ZeroGrav_Leagues/Zero_IBS'
-import Zero_Platinum from './pages/game_pages/LoL/Leagues/ZeroGrav_Leagues/Zero_Platinum'
 
 import Black_Twitch_League from './pages/game_pages/LoL/Leagues/Black_Twitch_League'
 import CLOL from './pages/game_pages/LoL/Leagues/CLOL'
 import Corporate_LoL_League from './pages/game_pages/LoL/Leagues/Corporate_LoL_League'
-import Emerald_Draft_League from './pages/game_pages/LoL/Leagues/Emerald_Draft_League'
-import HSEL_LoL from './pages/game_pages/LoL/Leagues/HSEL_LoL'
 import Playfly_LoL from './pages/game_pages/LoL/Leagues/Playfly_LoL'
 import NECC_LoL from './pages/game_pages/LoL/Leagues/NECC_LoL'
-import OPSE_LoL from './pages/game_pages/LoL/Leagues/OPSE_LoL'
+import NSELol from './pages/game_pages/LoL/Leagues/NSELol'
+import ECAC_Lol from './pages/game_pages/LoL/Leagues/ECAC_Lol'
 import PlayVS_LoL from './pages/game_pages/LoL/Leagues/PlayVS_LoL'
-import Scottish_Esports_League from './pages/game_pages/LoL/Leagues/Scottish_Esports_League'
 import SDC_League from './pages/game_pages/LoL/Leagues/SDC_League'
 import VantaGG_LoL from './pages/game_pages/LoL/Leagues/VantaGG_LoL'
-import Howlfun from './pages/game_pages/LoL/Leagues/Howlfun';
 //LoL LEAGUES
 
 //ROCKET LEAGUE HEAD TO HEAD
 import GanksterRL from './pages/game_pages/RocketLeague/Head-To-Head/GanksterRL'
+import PraccRL from './pages/game_pages/RocketLeague/Head-To-Head/PraccRL'
 //ROCKET LEAGUE HEAD TO HEAD
 
 //ROCKET LEAGUE WAGERS
 import CMGRL from './pages/game_pages/RocketLeague/Wagers/CMGRL'
 import DropinRL from './pages/game_pages/RocketLeague/Wagers/DropinRL'
 import SaloonRL from './pages/game_pages/RocketLeague/Wagers/SaloonRL'
+import DubbzRL from './pages/game_pages/RocketLeague/Wagers/DubbzRL'
+import EwagersRL from './pages/game_pages/RocketLeague/Wagers/EwagersRL'
 //ROCKET LEAGUE WAGERS
 
 //ROCKET LEAGUE LEAGUES
@@ -255,7 +238,6 @@ import A from './pages/game_pages/RocketLeague/Leagues/RLPC/A'
 import AA from './pages/game_pages/RocketLeague/Leagues/RLPC/AA'
 import AAA from './pages/game_pages/RocketLeague/Leagues/RLPC/AAA'
 import Frontpage_RLPC from './pages/game_pages/RocketLeague/Leagues/RLPC/Frontpage_RLPC'
-import Independent from './pages/game_pages/RocketLeague/Leagues/RLPC/Independent'
 import Major from './pages/game_pages/RocketLeague/Leagues/RLPC/Major'
 
 import Frontpage_RSC from './pages/game_pages/RocketLeague/Leagues/Rocket_Soccer_Confederation/Frontpage_RSC'
@@ -267,32 +249,30 @@ import Frontpage_URL from './pages/game_pages/RocketLeague/Leagues/URL_Leagues/F
 import URL_2s from './pages/game_pages/RocketLeague/Leagues/URL_Leagues/URL_2s'
 import URL_3s from './pages/game_pages/RocketLeague/Leagues/URL_Leagues/URL_3s'
 
-import Blue_Bird from './pages/game_pages/RocketLeague/Leagues/Blue_Bird'
 import CCA from './pages/game_pages/RocketLeague/Leagues/CCA'
 import CSMG_RL from './pages/game_pages/RocketLeague/Leagues/CSMG_RL'
 import ECAC_RL from './pages/game_pages/RocketLeague/Leagues/ECAC_RL'
 import EGFC_RL from './pages/game_pages/RocketLeague/Leagues/EGFC_RL'
 import EGFH_HS_RL from './pages/game_pages/RocketLeague/Leagues/EGFH_HS_RL'
-import Elite_Series from './pages/game_pages/RocketLeague/Leagues/Elite_Series'
-import HBCU_RL from './pages/game_pages/RocketLeague/Leagues/HBCU_RL'
 import HSEL_RL from './pages/game_pages/RocketLeague/Leagues/HSEL_RL'
-import Master_Cup from './pages/game_pages/RocketLeague/Leagues/Master_Cup'
 import Playfly_RL from './pages/game_pages/RocketLeague/Leagues/Playfly_RL'
-import NACL_Rl from './pages/game_pages/RocketLeague/Leagues/NACL_Rl'
 import NASEF_RL from './pages/game_pages/RocketLeague/Leagues/NASEF_RL'
 import NECC_RL from './pages/game_pages/RocketLeague/Leagues/NECC_RL'
-import NECL_HS_RL from './pages/game_pages/RocketLeague/Leagues/NECL_HS_RL'
-import Nitro_League from './pages/game_pages/RocketLeague/Leagues/Nitro_League'
-import OPSE_RL from './pages/game_pages/RocketLeague/Leagues/OPSE_RL'
 import PlayVS_HS_RL from './pages/game_pages/RocketLeague/Leagues/PlayVS_HS_RL'
 import Raket_Ligaen from './pages/game_pages/RocketLeague/Leagues/Raket_Ligaen'
-import Scottish_Esports_RL from './pages/game_pages/RocketLeague/Leagues/Scottish_Esports_RL'
 import TEC_RL from './pages/game_pages/RocketLeague/Leagues/TEC_RL'
 import UGC_College from './pages/game_pages/RocketLeague/Leagues/UGC_College'
 import UGC_HS_RL from './pages/game_pages/RocketLeague/Leagues/UGC_HS_RL'
 import United_Rogue from './pages/game_pages/RocketLeague/Leagues/United_Rogue'
 import VantaGG_HS_RL from './pages/game_pages/RocketLeague/Leagues/VantaGG_HS_RL'
 import Finality_League from './pages/game_pages/RocketLeague/Leagues/Finality_League';
+import CorporateRL from './pages/game_pages/RocketLeague/Leagues/CorporateRL';
+import AirforceRL from './pages/game_pages/RocketLeague/Leagues/AirforceRL';
+import NJCAAERL from './pages/game_pages/RocketLeague/Leagues/NJCAAERL';
+import AELRL from './pages/game_pages/RocketLeague/Leagues/AELRL';
+import FACEITRL from './pages/game_pages/RocketLeague/Leagues/FACEITRL';
+import NSERL from './pages/game_pages/RocketLeague/Leagues/NSERL';
+import AELHSRL from './pages/game_pages/RocketLeague/Leagues/AELHSRL';
 //ROCKET LEAGUE LEAGUES
 
 //VALORANT HEAD TO HEAD
@@ -300,11 +280,12 @@ import College_Hub from './pages/game_pages/Valorant/Head-To-Head/College_Hub'
 import Dropin_VAL_XP from './pages/game_pages/Valorant/Head-To-Head/Dropin_VAL_XP'
 import EsportScrim from './pages/game_pages/Valorant/Head-To-Head/EsportScrim'
 import GanksterVAL from './pages/game_pages/Valorant/Head-To-Head/GanksterVAL'
-import ProjectV from './pages/game_pages/Valorant/Head-To-Head/ProjectV'
+import PraccVal from './pages/game_pages/Valorant/Head-To-Head/PraccVal'
 //VALORANT HEAD TO HEAD
 
 //VALORANT WAGERS
 import DropinVAL from './pages/game_pages/Valorant/Wagers/DropinVAL'
+import EwagersVal from './pages/game_pages/Valorant/Wagers/EwagersVal'
 //VALORANT WAGERS
 
 //VALORANT LEAGUES
@@ -317,8 +298,9 @@ import Academy_val from './pages/game_pages/Valorant/Leagues/Frontline_Leagues_V
 import Frontpage_Frontline_val from './pages/game_pages/Valorant/Leagues/Frontline_Leagues_Val/Frontpage_Frontline_val'
 import Prime from './pages/game_pages/Valorant/Leagues/Frontline_Leagues_Val/Prime'
 
-import Amateur from './pages/game_pages/Valorant/Leagues/LPL_Leagues/Amateur'
-import Evolution from './pages/game_pages/Valorant/Leagues/LPL_Leagues/Evolution'
+import Gold from './pages/game_pages/Valorant/Leagues/LPL_Leagues/Gold'
+import Silver from './pages/game_pages/Valorant/Leagues/LPL_Leagues/Silver'
+import Bronze from './pages/game_pages/Valorant/Leagues/LPL_Leagues/Bronze'
 import Frontpage_LPL from './pages/game_pages/Valorant/Leagues/LPL_Leagues/Frontpage_LPL'
 import Open from './pages/game_pages/Valorant/Leagues/LPL_Leagues/Open'
 
@@ -326,31 +308,22 @@ import Frontpage_Playfly from './pages/game_pages/Valorant/Leagues/Playfly_Leagu
 import Playfly_Open from './pages/game_pages/Valorant/Leagues/Playfly_Leagues/Playfly_Open'
 import Playfly_VARSITY from './pages/game_pages/Valorant/Leagues/Playfly_Leagues/Playfly_VARSITY'
 
-import Frontpage_Val_Victoris from './pages/game_pages/Valorant/Leagues/Victoris_Val_Leagues/Frontpage_Val_Victoris'
-import VLS from './pages/game_pages/Valorant/Leagues/Victoris_Val_Leagues/VLS'
-import VRS from './pages/game_pages/Valorant/Leagues/Victoris_Val_Leagues/VRS'
-
-import CGN_League_Val from './pages/game_pages/Valorant/Leagues/CGN_League_Val'
 import CSMG_VAL from './pages/game_pages/Valorant/Leagues/CSMG_VAL'
 import College_Val_Riot from './pages/game_pages/Valorant/Leagues/College_Val_Riot'
 import EGFC_College_VAL from './pages/game_pages/Valorant/Leagues/EGFC_College_VAL'
 import EGFH_VAL from './pages/game_pages/Valorant/Leagues/EGFH_VAL'
-import HBCU_VAL from './pages/game_pages/Valorant/Leagues/HBCU_VAL'
 import HSEL_VAL from './pages/game_pages/Valorant/Leagues/HSEL_VAL'
 import NASEF_VAL from './pages/game_pages/Valorant/Leagues/NASEF_VAL'
 import NECC_Val from './pages/game_pages/Valorant/Leagues/NECC_Val'
-import NECL_VAL from './pages/game_pages/Valorant/Leagues/NECL_VAL'
 import NJCAAE_Val from './pages/game_pages/Valorant/Leagues/NJCAAE_Val'
-import OPSE_VAL from './pages/game_pages/Valorant/Leagues/OPSE_VAL'
-import Scottish_Val from './pages/game_pages/Valorant/Leagues/Scottish_Val'
-import Talent_League from './pages/game_pages/Valorant/Leagues/Talent_League'
 import TEC_VAL from './pages/game_pages/Valorant/Leagues/TEC_VAL'
 import UGC_College_Val from './pages/game_pages/Valorant/Leagues/UGC_College_Val'
 import Unified_Val from './pages/game_pages/Valorant/Leagues/Unified_Val'
 import VantaGG_VAL from './pages/game_pages/Valorant/Leagues/VantaGG_VAL'
-import VCT_Game from './pages/game_pages/Valorant/Leagues/VCT_Game'
-import VMaster from './pages/game_pages/Valorant/Leagues/VMaster'
-//VALORANT LEAGUES
+import CorporateVAL from './pages/game_pages/Valorant/Leagues/CorporateVAL'
+import FACEITVal from './pages/game_pages/Valorant/Leagues/FACEITVal'
+import NSEVal from './pages/game_pages/Valorant/Leagues/NSEVal'
+//VALORANT LEAGUES JAKE
 
 //COUNTERSTIKE 2 HEAD TO HEAD
 import EsportScrimCS2 from './pages/game_pages/Counter-Strike2/Head-To-Head/EsportScrimCS2'
@@ -653,9 +626,10 @@ function App() {
       title = "Call of Duty Tournaments | uSync";
       component = <CodTourneys />
       break;
-    // case "/test":
-    //   component = <Test />
-    //   break;       
+    case "/games/call-of-duty/tournaments/experiment":
+      title = "Experiement Tourneys"
+      component = <Experiement_Tourney />
+      break;       
 
 
     //COD LEAGUES
@@ -666,14 +640,6 @@ function App() {
       case "/games/call-of-duty/leagues/cod-rec-league":
         title = "Call of Duty Rec League | uSync";
       component = <COD_Rec_League />
-      break;
-    case "/games/call-of-duty/nacal-league":
-      title = "NACAL League | uSync";
-      component = <NACAL_league />
-      break;
-    case "/games/call-of-duty/leagues/awl-league":
-      title = "Call of Duty Amateur World League | uSync";
-      component = <AWL_League />
       break;
     case "/games/call-of-duty/leagues/House-of-esports-leagues":
       title = "House of Esports Leagues | uSync";
@@ -687,53 +653,17 @@ function App() {
       title = "House of Esports Challengers League | uSync";
       component = <HOE_Challengers />
       break;
-    case "/games/call-of-duty/leagues/House-of-esports-leagues/hoe-masters":
-      title = "House of Esports Masters League | uSync";
-      component = <HOE_Masters />
-      break;
     case "/games/call-of-duty/leagues/ccl-league":
       title = "College Call of Duty League | uSync";
       component = <CCL_League />
-      break;
-    case "/games/call-of-duty/leagues/k7-league":
-      title = "K7 League | uSync";
-      component = <K7_League />
-      break;
-    case "/games/call-of-duty/leagues/cgn-league-cod":
-      title = "CGN League | uSync";
-      component = <Cgn_league_cod />
-      break;
-    case "/games/call-of-duty/leagues/chicago-league-cod":
-      title = "Chicago Call of Duty League | uSync";
-      component = <Chicago_COD_League />
-      break;
-    case "/games/call-of-duty/leagues/click-gaming-league":
-      title = "Click Gaming League | uSync";
-      component = <Click_Gaming_LeagueCOD />
       break;
     case "/games/call-of-duty/leagues/cod-beer-league":
       title = "Call of Duty Beer League | uSync";
       component = <COD_Beer_League />
       break;
-    case "/games/call-of-duty/leagues/college-xp":
-      title = "College XP League | uSync";
-      component = <College_XP />
-      break;
     case "/games/call-of-duty/leagues/corporate-cod-league":
       title = "Corporate Call of Duty League | uSync";
       component = <Corporate_COD_League />
-      break;
-    case "/games/call-of-duty/leagues/fpc-league":
-      title = "Female Pro Circuit League | uSync";
-      component = <FPC_League />
-      break;
-    case "/games/call-of-duty/leagues/kanna-gaming-league":
-      title = "Kanna Gaming League | uSync";
-      component = <Kanna_Gaming_League />
-      break;
-    case "/games/call-of-duty/leagues/lunar-league":
-      title = "Lunar League | uSync";
-      component = <Lunar_League />
       break;
     case "/games/call-of-duty/leagues/playfly-cod-league":
       title = "Playfly Call of Duty League | uSync";
@@ -747,19 +677,59 @@ function App() {
       title = "XP Call of Duty League | uSync";
       component = <XP_League_Cod />
       break;
-    case "/games/call-of-duty/leagues/sin-city-league":
-      title = "Sin City co-ed Call of Duty League | uSync";
-      component = <Sin_City />
-      break;
     case "/games/call-of-duty/leagues/united-rogue-league":
       title = "United Rogue Call of Duty League | uSync";
       component = <United_rogue_league />
       break;  
-    case "/games/call-of-duty/leagues/last-hurrah":
-      title = "Last Hurrah Call of Duty League | uSync";
-      component = <Last_hurrah />
-      break;  
-      // COD LEAGUES
+    case "/games/call-of-duty/leagues/tpc-womens-cod":
+      title = "TPC Womens Call of Duty League | uSync";
+      component = <TPCWomens />
+      break;
+    case "/games/call-of-duty/leagues/fcl":
+      title = "FCL Call of Duty League | uSync";
+      component = <FCL />
+      break;    
+    case "/games/call-of-duty/leagues/zoned-out":
+      title = "Zoned Out Call of Duty League | uSync";
+      component = <ZonedoutCOD />
+      break;
+    case "/games/call-of-duty/leagues/airforce-league":
+      title = "Air Force Call of Duty League | uSync";
+      component = <AFGL />
+      break;
+    case "/games/call-of-duty/leagues/kinetic-league":
+      title = "Kinetic Call of Duty League | uSync";
+      component = <Kinetic_league />
+      break; 
+    case "/games/call-of-duty/leagues/ecac":
+      title = "ECAC Call of Duty League | uSync";
+      component = <ECAC />
+      break;
+    case "/games/call-of-duty/leagues/njcaae":
+      title = "NJCAAE Call of Duty League | uSync";
+      component = <NJCAAE />
+      break;
+    case "/games/call-of-duty/leagues/ixi-esports":
+      title = "IXI Call of Duty League | uSync";
+      component = <Ixi_Esports />
+      break;     
+    case "/games/call-of-duty/leagues/cxp-leagues/cxp-leagues":
+      title = "CXP Call of Duty Leagues | uSync";
+      component = <CXP_Leagues />
+      break;
+    case "/games/call-of-duty/leagues/cxp-leagues/cxp-varsity":
+      title = "CXP Varsity Call of Duty League | uSync";
+      component = <CXP_Varsity />
+      break;     
+    case "/games/call-of-duty/leagues/cxp-leagues/cxp-club":
+      title = "CXP Club Call of Duty League | uSync";
+      component = <CXP_Club />
+      break;     
+    case "/games/call-of-duty/leagues/cxp-leagues/cxp-open":
+      title = "CXP Open Call of Duty League | uSync";
+      component = <CXP_Open />
+      break;     
+    // COD LEAGUES
 
     // COD HEAD TO HEAD
     case "/games/call-of-duty/head-to-head/arena":
@@ -770,11 +740,15 @@ function App() {
       title = "Checkmate Gaming Head to Head | uSync";
       component = <CMG_Xp />
       break;
-    case "/games/call-of-duty/head-to-head/gb":
-      title = "Gamebattles Head to Head | uSync";
-      component = <GB />
+    case "/games/call-of-duty/head-to-head/eagent":
+      title = "Esports Agent Call of Duty | uSync";
+      component = <Eagent />
       break;
-    // COD HEAD TO HEAD
+    case "/games/call-of-duty/head-to-head/erivals":
+      title = "Esport Rivals Call of Duty | uSync";
+      component = <Erivals />
+      break;
+      // COD HEAD TO HEAD
 
     // COD WAGERS
     case "/games/call-of-duty/wagers/1v1me":
@@ -797,7 +771,19 @@ function App() {
       title = "Oneup Call of Duty Wagers | uSync";
       component = <Oneup_Wagers />
       break;
-    // COD WAGERS
+    case "/games/call-of-duty/wagers/dubbz":
+      title = "Dubbz Call of Duty Wagers | uSync";
+      component = <Dubbz />
+      break;
+    case "/games/call-of-duty/wagers/the-esports-hub":
+      title = "Esports Hub Call of Duty Wagers | uSync";
+      component = <EsportsHub />
+      break;
+    case "/games/call-of-duty/wagers/ewagers":
+      title = "Ewagers Call of Duty | uSync";
+      component = <Ewagers />
+      break;
+      // COD WAGERS
 
     // HALO HEAD TO HEAD
     case "/games/halo/head-to-head/arena":
@@ -827,21 +813,13 @@ function App() {
       title = "Oneup Halo Wagers | uSync";
       component = <OneupHalo />
       break;
+    case "/games/halo/wagers/esport-wagers":
+      title = "Esport Wagers Halo | uSync";
+      component = <EsportWagHalo />
+      break;
     // HALO WAGERS
 
     // HALO LEAGUES
-    case "/games/halo/leagues/college-halo":
-      title = "College Halo League | uSync";
-      component = <College_Halo />
-      break;
-    case "/games/halo/leagues/corporate-halo":
-      title = "Corporate Halo League | uSync";
-      component = <Corporate_Halo_League />
-      break;
-    case "/games/halo/leagues/ecac":
-      title = "ECAC Halo League | uSync";
-      component = <ECAC_Halo_League />
-      break;
     case "/games/halo/leagues/halo-agent":
       title = "Halo Agent League | uSync";
       component = <Halo_Agent />
@@ -850,18 +828,14 @@ function App() {
       title = "Halo Rec League | uSync";
       component = <Halo_Rec_League />
       break;
-    case "/games/halo/leagues/nacl":
-      title = "NACL Halo League | uSync";
-      component = <NACL_Halo />
-      break;
-    case "/games/halo/leagues/necc":
-      title = "NECC Halo League | uSync";
-      component = <NECC_Halo />
-      break;
     case "/games/halo/leagues/ugc-halo":
       title = "UGC Halo League | uSync";
       component = <UGC_Halo />
       break;
+    case "/games/halo/leagues/hsel":
+      title = "HSEL Halo League | uSync";
+      component = <HSELHalo />
+      break;  
     // HALO LEAGUES
 
     // WARZONE HEAD TO HEAD
@@ -869,9 +843,9 @@ function App() {
       title = "Checkmate Gaming Warzone Head to Head | uSync";
       component = <CMGWZXP />
       break;
-    case "/games/warzone/head-to-head/gb":
-      title = "Gamebattles Warzone Head to Head | uSync";
-      component = <GBWZ />
+    case "/games/warzone/head-to-head/esport-rivals":
+      title = "Esport Rivals Warzone Head to Head | uSync";
+      component = <EsportRivals />
       break;
     // WARZONE HEAD TO HEAD
 
@@ -896,20 +870,20 @@ function App() {
       title = "1v1me Warzone Wagers | uSync";
       component = <Wager_1v1WZ />
       break;
+    case "/games/warzone/wagers/dubbz":
+      title = "Dubbz Warzone Wagers | uSync";
+      component = <Dubbzwz />
+      break;  
+    case "/games/warzone/wagers/ewagers":
+      title = "Ewagers Warzone | uSync";
+      component = <EwagersWZ />
+      break;    
     // WARZONE WAGERS
 
     // WARZONE LEAGUES
-    case "/games/warzone/leagues/ccl":
-      title = "College Warzone League | uSync";
-      component = <CCL_WZ_League />
-      break;
-    case "/games/warzone/leagues/cgn":
-      title = "CGN Warzone League | uSync";
-      component = <CGN_WZ_League />
-      break;
-    case "/games/warzone/leagues/gg-gaming":
-      title = "GG Gaming Warzone League | uSync";
-      component = <GG_Gaming_League />
+    case "/games/warzone/leagues/airforce":
+      title = "Air Force Warzone League | uSync";
+      component = <Airforce />
       break;
     case "/games/warzone/leagues/ghml":
       title = "GHML Warzone League | uSync";
@@ -930,6 +904,10 @@ function App() {
       title = "Gankster League of Legends | uSync";
       component = <Gankster />
       break;
+    case "/games/LoL/head-to-head/pracc":
+      title = "Pracc League of Legends | uSync";
+      component = <PraccLol />
+      break;
     // LoL HEAD TO HEAD
 
     // LoL WAGERS
@@ -937,6 +915,14 @@ function App() {
       title = "DropIn Gaming League of Legends Wagers | uSync";
       component = <DropinLoL />
       break;
+    case "/games/LoL/wagers/dubbz":
+      title = "Dubbz League of Legends Wagers | uSync";
+      component = <DubbzLol />
+      break;
+    case "/games/LoL/wagers/ewagers":
+      title = "Ewagers League of Legends | uSync";
+      component = <EwagersLol />
+      break;  
     // LoL WAGERS
 
     // LoL LEAGUES
@@ -948,9 +934,9 @@ function App() {
       title = "Aegis Champion League | uSync";
       component = <Aegis_Champ />
       break;
-    case "/games/LoL/leagues/aegis-leagues/guardians":
-      title = "Aegis Guardians League | uSync";
-      component = <Aegis_Guardians />
+    case "/games/LoL/leagues/aegis-leagues/defenders":
+      title = "Aegis Defenders League | uSync";
+      component = <Aegis_Defenders />
       break;
     case "/games/LoL/leagues/aegis-leagues/marauder":
       title = "Aegis Marauder League | uSync";
@@ -960,9 +946,9 @@ function App() {
       title = "Aegis Protectors League | uSync";
       component = <Aegis_Protectors />
       break;
-    case "/games/LoL/leagues/aegis-leagues/squire":
-      title = "Aegis Squire League | uSync";
-      component = <Aegis_Squire />
+    case "/games/LoL/leagues/aegis-leagues/executioners":
+      title = "Aegis Executioners League | uSync";
+      component = <Aegis_Executioners />
       break;
 
     case "/games/LoL/leagues/blue-otter-leagues":
@@ -977,15 +963,23 @@ function App() {
       title = "Blue Otter Gold League | uSync";
       component = <Blue_Otter_Gold />
       break;
-    case "/games/LoL/leagues/blue-otter-leagues/ibs":
-      title = "Blue Otter IBS League | uSync";
-      component = <Blue_Otter_IBS />
+    case "/games/LoL/leagues/blue-otter-leagues/draft":
+      title = "Blue Otter Draft League | uSync";
+      component = <Blue_Otter_Draft />
       break;
     case "/games/LoL/leagues/blue-otter-leagues/plat":
       title = "Blue Otter Platinum League | uSync";
       component = <Blue_Otter_Plat />
       break;
-
+    case "/games/LoL/leagues/blue-otter-leagues/emerald":
+      title = "Blue Otter Emerald League | uSync";
+      component = <Blue_Otter_Emerald />
+      break;
+    case "/games/LoL/leagues/blue-otter-leagues/masters":
+      title = "Blue Otter Masters League | uSync";
+      component = <Blue_Otter_Masters />
+      break;
+      
     case "/games/LoL/leagues/cobalt-winds-leagues":
       title = "Cobalt Winds Leagues | uSync";
       component = <Frontpage_Cobalt />
@@ -1001,62 +995,6 @@ function App() {
     case "/games/LoL/leagues/cobalt-winds-leagues/division3":
       title = "Cobalt Winds Division 3 League | uSync";
       component = <Division_3 />
-      break;
-
-    case "/games/LoL/leagues/duo-esports-league":
-      title = "Duo Esports Leagues | uSync";
-      component = <Frontpage_DUO />
-      break;
-    case "/games/LoL/leagues/duo-esports-league/gpcs":
-      title = "Duo Esports GPCS League | uSync";
-      component = <GPCS />
-      break;
-    case "/games/LoL/leagues/duo-esports-league/ibsgcs":
-      title = "Duo Esports IBSGCS League | uSync";
-      component = <IBSGCS />
-      break;
-
-    case "/games/LoL/leagues/ffs-leagues":
-      title = "Friend or Foe Leagues | uSync";
-      component = <Frontpage_FFS />
-      break;
-    case "/games/LoL/leagues/ffs-leagues/mythic":
-      title = "Friend or Foe Mythic League | uSync";
-      component = <FFS_Mythic />
-      break;
-    case "/games/LoL/leagues/ffs-leagues/heroic":
-      title = "Friend or Foe Heroic League | uSync";
-      component = <FFS_Heroic />
-      break;
-
-    case "/games/LoL/leagues/gg-leagues":
-      title = "GG League of Legends Leagues | uSync";
-      component = <Frontpage_GG />
-      break;
-    case "/games/LoL/leagues/gg-leagues/division-a":
-      title = "GG League of Legends Division A League | uSync";
-      component = <Division_A />
-      break;
-    case "/games/LoL/leagues/gg-leagues/division-b":
-      title = "GG League of Legends Division B League | uSync";
-      component = <Division_B />
-      break;
-    case "/games/LoL/leagues/gg-leagues/division-c":
-      title = "GG League of Legends Division C League | uSync";
-      component = <Division_C />
-      break;
-
-    case "/games/LoL/leagues/las-leagues":
-      title = "LAS Leagues | uSync";
-      component = <Frontpage_LAS />
-      break;
-    case "/games/LoL/leagues/las-leagues/tier-1":
-      title = "LAS Tier 1 League | uSync";
-      component = <Tier_1 />
-      break;
-    case "/games/LoL/leagues/las-leagues/tier-2":
-      title = "LAS Tier 2 League | uSync";
-      component = <Tier_2 />
       break;
 
     case "/games/LoL/leagues/low-budget-leagues":
@@ -1088,9 +1026,9 @@ function App() {
       title = "MetaShift Argon League | uSync";
       component = <Argon />
       break;
-    case "/games/LoL/leagues/meta-shift-leagues/helium":
-      title = "MetaShift Helium League | uSync";
-      component = <Helium />
+    case "/games/LoL/leagues/meta-shift-leagues/nitrogen":
+      title = "MetaShift Nitrogen League | uSync";
+      component = <Nitrogen />
       break;
     case "/games/LoL/leagues/meta-shift-leagues/krypton":
       title = "MetaShift Krypton League | uSync";
@@ -1116,10 +1054,6 @@ function App() {
     case "/games/LoL/leagues/risen-leagues/champions":
       title = "Risen Champions League | uSync";
       component = <Risen_Champions />
-      break;
-    case "/games/LoL/leagues/risen-leagues/divine":
-      title = "Risen Divine League | uSync";
-      component = <Risen_Divine />
       break;
     case "/games/LoL/leagues/risen-leagues/dominate":
       title = "Risen Dominate League | uSync";
@@ -1150,47 +1084,21 @@ function App() {
       title = "Titan Conqueror League | uSync";
       component = <Conqueror />
       break;
-
-    case "/games/LoL/leagues/victoris-leagues":
-      title = "Victoris League of Legends Leagues | uSync";
-      component = <Frontpage_Victoris />
+    case "/games/LoL/leagues/titan-leagues/immortal":
+      title = "Titan Immortal League | uSync";
+      component = <Immortal_T />
       break;
-    case "/games/LoL/leagues/victoris-leagues/amateur":
-      title = "Victoris League of Legends Amateur League | uSync";
-      component = <Victoris_Amateur />
+    case "/games/LoL/leagues/titan-leagues/vanquisher":
+      title = "Titan Vanquisher League | uSync";
+      component = <Vanquisher_T />
       break;
-    case "/games/LoL/leagues/victoris-leagues/amateur-draft":
-      title = "Victoris League of Legends Amateur Draft League | uSync";
-      component = <Victoris_Amateur_Draft />
+    case "/games/LoL/leagues/titan-leagues/eternal":
+      title = "Titan Eternal League | uSync";
+      component = <Eternal_T />
       break;
-    case "/games/LoL/leagues/victoris-leagues/rival":
-      title = "Victoris League of Legends Rival League | uSync";
-      component = <Victoris_Rival />
-      break;
-    case "/games/LoL/leagues/victoris-leagues/rival-draft":
-      title = "Victoris League of Legends Rival Draft League | uSync";
-      component = <Victoris_Rival_Draft />
-      break;
-    case "/games/LoL/leagues/victoris-leagues/triumph":
-      title = "Victoris League of Legends Triumph League | uSync";
-      component = <Victoris_Triumph />
-      break;
-
-    case "/games/LoL/leagues/zerograv-leagues":
-      title = "Zero Gravity Leagues | uSync";
-      component = <Frontpage_Zero />
-      break;
-    case "/games/LoL/leagues/zerograv-leagues/gold":
-      title = "Zero Gravity Gold League | uSync";
-      component = <Zero_Gold />
-      break;
-    case "/games/LoL/leagues/zerograv-leagues/ibs":
-      title = "Zero Gravity IBS League | uSync";
-      component = <Zero_IBS />
-      break;
-    case "/games/LoL/leagues/zerograv-leagues/platinum":
-      title = "Zero Gravity Platinum League | uSync";
-      component = <Zero_Platinum />
+    case "/games/LoL/leagues/titan-leagues/gladiator":
+      title = "Titan Gladiator League | uSync";
+      component = <Gladiator_T />
       break;
 
     case "/games/LoL/leagues/black-twitch-league":
@@ -1205,14 +1113,6 @@ function App() {
       title = "Corporate League of Legends League | uSync";
       component = <Corporate_LoL_League />
       break;
-    case "/games/LoL/leagues/emerald-draft":
-      title = "Emerald Draft League | uSync";
-      component = <Emerald_Draft_League />
-      break;
-    case "/games/LoL/leagues/hsel":
-      title = "High School League of Legends League | uSync";
-      component = <HSEL_LoL />
-      break;
     case "/games/LoL/leagues/playfly":
       title = "Playfly League of Legends League | uSync";
       component = <Playfly_LoL />
@@ -1221,17 +1121,17 @@ function App() {
       title = "NECC League of Legends League | uSync";
       component = <NECC_LoL />
       break;
-    case "/games/LoL/leagues/opse":
-      title = "OPSE League of Legends League | uSync";
-      component = <OPSE_LoL />
+    case "/games/LoL/leagues/ecac":
+      title = "ECAC League of Legends League | uSync";
+      component = <ECAC_Lol />
+      break;
+    case "/games/LoL/leagues/nse":
+      title = "NSE League of Legends League | uSync";
+      component = <NSELol />
       break;
     case "/games/LoL/leagues/playvs":
       title = "PlayVS League of Legends League | uSync";
       component = <PlayVS_LoL />
-      break;
-    case "/games/LoL/leagues/scottish-esports":
-      title = "Scottish Esports League of Legends League | uSync";
-      component = <Scottish_Esports_League />
       break;
     case "/games/LoL/leagues/sdc":
       title = "SDC League | uSync";
@@ -1241,16 +1141,16 @@ function App() {
       title = "VantaGG League of Legends League | uSync";
       component = <VantaGG_LoL />
       break;
-    case "/games/LoL/leagues/howlfun":
-      title = "Howlfun League of Legends League | uSync";
-      component = <Howlfun />
-      break;
     // LoL LEAGUES
 
     // ROCKET LEAGUE HEAD TO HEAD
     case "/games/RocketLeague/head-to-head/gankster":
       title = "Gankster Rocket League | uSync";
       component = <GanksterRL />
+      break;
+    case "/games/RocketLeague/head-to-head/pracc":
+      title = "Pracc Rocket League | uSync";
+      component = <PraccRL />
       break;
     // ROCKET LEAGUE HEAD TO HEAD
 
@@ -1385,10 +1285,6 @@ function App() {
         title = "RLPC Triple A League | uSync";
       component = <AAA />
       break;
-      case "/games/RocketLeague/leagues/rlpc-leagues/independent":
-        title = "RLPC Independent League | uSync";
-      component = <Independent />
-      break;
       case "/games/RocketLeague/leagues/rlpc-leagues/major":
         title = "RLPC Major League | uSync";
       component = <Major />
@@ -1424,10 +1320,6 @@ function App() {
       component = <URL_3s />
       break;
 
-      case "/games/RocketLeague/leagues/blue-bird":
-        title = "Blue Bird League | uSync";
-      component = <Blue_Bird />
-      break;
       case "/games/RocketLeague/leagues/cca":
         title = "College Carball Association League | uSync";
       component = <CCA />
@@ -1448,29 +1340,13 @@ function App() {
         title = "EGFH Rocket League League | uSync";
       component = <EGFH_HS_RL />
       break;
-      case "/games/RocketLeague/leagues/elite-series":
-        title = "Elite Series Rocket League League | uSync";
-      component = <Elite_Series />
-      break;
-      case "/games/RocketLeague/leagues/hbcu":
-        title = "HBCU Rocket League League | uSync";
-      component = <HBCU_RL />
-      break;
       case "/games/RocketLeague/leagues/hsel":
         title = "High School Rocket League League | uSync";
       component = <HSEL_RL />
       break;
-      case "/games/RocketLeague/leagues/master-cup":
-        title = "Master Cup Rocket League League | uSync";
-      component = <Master_Cup />
-      break;
       case "/games/RocketLeague/leagues/playfly":
         title = "Playfly Rocket League League | uSync";
       component = <Playfly_RL />
-      break;
-      case "/games/RocketLeague/leagues/nacl":
-        title = "NACL Rocket League League | uSync";
-      component = <NACL_Rl />
       break;
       case "/games/RocketLeague/leagues/nasef":
         title = "NASEF Rocket League League | uSync";
@@ -1480,18 +1356,6 @@ function App() {
         title = "NECC Rocket League League | uSync";
       component = <NECC_RL />
       break;
-      case "/games/RocketLeague/leagues/necl":
-        title = "NECL Rocket League League | uSync";
-      component = <NECL_HS_RL />
-      break;
-      case "/games/RocketLeague/leagues/nitro-league":
-        title = "Nitro Rocket League League | uSync";
-      component = <Nitro_League />
-      break;
-      case "/games/RocketLeague/leagues/opse":
-        title = "OPSE Rocket League League | uSync";
-      component = <OPSE_RL />
-      break;
       case "/games/RocketLeague/leagues/playvs":
         title = "PlayVS Rocket League League | uSync";
       component = <PlayVS_HS_RL />
@@ -1499,10 +1363,6 @@ function App() {
       case "/games/RocketLeague/leagues/raket-ligaen":
         title = "Raket Ligaen League | uSync";
       component = <Raket_Ligaen />
-      break;
-      case "/games/RocketLeague/leagues/scottish-esports":
-        title = "Scottish Esports Rocket League League | uSync";
-      component = <Scottish_Esports_RL />
       break;
       case "/games/RocketLeague/leagues/tec":
         title = "The Esports Company Rocket League League | uSync";
@@ -1528,7 +1388,34 @@ function App() {
         title = "Finality Rocket League League | uSync";
       component = <Finality_League />
       break;
-
+      case "/games/RocketLeague/leagues/corporate":
+        title = "Corporate Rocket League League | uSync";
+      component = <CorporateRL />
+      break;
+      case "/games/RocketLeague/leagues/airforce":
+        title = "Airforce Rocket League League | uSync";
+      component = <AirforceRL />
+      break;
+      case "/games/RocketLeague/leagues/njcaae":
+        title = "NJCAAE Rocket League League | uSync";
+      component = <NJCAAERL />
+      break;
+      case "/games/RocketLeague/leagues/ael":
+        title = "AEL Rocket League League | uSync";
+      component = <AELRL />
+      break;
+      case "/games/RocketLeague/leagues/faceit":
+        title = "FACEIT Rocket League League | uSync";
+      component = <FACEITRL />
+      break;
+      case "/games/RocketLeague/leagues/nse":
+        title = "NSE Rocket League League | uSync";
+      component = <NSERL />
+      break;
+      case "/games/RocketLeague/leagues/aelhs":
+        title = "AEL HS Rocket League League | uSync";
+      component = <AELHSRL />
+      break;
     // ROCKET LEAGUE LEAGUES
 
     // ROCKET LEAGUE WAGERS
@@ -1537,12 +1424,20 @@ function App() {
       component = <CMGRL />
       break;
       case "/games/RocketLeague/wagers/dropingaming":
-        title = "DropIn Gaming Rocket League Wagers | uSync";
+      title = "DropIn Gaming Rocket League Wagers | uSync";
       component = <DropinRL />
       break;
-      case "/games/RocketLeague/wagers/gamersaloon":
-        title = "GamerSaloon Rocket League Wagers | uSync";
+    case "/games/RocketLeague/wagers/gamersaloon":
+      title = "GamerSaloon Rocket League Wagers | uSync";
       component = <SaloonRL />
+      break;
+    case "/games/RocketLeague/wagers/dubbz":
+      title = "Dubbz Rocket League Wagers | uSync";
+      component = <DubbzRL />
+      break;
+    case "/games/RocketLeague/wagers/ewagers":
+      title = "Ewagers Rocket League | uSync";
+      component = <EwagersRL />
       break;
     // ROCKET LEAGUE WAGERS
 
@@ -1563,9 +1458,9 @@ function App() {
         title = "Gankster Valorant | uSync";
       component = <GanksterVAL />
       break;
-      case "/games/Valorant/head-to-head/project-v":
-        title = "Project V Valorant | uSync";
-      component = <ProjectV />
+      case "/games/Valorant/head-to-head/pracc":
+        title = "Pracc Valorant | uSync";
+      component = <PraccVal />
       break;
     // VALORANT HEAD TO HEAD
 
@@ -1573,6 +1468,10 @@ function App() {
       case "/games/Valorant/wagers/dropingaming":
         title = "DropIn Gaming Valorant Wagers | uSync";
       component = <DropinVAL />
+      break;
+      case "/games/Valorant/wagers/ewagers":
+        title = "Ewagers Valorant | uSync";
+      component = <EwagersVal />
       break;
     // VALORANT WAGERS
 
@@ -1611,18 +1510,23 @@ function App() {
         title = "Lets Play Live Valorant Leagues | uSync";
       component = <Frontpage_LPL />
       break;
-      case "/games/Valorant/leagues/lpl-leagues/amateur":
-        title = "Lets Play Live Amateur League | uSync";
-      component = <Amateur />
+      case "/games/Valorant/leagues/lpl-leagues/gold":
+        title = "Lets Play Live Gold League | uSync";
+      component = <Gold />
       break;
-      case "/games/Valorant/leagues/lpl-leagues/evolution":
-        title = "Lets Play Live Evolution League | uSync";
-      component = <Evolution />
+      case "/games/Valorant/leagues/lpl-leagues/silver":
+        title = "Lets Play Live Silver League | uSync";
+      component = <Silver />
       break;
       case "/games/Valorant/leagues/lpl-leagues/open":
         title = "Lets Play Live Open League | uSync";
       component = <Open />
       break;
+      case "/games/Valorant/leagues/lpl-leagues/bronze":
+        title = "Lets Play Live Bronze League | uSync";
+      component = <Bronze />
+      break;
+
 
       case "/games/Valorant/leagues/playfly-leagues":
         title = "Playfly Valorant Leagues | uSync";
@@ -1637,23 +1541,6 @@ function App() {
       component = <Playfly_VARSITY />
       break;
 
-      case "/games/Valorant/leagues/victoris-leagues":
-        title = "Victoris Valorant Leagues | uSync";
-      component = <Frontpage_Val_Victoris />
-      break;
-      case "/games/Valorant/leagues/victoris-leagues/vls":
-        title = "Victoris Legend League | uSync";
-      component = <VLS />
-      break;
-      case "/games/Valorant/leagues/victoris-leagues/vrs":
-        title = "Victoris Rival League | uSync";
-      component = <VRS />
-      break;
-
-      case "/games/Valorant/leagues/cgn-league":
-        title = "CGN Valorant League | uSync";
-      component = <CGN_League_Val />
-      break;
       case "/games/Valorant/leagues/csmg":
         title = "CSMG Valorant League | uSync";
       component = <CSMG_VAL />
@@ -1670,10 +1557,6 @@ function App() {
         title = "EGFH Valorant League | uSync";
       component = <EGFH_VAL />
       break;
-      case "/games/Valorant/leagues/hbcu":
-        title = "HBCU Valorant League | uSync";
-      component = <HBCU_VAL />
-      break;
       case "/games/Valorant/leagues/hsel":
         title = "High School Esports Valorant League | uSync";
       component = <HSEL_VAL />
@@ -1686,25 +1569,9 @@ function App() {
         title = "NECC Valorant League | uSync";
       component = <NECC_Val />
       break;
-      case "/games/Valorant/leagues/necl":
-        title = "NECL Valorant League | uSync";
-      component = <NECL_VAL />
-      break;
       case "/games/Valorant/leagues/njcaae":
         title = "NJCAAE Valorant League | uSync";
       component = <NJCAAE_Val />
-      break;
-      case "/games/Valorant/leagues/opse":
-        title = "OPSE Valorant League | uSync";
-      component = <OPSE_VAL />
-      break;
-      case "/games/Valorant/leagues/scottish-esports":
-        title = "Scottish Esports Valorant League | uSync";
-      component = <Scottish_Val />
-      break;
-      case "/games/Valorant/leagues/talent-league":
-        title = "Talent Valorant League | uSync";
-      component = <Talent_League />
       break;
       case "/games/Valorant/leagues/tec":
         title = "The Esports Company Valorant League | uSync";
@@ -1722,15 +1589,19 @@ function App() {
         title = "VantaGG Valorant League | uSync";
       component = <VantaGG_VAL />
       break;
-      case "/games/Valorant/leagues/vct-game-changers":
-        title = "VCT Game Changers League | uSync";
-      component = <VCT_Game />
+      case "/games/Valorant/leagues/corporate":
+        title = "Corporate Valorant League | uSync";
+      component = <CorporateVAL />
       break;
-      case "/games/Valorant/leagues/vmaster":
-        title = "VMaster Valorant League | uSync";
-      component = <VMaster />
+      case "/games/Valorant/leagues/faceit":
+        title = "FACEIT Valorant League | uSync";
+      component = <FACEITVal />
       break;
-    // VALORANT LEAGUES
+      case "/games/Valorant/leagues/nse":
+        title = "NSE Valorant League | uSync";
+      component = <NSEVal />
+      break;
+    // VALORANT LEAGUES JAKE
 
     // COUNTERSTRIKE 2 HEAD TO HEAD
     case "/games/CS2/head-to-head/esport-scrim":
@@ -1843,7 +1714,7 @@ function App() {
       title = "LPL Bronze CS2 League | uSync";
     component = <LPL_Bronze />
     break;
-    case "/games/CS2/leagues/lpl-leagues/lpl-Open":
+    case "/games/CS2/leagues/lpl-leagues/lpl-open":
       title = "LPL Open CS2 League | uSync";
     component = <LPL_Open />
     break;
@@ -1891,6 +1762,26 @@ function App() {
           title = "FAQ | uSync";
       component = <FAQ />
       break;
+      case "/more/FAQ/How-We-Fix-It":
+        title = "How We Fix It | uSync";
+        component = <Fix />
+        break;
+      case "/more/FAQ/How-Esports-Can-Be-Better":
+        title = "How Esports Can Be Better | uSync";
+        component = <Better />
+        break;
+      case "/more/FAQ/The-Problem-With-Esports":
+        title = "The Problem With Esports | uSync";
+        component = <Problem />
+        break;
+      case "/more/FAQ/What-We-Provide":
+        title = "What We Provide | uSync";
+        component = <Provide />
+        break;
+      case "/more/FAQ/How-to-Join-an-Esports-League":
+        title = "How to Join an Esports League | uSync";
+        component = <Join />
+        break;
   } 
 
   return (

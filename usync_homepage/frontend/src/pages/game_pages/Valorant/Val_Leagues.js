@@ -18,35 +18,6 @@ const Val_Leagues = () => {
         <div className="Background-leagues">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-lg-6">
-                <div className="league">
-                  <a href="http://localhost:3000/games/Valorant/leagues/victoris-leagues">
-                    <h1 className="Leagueh1">Victoris Leagues</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/Valorant/leagues/victoris-leagues">
-                      <img
-                        src="https://i.imgur.com/34aS7tl.png"
-                        className="league-img"
-                      />
-                    </a>
-                    <a href="https://www.usync.gg/more/verification">
-                      <img
-                        src="https://i.imgur.com/PCHIHQB.png"
-                        title="uSync Verified"
-                        className="over-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/Valorant/leagues/victoris-leagues">
-                    <button type="submit" className="info-button">
-                      All Leagues
-                    </button>
-                  </a>
-                </div>
-              </div>
 
               <div className="col-lg-6 bottom-card">
                 <div className="league">
@@ -56,7 +27,7 @@ const Val_Leagues = () => {
                   <div className="parent">
                     <a href="http://localhost:3000/games/Valorant/leagues/lpl-leagues">
                       <img
-                        src="https://i.imgur.com/rlmiEc2.png"
+                        src="https://i.imgur.com/bqbNpmT.png"
                         className="league-img"
                       />
                     </a>
@@ -69,7 +40,6 @@ const Val_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">OCE</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/Valorant/leagues/lpl-leagues">
                     <button type="submit" className="info-button">
                       All Leagues
@@ -77,7 +47,6 @@ const Val_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <p className="hr" />
 
               <div className="col-lg-6">
                 <div className="league">
@@ -93,7 +62,6 @@ const Val_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/Valorant/leagues/frontline-leagues">
                     <button type="submit" className="info-button">
                       All Leagues
@@ -102,29 +70,29 @@ const Val_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
+              <p className="hr" />
+
+              <div className="col-lg-6">
                 <div className="league">
-                  <a href="http://localhost:3000/games/Valorant/leagues/scottish-esports">
-                    <h1 className="Leagueh1">Scottish Esports League</h1>
+                  <a href="http://localhost:3000/games/Valorant/leagues/corporate">
+                    <h1 className="Leagueh1">Corporate League</h1>
                   </a>
                   <div className="parent">
-                    <a href="http://localhost:3000/games/Valorant/leagues/scottish-esports">
+                    <a href="http://localhost:3000/games/Valorant/leagues/corporate">
                       <img
-                        src="https://i.imgur.com/VAurqdv.png"
+                        src="https://i.imgur.com/k63mdno.png"
                         className="league-img"
                       />
                     </a>
                   </div>
-                  <p className="Leaguep">EU</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/Valorant/leagues/scottish-esports">
+                  <p className="Leaguep">NA</p>
+                  <a href="http://localhost:3000/games/Valorant/leagues/corporate">
                     <button type="submit" className="info-button">
                       More Info
                     </button>
                   </a>
                 </div>
               </div>
-              <p className="hr" />
 
               <div className="col-lg-6">
                 <div className="league">
@@ -140,100 +108,7 @@ const Val_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/Valorant/leagues/unified">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/Valorant/leagues/vct-game-changers">
-                    <h1 className="Leagueh1">VCT Game Changers</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/Valorant/leagues/vct-game-changers">
-                      <img
-                        src="https://i.imgur.com/TJdbPmz.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/Valorant/leagues/vct-game-changers">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <p className="hr" />
-              <div className="col-lg-6">
-                <div className="league">
-                  <a href="http://localhost:3000/games/Valorant/leagues/cgn-league">
-                    <h1 className="Leagueh1">CGN League</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/Valorant/leagues/cgn-league">
-                      <img
-                        src="https://i.imgur.com/8h5GWaO.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/Valorant/leagues/cgn-league">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/Valorant/leagues/vmaster">
-                    <h1 className="Leagueh1">VMaster League</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/Valorant/leagues/vmaster">
-                      <img
-                        src="https://i.imgur.com/PAZu639.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">ES</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/Valorant/leagues/vmaster">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <p className="hr" />
-              <div className="col-lg-6">
-                <div className="league">
-                  <a href="http://localhost:3000/games/Valorant/leagues/talent-league">
-                    <h1 className="Leagueh1">Talent League</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/Valorant/leagues/talent-league">
-                      <img
-                        src="https://i.imgur.com/vLKklOa.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">EU</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/Valorant/leagues/talent-league">
                     <button type="submit" className="info-button">
                       More Info
                     </button>
@@ -273,8 +148,191 @@ const Val_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/Valorant/leagues/riot">
+                    <button type="submit" className="info-button">
+                      More Info
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div className="col-lg-6">
+                <div className="league">
+                  <a href="http://localhost:3000/games/Valorant/leagues/ecac-leagues">
+                    <h1 className="Leagueh1">ECAC Esports</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="http://localhost:3000/games/Valorant/leagues/ecac-leagues">
+                      <img
+                        src="https://i.imgur.com/VCXkcNL.png"
+                        className="league-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">USA</p>
+                  <a href="http://localhost:3000/games/Valorant/leagues/ecac-leagues">
+                    <button type="submit" className="info-button">
+                      All Leagues
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <p className="hr" />
+
+              <div className="col-lg-6 bottom-card">
+                <div className="league">
+                  <a href="http://localhost:3000/games/Valorant/leagues/njcaae">
+                    <h1 className="Leagueh1">NJCAAE</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="http://localhost:3000/games/Valorant/leagues/njcaae">
+                      <img
+                        src="https://i.imgur.com/Yer31Qr.png"
+                        className="league-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">USA</p>
+                  <a href="http://localhost:3000/games/Valorant/leagues/njcaae">
+                    <button type="submit" className="info-button">
+                      More Info
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div className="col-lg-6">
+                <div className="league">
+                  <a href="http://localhost:3000/games/Valorant/leagues/necc">
+                    <h1 className="Leagueh1">NECC</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="http://localhost:3000/games/Valorant/leagues/necc">
+                      <img
+                        src="https://i.imgur.com/wUMekqz.png"
+                        className="league-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">NA</p>
+                  <a href="http://localhost:3000/games/Valorant/leagues/necc">
+                    <button type="submit" className="info-button">
+                      More Info
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <p className="hr" />
+
+              <div className="col-lg-6">
+                <div className="league">
+                  <a href="http://localhost:3000/games/Valorant/leagues/egfc">
+                    <h1 className="Leagueh1">EGFC League</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="http://localhost:3000/games/Valorant/leagues/egfc">
+                      <img
+                        src="https://i.imgur.com/3DTxejo.png"
+                        className="league-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">USA</p>
+                  <a href="http://localhost:3000/games/Valorant/leagues/egfc">
+                    <button type="submit" className="info-button">
+                      More Info
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div className="col-lg-6">
+                <div className="league">
+                  <a href="http://localhost:3000/games/Valorant/leagues/playfly-leagues">
+                    <h1 className="Leagueh1">Playfly College</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="http://localhost:3000/games/Valorant/leagues/playfly-leagues">
+                      <img
+                        src="https://i.imgur.com/XHCsRTv.png"
+                        className="league-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">NA</p>
+                  <a href="http://localhost:3000/games/Valorant/leagues/playfly-leagues">
+                    <button type="submit" className="info-button">
+                      All Leagues
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <p className="hr" />
+
+              <div className="col-lg-6 bottom-card">
+                <div className="league">
+                  <a href="http://localhost:3000/games/Valorant/leagues/csmg">
+                    <h1 className="Leagueh1">CSMG League</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="http://localhost:3000/games/Valorant/leagues/csmg">
+                      <img
+                        src="https://i.imgur.com/2EsJOXo.png"
+                        className="league-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">USA</p>
+                  <a href="http://localhost:3000/games/Valorant/leagues/csmg">
+                    <button type="submit" className="info-button">
+                      More Info
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div className="col-lg-6 bottom-card">
+                <div className="league">
+                  <a href="http://localhost:3000/games/Valorant/leagues/faceit">
+                    <h1 className="Leagueh1">FACEIT Collegiate</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="http://localhost:3000/games/Valorant/leagues/faceit">
+                      <img
+                        src="https://i.imgur.com/e1oqsLF.png"
+                        className="league-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">NA</p>
+                  <a href="http://localhost:3000/games/Valorant/leagues/faceit">
+                    <button type="submit" className="info-button">
+                      More Info
+                    </button>
+                  </a>
+                </div>
+              </div>
+              
+              <p className="hr" />
+
+              <div className="col-lg-6 bottom-card">
+                <div className="league">
+                  <a href="http://localhost:3000/games/Valorant/leagues/nse">
+                    <h1 className="Leagueh1">National Student Esports</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="http://localhost:3000/games/Valorant/leagues/nse">
+                      <img
+                        src="https://i.imgur.com/mJJJD6e.png"
+                        className="league-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">UK</p>
+                  <a href="http://localhost:3000/games/Valorant/leagues/nse">
                     <button type="submit" className="info-button">
                       More Info
                     </button>
@@ -296,7 +354,6 @@ const Val_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/Valorant/leagues/ugc-college">
                     <button type="submit" className="info-button">
                       More Info
@@ -304,194 +361,7 @@ const Val_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <p className="hr" />
 
-              <div className="col-lg-6">
-                <div className="league">
-                  <a href="http://localhost:3000/games/Valorant/leagues/ecac-leagues">
-                    <h1 className="Leagueh1">ECAC Esports</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/Valorant/leagues/ecac-leagues">
-                      <img
-                        src="https://i.imgur.com/VCXkcNL.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/Valorant/leagues/ecac-leagues">
-                    <button type="submit" className="info-button">
-                      All Leagues
-                    </button>
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/Valorant/leagues/njcaae">
-                    <h1 className="Leagueh1">NJCAAE</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/Valorant/leagues/njcaae">
-                      <img
-                        src="https://i.imgur.com/Yer31Qr.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/Valorant/leagues/njcaae">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <p className="hr" />
-
-              <div className="col-lg-6">
-                <div className="league">
-                  <a href="http://localhost:3000/games/Valorant/leagues/necc">
-                    <h1 className="Leagueh1">NECC</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/Valorant/leagues/necc">
-                      <img
-                        src="https://i.imgur.com/wUMekqz.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/Valorant/leagues/necc">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/Valorant/leagues/opse">
-                    <h1 className="Leagueh1">OPSE</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/Valorant/leagues/opse">
-                      <img
-                        src="https://i.imgur.com/vk4JMG4.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">Ontario</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/Valorant/leagues/opse">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <p className="hr" />
-
-              <div className="col-lg-6">
-                <div className="league">
-                  <a href="http://localhost:3000/games/Valorant/leagues/egfc">
-                    <h1 className="Leagueh1">EGFC League</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/Valorant/leagues/egfc">
-                      <img
-                        src="https://i.imgur.com/3DTxejo.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/Valorant/leagues/egfc">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/Valorant/leagues/hbcu">
-                    <h1 className="Leagueh1">HBCU Esports League</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/Valorant/leagues/hbcu">
-                      <img
-                        src="https://i.imgur.com/b3AwOjm.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/Valorant/leagues/hbcu">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <p className="hr" />
-
-              <div className="col-lg-6">
-                <div className="league">
-                  <a href="http://localhost:3000/games/Valorant/leagues/playfly-leagues">
-                    <h1 className="Leagueh1">Playfly College</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/Valorant/leagues/playfly-leagues">
-                      <img
-                        src="https://i.imgur.com/XHCsRTv.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/Valorant/leagues/playfly-leagues">
-                    <button type="submit" className="info-button">
-                      All Leagues
-                    </button>
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/Valorant/leagues/csmg">
-                    <h1 className="Leagueh1">CSMG League</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/Valorant/leagues/csmg">
-                      <img
-                        src="https://i.imgur.com/2EsJOXo.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/Valorant/leagues/csmg">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
 
               <div>
                 <p className="hr" />
@@ -525,7 +395,6 @@ const Val_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/Valorant/leagues/hsel">
                     <button type="submit" className="info-button">
                       More Info
@@ -548,7 +417,6 @@ const Val_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/Valorant/leagues/tec">
                     <button type="submit" className="info-button">
                       More Info
@@ -572,7 +440,6 @@ const Val_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/Valorant/leagues/vantagg">
                     <button type="submit" className="info-button">
                       More Info
@@ -595,7 +462,6 @@ const Val_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/Valorant/leagues/nasef">
                     <button type="submit" className="info-button">
                       More Info
@@ -604,29 +470,6 @@ const Val_Leagues = () => {
                 </div>
               </div>
               <p className="hr" />
-
-              <div className="col-lg-6">
-                <div className="league">
-                  <a href="http://localhost:3000/games/Valorant/leagues/necl">
-                    <h1 className="Leagueh1">NECL League</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/Valorant/leagues/necl">
-                      <img
-                        src="https://i.imgur.com/wJRs1Vl.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/Valorant/leagues/necl">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
 
               <div className="col-lg-6 bottom-card">
                 <div className="league">
@@ -642,7 +485,6 @@ const Val_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/Valorant/leagues/egfh">
                     <button type="submit" className="info-button">
                       More Info

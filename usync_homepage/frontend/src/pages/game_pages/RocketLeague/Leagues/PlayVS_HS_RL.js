@@ -61,7 +61,7 @@ const PlayVS_HS_RL = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>Contact PlayVS for a Quote - Must be a High School Student</p>
+              <p>Contact for a Quote - Must be a High School Student</p>
             </div>
           </div>
         </div>

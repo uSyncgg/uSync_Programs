@@ -52,7 +52,7 @@ const Dropin_Wagers = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>MWII and Cold War Matches</p>
+              <p>MWIII Matches</p>
               <p>CDL Ruleset</p>
               <p>Support on Twitter</p>
               <p>Small Number of Users and Set Wager Amounts</p>

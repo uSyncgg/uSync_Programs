@@ -62,7 +62,7 @@ const ECAC_RL = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>ECAC Membership $1600/yr - Must Be a FULL TIME College Student</p>
+              <p>$1,600/yr - Must Be a FULL TIME College Student</p>
             </div>
           </div>
         </div>

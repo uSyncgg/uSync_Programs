@@ -52,16 +52,16 @@ const U18_League = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$450 - $550 Prize Pool</p>
+              <p>~$1,500 Prize Pools</p>
               <p>Highly Competitive</p>
-              <p>MUST be Younger Than 18</p>
+              <p>Multiple Cups Throughout Season</p>
               <p>Live Streamed Matches</p>
-              <p>Draft Format for Teams</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - All Regions</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
+              <p>Must be Younger Than 18</p>
               <p>$100 per Team</p>
               <p>$8 for Solo Players</p>
             </div>

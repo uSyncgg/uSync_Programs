@@ -36,7 +36,7 @@ const NJCAAE_League = () => {
             <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
-            href="https://www.njcaaesports.org/gametitles/cod%3A-warzone-3"
+            href="https://www.njcaaesports.org/gametitles/cod%3A-warzone"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -56,7 +56,6 @@ const NJCAAE_League = () => {
               <p>7 Week Round Robin Regular Season</p>
               <p>Single Elimination Playoffs</p>
               <p>No Live Streamed Matches</p>
-              <p>Annually in Fall and Spring</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>2v2 - USA</p>
             </div>

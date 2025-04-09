@@ -60,7 +60,7 @@ const Blue_Otter_Plat = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$60 Per Team</p>
+              <p>$60 Per Team (Estimated)</p>
               <p>$15 Forfeit Deposit</p>
               <p>Platinum 1 99LP cap, One Emerald 4 per Team</p>
             </div>

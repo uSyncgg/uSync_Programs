@@ -55,7 +55,7 @@ const Black_Twitch_League = () => {
               <p>$250 Prize Pool</p>
               <p>Semi-Competitive</p>
               <p>Live Streamed Matches</p>
-              <p>Live Support on Discord</p>
+              <p>Support on Discord</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - NA</p>
             </div>

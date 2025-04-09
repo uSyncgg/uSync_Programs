@@ -53,8 +53,8 @@ const Academy = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>Case of Bawls Guarana Prize</p>
-              <p>1000 - 1250 MMR</p>
               <p>Salary Based on MMR</p>
+              <p>10 - 32 Teams</p>
               <p>Must Sign up Solo</p>
               <p>Draft Based League</p>
               <p>Live Streamed Matches</p>
@@ -64,6 +64,7 @@ const Academy = () => {
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>Free Entry</p>
+              <p>1000 - 1250 MMR</p>
             </div>
           </div>
         </div>

@@ -54,7 +54,9 @@ const VantaGG_LoL = () => {
               <h2 className="info-title">Details:</h2>
               <p>NO Prize Pool</p>
               <p>Access to College Scholarships</p>
+              <p>Weekly Regular Season Matches with Chance at Playoffs</p>
               <p>Live Streamed Matches</p>
+              <p>Private Coaching Available</p>
               <p>No Skill Requirement</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>5v5 - USA</p>

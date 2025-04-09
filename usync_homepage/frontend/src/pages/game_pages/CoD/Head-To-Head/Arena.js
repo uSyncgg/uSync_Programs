@@ -51,9 +51,10 @@ const Arena = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Live Discord Support</p>
-              <p>Queue Into Premade 8s Lobbies</p>
-              <p>Large Number of Users</p>
+              <p>Scrim Finder for Competitive Players</p>
+              <p>Live Staff Support</p>
+              <p>Can Queue Anytime</p>
+              <p>Small User Base with Little Matches</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Restrictions:</h2>

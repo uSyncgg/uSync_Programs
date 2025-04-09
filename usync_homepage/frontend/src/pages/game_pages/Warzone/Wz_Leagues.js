@@ -18,29 +18,22 @@ const Wz_Leagues = () => {
         <div className="Background-leagues">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-lg-6">
+
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
-                  <a href="http://localhost:3000/games/warzone/leagues/cgn">
-                    <h1 className="Leagueh1">Contender Gaming Network</h1>
+                  <a href="http://localhost:3000/games/warzone/leagues/airforce">
+                    <h1 className="Leagueh1">Air Force Gaming League</h1>
                   </a>
                   <div className="parent">
-                    <a href="http://localhost:3000/games/warzone/leagues/cgn">
+                    <a href="http://localhost:3000/games/warzone/leagues/airforce">
                       <img
-                        src="https://i.imgur.com/j8aBZUK.png"
+                        src="https://i.imgur.com/4o2rJWS.png"
                         className="league-img"
                       />
                     </a>
-                    <a href="https://www.usync.gg/more/verification">
-                      <img
-                        src="https://i.imgur.com/PCHIHQB.png"
-                        title="uSync Verified"
-                        className="over-img"
-                      />
-                    </a>
                   </div>
-                  <p className="Leaguep">All Regions</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/warzone/leagues/cgn">
+                  <p className="Leaguep">NA/EU/APAC</p>
+                  <a href="http://localhost:3000/games/warzone/leagues/airforce">
                     <button type="submit" className="info-button">
                       More Info
                     </button>
@@ -48,29 +41,6 @@ const Wz_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/warzone/leagues/gg-gaming">
-                    <h1 className="Leagueh1">GG Gaming League</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/warzone/leagues/gg-gaming">
-                      <img
-                        src="https://i.imgur.com/2MzFYVs.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">All Regions</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/warzone/leagues/gg-gaming">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <p className="hr" />
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/warzone/leagues/ghml">
@@ -85,7 +55,6 @@ const Wz_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/warzone/leagues/ghml">
                     <button type="submit" className="info-button">
                       More Info
@@ -93,8 +62,8 @@ const Wz_Leagues = () => {
                   </a>
                 </div>
               </div>
-
               <div>
+
                 <p className="hr" />
                 <h2 id="league-title1">Collegiate Leagues</h2>
                 <img
@@ -105,35 +74,6 @@ const Wz_Leagues = () => {
                 <p className="hr" />
               </div>
 
-              <div className="col-lg-6">
-                <div className="league">
-                  <a href="http://localhost:3000/games/warzone/leagues/ccl">
-                    <h1 className="Leagueh1">College Warzone</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/warzone/leagues/ccl">
-                      <img
-                        src="https://i.imgur.com/71EePEn.png"
-                        className="league-img"
-                      />
-                    </a>
-                    <a href="https://www.usync.gg/more/verification">
-                      <img
-                        src="https://i.imgur.com/PCHIHQB.png"
-                        title="uSync Verified"
-                        className="over-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/warzone/leagues/ccl">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
 
               <div className="col-lg-6 bottom-card">
                 <div className="league">
@@ -149,7 +89,6 @@ const Wz_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/warzone/leagues/njcaae">
                     <button type="submit" className="info-button">
                       More Info

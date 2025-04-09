@@ -36,7 +36,7 @@ const XP_League_Cod = () => {
             <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
           </a>
           <a
-            href="https://sites.google.com/view/xpleague/home"
+            href="https://x.com/XP_Leagues?s=20"
             target="_blank"
             rel="noopener noreferrer"
             id="join-button-link"
@@ -54,14 +54,15 @@ const XP_League_Cod = () => {
               <h2 className="info-title">Details:</h2>
               <p>EU and NA Leagues</p>
               <p>£/$500+ Prize Pool with Immediate Payouts</p>
+              <p>Multiple Divisions</p>
               <p>Quick Responses / Reliable Format</p>
-              <p>Live Streamed Matches</p>
+              <p>Live Streamed Matches at a High Level</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>4v4 - NA/EU</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>$25-40 Per Team</p>
+              <p>£/$25 - £/$60 per Team</p>
             </div>
           </div>
         </div>

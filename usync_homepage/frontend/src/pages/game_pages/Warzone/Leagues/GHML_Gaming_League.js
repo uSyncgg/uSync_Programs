@@ -48,11 +48,11 @@ const GHML_Gaming_League = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Not Confirmed</p>
+              <p>Annual Season Randomly</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>Randomly Hosted Leagues</p>
+              <p>Tournament Hoster</p>
               <p>Live Streamed Matches</p>
               <p>Highly Competitive</p>
               <h2 className="info-title3">Region/Type:</h2>

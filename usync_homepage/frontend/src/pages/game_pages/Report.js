@@ -10,7 +10,7 @@ const Report = () => {
         <header id="League-header">
           <img src="https://i.imgur.com/PoCqBT9.png" className="Header-Img-l" />
           <div className="games-leagues-header-title">
-            <h2 id="league-title">Report an Error</h2>
+            <h2 id="league-title">Report a Problem</h2>
             <img
               src="https://i.imgur.com/eNhKhTI.png"
               alt="underline"

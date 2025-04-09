@@ -52,9 +52,9 @@ const Challenger = () => {
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$1000+ Prize Pool</p>
-              <p>1469 - 1581 MMR</p>
+              <p>$1000+ Prize Pool (Estimated)</p>
               <p>4 Different Divisions</p>
+              <p>18 Match Regular Season</p>
               <p>Draft Based League</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>3v3 - NA</p>
@@ -62,6 +62,7 @@ const Challenger = () => {
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>Free Entry</p>
+              <p>1453 - 1609 MMR</p>
             </div>
           </div>
         </div>

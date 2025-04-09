@@ -62,7 +62,7 @@ const Aegis_Marauder = () => {
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
               <p>$150 Per Team</p>
               <p>$50 Forfeit Deposit</p>
-              <p>Master 200LP cap</p>
+              <p>Master 600LP Cap</p>
             </div>
           </div>
         </div>

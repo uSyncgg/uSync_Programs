@@ -20,11 +20,10 @@ const Wz_headtohead = () => {
                                     <h1 className='Leagueh1'>Checkmate Gaming</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/warzone/head-to-head/cmg"><img src="https://i.imgur.com/e9CIHsR.png" className='league-img' /></a>
+                                    <a href="http://localhost:3000/games/warzone/head-to-head/cmg"><img src="https://i.imgur.com/QKP5L9N.png" className='league-img' /></a>
                                     <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
                                 <a href='http://localhost:3000/games/warzone/head-to-head/cmg'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
@@ -33,21 +32,21 @@ const Wz_headtohead = () => {
 
                         <div className='col-lg-6'>
                             <div className='league'>
-                                <a href='http://localhost:3000/games/warzone/head-to-head/gb'>
-                                    <h1 className='Leagueh1'>GameBattles</h1>
+                                <a href='http://localhost:3000/games/warzone/head-to-head/esport-rivals'>
+                                    <h1 className='Leagueh1'>Esport Rivals</h1>
                                 </a>
                                 <div className='parent'>
-                                    <a href="http://localhost:3000/games/warzone/head-to-head/gb"><img src="https://i.imgur.com/ZOixRAL.png" className='league-img' /></a>
-                                    <a href="https://www.usync.gg/more/verification"><img src="https://i.imgur.com/PCHIHQB.png" title="uSync Verified" className='over-img' /></a>
+                                    <a href="http://localhost:3000/games/warzone/head-to-head/esport-rivals"><img src="https://i.imgur.com/VvvZFEZ.png" className='league-img' /></a>
                                     <p className='Leaguep'></p>
                                 </div>
-                                {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                                <a href='http://localhost:3000/games/warzone/head-to-head/gb'>
+                                <a href='http://localhost:3000/games/warzone/head-to-head/esport-rivals'>
                                     <button type="submit" className='info-button'>More Info</button>
                                 </a>
                             </div>
                         </div>
+
                         <p className='hr' />
+
                     </div>
                 </div>
             </div>

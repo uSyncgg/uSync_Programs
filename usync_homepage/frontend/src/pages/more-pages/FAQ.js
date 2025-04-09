@@ -8,7 +8,7 @@ const FAQ = () => {
         <div className="container-fluid">
           <div className="row FAQ-container">
             <div className="col-md-4">
-              <h4 className="FAQ-header-text">Featured Games</h4>
+              <h1 className="FAQ-header-text">Featured Games</h1>
               <div className="container-border">
                 <div className="images-container">
                   <a href="http://localhost:3000/games/halo">
@@ -58,7 +58,34 @@ const FAQ = () => {
                 </div>
               </div>
 
+              <div>
+                <h1 className="FAQ-header-text">FAQ Articles</h1>
+                <div className="images-container">
+                  <a href="http://localhost:3000/more/FAQ/The-Problem-With-Esports">
+                    <img
+                      className="FAQ-img-articles"
+                      src="https://i.imgur.com/NeuvzkG.png"
+                      alt="img"
+                    />
+                  </a>
+                  <a href="http://localhost:3000/more/FAQ/What-We-Provide">
+                    <img
+                      className="FAQ-img-articles"
+                      src="https://i.imgur.com/lLIHnnI.png"
+                      alt="img"
+                    />
+                  </a>
+                  <a href="http://localhost:3000/more/FAQ/How-We-Fix-It">
+                    <img
+                      className="FAQ-img-articles"
+                      src="https://i.imgur.com/0KG2Yd4.png"
+                      alt="img"
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
+
             <div className="col-md-8">
               <h4 className="FAQ-header-text">Frequently Asked Questions</h4>
               <div className="FAQ-text-container-top">
@@ -155,7 +182,7 @@ const FAQ = () => {
               </div>
             </div>
           </div>
-          <div className="container-fluid">
+          {/* <div className="container-fluid">
             <h4 className="FAQ-header-text">Articles</h4>
             <div className="container-border">
               <div className="images-container">
@@ -182,7 +209,7 @@ const FAQ = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <Footer />

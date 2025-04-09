@@ -23,6 +23,7 @@
     width: 90%;
     height: auto;
     border-radius: 1.813rem;
+    transition: filter 0.7s;
 }
 
 .check {
@@ -93,7 +94,6 @@
 
 .league-img:hover {
   filter: brightness(135%);
-  transition: filter 0.7s;
 }
 
 .parent {
@@ -110,11 +110,11 @@
     transform-origin: center;
     transition: transform 0.3s;
     display: block;
+    transition: filter 0.7s;
 
 }
 .over-img:hover {
-  transition: filter 0.7s;
-  filter: contrast(200%);               
+  filter: contrast(150%);               
   }
   
 
@@ -220,11 +220,13 @@ a {
 }
     
 .Header-Img-l {
-  display: block;
+  /* display: block; */
   width: 100%;
   height: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  background-size: cover;
+  padding-top: 4.5rem;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .Header-Img-l-cod {

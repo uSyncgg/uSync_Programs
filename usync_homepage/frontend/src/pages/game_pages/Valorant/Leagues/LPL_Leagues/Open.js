@@ -53,7 +53,7 @@ const Evolution = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>NO Prize Pool</p>
-              <p>3 Week Regular Season With Playoffs to Finish</p>
+              <p>3 Week Regular Season With Playoffs</p>
               <p>8 Teams Required</p>
               <p>Live Streamed Matches</p>
               <h2 className="info-title3">Region/Type:</h2>
@@ -61,7 +61,7 @@ const Evolution = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>Free Entry</p>
+              <p>Entry Fee TBA</p>
             </div>
           </div>
         </div>

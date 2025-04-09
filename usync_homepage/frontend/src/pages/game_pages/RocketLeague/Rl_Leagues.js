@@ -39,7 +39,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/rlpc-leagues">
                     <button type="submit" className="info-button">
                       All Leagues
@@ -48,43 +47,10 @@ const Rl_Leagues = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/nitro-league">
-                    <h1 className="Leagueh1">Nitro League</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/RocketLeague/leagues/nitro-league">
-                      <img
-                        src="https://i.imgur.com/v5aUnNs.png"
-                        className="league-img"
-                      />
-                    </a>
-                    <a href="https://www.usync.gg/more/verification">
-                      <img
-                        src="https://i.imgur.com/PCHIHQB.png"
-                        title="uSync Verified"
-                        className="over-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">DACH</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/nitro-league">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <p className="hr" />
-
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/rsc-leagues">
-                    <h1 className="Leagueh1">
-                      Rocket Soccar Confederation Leagues
-                    </h1>
+                    <h1 className="Leagueh1">Rocket Soccar Confederation</h1>
                   </a>
                   <div className="parent">
                     <a href="http://localhost:3000/games/RocketLeague/leagues/rsc-leagues">
@@ -93,16 +59,8 @@ const Rl_Leagues = () => {
                         className="league-img"
                       />
                     </a>
-                    <a href="https://www.usync.gg/more/verification">
-                      <img
-                        src="https://i.imgur.com/PCHIHQB.png"
-                        title="uSync Verified"
-                        className="over-img"
-                      />
-                    </a>
                   </div>
                   <p className="Leaguep">NA/EU</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/rsc-leagues">
                     <button type="submit" className="info-button">
                       All Leagues
@@ -110,6 +68,8 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
+              
+              <p className="hr" />
 
               <div className="col-lg-6 bottom-card">
                 <div className="league">
@@ -125,7 +85,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/frontline-leagues">
                     <button type="submit" className="info-button">
                       All Leagues
@@ -133,7 +92,6 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <p className="hr" />
 
               <div className="col-lg-6">
                 <div className="league">
@@ -149,7 +107,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/url-leagues">
                     <button type="submit" className="info-button">
                       All Leagues
@@ -157,6 +114,8 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
+
+              <p className="hr" />
 
               <div className="col-lg-6 bottom-card">
                 <div className="league">
@@ -172,33 +131,9 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">All Regions</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/mle-leagues">
                     <button type="submit" className="info-button">
                       All Leagues
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <p className="hr" />
-              <div className="col-lg-6">
-                <div className="league">
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/elite-series">
-                    <h1 className="Leagueh1">Elite Series League</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/RocketLeague/leagues/elite-series">
-                      <img
-                        src="https://i.imgur.com/P0msGqt.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">Benelux</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/elite-series">
-                    <button type="submit" className="info-button">
-                      More Info
                     </button>
                   </a>
                 </div>
@@ -218,7 +153,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/united-rogue">
                     <button type="submit" className="info-button">
                       More Info
@@ -226,7 +160,9 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
+
               <p className="hr" />
+
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/italian-leagues">
@@ -241,7 +177,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">ITL</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/italian-leagues">
                     <button type="submit" className="info-button">
                       All Leagues
@@ -264,7 +199,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/nemesis-leagues">
                     <button type="submit" className="info-button">
                       All Leagues
@@ -272,7 +206,9 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
+
               <p className="hr" />
+
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/raket-ligaen">
@@ -287,7 +223,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">DK</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/raket-ligaen">
                     <button type="submit" className="info-button">
                       More Info
@@ -295,76 +230,6 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
-
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/scottish-esports">
-                    <h1 className="Leagueh1">Scottish Esports League</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/RocketLeague/leagues/scottish-esports">
-                      <img
-                        src="https://i.imgur.com/VAurqdv.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">EU</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/scottish-esports">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <p className="hr" />
-              <div className="col-lg-6">
-                <div className="league">
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/blue-bird">
-                    <h1 className="Leagueh1">Blue Bird Rivals Circuit</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/RocketLeague/leagues/blue-bird">
-                      <img
-                        src="https://i.imgur.com/ZjxR1yM.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">OCE</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/blue-bird">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/master-cup">
-                    <h1 className="Leagueh1">Master Cup XP League</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/RocketLeague/leagues/master-cup">
-                      <img
-                        src="https://i.imgur.com/PA0ZQ0Z.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">EU</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/master-cup">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <p className="hr" />
 
               <div className="col-lg-6">
                 <div className="league">
@@ -380,7 +245,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/frontier-doubles-leagues">
                     <button type="submit" className="info-button">
                       All Leagues
@@ -388,6 +252,9 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
+
+              <p className="hr" />
+
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/oce-leagues">
@@ -402,7 +269,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">OCE</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/oce-leagues">
                     <button type="submit" className="info-button">
                       All Leagues
@@ -411,7 +277,6 @@ const Rl_Leagues = () => {
                 </div>
               </div>
 
-              <p className="hr" />
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/finality">
@@ -426,7 +291,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/finality">
                     <button type="submit" className="info-button">
                       More Info
@@ -435,6 +299,51 @@ const Rl_Leagues = () => {
                 </div>
               </div>
 
+              <p className="hr" />
+
+              <div className="col-lg-6 bottom-card">
+                <div className="league">
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/corporate">
+                    <h1 className="Leagueh1">Corporate League</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="http://localhost:3000/games/RocketLeague/leagues/corporate">
+                      <img
+                        src="https://i.imgur.com/k63mdno.png"
+                        className="league-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">NA</p>
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/corporate">
+                    <button type="submit" className="info-button">
+                      More Info
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div className="col-lg-6 bottom-card">
+                <div className="league">
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/airforce">
+                    <h1 className="Leagueh1">Airforce Gaming League</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="http://localhost:3000/games/RocketLeague/leagues/airforce">
+                      <img
+                        src="https://i.imgur.com/4o2rJWS.png"
+                        className="league-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">NA/EU/APAC</p>
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/airforce">
+                    <button type="submit" className="info-button">
+                      More Info
+                    </button>
+                  </a>
+                </div>
+              </div>
 
               <div>
                 <p className="hr" />
@@ -446,8 +355,6 @@ const Rl_Leagues = () => {
                 />
                 <p className="hr" />
               </div>
-
-
 
               <div className="col-lg-6">
                 <div className="league">
@@ -470,7 +377,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA/EU</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/cca">
                     <button type="submit" className="info-button">
                       More Info
@@ -478,6 +384,7 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
+              
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/playfly">
@@ -492,7 +399,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/playfly">
                     <button type="submit" className="info-button">
                       More Info
@@ -500,7 +406,9 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
+
               <p className="hr" />
+
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/ecac">
@@ -515,7 +423,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/ecac">
                     <button type="submit" className="info-button">
                       More Info
@@ -523,29 +430,7 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/ugc">
-                    <h1 className="Leagueh1">UGC Battle Academy</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/RocketLeague/leagues/ugc">
-                      <img
-                        src="https://i.imgur.com/SVdtnVw.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/ugc">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <p className="hr" />
+
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/necc">
@@ -560,7 +445,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/necc">
                     <button type="submit" className="info-button">
                       More Info
@@ -568,29 +452,9 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/opse">
-                    <h1 className="Leagueh1">OPSE</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/RocketLeague/leagues/opse">
-                      <img
-                        src="https://i.imgur.com/vk4JMG4.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">Ontario</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/opse">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
+
               <p className="hr" />
+
               <div className="col-lg-6">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/csmg">
@@ -605,7 +469,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/csmg">
                     <button type="submit" className="info-button">
                       More Info
@@ -613,6 +476,31 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
+
+              <div className="col-lg-6">
+                <div className="league">
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/njcaae">
+                    <h1 className="Leagueh1">NJCAAE</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="http://localhost:3000/games/RocketLeague/leagues/njcaae">
+                      <img
+                        src="https://i.imgur.com/jTKBWZM.png"
+                        className="league-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">USA</p>
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/njcaae">
+                    <button type="submit" className="info-button">
+                      More Info
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <p className="hr" />
+
               <div className="col-lg-6 bottom-card">
                 <div className="league">
                   <a href="http://localhost:3000/games/RocketLeague/leagues/egfc">
@@ -627,7 +515,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/egfc">
                     <button type="submit" className="info-button">
                       More Info
@@ -635,46 +522,22 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <p className="hr" />
-              <div className="col-lg-6">
+
+              <div className="col-lg-6 bottom-card">
                 <div className="league">
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/hbcu">
-                    <h1 className="Leagueh1">HBCU Esports League</h1>
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/ugc">
+                    <h1 className="Leagueh1">UGC Battle Academy</h1>
                   </a>
                   <div className="parent">
-                    <a href="http://localhost:3000/games/RocketLeague/leagues/hbcu">
+                    <a href="http://localhost:3000/games/RocketLeague/leagues/ugc">
                       <img
-                        src="https://i.imgur.com/b3AwOjm.png"
+                        src="https://i.imgur.com/SVdtnVw.png"
                         className="league-img"
                       />
                     </a>
                   </div>
                   <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/hbcu">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-              
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/nacl">
-                    <h1 className="Leagueh1">NACL</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/RocketLeague/leagues/nacl">
-                      <img
-                        src="https://i.imgur.com/JjHrrLk.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/nacl">
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/ugc">
                     <button type="submit" className="info-button">
                       More Info
                     </button>
@@ -682,6 +545,75 @@ const Rl_Leagues = () => {
                 </div>
               </div>
 
+              <p className="hr" />
+
+              <div className="col-lg-6">
+                <div className="league">
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/ael">
+                    <h1 className="Leagueh1">Australian Esports League</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="http://localhost:3000/games/RocketLeague/leagues/ael">
+                      <img
+                        src="https://i.imgur.com/YYvUqCM.png"
+                        className="league-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">AUS</p>
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/ael">
+                    <button type="submit" className="info-button">
+                      More Info
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div className="col-lg-6">
+                <div className="league">
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/faceit">
+                    <h1 className="Leagueh1">FACEIT Collegiate</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="http://localhost:3000/games/RocketLeague/leagues/faceit">
+                      <img
+                        src="https://i.imgur.com/e1oqsLF.png"
+                        className="league-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">NA</p>
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/faceit">
+                    <button type="submit" className="info-button">
+                      More Info
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <p className="hr" />
+
+              <div className="col-lg-6">
+                <div className="league">
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/nse">
+                    <h1 className="Leagueh1">National Student Esports</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="http://localhost:3000/games/RocketLeague/leagues/nse">
+                      <img
+                        src="https://i.imgur.com/mJJJD6e.png"
+                        className="league-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">UK</p>
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/nse">
+                    <button type="submit" className="info-button">
+                      More Info
+                    </button>
+                  </a>
+                </div>
+              </div>
 
               <div>
                 <p className="hr" />
@@ -715,7 +647,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">NA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/hsel">
                     <button type="submit" className="info-button">
                       More Info
@@ -738,7 +669,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/playvs">
                     <button type="submit" className="info-button">
                       More Info
@@ -762,7 +692,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/tec">
                     <button type="submit" className="info-button">
                       More Info
@@ -785,7 +714,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/vantagg">
                     <button type="submit" className="info-button">
                       More Info
@@ -793,53 +721,7 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
-              <p className="hr" />
 
-              <div className="col-lg-6">
-                <div className="league">
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/ugc-hs">
-                    <h1 className="Leagueh1">UGC HS Battle Academy</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/RocketLeague/leagues/ugc-hs">
-                      <img
-                        src="https://i.imgur.com/SVdtnVw.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/ugc-hs">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-6 bottom-card">
-                <div className="league">
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/necl">
-                    <h1 className="Leagueh1">NECL League</h1>
-                  </a>
-                  <div className="parent">
-                    <a href="http://localhost:3000/games/RocketLeague/leagues/necl">
-                      <img
-                        src="https://i.imgur.com/wJRs1Vl.png"
-                        className="league-img"
-                      />
-                    </a>
-                  </div>
-                  <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
-                  <a href="http://localhost:3000/games/RocketLeague/leagues/necl">
-                    <button type="submit" className="info-button">
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </div>
               <p className="hr" />
 
               <div className="col-lg-6">
@@ -856,7 +738,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/nasef">
                     <button type="submit" className="info-button">
                       More Info
@@ -879,7 +760,6 @@ const Rl_Leagues = () => {
                     </a>
                   </div>
                   <p className="Leaguep">USA</p>
-                  {/* <img src={check} alt="uSync Verified" className='check' /> */}
                   <a href="http://localhost:3000/games/RocketLeague/leagues/egfh">
                     <button type="submit" className="info-button">
                       More Info
@@ -887,6 +767,53 @@ const Rl_Leagues = () => {
                   </a>
                 </div>
               </div>
+
+              <p className="hr" />
+
+              <div className="col-lg-6">
+                <div className="league">
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/aelhs">
+                    <h1 className="Leagueh1">Australian Esports League</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="http://localhost:3000/games/RocketLeague/leagues/aelhs">
+                      <img
+                        src="https://i.imgur.com/YYvUqCM.png"
+                        className="league-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">AUS</p>
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/aelhs">
+                    <button type="submit" className="info-button">
+                      More Info
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div className="col-lg-6">
+                <div className="league">
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/ugc-hs">
+                    <h1 className="Leagueh1">UGC HS Battle Academy</h1>
+                  </a>
+                  <div className="parent">
+                    <a href="http://localhost:3000/games/RocketLeague/leagues/ugc-hs">
+                      <img
+                        src="https://i.imgur.com/SVdtnVw.png"
+                        className="league-img"
+                      />
+                    </a>
+                  </div>
+                  <p className="Leaguep">USA</p>
+                  <a href="http://localhost:3000/games/RocketLeague/leagues/ugc-hs">
+                    <button type="submit" className="info-button">
+                      More Info
+                    </button>
+                  </a>
+                </div>
+              </div>
+
               <p className="hr" />
 
             </div>

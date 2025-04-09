@@ -12,7 +12,7 @@ const RSC_2v2 = () => {
     return (
         <div className="total-playground">
       <header class="headerImg">
-        <img src="https://i.imgur.com/8Gq4nYp.png" className="Header-Img" />
+        <img src="https://i.imgur.com/UDHxFWg.png" className="Header-Img" />
       </header>
       <div className="background-mid">
         <div className="Background-mid-top">
@@ -28,12 +28,12 @@ const RSC_2v2 = () => {
             className="mx-auto my-2"
           >
             <img
-              src="https://i.imgur.com/OSMYolc.png"
+              src="https://i.imgur.com/HaRfFh9.png"
               className="Checkmark-title"
             />
           </a>
           <a href="https://www.usync.gg/more/verification" id="checkmark-link">
-            <img src="https://i.imgur.com/PCHIHQB.png" className="Checkmark" />
+            <img src="https://i.imgur.com/0MPIBOK.png" className="Checkmark" />
           </a>
           <a
             href="https://discord.com/invite/se6NwxKjpZ"
@@ -55,7 +55,6 @@ const RSC_2v2 = () => {
               <p>NO Prize Pool</p>
               <p>Sign up as a Free Agent</p>
               <p>Multiple Competitive Skill Divisons</p>
-              <p>Draft Based League</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>2v2 - NA</p>
             </div>

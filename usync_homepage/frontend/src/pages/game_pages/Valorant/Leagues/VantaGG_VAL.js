@@ -53,7 +53,7 @@ const VantaGG_VAL = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>Access to College Scholarships</p>
-              <p>Weekly Regular Season Matches</p>
+              <p>Weekly Regular Season Matches with Chance at Playoffs</p>
               <p>No Skill Requirements</p>
               <p>Access to Private Coaching</p>
               <p>Live Streamed Matches</p>

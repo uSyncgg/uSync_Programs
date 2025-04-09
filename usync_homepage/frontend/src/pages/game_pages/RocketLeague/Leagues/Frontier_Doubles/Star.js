@@ -53,12 +53,12 @@ const Star = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>Salary Determined by MMR</p>
-              <p>1400 - 1599 MMR</p>
               <p>10 Week Season</p>
               <p>Hosted on NA East, Open to Any Region</p>
               <p>Not a Draft League</p>
               <h2 className="info-title3">Region/Type:</h2>
               <p>2v2 - NA</p>
+              <p>1400 - 1599 MMR</p>
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>

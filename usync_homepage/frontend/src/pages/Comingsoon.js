@@ -7,22 +7,17 @@ const Comingsoon = () => {
     return (
       <div className="total-coming-soon-container">
         <div id="league-body2">
-          <header>
-            <div className="header-img-container">
-              <img
-                src="https://i.imgur.com/gbB3YxJ.png"
-                className="Header-Img-l"
-              />
-            </div>
-            <div className="games-leagues-header-title">
-              <h2 id="league-title">Coming Soon</h2>
-              <img
-                src="https://i.imgur.com/eNhKhTI.png"
-                alt="underline"
-                className="Underline-h"
-              />
-            </div>
-          </header>
+        <header id="League-header">
+          <img src="https://i.imgur.com/gbB3YxJ.png" className="Header-Img-l" />
+          <div className="games-leagues-header-title">
+            <h2 id="league-title">Coming Soon</h2>
+            <img
+              src="https://i.imgur.com/eNhKhTI.png"
+              alt="underline"
+              className="Underline-h"
+            />
+          </div>
+        </header>
           <div className="Background-mid-contact">
             <div className="game-titles">
               <h1 className="event-title-contactus">Game Titles</h1>
@@ -91,6 +86,12 @@ const Comingsoon = () => {
               We are looking to provide a list of daily tournaments from all of the varying sites so that players don't have to move 
               from site to site to find what they are looking for!
               </h1>
+
+              <h1 className="info-title-coming2">
+                Unfortunately, implementing this feature is costly and our services are free which places a heavy burden on us. However, in the meantime keep up to date with what we are working on with our Twitter!
+              </h1>
+
+              
             </div>
           </div>
         </div>

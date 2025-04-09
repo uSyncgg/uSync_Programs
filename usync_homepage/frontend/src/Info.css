@@ -386,8 +386,13 @@ header {
 .contact-socials {
   width: 100%;
   height: auto;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
+
+/* .contact-email {
+  width: 100%,
+  height auto;
+} */
 
 .event-title-contactus {
   color: white;
@@ -446,6 +451,7 @@ header {
 .cofounder-subtitle {
   color: white;
   font-size: 1.25rem;
+  margin-bottom: 2.5rem;
 }
 
 #league-body1 {

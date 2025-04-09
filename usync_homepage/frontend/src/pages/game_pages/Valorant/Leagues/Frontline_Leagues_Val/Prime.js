@@ -53,7 +53,6 @@ const Prime = () => {
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
               <p>$300 Prize Pool (Estimated)</p>
-              <p>Platinum and Above</p>
               <p>5 Week Regular Season, 2 Week Playoffs</p>
               <p>Live Streamed Matches</p>
               <p>Must Sign up Solo</p>
@@ -63,7 +62,7 @@ const Prime = () => {
             </div>
             <div class="col-md-4 league-info">
             <h2 className="info-title leagues-entry-fee">Entry Fee:</h2>
-              <p>Free Entry</p>
+              <p>Free Entry - Platinum & Above (Estimated)</p>
             </div>
           </div>
         </div>

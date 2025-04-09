@@ -48,11 +48,11 @@ const Finality_League = () => {
           <div class="row">
             <div class="col-md-4 league-info">
               <h2 className="info-title">Date:</h2>
-              <p>Annual Season</p>
+              <p>Annual Seasons</p>
             </div>
             <div class="col-md-4 league-info">
               <h2 className="info-title">Details:</h2>
-              <p>$350 Prize Pool</p>
+              <p>$100 Prize Pool (Estimated)</p>
               <p>13+ Age Requirement</p>
               <p>2 Divisions</p>
               <p>3 Week Regular Season</p>
