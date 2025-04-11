@@ -70,7 +70,7 @@ def create_sorted_tourneys(cmg_dict, codagent_dict):
 
     for i in range(len(codagent_dict["Date"])):
         combined_entries.append({
-            "date": codagent_dict["Date"][i],
+            "date": codagent_dict["Date"][i] if ',' not in codagent_dict["Date"][i] else codagent_dict["Date"][i][:-1],
             "time": codagent_dict["Time"][i],
             "title": codagent_dict["Title"][i],
             "team size": codagent_dict["Team Size"][i],
@@ -153,6 +153,19 @@ def create_sorted_tourneys(cmg_dict, codagent_dict):
         'isUSA': [entry['isUSA'] for entry in sorted_entries],
         'Skills_for_filter': [entry['Skills_for_filter'] for entry in sorted_entries]
     }
+
+    for index, date in enumerate(sorted_dict["date"]):
+        date_list = date.split(' ')
+
+        if date_list[1] in ['1', '21', '31']:
+            date_list[1] = date_list[1] + 'st'
+        elif date_list[1] in ['2', '3', '22', '23']:
+            date_list[1] = date_list[1] + 'rd'
+        elif date_list[1] in ['4', '5', '6', '7', '8', '9', '10', '11', '12','13','14','15','16','17','18','19','20','24','25','26','27','28','29','30']:
+            date_list[1] = date_list[1] + 'th'
+        
+        sorted_dict["date"][index] = date_list[0].upper() + ' ' + date_list[1]
+
 
     # Print sorted data
     return sorted_dict

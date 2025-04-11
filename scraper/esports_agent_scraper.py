@@ -127,15 +127,15 @@ def get_active_tournaments_and_platforms(wait):
                             platforms_listed.append(p)
 
                 if len(platforms_listed) == len(PLATFORM):
-                    platforms.append('all')
+                    platforms.append('All')
                 elif PLATFORM[0] in platforms_listed and PLATFORM[1] in platforms_listed and PLATFORM[2] not in platforms_listed and PLATFORM[3] not in platforms_listed:
-                    platforms.append('pc only')
+                    platforms.append('PC')
                 elif PLATFORM[2] in platforms_listed and PLATFORM[3] in platforms_listed and PLATFORM[0] not in platforms_listed and PLATFORM[1] not in platforms_listed:
-                    platforms.append('console only')
+                    platforms.append('Console')
                 elif PLATFORM[2] in platforms_listed and PLATFORM[0] not in platforms_listed and PLATFORM[1] not in platforms_listed and PLATFORM[3] not in platforms_listed:
-                    platforms.append('playstation only')
+                    platforms.append('Console')
                 elif PLATFORM[3] in platforms_listed and PLATFORM[0] not in platforms_listed and PLATFORM[1] not in platforms_listed and PLATFORM[2] not in platforms_listed:
-                    platforms.append('xbox only')
+                    platforms.append('Console')
 
             except:
                 print(f'PLATFORMS BROKE')
@@ -214,7 +214,12 @@ def extract_tourney_info():
         if 'free' in info[5].lower():
             entry_fees.append('Free Entry')
         else:
-            entry_fees.append(info[5])
+
+            if ' ' in info[5]:
+                temp_list = info[5].split(' ')
+                entry_fees.append(" ".join(entry[0].upper() + entry[1:] for entry in temp_list))
+            else:
+                entry_fees.append(info[5][0].upper() + info[5][1:])
 
         regions.append(info[7])
 
@@ -232,7 +237,7 @@ def derive_date_time():
     for d in date_time:
         temp_date_time_list = d.split(' ')
 
-        dates.append(' '.join(item for item in temp_date_time_list[:3]))
+        dates.append(' '.join(item for item in temp_date_time_list[:2]))
         times.append(' '.join(item for item in temp_date_time_list[3:]))
 
 def derive_gamemode():
@@ -256,14 +261,20 @@ def combine_requirements():
     for index, skill in enumerate(skills):
         new_entry = ''
 
-        if platforms[index] == 'console only':
+        if platforms[index] == 'Console':
             new_entry = 'Console/'
         
         if skill != 'All':
             new_entry += f'{skill}/'
 
         if requirements[index] != 'None':
-            new_entry += f'{requirements[index]}'
+            temp_list = []
+            if ' ' in requirements[index]:
+                temp_list = requirements[index].split(' ')
+
+                new_entry += f'{" ".join(item[0].upper() + item[1:] for item in temp_list)}/'
+            else:
+                new_entry += f'{requirements[index][0].upper() + requirements[index][1:]}/'
 
         if new_entry != '':
             if new_entry[-1] == '/':
@@ -359,25 +370,29 @@ def set_bools():
 
         if '1v1' == team_sizes[i].replace(' ', '') or '1vs1' == team_sizes[i].replace(' ', ''):
             one_player_bool.append(True)
+            team_sizes[i] = '1v1'
         else:
             one_player_bool.append(False)
 
         if '2v2' == team_sizes[i].replace(' ', '') or '2vs2' == team_sizes[i].replace(' ', ''):
             two_player_bool.append(True)
+            team_sizes[i] = '2v2'
         else:
             two_player_bool.append(False)
         
         if '3v3' == team_sizes[i].replace(' ', '') or '3vs3' == team_sizes[i].replace(' ', ''):
             three_player_bool.append(True)
+            team_sizes[i] = '3v3'
         else:
             three_player_bool.append(False)
         
         if '4v4' == team_sizes[i].replace(' ', '') or '4vs4' == team_sizes[i].replace(' ', ''):
             four_player_bool.append(True)
+            team_sizes[i] = '4v4'
         else:
             four_player_bool.append(False)
         
-        if 'pc only' in platforms[i].lower():
+        if 'pc' in platforms[i].lower():
             platforms_for_filter.append('PC')
         elif 'console' in platforms[i].lower():
             platforms_for_filter.append('Console')

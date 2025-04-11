@@ -211,19 +211,29 @@ def extract_tournament_info():
 
         else:
             if 'console' in info[10].lower():
-                platforms.append('console only')
+                platforms.append('Console')
             elif 'pc only' in info[10].lower():
-                platforms.append('pc only')
+                platforms.append('PC')
             elif not any(req in info[10].lower() for req in REQUIREMENT):
                 requirements.append(info[10].lower())
-                platforms.append('cross platform')
+                platforms.append('All')
             else:
-                platforms.append('cross platform')
+                platforms.append('All')
 
         if len(requirements) - 1 < index:
             requirements.append('None')
 
-        entry_fees.append(info[entry_fee_index])
+        if 'free' in info[entry_fee_index].lower():
+            entry_fees.append('Free Entry')
+        else:
+
+            if ' ' in info[entry_fee_index]:
+                temp_list = info[entry_fee_index].split(' ')
+                entry_fees.append(" ".join(entry[0].upper() + entry[1:] for entry in temp_list))
+            else:
+                entry_fees.append(info[entry_fee_index][0].upper() + info[entry_fee_index][1:])
+
+        # entry_fees.append(info[entry_fee_index])
 
         team_sizes.append(info[team_size_index])
 
@@ -251,7 +261,13 @@ def combine_requirements():
             new_entry += f'{skill}/'
 
         if requirements[index] != 'None':
-            new_entry += f'{requirements[index]}'
+            temp_list = []
+            if ' ' in requirements[index]:
+                temp_list = requirements[index].split(' ')
+
+                new_entry += f'{" ".join(item[0].upper() + item[1:] for item in temp_list)}/'
+            else:
+                new_entry += f'{requirements[index][0].upper() + requirements[index][1:]}/'
 
         if new_entry != '':
             if new_entry[-1] == '/':
@@ -337,25 +353,29 @@ def set_bools():
 
         if '1v1' == team_sizes[i].replace(' ', '') or '1vs1' == team_sizes[i].replace(' ', ''):
             one_player_bool.append(True)
+            team_sizes[i] = '1v1'
         else:
             one_player_bool.append(False)
 
         if '2v2' == team_sizes[i].replace(' ', '') or '2vs2' == team_sizes[i].replace(' ', ''):
             two_player_bool.append(True)
+            team_sizes[i] = '2v2'
         else:
             two_player_bool.append(False)
         
         if '3v3' == team_sizes[i].replace(' ', '') or '3vs3' == team_sizes[i].replace(' ', ''):
             three_player_bool.append(True)
+            team_sizes[i] = '3v3'
         else:
             three_player_bool.append(False)
         
         if '4v4' == team_sizes[i].replace(' ', '') or '4vs4' == team_sizes[i].replace(' ', ''):
             four_player_bool.append(True)
+            team_sizes[i] = '4v4'
         else:
             four_player_bool.append(False)
         
-        if 'pc only' in platforms[i].lower():
+        if 'pc' in platforms[i].lower():
             platforms_for_filter.append('PC')
         elif 'console' in platforms[i].lower():
             platforms_for_filter.append('Console')
