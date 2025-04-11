@@ -25,6 +25,7 @@ def create_sorted_tourneys(cmg_dict, codagent_dict):
     # Function to normalize date formats
     def normalize_date(date_str):
         try:
+            print(f'DATE STR: {date_str}')
             return datetime.strptime(date_str, "%B %d, %Y")
         except ValueError:
             clean_date = date_str.replace("th", "").replace("st", "").replace("nd", "").replace("rd", "")
@@ -67,10 +68,10 @@ def create_sorted_tourneys(cmg_dict, codagent_dict):
             'isUSA': cmg_dict['isUSA'][i],
             'Skills_for_filter': cmg_dict['Skills_for_filter'][i]
         })
-
+    
     for i in range(len(codagent_dict["Date"])):
         combined_entries.append({
-            "date": codagent_dict["Date"][i] if ',' not in codagent_dict["Date"][i] else codagent_dict["Date"][i][:-1],
+            "date": codagent_dict["Date"][i],
             "time": codagent_dict["Time"][i],
             "title": codagent_dict["Title"][i],
             "team size": codagent_dict["Team Size"][i],
@@ -154,17 +155,18 @@ def create_sorted_tourneys(cmg_dict, codagent_dict):
         'Skills_for_filter': [entry['Skills_for_filter'] for entry in sorted_entries]
     }
 
-    for index, date in enumerate(sorted_dict["date"]):
-        date_list = date.split(' ')
-
-        if date_list[1] in ['1', '21', '31']:
-            date_list[1] = date_list[1] + 'st'
-        elif date_list[1] in ['2', '3', '22', '23']:
-            date_list[1] = date_list[1] + 'rd'
-        elif date_list[1] in ['4', '5', '6', '7', '8', '9', '10', '11', '12','13','14','15','16','17','18','19','20','24','25','26','27','28','29','30']:
-            date_list[1] = date_list[1] + 'th'
+    # for index, date in enumerate(sorted_dict["date"]):
+    #     date_list = date.split(' ')
+    #     print(f'DATE LIST: {date_list}')
+    #     print(f'DATE: {date}')
+    #     if date_list[1] in ['1', '21', '31']:
+    #         date_list[1] = date_list[1] + 'st'
+    #     elif date_list[1] in ['2', '3', '22', '23']:
+    #         date_list[1] = date_list[1] + 'rd'
+    #     elif date_list[1] in ['4', '5', '6', '7', '8', '9', '10', '11', '12','13','14','15','16','17','18','19','20','24','25','26','27','28','29','30']:
+    #         date_list[1] = date_list[1] + 'th'
         
-        sorted_dict["date"][index] = date_list[0].upper() + ' ' + date_list[1]
+    #     sorted_dict["date"][index] = date_list[0].upper() + ' ' + date_list[1]
 
 
     # Print sorted data
@@ -183,6 +185,19 @@ def establish_common_date(mass_tourney_dict):
                 mass_tourney_dict['date'][index] = mass_tourney_dict['date'][index].replace('st', '')
                 break
 
+        date_list = date.split(' ')
+        if ',' in date_list[1]:
+            date_list[1] = date_list[1][:-1]
+
+        if date_list[1] in ['1', '21', '31']:
+            date_list[1] = date_list[1] + 'st'
+        elif date_list[1] in ['2', '3', '22', '23']:
+            date_list[1] = date_list[1] + 'rd'
+        elif date_list[1] in ['4', '5', '6', '7', '8', '9', '10', '11', '12','13','14','15','16','17','18','19','20','24','25','26','27','28','29','30']:
+            date_list[1] = date_list[1] + 'th'
+        
+        mass_tourney_dict["date"][index] = date_list[0][0].upper() + date_list[0][1:3].lower() + ' ' + date_list[1]
+
     return None
 
 def expand_series(mass_tourney_dict):
@@ -190,21 +205,28 @@ def expand_series(mass_tourney_dict):
         if 'bo' in series:
             mass_tourney_dict['series'] = 'best of ' + series[-1]
 
+options = webdriver.ChromeOptions()
+options.add_argument("--headless")
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-dev-shm-usage")
+
+
 if __name__ == '__main__':
     mass_tourney_dict = {}
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(options=options)
 
-    # esports_agent_tourney_info = build_codagent_return_dict(driver)
+    esports_agent_tourney_info = build_codagent_return_dict(driver)
 
-    # cmg_tourney_info = build_cmg_return_dict(driver)
+    cmg_tourney_info = build_cmg_return_dict(driver)
 
-    # mass_tourney_dict = create_sorted_tourneys(cmg_tourney_info, esports_agent_tourney_info)
-    
-    # establish_common_date(mass_tourney_dict)
-    # expand_series(mass_tourney_dict)
+    mass_tourney_dict = create_sorted_tourneys(cmg_tourney_info, esports_agent_tourney_info)
 
-    # drop_all_tourneys()
+    establish_common_date(mass_tourney_dict)
 
-    # write_all(mass_tourney_dict)
+    expand_series(mass_tourney_dict)
 
-    tester_dict = check_tourney_time_interface(driver, titles=['4v4 *NO APRIL WINNERS* BO6 VARIANT'], URLs=['https://www.checkmategaming.com/tournament/cross-platform/call-of-duty-black-ops-6/1v1-snd-best-of-1-233535'])
+    drop_all_tourneys()
+
+    write_all(mass_tourney_dict)
+
+    # tester_dict = check_tourney_time_interface(driver, titles=['4v4 *NO APRIL WINNERS* BO6 VARIANT'], URLs=['https://www.checkmategaming.com/tournament/cross-platform/call-of-duty-black-ops-6/1v1-snd-best-of-1-233535'])

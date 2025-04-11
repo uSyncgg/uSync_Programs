@@ -237,7 +237,7 @@ def derive_date_time():
     for d in date_time:
         temp_date_time_list = d.split(' ')
 
-        dates.append(' '.join(item for item in temp_date_time_list[:2]))
+        dates.append(' '.join(item for item in temp_date_time_list[:3]))
         times.append(' '.join(item for item in temp_date_time_list[3:]))
 
 def derive_gamemode():

@@ -207,7 +207,7 @@ def extract_tournament_info():
                     present_skill.append(req)
 
         if ruleset_present is False:
-            platforms.append('cross platform')
+            platforms.append('All')
 
         else:
             if 'console' in info[10].lower():
